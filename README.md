@@ -23,7 +23,7 @@
 
 | Member                           |    Code    |
 | :------------------------------- | :--------: |
-|  |  |
+| Andy Alejandro Mio Mejia         | U202218531 |
 |  |  |
 |  |  |
 |  |  |
@@ -38,7 +38,7 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-------: | :---------: | :----------------: | :----------------------:|
-| | | | |
+| TB1 | 02/09/25 | Mio Mejia, Andy Alejandro | Se añadió los capítulos 1 al 5 |
 
 # Project Report Collaboration Insights
 
@@ -194,3 +194,12 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 - [Anexos](#anexos)
 
 <div style="page-break-after: always;"></div>
+
+<div style="page-break-after: always;"></div>
+
+# Capitulo I: Introduccion
+
+## 1.1. StartUp Profile
+
+
+
