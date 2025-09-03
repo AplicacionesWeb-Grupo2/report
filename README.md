@@ -17,7 +17,7 @@
 
 <h3 align="center"> Docente: Alex Humberto Sánchez Ponce </h3>
 
-<h3> Product: PsycoApp </h3>
+<h3> Product: opendMind </h3>
 
 <h3> Team Members: </h3>
 
@@ -199,7 +199,168 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 # Capitulo I: Introduccion
 
-## 1.1. StartUp Profile
+## 1.1. StartUp Profile 
+
+En un mundo donde la salud mental y el bienestar emocional son cada vez más reconocidos como aspectos fundamentales para la calidad de vida, surge opendMind. Con una propuesta centrada en la accesibilidad y la innovación tecnológica, esta startup nace para transformar la manera en que pacientes y psicólogos se conectan.
+
+A través de su primer producto, la web app opendMind, la compañía ofrece una solución integral que simplifica la reserva de citas psicológicas, optimiza la organización de profesionales y brinda a los usuarios herramientas de apoyo inteligente que fortalecen su proceso terapéutico.
+
+Más que una aplicación, opendMind busca convertirse en un aliado estratégico para quienes desean acceder a servicios psicológicos de forma fácil, económica y confiable, reduciendo barreras de tiempo, distancia y costo, y generando nuevas oportunidades para la comunidad de la salud mental.  
+
+### 1.1.1. Description de la StartUp  
+
+opendMind es una empresa tecnológica dedicada a crear soluciones digitales para el ecosistema de atención psicológica.
+Su primer producto, la plataforma opendMind, conecta a pacientes con psicólogos de manera sencilla y segura.
+
+La aplicación permite a los usuarios buscar y reservar citas en tiempo real, acceder a opciones económicas con promociones, recibir recordatorios y notificaciones automáticas, y contar con un chatbot de orientación inicial; mientras que los psicólogos pueden gestionar su agenda, clientes, pagos y obtener reportes sobre el progreso de sus pacientes.
+
+De esta manera, opendMind se convierte en un ecosistema que integra la oferta y demanda de servicios psicológicos, mientras se consolida como la empresa que impulsa la democratización y digitalización de la atención en salud mental a nivel regional. 
+
+### 1.1.2. Perfiles de integrantes del equipo
+
+| Integrantes | Descripción | Conocimientos |
+| :---------- | :---------- | :------------ |
+| <div style="display: flex; align-items: center;"><img src="img/.png" alt="Integrante1" width="100" height="120">&nbsp;&nbsp;<br>**Andy Mio Mejia**<br>u202218531</div> | Soy estudiante de la carrera de Ingeniería de Software, puedo aportar mucho al equipo, aplicando mis conocimientos en diversos lenguajes de programación | Conocimientos en Java, C++, Python, html, css, javascrip, C# y SQL |
+| <div style="display: flex; align-items: center;"><img src="img/.png" alt="Integrante2" width="100" height="120">&nbsp;&nbsp;<br>**Nombre del integrante**<br>Código universitario</div> |  |  |
+| <div style="display: flex; align-items: center;"><img src="img/.png" alt="Integrante3" width="100" height="120">&nbsp;&nbsp;<br>**Nombre del integrante**<br>Código universitario</div> |  |  |
+| <div style="display: flex; align-items: center;"><img src="img/.png" alt="Integrante4" width="100" height="120">&nbsp;&nbsp;<br>**Nombre del integrante**<br>Código universitario</div> |  |  |
+| <div style="display: flex; align-items: center;"><img src="img/.png" alt="Integrante5" width="100" height="120">&nbsp;&nbsp;<br>**Nombre del integrante**<br>Código universitario</div> |  |  |
+
+## 1.2. Solution Profile
+
+### 1.2.1. Antecedentes y problemática
+
+#### Antecedentes y problemática
+
+En los últimos años, el interés por la salud mental y el bienestar emocional ha crecido de manera sostenida como parte esencial de la vida saludable. Sin embargo, este crecimiento también ha evidenciado limitaciones en la forma en que las personas acceden a servicios psicológicos accesibles, confiables y de calidad.
+
+Muchos pacientes se enfrentan a la dificultad de encontrar psicólogos disponibles en horarios adecuados, así como a la falta de opciones económicas y verificadas. A su vez, los psicólogos independientes carecen de herramientas digitales que les permitan gestionar reservas, pagos y visibilidad frente a grandes clínicas o centros especializados.
+
+En este contexto, surge la necesidad de una plataforma que simplifique y centralice la conexión entre pacientes y psicólogos, brindando confianza, organización y eficiencia en un solo lugar.  
+
+#### What?
+
+opendMind es una plataforma digital diseñada para facilitar y optimizar la conexión entre pacientes y psicólogos, además de simplificar la reserva de citas y el seguimiento terapéutico. La aplicación proporciona herramientas que permiten gestionar horarios, pagos, notificaciones y reportes de progreso, creando un entorno seguro, confiable y accesible para todos los usuarios. 
+
+#### Why?
+
+Porque actualmente existe una gran dificultad para acceder a psicólogos confiables y servicios económicos de forma rápida y organizada.
+Los pacientes pierden tiempo buscando opciones dispersas o poco verificadas, mientras que muchos psicólogos independientes carecen de un espacio centralizado para ofrecer sus servicios, gestionar su agenda y recibir pagos de manera segura.
+
+#### Where?
+
+Esta problemática se presenta en las principales ciudades de Perú y Latinoamérica, donde la demanda por servicios psicológicos supera la capacidad de organización actual. Los afectados son tanto los pacientes que buscan apoyo emocional como los psicólogos que necesitan visibilidad y oportunidades de crecimiento.  
+
+#### When?
+
+La necesidad se intensifica en la actualidad, en un contexto donde la salud mental se consolida como una prioridad social. La digitalización y el uso de plataformas online han generado la demanda de soluciones inmediatas y confiables para acceder a servicios psicológicos desde cualquier lugar. 
+
+#### Who?
+
+Las partes más afectadas son, por un lado, los psicólogos independientes y profesionales de la salud mental que desean ofrecer sus servicios de forma ordenada y profesional. Por otro lado, los pacientes, ya sean personas con problemas emocionales puntuales o usuarios que requieren terapia continua, que necesitan atención accesible, segura y personalizada. 
+
+#### How?
+
+opendMind resuelve esta problemática mediante una plataforma web todo-en-uno que permite a los usuarios buscar psicólogos según su especialidad y disponibilidad, reservar citas en tiempo real y realizar pagos seguros. Al mismo tiempo, los profesionales pueden gestionar su agenda, clientes y construir una reputación basada en valoraciones reales de sus pacientes.  
+
+### 1.2.2. Lean UX Process
+
+#### 1.2.2.1. Lean UX Problem Statements
+
+#### opendMind – Solución al Acceso Psicológico Digital
+
+El estado actual del acceso a servicios psicológicos se caracteriza por una oferta fragmentada, poco digitalizada y difícil de gestionar. Aunque existen directorios online o contactos informales para coordinar citas, estos no logran cubrir completamente las necesidades de los pacientes que buscan disponibilidad inmediata, confianza y accesibilidad, ni las de los psicólogos que requieren visibilidad, gestión de pagos y herramientas profesionales para crecer.
+
+Lo que los productos y servicios existentes no logran resolver es la falta de una plataforma centralizada y especializada que integre todo el proceso de atención psicológica: desde la búsqueda de psicólogos confiables y accesibles, hasta la reserva, pago y seguimiento del progreso terapéutico. Actualmente, muchos pacientes dependen de recomendaciones informales, redes sociales o listados poco actualizados, mientras que los psicólogos deben promocionarse de manera aislada y con recursos limitados, lo que genera ineficiencias y pérdida de oportunidades para ambos lados.
+
+Nuestro producto, opendMind, abordará esta brecha creando un ecosistema confiable que conecte a pacientes con psicólogos en un solo lugar. Permitiremos a los usuarios encontrar y reservar fácilmente citas, acceder a opciones económicas, recibir recordatorios y notificaciones, interactuar con un chatbot de orientación y valorar la experiencia. Al mismo tiempo, los profesionales podrán ofrecer sus servicios de forma organizada, gestionar su agenda y construir una reputación digital sólida que les permita aumentar su alcance y clientes.
+
+Sabremos que hemos tenido éxito cuando los pacientes utilicen la plataforma de manera recurrente para organizar sus sesiones, cuando los psicólogos logren incrementar sus reservas e ingresos a través de la app, y cuando observemos una comunidad activa con altos niveles de retención, valoraciones positivas y recomendaciones orgánicas que fortalezcan el crecimiento de la plataforma.
+
+
+
+
+
+#### 1.2.2.2. Lean UX Assumptions
+
+#### PlayMatch - Información del Producto
+
+#### ¿Quién es el usuario?
+
+Los usuarios de opendMind son principalmente dos grupos:
+
+1. Pacientes que buscan psicólogos confiables, accesibles y con disponibilidad para recibir atención psicológica.  
+2. Psicólogos independientes que desean ofrecer sus servicios, aumentar su visibilidad, gestionar reservas y pagos de manera digital y profesional.  
+
+#### ¿Dónde encaja nuestro producto, en su trabajo o en su vida?
+
+- Para los pacientes, opendMind se convierte en una herramienta clave en su vida personal y emocional, al permitirles acceder a terapia de forma rápida, segura y económica.  
+- Para los psicólogos, es parte esencial de su vida profesional, ayudándoles a conseguir más pacientes, administrar sus horarios, asegurar sus ingresos y construir una reputación online sólida. 
+
+#### ¿Qué problema resuelve nuestro producto?
+
+opendMind resuelve la dificultad de encontrar psicólogos disponibles y confiables, así como la falta de herramientas digitales que permitan a los profesionales gestionar reservas, pagos y relaciones con sus pacientes desde un solo lugar.
+
+#### ¿Cuándo y cómo se utiliza nuestro producto?
+
+El producto se utiliza cuando un paciente desea reservar una cita psicológica, consultar un profesional disponible o recibir recordatorios y orientación inicial.
+Los usuarios ingresan a la plataforma, buscan según especialidad, disponibilidad o costo, reservan en tiempo real y realizan el pago en línea.
+Por su parte, los psicólogos utilizan la plataforma para mostrar sus servicios, recibir reservas confirmadas y pagos, y dar seguimiento al progreso de sus pacientes con reportes e historial.
+
+#### ¿Qué características son importantes?
+
+- Buscador de psicólogos con filtros por especialidad, disponibilidad, experiencia y tarifas.
+- Perfil detallado de cada psicólogo, incluyendo trayectoria, enfoque terapéutico, horarios y valoraciones.
+- Sistema de reservas con calendario integrado y confirmaciones automáticas.
+- Pasarela de pagos segura y confiable.
+- Dashboard de gestión para psicólogos con reportes de ingresos, reservas y pacientes recurrentes.
+- Chatbot de apoyo inicial para consultas rápidas y orientación antes de la sesión. 
+
+#### ¿Cómo debe verse y comportarse nuestro producto?
+
+opendMind debe tener una interfaz clara, accesible y amigable, transmitiendo confianza y cercanía.
+El diseño debe estar enfocado en la facilidad de uso, permitiendo que tanto pacientes como psicólogos encuentren lo que necesitan en pocos clics.
+La navegación debe ser sencilla, los tiempos de carga rápidos y cada interacción debe estar acompañada de mensajes empáticos y claros que guíen al usuario sin fricción.
+
+#### 1.2.2.3. Lean UX Hypothesis Statements
+
+#### Hipótesis 1:
+Creemos que al desarrollar una plataforma web que conecte a pacientes con psicólogos independientes y confiables, lograremos facilitar el acceso a servicios psicológicos de manera más rápida, económica y organizada. Esto resultará en una mayor continuidad terapéutica y en un aumento de la satisfacción de los usuarios.
+
+**Business Outcome**: Aumento en el número de reservas confirmadas y pagos procesados en la plataforma. 
+**Users**: Pacientes que buscan atención psicológica accesible y confiable.  
+**User Outcome**: Mayor acceso a psicólogos disponibles y a costos más bajos, mejorando la experiencia de atención.
+**Feature**: Buscador de psicólogos con filtros, sistema de reservas y pagos integrados. 
+
+---
+
+#### Hipótesis 2:
+Consideramos que si proporcionamos a los psicólogos independientes una plataforma para ofrecer sus servicios con herramientas de gestión de agenda, pagos y visibilidad, aumentará su alcance, productividad y generación de ingresos.
+
+**Business Outcome**: Mayor cantidad de psicólogos registrados y mayor recurrencia en el uso de la plataforma.  
+**Users**: Psicólogos independientes y profesionales de la salud mental.
+**User Outcome**: Más oportunidades de captar pacientes y mejor gestión de sus servicios.
+**Feature**: Panel de administración para psicólogos, perfiles detallados, integración con calendario y sistema de pago seguro.
+
+---
+
+#### Hipótesis 3:
+Suponemos que al permitir valoraciones y reseñas públicas de psicólogos, se generará un ecosistema de confianza que incentive a más pacientes a utilizar la plataforma y a los profesionales a mantener altos estándares de calidad.
+
+**Business Outcome**: Incremento en la tasa de conversión de reservas y en la retención de usuarios.
+**Users**: Pacientes que buscan psicólogos y psicólogos que ofrecen sus servicios. 
+**User Outcome**: Mayor confianza al elegir profesionales y mejor reputación para quienes brindan un servicio de calidad.  
+**Feature**: Sistema de calificaciones, comentarios y reseñas públicas en los perfiles.
+
+---
+
+#### Hipótesis 4:
+Creemos que si incorporamos funciones de apoyo interactivo como un chatbot y recordatorios automáticos, mejorará la experiencia del paciente y fortalecerá la relación terapéutica, aumentando la continuidad de las sesiones.
+
+**Business Outcome**: Aumento en la fidelización de pacientes, mayor tiempo de uso en la plataforma y reducción en la tasa de abandono.
+**Users**: Pacientes que requieren acompañamiento constante y psicólogos que desean optimizar la adherencia al tratamiento.
+**User Outcome**: Más opciones de apoyo inmediato, mejor organización y mayor compromiso con la terapia.
+**Feature**: Chatbot de orientación inicial, recordatorios de citas y notificaciones automáticas.
 
 
 
