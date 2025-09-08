@@ -70,6 +70,9 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 - [1.1. Startup Profile](#11-startup-profile)
 
   - [1.1.1. Descripción de la Startup](#111-description-de-la-startup)
+        Nuestra startup, llamada EiraMind, surge como una solución digital innovadora en el campo de la salud mental. Se trata de una plataforma web que conecta a pacientes con psicólogos de forma rápida, segura y confiable, ofreciendo herramientas como agenda de citas en línea, consultas virtuales, ranking de profesionales y soporte mediante un chatbot con inteligencia artificial.
+El valor diferencial radica en la integración de IoT para enriquecer las consultas presenciales (monitoreando factores del ambiente como calidad de aire, ruido y temperatura en los consultorios) y en el modelo de suscripción flexible, que se adapta a las necesidades de psicólogos independientes, clínicas pequeñas y centros especializados.
+La misión de la startup es facilitar el acceso a la salud mental y optimizar la práctica profesional, mientras que la visión es convertirse en el ecosistema digital de referencia en Latinoamérica para la psicología y el bienestar mental.
 
   - [1.1.2. Perfiles de integrantes del equipo](#112-perfiles-de-integrantes-del-equipo)
 
