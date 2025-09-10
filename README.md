@@ -24,7 +24,7 @@
 | Member                           |    Code    |
 | :------------------------------- | :--------: |
 | Andy Alejandro Mio Mejia         | U202218531 |
-|  |  |
+| Rolando Andre Torres Diaz        | U202323369 |
 |  |  |
 |  |  |
 |  |  |
@@ -362,5 +362,67 @@ Creemos que si incorporamos funciones de apoyo interactivo como un chatbot y rec
 **User Outcome**: Más opciones de apoyo inmediato, mejor organización y mayor compromiso con la terapia.
 **Feature**: Chatbot de orientación inicial, recordatorios de citas y notificaciones automáticas.
 
+#### 1.2.2.4. Lean UX Canvas
 
+## 1.3. Segmentos objetivo 
+**Segmento 1 – Pacientes digitales jóvenes-adultos**  
+- Personas entre 18 y 40 años que buscan apoyo psicológico por ansiedad, estrés o problemas emocionales.  
+- Necesitan acceso rápido y confiable a psicólogos, con opción de agendar citas en horarios flexibles y recibir recordatorios digitales.  
+
+**Segmento 2 – Psicólogos independientes y pequeñas clínicas**  
+- Profesionales de la salud mental que requieren mayor visibilidad digital y herramientas para gestionar citas y pagos.  
+- Necesitan optimizar su práctica y diferenciarse mediante ranking, reseñas verificadas e innovación (IoT, chatbot IA).
+
+# Capítulo II: Requirements Elicitation & Analysis
+## 2.1. Competidores
+### 2.1.1. Análisis competitivo
+### 2.1.2. Estrategias y tácticas frente a competidores
+## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas
+El propósito de las entrevistas es validar las necesidades, problemas y expectativas de los usuarios en relación con la plataforma **EiraMind**. Se plantean preguntas diferenciadas para los dos segmentos objetivos principales.
+
+---
+
+### Segmento 1 – Pacientes digitales jóvenes-adultos
+
+**Objetivo:** Conocer las dificultades y expectativas de los pacientes al buscar y acceder a servicios psicológicos.
+
+**Preguntas:**
+1. ¿Alguna vez buscaste un psicólogo y te resultó difícil encontrar uno disponible?  
+2. ¿Qué tan importante es para ti poder reservar una cita en línea desde tu celular o laptop?  
+3. ¿Qué factores influyen más al elegir un psicólogo (precio, reseñas, ubicación, especialidad)?  
+4. ¿Confías en las reseñas online a la hora de escoger un especialista de salud mental?  
+5. ¿Qué prefieres: sesiones presenciales, virtuales o una combinación de ambas?  
+6. ¿Qué problemas has tenido al intentar acceder a servicios de psicología (costos, tiempo, disponibilidad, desconfianza)?  
+7. ¿Te gustaría recibir recordatorios automáticos de tus citas por WhatsApp, correo o notificación en app?  
+8. ¿Qué tan útil crees que sería un chatbot con IA que te oriente antes de una sesión o te sugiera ejercicios de relajación?  
+9. ¿Con qué frecuencia estarías dispuesto a pagar por sesiones de psicología?  
+10. ¿Cuánto considerarías un precio razonable para una sesión en línea de 45-60 minutos?  
+
+---
+
+### Segmento 2 – Psicólogos independientes y pequeñas clínicas
+
+**Objetivo:** Identificar las necesidades tecnológicas de los psicólogos en la gestión de citas, pagos y visibilidad profesional.
+
+**Preguntas:**
+1. ¿Cómo gestionas actualmente tus citas y horarios con pacientes?  
+2. ¿Has tenido problemas con ausencias o cancelaciones de último minuto?  
+3. ¿Qué tan relevante es para ti aparecer en una plataforma que te dé visibilidad frente a nuevos pacientes?  
+4. ¿Qué herramientas digitales usas hoy (Zoom, Google Calendar, WhatsApp, otras)?  
+5. ¿Qué dificultades enfrentas al cobrar tus servicios de manera digital?  
+6. ¿Te interesaría que tus pacientes puedan dejar reseñas verificadas que mejoren tu reputación profesional?  
+7. ¿Cuánto valoras que una plataforma te ofrezca reportes (número de sesiones, ingresos, satisfacción de pacientes)?  
+8. ¿Pagarías una suscripción mensual por una herramienta que te brinde agenda, pagos y promoción digital? ¿Qué rango de precio te parecería justo?  
+9. ¿Qué opinas de integrar dispositivos IoT en el consultorio para medir condiciones ambientales (ej. calidad de aire, ruido, temperatura)?  
+10. ¿Qué expectativas tendrías respecto al soporte técnico y acompañamiento de la plataforma?
+
+### 2.2.2. Registro de entrevistas
+### 2.2.3. Análisis de entrevistas
+## 2.3. Needfinding
+### 2.3.1. User Personas
+### 2.3.2. User Task Matrix
+### 2.3.3. User Journey Mapping
+### 2.3.4. Empathy Mapping
+### 2.3.5. As-is Scenario Mapping
 
