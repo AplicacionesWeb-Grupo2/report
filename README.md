@@ -376,7 +376,29 @@ Creemos que si incorporamos funciones de apoyo interactivo como un chatbot y rec
 # Capítulo II: Requirements Elicitation & Analysis
 ## 2.1. Competidores
 ### 2.1.1. Análisis competitivo
+
+En el mercado existen diversas plataformas digitales que buscan conectar a pacientes con profesionales de la salud mental. Sin embargo, la mayoría presenta limitaciones en cuanto a accesibilidad, confianza o integración de servicios. A continuación, se presentan algunos de los principales competidores:
+
+| Plataforma        | Descripción                                                                 | Fortalezas                                                 | Debilidades                                                   |
+|-------------------|-----------------------------------------------------------------------------|------------------------------------------------------------|---------------------------------------------------------------|
+| **Doctoralia**    | Directorio médico online con psicólogos en Perú y LATAM.                   | Amplia base de profesionales, sistema de citas en línea.   | No incluye IoT ni chatbot de IA, poca personalización en ranking. |
+| **PsicólogosPerú** | Portal web para búsqueda de psicólogos locales.                            | Orientado al mercado peruano, accesibilidad básica.        | Sin sistema de pagos digitales ni agenda integrada.            |
+| **Talkspace**     | Plataforma internacional de terapia online.                                | Reconocida globalmente, variedad de terapeutas.            | Costos elevados, poco adaptada a necesidades locales.          |
+| **MiSalud**       | App de salud general que incluye psicología.                               | Integración con otras especialidades médicas.              | Psicología no es el foco principal, opciones limitadas.        |
+
+---
+
 ### 2.1.2. Estrategias y tácticas frente a competidores
+- **Especialización en salud mental:** A diferencia de apps generales, nos enfocamos 100% en psicología.  
+- **Integración tecnológica:** Incorporamos **IoT en consultorios** para monitoreo ambiental y **chatbot con IA** para orientación inicial.  
+- **Modelo de suscripción flexible:** Diseñado para psicólogos independientes y clínicas pequeñas, con planes accesibles.  
+- **Confianza y transparencia:** Sistema de **reseñas verificadas y ranking confiable**, que aumenta la seguridad de los pacientes al elegir un profesional.  
+- **Enfoque local con visión global:** Adaptamos precios, funciones y métodos de pago a la realidad latinoamericana (ej. Culqi, Yape), pero con escalabilidad para LATAM.  
+
+Con estas estrategias, buscamos superar las limitaciones de los competidores actuales y posicionarnos como la plataforma de referencia para la atención psicológica digital en Perú y la región.  
+
+---
+
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
 El propósito de las entrevistas es validar las necesidades, problemas y expectativas de los usuarios en relación con la plataforma **EiraMind**. Se plantean preguntas diferenciadas para los dos segmentos objetivos principales.
@@ -425,4 +447,11 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
+## Bibliografía
+
+- MiSalud. (s. f.). *Los doctores de MiSalud son profesionales…* Recuperado septiembre 2025, de https://www.misalud.ai  
+- Talkspace. (s. f.). *Talkspace – #1 Rated Online Therapy…* Recuperado septiembre 2025, de https://www.talkspace.com  
+- Doctoralia Perú. (s. f.). *Encuentra especialista – Agenda cita médica*. Recuperado septiembre 2025, de https://www.doctoralia.pe  
+- Psicologos.pe. (s. f.). *Terapia… Agenda fácil y rápido. Profesionales colegiados y habilitados…* Recuperado septiembre 2025, de https://psicologos.pe  
+
 
