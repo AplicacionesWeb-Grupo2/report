@@ -440,6 +440,10 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 10. ¿Qué expectativas tendrías respecto al soporte técnico y acompañamiento de la plataforma?
 
 ### 2.2.2. Registro de entrevistas
+
+| Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src=".azul.jpeg" width="120"/> | Azul Delgado Sanchez | 22 años | Santiago de Surco | 5:50 - 5:56 | a |
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
