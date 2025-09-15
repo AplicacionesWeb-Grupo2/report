@@ -24,7 +24,7 @@
 | Member                           |    Code    |
 | :------------------------------- | :--------: |
 | Andy Alejandro Mio Mejia         | U202218531 |
-|  |  |
+| Rolando Andre Torres Diaz        | U202323369 |
 |  |  |
 |  |  |
 |  |  |
