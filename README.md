@@ -25,7 +25,7 @@
 | :------------------------------- | :--------: |
 | Andy Alejandro Mio Mejia         | U202218531 |
 | Rolando Andre Torres Diaz        | U202323369 |
-|  |  |
+| Villugas Jerónimo Liam Anderson  | U202211634 |
 |  |  |
 |  |  |
 |  |  |
@@ -451,6 +451,11 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
+
+<img src="./resources/AsisCliente.png"></img><br>
+<img src="./resources/AsisPsicologo.png"></img><br>
+
+
 ## Bibliografía
 
 - MiSalud. (s. f.). *Los doctores de MiSalud son profesionales…* Recuperado septiembre 2025, de https://www.misalud.ai  
