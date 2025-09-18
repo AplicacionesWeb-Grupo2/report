@@ -605,8 +605,39 @@ Según el tipo de contenido, se aplicarán distintos esquemas:
 
 Esto asegura un acceso eficiente, adaptado a las diferentes formas en que los usuarios buscan atención psicológica.
 
-
 ### 4.2.2. Labeling Systems
+
+La representación de los datos en la plataforma busca ser clara, intuitiva y sin ambigüedades. Para ello se establecen las siguientes directrices de etiquetado:
+
+#### Principios de Etiquetado
+
+- Utilizar un **mínimo número de palabras**.
+- Preferir términos **comunes en el ámbito psicológicos** y **fáciles de comprender**.
+- Mantener **consistencia** en la terminología a lo largo de la aplicacion.
+
+#### Etiquetas principales propuestas
+
+| Área                    | Etiqueta asignada          | Propósito                           |
+| ----------------------- | -------------------------- | ----------------------------------- |
+| Exploración             | "Buscar Psicólogos"         | Navegar y explorar psicólogos disponibles.         |
+| Citas                   | "Mis Citas"                 | Ver historial y próximas reservas confirmadas. |
+| Pagos                   | "Pagos"                     | Gestionar métodos de pago, comprobantes y promociones. |
+| Chatbot                 | "Asistente Virtual"         | Acceso al chatbot de orientación inicial.|
+| Perfil                  | "Mi Perfil"                 | Datos personales, historial terapéutico y configuración.      |
+| Registro Psicólogos     | "Unirme como Psicólogo"     | Proceso de registro para profesionales.  |
+| Soporte                 | "Ayuda"                     | Acceso a FAQs y soporte técnico.       |
+
+Dentro de los filtros se emplearán palabras clave simples como:
+
+- "Especialidad" (ansiedad, terapia de pareja, infantil, estrés, etc.).
+- "Modalidad" (presencial, virtual).
+- "Disponibilidad" (fecha y hora).
+- "Precio" (por sesión, con rango ajustable).
+- "Experiencia del psicólogo" (años de práctica, formación).
+- "Valoración" (por estrellas o reseñas de pacientes).
+
+Esto facilita que tanto pacientes como psicólogos interpreten de inmediato las opciones disponibles, sin necesidad de explicaciones adicionales.
+
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems
 ### 4.2.5. Navigation Systems
