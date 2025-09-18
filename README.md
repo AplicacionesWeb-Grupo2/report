@@ -25,7 +25,7 @@
 | :------------------------------- | :--------: |
 | Andy Alejandro Mio Mejia         | U202218531 |
 | Rolando Andre Torres Diaz        | U202323369 |
-|  |  |
+| Liam Anderson Villugas Jeronimo  | U202211634 |
 |  |  |
 |  |  |
 |  |  |
@@ -493,6 +493,31 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 
 <img src="./resources/TobeCliente.png"></img><br>
 <img src="./resources/TobePsicologo.png"></img><br>
+
+### 3.2 User Stories
+| Epic ID | Título                                         | Descripción |
+|---------|------------------------------------------------|-------------|
+| EPIC-01 | Información del producto               | Presentar de forma clara qué es EiraMind, cómo funciona y qué lo hace diferente. |
+| EPIC-02 | Registro y conversión             | Permitir que pacientes y psicólogos se registren fácilmente en la plataforma. |
+| EPIC-03 | Beneficios para pacientes         | Mostrar las ventajas para quienes buscan atención psicológica. |
+| EPIC-04 | Beneficios para psicólogos                   |Resaltar cómo EiraMind facilita la práctica profesional y atrae pacientes. |
+| EPIC-05 | Confianza y credibilidad                   | Generar confianza en usuarios nuevos con elementos de prueba social y transparencia. |
+| EPIC-06 |Educación y soporte             | Proveer contenido adicional que ayude a resolver dudas y acompañar al usuario. |
+| EPIC-07 | Captación de leads            | Habilitar espacios para que visitantes interesados dejen sus datos de contacto. |
+
+
+| ID   | Título                                                   | Descripción                                                                                                                                      | Criterios de aceptación | EpicID |
+|------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|--------|
+| US01 |Explicación clara del producto | Como visitante, quiero entender de forma clara qué ofrece EiraMind, para decidir si me conviene usar la plataforma. | **Escenario 1:** Dado que ingreso a la landing, cuando veo la sección inicial, entonces encuentro una explicación breve y clara de qué es EiraMind.<br>**Escenario 2:** Dado que navego por la landing, cuando hago scroll, entonces encuentro secciones que explican cómo funciona y qué lo hace diferente. | EPIC-01 |
+| US02 | Botones de registro visibles |Como paciente o psicólogo, quiero acceder fácilmente a un botón de registro, para comenzar a usar la plataforma.  |**Escenario 1:** Dado que estoy en la landing, cuando visualizo el encabezado o secciones principales, entonces encuentro botones de “Regístrate” visibles y funcionales.<br>**Escenario 2:** Dado que hago clic en el botón, cuando me redirige, entonces llego al formulario de registro adecuado (paciente o psicólogo). | EPIC-02 |
+| US03 | Listado de beneficios para pacientes |Como paciente, quiero ver un listado de beneficios claros, para sentir confianza en usar la plataforma. | **Escenario 1:** Dado que soy paciente, cuando reviso la landing, entonces veo beneficios como: agenda de citas, ranking de psicólogos, chatbot de soporte.<br>**Escenario 2:** Dado que navego en la sección de beneficios, cuando hago scroll, entonces cada beneficio tiene un ícono o elemento visual que lo refuerza.| EPIC-03 |
+| US04 | Testimonios de pacientes | Como paciente, quiero leer testimonios de otros usuarios, para confirmar la calidad del servicio. |**Escenario 1:** Dado que llego a la sección de testimonios, cuando la reviso, entonces encuentro al menos 3 testimonios con nombre y rol.<br>**Escenario 2:** Dado que leo los testimonios, cuando los comparo, entonces noto que son diversos y transmiten confianza. | EPIC-03 |
+| US05 |Planes de suscripción claros | Como psicólogo, quiero ver información clara sobre los planes de suscripción, para elegir el que más se adapte a mi práctica. | **Escenario 1:** Dado que soy psicólogo, cuando entro en la sección de planes, entonces veo al menos tres planes con precios y beneficios resumidos.<br>**Escenario 2:** Dado que reviso los planes, cuando hago scroll, entonces encuentro un CTA debajo de cada opción para registrarme.| EPIC-04 |
+| US06 | Diferenciales tecnológicos destacados | Como psicólogo, quiero conocer los diferenciales tecnológicos, para diferenciar EiraMind de otras plataformas. |**Escenario 1:** Dado que reviso la sección para profesionales, cuando leo la descripción, entonces encuentro información sobre IoT, gestión de pagos y ranking validado.<br>**Escenario 2:** Dado que soy psicólogo, cuando comparo la información, entonces puedo identificar claramente qué hace única a la plataforma.| EPIC-04 |
+| US07 | Sección de confianza y credibilidad | Como visitante, quiero ver elementos que me generen confianza, para decidir registrarme. | **Escenario 1:** Dado que navego en la landing, cuando paso por la sección de confianza, entonces encuentro testimonios, logotipos de aliados o premios (si aplica).<br>**Escenario 2:** Dado que reviso esa sección, cuando la analizo, entonces me transmite seguridad y respaldo profesional. | EPIC-05 |
+| US08 | Preguntas frecuentes (FAQ) | Como visitante, quiero acceder a preguntas frecuentes, para resolver mis dudas sin necesidad de registrarme. | **Escenario 1:** Dado que llego al final de la landing, cuando busco soporte, entonces encuentro una sección de FAQ con al menos 5 preguntas y respuestas clave. <br>**Escenario 2:** Dado que leo las preguntas, cuando interactúo con ellas, entonces obtengo respuestas claras y concisas. | EPIC-06 |
+| US09 | Recursos de bienestar mental | Como paciente, quiero acceder a recursos de bienestar mental, para obtener acompañamiento adicional. |**Escenario 1:** Dado que soy paciente, cuando llego a la sección de recursos, entonces encuentro artículos, tips o guías breves de salud mental.<br>**Escenario 2:** Dado que interactúo con esta sección, cuando hago clic, entonces se abre un recurso completo en otra página o pop-up. | EPIC-06 |
+| US10 | Formulario de suscripción / Newsletter | Como visitante, quiero dejar mis datos de contacto, para recibir actualizaciones de la startup. | **Escenario 1:** Dado que estoy en la landing, cuando llego al footer o sección de newsletter, entonces encuentro un formulario para ingresar mi correo electrónico.<br>**Escenario 2:** Dado que ingreso mi correo, cuando hago clic en “Suscribirme”, entonces recibo un mensaje de confirmación de registro exitoso.| EPIC-07 |
 
 
 
