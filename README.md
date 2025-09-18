@@ -362,5 +362,112 @@ Creemos que si incorporamos funciones de apoyo interactivo como un chatbot y rec
 **User Outcome**: Más opciones de apoyo inmediato, mejor organización y mayor compromiso con la terapia.
 **Feature**: Chatbot de orientación inicial, recordatorios de citas y notificaciones automáticas.
 
+#### 1.2.2.4. Lean UX Canvas
+
+## 1.3. Segmentos objetivo 
+**Segmento 1 – Pacientes digitales jóvenes-adultos**  
+- Personas entre 18 y 40 años que buscan apoyo psicológico por ansiedad, estrés o problemas emocionales.  
+- Necesitan acceso rápido y confiable a psicólogos, con opción de agendar citas en horarios flexibles y recibir recordatorios digitales.  
+
+**Segmento 2 – Psicólogos independientes y pequeñas clínicas**  
+- Profesionales de la salud mental que requieren mayor visibilidad digital y herramientas para gestionar citas y pagos.  
+- Necesitan optimizar su práctica y diferenciarse mediante ranking, reseñas verificadas e innovación (IoT, chatbot IA).
+
+# Capítulo II: Requirements Elicitation & Analysis
+## 2.1. Competidores
+### 2.1.1. Análisis competitivo
+
+En el mercado existen diversas plataformas digitales que buscan conectar a pacientes con profesionales de la salud mental. Sin embargo, la mayoría presenta limitaciones en cuanto a accesibilidad, confianza o integración de servicios. A continuación, se presentan algunos de los principales competidores:
+
+| Plataforma        | Descripción                                                                 | Fortalezas                                                 | Debilidades                                                   |
+|-------------------|-----------------------------------------------------------------------------|------------------------------------------------------------|---------------------------------------------------------------|
+| **Doctoralia**    | Directorio médico online con psicólogos en Perú y LATAM.                   | Amplia base de profesionales, sistema de citas en línea.   | No incluye IoT ni chatbot de IA, poca personalización en ranking. |
+| **PsicólogosPerú** | Portal web para búsqueda de psicólogos locales.                            | Orientado al mercado peruano, accesibilidad básica.        | Sin sistema de pagos digitales ni agenda integrada.            |
+| **Talkspace**     | Plataforma internacional de terapia online.                                | Reconocida globalmente, variedad de terapeutas.            | Costos elevados, poco adaptada a necesidades locales.          |
+| **MiSalud**       | App de salud general que incluye psicología.                               | Integración con otras especialidades médicas.              | Psicología no es el foco principal, opciones limitadas.        |
+
+---
+
+### 2.1.2. Estrategias y tácticas frente a competidores
+- **Especialización en salud mental:** A diferencia de apps generales, nos enfocamos 100% en psicología.  
+- **Integración tecnológica:** Incorporamos **IoT en consultorios** para monitoreo ambiental y **chatbot con IA** para orientación inicial.  
+- **Modelo de suscripción flexible:** Diseñado para psicólogos independientes y clínicas pequeñas, con planes accesibles.  
+- **Confianza y transparencia:** Sistema de **reseñas verificadas y ranking confiable**, que aumenta la seguridad de los pacientes al elegir un profesional.  
+- **Enfoque local con visión global:** Adaptamos precios, funciones y métodos de pago a la realidad latinoamericana (ej. Culqi, Yape), pero con escalabilidad para LATAM.  
+
+Con estas estrategias, buscamos superar las limitaciones de los competidores actuales y posicionarnos como la plataforma de referencia para la atención psicológica digital en Perú y la región.  
+
+---
+
+## 2.2. Entrevistas
+### 2.2.1. Diseño de entrevistas
+El propósito de las entrevistas es validar las necesidades, problemas y expectativas de los usuarios en relación con la plataforma **EiraMind**. Se plantean preguntas diferenciadas para los dos segmentos objetivos principales.
+
+---
+
+### Segmento 1 – Pacientes digitales jóvenes-adultos
+
+**Objetivo:** Conocer las dificultades y expectativas de los pacientes al buscar y acceder a servicios psicológicos.
+
+**Preguntas:**
+1. ¿Alguna vez buscaste un psicólogo y te resultó difícil encontrar uno disponible?  
+2. ¿Qué tan importante es para ti poder reservar una cita en línea desde tu celular o laptop?  
+3. ¿Qué factores influyen más al elegir un psicólogo (precio, reseñas, ubicación, especialidad)?  
+4. ¿Confías en las reseñas online a la hora de escoger un especialista de salud mental?  
+5. ¿Qué prefieres: sesiones presenciales, virtuales o una combinación de ambas?  
+6. ¿Qué problemas has tenido al intentar acceder a servicios de psicología (costos, tiempo, disponibilidad, desconfianza)?  
+7. ¿Te gustaría recibir recordatorios automáticos de tus citas por WhatsApp, correo o notificación en app?  
+8. ¿Qué tan útil crees que sería un chatbot con IA que te oriente antes de una sesión o te sugiera ejercicios de relajación?  
+9. ¿Con qué frecuencia estarías dispuesto a pagar por sesiones de psicología?  
+10. ¿Cuánto considerarías un precio razonable para una sesión en línea de 45-60 minutos?  
+
+---
+
+### Segmento 2 – Psicólogos independientes y pequeñas clínicas
+
+**Objetivo:** Identificar las necesidades tecnológicas de los psicólogos en la gestión de citas, pagos y visibilidad profesional.
+
+**Preguntas:**
+1. ¿Cómo gestionas actualmente tus citas y horarios con pacientes?  
+2. ¿Has tenido problemas con ausencias o cancelaciones de último minuto?  
+3. ¿Qué tan relevante es para ti aparecer en una plataforma que te dé visibilidad frente a nuevos pacientes?  
+4. ¿Qué herramientas digitales usas hoy (Zoom, Google Calendar, WhatsApp, otras)?  
+5. ¿Qué dificultades enfrentas al cobrar tus servicios de manera digital?  
+6. ¿Te interesaría que tus pacientes puedan dejar reseñas verificadas que mejoren tu reputación profesional?  
+7. ¿Cuánto valoras que una plataforma te ofrezca reportes (número de sesiones, ingresos, satisfacción de pacientes)?  
+8. ¿Pagarías una suscripción mensual por una herramienta que te brinde agenda, pagos y promoción digital? ¿Qué rango de precio te parecería justo?  
+9. ¿Qué opinas de integrar dispositivos IoT en el consultorio para medir condiciones ambientales (ej. calidad de aire, ruido, temperatura)?  
+10. ¿Qué expectativas tendrías respecto al soporte técnico y acompañamiento de la plataforma?
+
+### 2.2.2. Registro de entrevistas
+
+| Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src=".azul.jpeg" width="120"/> | Azul Delgado Sanchez | 22 años | Santiago de Surco | 5:50 - 5:56 | Azul es una estudiante de 22 años que tuvo dificultades para encontrar un psicólogo. Ella afirma que es muy importante poder reservar citas en línea, y considera que hacerlo por WhatsApp resulta muy útil. También señala que, al momento de elegir un psicólogo, el costo debe ser accesible para los estudiantes. Además, presta atención a las reseñas en línea, ya que pueden ayudar a orientarse, aunque reconoce que algunas pueden ser falsas. Prefiere las citas semipresenciales, porque en algunas sesiones virtuales el diálogo puede malinterpretarse. Le encantaría recibir notificaciones a través de una aplicación, pues revisa sus redes sociales con frecuencia. Cree que la idea de contar con un chatbot como orientación sería muy útil, aunque aclara que no reemplazaría a un psicólogo. Finalmente, estaría dispuesta a pagar 70 soles por cita y asistir dos veces por semana. |
+### 2.2.3. Análisis de entrevistas
+## 2.3. Needfinding
+### 2.3.1. User Personas
+### 2.3.2. User Task Matrix
+### 2.3.3. User Journey Mapping
+### 2.3.4. Empathy Mapping
+### 2.3.5. As-is Scenario Mapping
+
+<img src="./resources/AsisCliente.png"></img><br>
+<img src="./resources/AsisPsicologo.png"></img><br>
+
+### 3.1 To-be Scenario Mapping
+
+<img src="./resources/TobeCliente.png"></img><br>
+<img src="./resources/TobePsicologo.png"></img><br>
+
+
+
+
+## Bibliografía
+
+- MiSalud. (s. f.). *Los doctores de MiSalud son profesionales…* Recuperado septiembre 2025, de https://www.misalud.ai  
+- Talkspace. (s. f.). *Talkspace – #1 Rated Online Therapy…* Recuperado septiembre 2025, de https://www.talkspace.com  
+- Doctoralia Perú. (s. f.). *Encuentra especialista – Agenda cita médica*. Recuperado septiembre 2025, de https://www.doctoralia.pe  
+- Psicologos.pe. (s. f.). *Terapia… Agenda fácil y rápido. Profesionales colegiados y habilitados…* Recuperado septiembre 2025, de https://psicologos.pe  
 
 
