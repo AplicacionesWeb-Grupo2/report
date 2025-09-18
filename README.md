@@ -639,6 +639,20 @@ Dentro de los filtros se emplearán palabras clave simples como:
 Esto facilita que tanto pacientes como psicólogos interpreten de inmediato las opciones disponibles, sin necesidad de explicaciones adicionales.
 
 ### 4.2.3. SEO Tags and Meta Tags
+
+Para optimizar la visibilidad y accesibilidad de opendMind en motores de búsqueda, se establecen los siguientes **SEO Tags** y **Meta Tags** que serán implementados tanto en el **Landing Page** como en la **Web Application**:
+
+TODO: Agregar meta tags para páginas adicionales (no app). Blog, Noticias, Precio, Log In, Sign Up, etc.
+
+| Página                           | Title                                            | Meta Description            | Meta Keywords            | Author         |
+| -------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | -------------- |
+| Landing Page                     | Terapia Psicológica Online y Presencial en Perú - opendMind         | opendMind es la plataforma digital para reservar citas psicológicas de forma rápida, segura y accesible. Encuentra psicólogos especializados en ansiedad, estrés, depresión, pareja y más. | terapia psicológica online, psicólogos en Perú, reservar cita psicológica, psicólogo ansiedad, depresión, terapia pareja, psicología accesible | Equipo opendMind |
+| Web Application - Home           | opendMind App - Psicólogos y Terapia Online a tu Alcance | Con opendMind organiza tus sesiones, encuentra psicólogos disponibles y gestiona tus citas en un solo lugar.            | psicólogos online, terapia psicológica Perú, citas psicológicas, salud mental digital | Equipo opendMind |
+| Web Application - Perfil Usuario | opendMind - Mi Perfil                              | Gestiona tus datos personales, historial de citas, pagos y preferencias de terapia con opendMind.                               | perfil usuario opendMind, historial citas psicológicas, pagos terapia, psicología personalizada                    | Equipo openMind |
+| Página de perfil de entrenadores | Psicólogo [[Especialidad]] en [[Ciudad]] - [[Nombre del Psicólogo]] - opendMind | Encuentra al psicólogo especializado en [[Especialidad]], [[Nombre del Psicólogo]] en [[Ciudad]]. Horarios flexibles, tarifas accesibles y valoraciones verificadas. | psicólogos cerca de mí, psicólogo [[especialidad]], psicólogo en [[ciudad]], terapia accesible | Equipo opendMind |
+
+
+
 ### 4.2.4. Searching Systems
 ### 4.2.5. Navigation Systems
 ## 4.3. Landing Page UI Design
