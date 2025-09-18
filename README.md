@@ -651,9 +651,51 @@ TODO: Agregar meta tags para páginas adicionales (no app). Blog, Noticias, Prec
 | Web Application - Perfil Usuario | opendMind - Mi Perfil                              | Gestiona tus datos personales, historial de citas, pagos y preferencias de terapia con opendMind.                               | perfil usuario opendMind, historial citas psicológicas, pagos terapia, psicología personalizada                    | Equipo openMind |
 | Página de perfil de entrenadores | Psicólogo [[Especialidad]] en [[Ciudad]] - [[Nombre del Psicólogo]] - opendMind | Encuentra al psicólogo especializado en [[Especialidad]], [[Nombre del Psicólogo]] en [[Ciudad]]. Horarios flexibles, tarifas accesibles y valoraciones verificadas. | psicólogos cerca de mí, psicólogo [[especialidad]], psicólogo en [[ciudad]], terapia accesible | Equipo opendMind |
 
-
-
 ### 4.2.4. Searching Systems
+
+Para mejorar la capacidad de búsqueda dentro del sitio web y la aplicación, se implementarán sistemas claros, efectivos y centrados en la experiencia psicológica y terapéutica.
+
+#### Tipos de búsqueda ofrecidos
+
+- **Búsqueda Global (Header Search Box):**
+
+  - Visible en todas las páginas principales.
+  - Permite buscar psicólogos, especialidades o tipos de terapia.
+  - Incluye autocompletado con sugerencias relevantes (ejemplo: “Ansiedad”, “Terapia de pareja en Miraflores”, “Psicólogo infantil”).
+
+- **Filtros de búsqueda en "Explorar experiencias":**
+
+  - **Especialidad** (Ansiedad, Depresión, Estrés laboral, Terapia infantil, Terapia de pareja, etc.).
+  - **Ubicación** (distrito, ciudad, consulta virtual/presencial).
+  - **Disponibilidad horaria** (mañana, tarde, noche, fecha específica).
+  - **Precio** (rango económico ajustable).
+  - **Modalidad de atención** (Virtual o Presencial).
+  - **Experiencia del psicólogo** (Años de práctica, nivel académico).
+  - **Valoración** (reseñas y calificaciones de pacientes).
+
+- **Búsqueda específica en el perfil de entrenadores/canchas:**
+  - Por nombre del psicólogo.
+  - Por especialidad o método terapéutico (ej. cognitivo-conductual).
+  - Por calificación promedio de usuarios.
+
+#### Presentación de resultados
+
+- **Resultados dinámicos:** el listado se actualizará en tiempo real al aplicar filtros o modificar criterios de búsqueda.
+- **Organización matricial:** cada resultado se mostrará en forma de card con:
+
+  - Foto del psicólogo.
+  - Nombre, especialidad y modalidad (virtual/presencial).
+  - Valoración promedio.
+  - Botón de acción destacado (Agendar cita, Ver disponibilidad).
+
+- **Resultados ordenables:** por:
+  - relevancia
+  - precio
+  - valoración
+  - Disponibilidad más próxima.
+ 
+Con este sistema, opendMind ofrece búsquedas rápidas, comparaciones claras y filtros relevantes que permiten a los pacientes encontrar al psicólogo ideal sin complicaciones.
+
 ### 4.2.5. Navigation Systems
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
