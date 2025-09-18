@@ -519,6 +519,51 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 
 <img src="./resources/Impact map 1.png"></img><br>
 
+# Capítulo IV: Product Design
+## 4.1. Style Guidelines
+### 4.1.1. General Style Guidelines
+### 4.1.2. Web Style Guidelines
+
+La versión web de opendMind está diseñada para ofrecer una experiencia simple, confiable e intuitiva, tanto para pacientes como para psicólogos. Su diseño es responsivo y accesible, pensado para adaptarse a las necesidades de quienes buscan organizar o brindar servicios de atención psicológica desde cualquier lugar.
+
+- Diseño responsivo: La plataforma se adapta de manera óptima a dispositivos de escritorio, tabletas y móviles, garantizando una experiencia consistente y accesible, ya sea que el usuario se conecte desde casa, el trabajo o en movimiento.
+
+- Hover effects: Los elementos interactivos como botones, tarjetas de psicólogos y enlaces cambian sutilmente de color al pasar el cursor, reforzando la sensación de interacción. Por ejemplo, los botones de llamada a la acción en tonos verdes o azules se oscurecen ligeramente para indicar que son seleccionables.
+
+- Barra de navegación superior: La barra de navegación principal se ubica en la parte superior e incluye accesos clave como: Inicio, Buscar psicólogos, Mis citas, Pagos, Chatbot y Perfil. Esto asegura que tanto pacientes como profesionales puedan acceder rápidamente a las secciones más importantes.
+
+- Animaciones sutiles: Se implementan transiciones suaves para mejorar la experiencia de usuario. Ejemplos: deslizamiento de paneles al abrir un menú, transición de tarjetas en la búsqueda de psicólogos y cambios visuales en los botones al ser presionados. Estas animaciones aportan fluidez y profesionalismo sin distraer de la experiencia principal.
+
+- Paneles modulares: El contenido clave como perfiles de psicólogos, resultados de búsqueda, historial de citas y reportes se organiza en paneles modulares y tarjetas. Este diseño facilita la lectura, el escaneo de información y la adaptación a diferentes tamaños de pantalla.
+
+
+
+## 4.2. Information Architecture
+### 4.2.1. Organization Systems
+### 4.2.2. Labeling Systems
+### 4.2.3. SEO Tags and Meta Tags
+### 4.2.4. Searching Systems
+### 4.2.5. Navigation Systems
+## 4.3. Landing Page UI Design
+### 4.3.1. Landing Page Wireframe
+### 4.3.2. Landing Page Mock-up
+## 4.4. Web Applications UX/UI Design
+### 4.4.1. Web Applications Wireframes
+### 4.4.2. Web Applications Wireflow Diagrams
+### 4.4.3. Web Applications Mock-ups
+### 4.4.4. Web Applications User Flow Diagrams
+## 4.5. Web Applications Prototyping
+## 4.6. Domain-Driven Software Architecture
+### 4.6.1. Software Architecture Context Diagram
+### 4.6.2. Software Architecture Container Diagrams
+### 4.6.3. Software Architecture Components Diagrams
+## 4.7. Software Object-Oriented Design
+### 4.7.1. Class Diagrams
+### 4.7.2. Class Dictionary
+## 4.8. Database Design
+### 4.8.1. Database Diagram
+
+
 
 ## Bibliografía
 
