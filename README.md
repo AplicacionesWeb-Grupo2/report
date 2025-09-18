@@ -447,7 +447,41 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 ### 2.2.3. Análisis de entrevistas
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
-### 2.3.2. User Task Matrix
+
+---
+
+## User Persona – Azul Delgado Sánchez  
+
+| **Atributo**           | **Descripción** |
+|--------------------------|-----------------|
+| **Nombre ficticio**      | Azul Delgado Sánchez |
+| **Edad**                 | 22 años |
+| **Ocupación**            | Estudiante universitaria |
+| **Ubicación**            | Santiago de Surco, Lima – Perú |
+| **Contexto**             | Azul es una estudiante universitaria que enfrenta ansiedad y estrés por la carga académica. Le resulta difícil encontrar psicólogos accesibles y disponibles. La tecnología es una aliada en su vida diaria. |
+| **Objetivos**          | - Encontrar psicólogos confiables y accesibles.<br>- Reservar citas online desde su celular o laptop.<br>- Recibir notificaciones y recordatorios automáticos.<br>- Tener la opción de sesiones semipresenciales.<br>- Acceder a reseñas verificadas. |
+| **Frustraciones**      | - Horarios poco flexibles.<br>- Reseñas poco confiables.<br>- Costos elevados para estudiantes.<br>- Sesiones 100% virtuales pueden malinterpretarse. |
+| **Comportamiento digital** | - Usa redes sociales varias veces al día.<br>- Prefiere apps móviles rápidas y sencillas.<br>- Valora recordatorios por WhatsApp o notificaciones push. |
+| **Necesidades clave**  | - Sesiones desde ~70 soles.<br>- Disponibilidad para sesiones dos veces por semana.<br>- Chatbot de orientación inicial (sin reemplazar psicólogo).<br>- Perfiles claros con reseñas verificadas. |
+
+---
+
+### 2.3.2. User Task Matrix  
+
+---
+
+## 🗂 User Task Matrix – Pacientes Digitales Jóvenes-Adultos  
+
+| **Objetivo del Usuario** | **Tareas principales** | **Dificultades actuales** | **Oportunidad de diseño (opendMind)** |
+|---------------------------|------------------------|----------------------------|---------------------------------------|
+| Encontrar psicólogos accesibles y confiables | - Buscar psicólogos en internet o redes sociales.<br>- Revisar reseñas online.<br>- Preguntar a amigos por recomendaciones. | - Reseñas poco confiables.<br>- Información dispersa.<br>- Psicólogos sin disponibilidad clara. | - Perfiles detallados y verificados.<br>- Sistema de reseñas confiables.<br>- Filtros de búsqueda (precio, disponibilidad, especialidad). |
+| Reservar citas de forma rápida | - Contactar por WhatsApp o llamadas.<br>- Coordinar horarios manualmente.<br>- Esperar confirmaciones lentas. | - Horarios limitados.<br>- Falta de confirmación inmediata.<br>- Riesgo de cancelaciones. | - Calendario integrado en tiempo real.<br>- Confirmación automática de reservas.<br>- Recordatorios digitales. |
+| Acceder a precios justos | - Comparar tarifas en diferentes plataformas o anuncios.<br>- Ajustarse al presupuesto estudiantil. | - Costos elevados en algunas plataformas.<br>- Falta de promociones visibles. | - Tarifas accesibles desde 70 soles.<br>- Promociones y descuentos especiales para estudiantes. |
+| Mantener continuidad en la terapia | - Anotar citas en su agenda personal.<br>- Recordar manualmente próximos encuentros. | - Olvido de citas.<br>- Desmotivación por falta de seguimiento. | - Notificaciones automáticas.<br>- Chatbot de orientación.<br>- Reportes de progreso accesibles. |
+| Tener sesiones confiables | - Buscar entre opciones presenciales o virtuales.<br>- Probar distintos métodos de atención. | - Sesiones 100% virtuales pueden malinterpretarse.<br>- Dudas sobre profesionalismo de algunos psicólogos. | - Opciones semipresenciales.<br>- Transparencia en perfiles.<br>- Validación de psicólogos colegiados. |
+
+---
+
 ### 2.3.3. User Journey Mapping
 ### 2.3.4. Empathy Mapping
 ### 2.3.5. As-is Scenario Mapping
