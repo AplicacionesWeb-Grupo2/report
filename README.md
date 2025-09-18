@@ -25,7 +25,7 @@
 | :------------------------------- | :--------: |
 | Andy Alejandro Mio Mejia         | U202218531 |
 | Rolando Andre Torres Diaz        | U202323369 |
-|  |  |
+| Liam Anderson Villugas Jeronimo  | U202211634 |
 |  |  |
 |  |  |
 |  |  |
