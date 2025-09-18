@@ -452,17 +452,7 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 
 ## User Persona – Azul Delgado Sánchez  
 
-| **Atributo**           | **Descripción** |
-|--------------------------|-----------------|
-| **Nombre ficticio**      | Azul Delgado Sánchez |
-| **Edad**                 | 22 años |
-| **Ocupación**            | Estudiante universitaria |
-| **Ubicación**            | Santiago de Surco, Lima – Perú |
-| **Contexto**             | Azul es una estudiante universitaria que enfrenta ansiedad y estrés por la carga académica. Le resulta difícil encontrar psicólogos accesibles y disponibles. La tecnología es una aliada en su vida diaria. |
-| **Objetivos**          | - Encontrar psicólogos confiables y accesibles.<br>- Reservar citas online desde su celular o laptop.<br>- Recibir notificaciones y recordatorios automáticos.<br>- Tener la opción de sesiones semipresenciales.<br>- Acceder a reseñas verificadas. |
-| **Frustraciones**      | - Horarios poco flexibles.<br>- Reseñas poco confiables.<br>- Costos elevados para estudiantes.<br>- Sesiones 100% virtuales pueden malinterpretarse. |
-| **Comportamiento digital** | - Usa redes sociales varias veces al día.<br>- Prefiere apps móviles rápidas y sencillas.<br>- Valora recordatorios por WhatsApp o notificaciones push. |
-| **Necesidades clave**  | - Sesiones desde ~70 soles.<br>- Disponibilidad para sesiones dos veces por semana.<br>- Chatbot de orientación inicial (sin reemplazar psicólogo).<br>- Perfiles claros con reseñas verificadas. |
+<img src="./resources/userpersona.jpeg"></img><br>
 
 ---
 
@@ -470,7 +460,7 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 
 ---
 
-## 🗂 User Task Matrix – Pacientes Digitales Jóvenes-Adultos  
+## User Task Matrix – Pacientes Digitales Jóvenes-Adultos  
 
 | **Objetivo del Usuario** | **Tareas principales** | **Dificultades actuales** | **Oportunidad de diseño (opendMind)** |
 |---------------------------|------------------------|----------------------------|---------------------------------------|
@@ -483,7 +473,13 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 ---
 
 ### 2.3.3. User Journey Mapping
+
+<img src="./resources/_Mobile app CJM.png"></img><br>
+
 ### 2.3.4. Empathy Mapping
+
+<img src="./resources/AsisPsicologo.png"></img><br>
+
 ### 2.3.5. As-is Scenario Mapping
 
 <img src="./resources/AsisCliente.png"></img><br>
@@ -519,7 +515,9 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 | US09 | Recursos de bienestar mental | Como paciente, quiero acceder a recursos de bienestar mental, para obtener acompañamiento adicional. |**Escenario 1:** Dado que soy paciente, cuando llego a la sección de recursos, entonces encuentro artículos, tips o guías breves de salud mental.<br>**Escenario 2:** Dado que interactúo con esta sección, cuando hago clic, entonces se abre un recurso completo en otra página o pop-up. | EPIC-06 |
 | US10 | Formulario de suscripción / Newsletter | Como visitante, quiero dejar mis datos de contacto, para recibir actualizaciones de la startup. | **Escenario 1:** Dado que estoy en la landing, cuando llego al footer o sección de newsletter, entonces encuentro un formulario para ingresar mi correo electrónico.<br>**Escenario 2:** Dado que ingreso mi correo, cuando hago clic en “Suscribirme”, entonces recibo un mensaje de confirmación de registro exitoso.| EPIC-07 |
 
+### 3.3 Impact Map
 
+<img src="./resources/Impact map 1.png"></img><br>
 
 
 ## Bibliografía
