@@ -539,7 +539,73 @@ La versión web de opendMind está diseñada para ofrecer una experiencia simple
 
 
 ## 4.2. Information Architecture
+
+En esta sección se definen las decisiones de arquitectura de información que guiarán la organización del contenido en la experiencia web de **opendMind**, incluyendo la Landing Page y las futuras aplicaciones.
+
+El objetivo principal es garantizar que tanto pacientes como psicólogos se adapten de manera intuitiva a la funcionalidad del producto, encuentren fácilmente lo que necesitan y disfruten de una navegación fluida y satisfactoria.
+
+Las propuestas de arquitectura están diseñadas siguiendo principios de usabilidad, claridad y accesibilidad, considerando los siguientes componentes:
+
+- **Organization Systems**
+- **Labeling Systems**
+- **SEO Tags and Meta Tags**
+- **Searching Systems**
+- **Navigation Systems**
+
 ### 4.2.1. Organization Systems
+
+**Visual Hierarchy**
+
+Se aplicará una jerarquía visual clara en todas las páginas, priorizando los accesos más importantes:
+
+- “Buscar Psicólogos”
+- “Mis Citas”
+- “Pagos”
+- “Chatbot de Orientación”
+- “Perfil”
+
+El tamaño, color y peso de los elementos gráficos guiarán la atención del usuario hacia lo más relevante, como botones de reserva o mensajes de confirmación.
+
+**Secuencial Organization**
+
+En procesos clave, como:
+
+- “Registro de Psicólogos”
+- “Proceso de Reserva de Cita”
+- “Gestión de Pagos”
+
+Se usará una organización paso a paso, facilitando que los usuarios completen acciones en orden lógico.
+
+Ejemplo del proceso de reserva de cita:
+
+1. Seleccionar especialidad (ansiedad, terapia de pareja, estrés, etc.).
+2. Escoger psicólogo disponible (según horario y tarifa).
+3. Confirmar detalles (fecha, modalidad presencial/virtual, costo).
+4. Realizar pago y recibir confirmación con recordatorio automático.
+
+**Matricial Organization**
+Para listas de psicólogos disponibles, se aplicará un modelo matricial que permita comparar opciones en un mismo nivel.
+
+Los filtros incluirán:
+- Precio
+- Especialidad
+- Disponibilidad horaria
+- Modalidad (presencial/virtual)
+- Calificaciones y reseñas de pacientes
+
+Esto permitirá a los pacientes tomar decisiones rápidas y bien informadas.
+
+**Esquemas de Categorización**
+Según el tipo de contenido, se aplicarán distintos esquemas:
+
+- **Por tópicos**: especialidades (terapia cognitivo-conductual, infantil, pareja, etc.).
+- **Por audiencia**: psicólogos recomendados para “Estudiantes”, “Adultos jóvenes”, “Parejas” o “Empresas”.
+- **Cronológico**: próximas citas y sesiones pasadas.
+- **Alfabético**: listado de psicólogos por nombre en catálogos amplios.
+
+Esto asegura un acceso eficiente, adaptado a las diferentes formas en que los usuarios buscan atención psicológica.
+
+
 ### 4.2.2. Labeling Systems
 ### 4.2.3. SEO Tags and Meta Tags
 ### 4.2.4. Searching Systems
