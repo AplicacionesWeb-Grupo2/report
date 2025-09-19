@@ -522,6 +522,43 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
+
+Las guías generales de estilo de **opendMind** establecen la identidad visual y los principios de diseño que guiarán la experiencia en todas sus versiones (web y futuras aplicaciones móviles). Su propósito es transmitir confianza, accesibilidad y profesionalismo, asegurando coherencia en la interacción de pacientes y psicólogos.  
+
+**Paleta de colores**  
+- **Primarios:** Azul (#1E88E5) y Verde (#43A047), asociados a confianza, calma y bienestar.  
+- **Secundarios:** Tonos grises (#F5F5F5, #9E9E9E) para fondos y textos secundarios.  
+- **Alerta:** Rojo (#E53935) para errores críticos y Amarillo (#FDD835) para advertencias o recordatorios importantes.  
+
+**Tipografía**  
+- Fuente principal: *Roboto* o *Open Sans*, seleccionadas por su legibilidad y compatibilidad en dispositivos móviles y escritorio.  
+- Jerarquía tipográfica clara:  
+  - **Títulos (H1, H2):** negrita, mayor tamaño, color azul.  
+  - **Subtítulos (H3, H4):** semi-negrita, gris oscuro.  
+  - **Texto base:** entre 14–16px, color negro o gris oscuro.  
+  - **Notas/contexto:** cursiva, gris medio.  
+
+**Iconografía y gráficos**  
+- Íconos minimalistas y lineales, consistentes en estilo.  
+- Siempre acompañados de etiquetas descriptivas claras.  
+- Gráficos estadísticos con contrastes adecuados y colores accesibles.  
+
+**Accesibilidad**  
+- Contraste mínimo 4.5:1 entre texto y fondo.  
+- Textos alternativos (alt-text) en imágenes.  
+- Compatibilidad con lectores de pantalla y navegación por teclado.  
+- Uso de lenguaje inclusivo, claro y empático.  
+
+**Estilo de interacción**  
+- Botones principales con esquinas redondeadas, color azul/verde y texto blanco.  
+- Efecto hover y feedback visual en todos los elementos interactivos.  
+- Transiciones suaves (0.2–0.3s) en menús, botones y cambios de estado.  
+
+**Consistencia visual**  
+- Unificación en botones, formularios, tarjetas y paneles.  
+- Diseño minimalista, priorizando el contenido más relevante.  
+- Uso estratégico de espacios en blanco para mejorar legibilidad.  
+
 ### 4.1.2. Web Style Guidelines
 
 La versión web de opendMind está diseñada para ofrecer una experiencia simple, confiable e intuitiva, tanto para pacientes como para psicólogos. Su diseño es responsivo y accesible, pensado para adaptarse a las necesidades de quienes buscan organizar o brindar servicios de atención psicológica desde cualquier lugar.
