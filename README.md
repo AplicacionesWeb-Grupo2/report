@@ -379,12 +379,145 @@ Creemos que si incorporamos funciones de apoyo interactivo como un chatbot y rec
 
 En el mercado existen diversas plataformas digitales que buscan conectar a pacientes con profesionales de la salud mental. Sin embargo, la mayoría presenta limitaciones en cuanto a accesibilidad, confianza o integración de servicios. A continuación, se presentan algunos de los principales competidores:
 
-| Plataforma        | Descripción                                                                 | Fortalezas                                                 | Debilidades                                                   |
-|-------------------|-----------------------------------------------------------------------------|------------------------------------------------------------|---------------------------------------------------------------|
-| **Doctoralia**    | Directorio médico online con psicólogos en Perú y LATAM.                   | Amplia base de profesionales, sistema de citas en línea.   | No incluye IoT ni chatbot de IA, poca personalización en ranking. |
-| **PsicólogosPerú** | Portal web para búsqueda de psicólogos locales.                            | Orientado al mercado peruano, accesibilidad básica.        | Sin sistema de pagos digitales ni agenda integrada.            |
-| **Talkspace**     | Plataforma internacional de terapia online.                                | Reconocida globalmente, variedad de terapeutas.            | Costos elevados, poco adaptada a necesidades locales.          |
-| **MiSalud**       | App de salud general que incluye psicología.                               | Integración con otras especialidades médicas.              | Psicología no es el foco principal, opciones limitadas.        |
+<table>
+  <tr>
+    <th colspan="8" valign="top"><b>Competitive Analysis</b></th>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2">Objetivo del análisis</td>
+    <td colspan="6">¿Cómo analiza, produce y enfrenta el mercado mi competencia?</td>
+  </tr>
+  <tr>
+    <td colspan="6">Este análisis se realizó con la finalidad de poder identificar a nuestros potenciales competidores e idear estrategias y tácticas para diferenciarnos de estos.</td>
+  </tr>
+  <tr>
+    <td colspan="3">Nombre y logo</td>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+        OpenMind
+        <br>
+        <div style="text-align: center; margin-top: 10px;">
+                <img src="assets/.png" alt="" width="60px">
+        </div>
+    </td>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+        Doctoralia
+        <br>
+        <div style="text-align: center; margin-top: 10px;">
+                <img src="assets/.png" alt="" width="60px">
+        </div>
+    </td>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+      PsicólogosPerú
+        <div style="text-align: center; margin-top: 10px;">
+                <img src="assets/.png" alt="" width="60px">
+        </div>
+    </td>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+      Talkspace
+        <div style="text-align: center; margin-top: 10px;">
+                <img src="assets/.png" alt="" width="60px">
+            </div>
+        </td>
+    <td colspan="1" valign="top" style="font-weight: bold;" >
+      MiSalud
+        <div style="text-align: center; margin-top: 10px;">
+                <img src="assets/.png" alt="" width="60px">
+        </div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="2"><p>Perfil</p></td>
+    <td colspan="2">Overview</td>
+    <td colspan="1" valign="top">Startup enfocada en la digitalización de la salud mental. Conecta a pacientes con psicólogos de manera rápida, confiable y accesible, busca reducir las barreras de tiempo, distancia y costo que dificultan la atención psicológica en la región.</td>
+    <td colspan="1" valign="top">Gran marketplace global para pacientes y profesionales de salud (citas, reseñas, software de gestión), presente en múltiples países tras integrar mercados europeos/latinoamericanos.</td>
+    <td colspan="1" valign="top">Directorios/plataformas locales que reúnen psicólogos y servicios de salud mental orientados a Perú (perfiles de terapeutas, contacto/agenda).</td>
+    <td colspan="1" valign="top">Plataforma de terapia online (mensajería, video, audio) con modelo por suscripción, focalizada principalmente en EE. UU. y con integración de servicios de psiquiatría.</td>
+    <td colspan="1" valign="top">Servicio de telemedicina bilingüe (español/inglés) orientado a atención rápida, coaching y consulta médica/mental — modelo B2B (beneficio para empleados) y B2C vía app.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Ventaja competitiva</td>
+    <td colspan="1" valign="top">Integra reservas en tiempo real, pagos digitales, recordatorios, chatbot de apoyo inicial y dashboards para profesionales, lo que le da un mayor valor frente a competidores que solo ofrecen sesiones virtuales.</td>
+    <td colspan="1" valign="top">Marca reconocida, red amplia de profesionales y herramientas administrativas para clínicas.</td>
+    <td colspan="1" valign="top">Enfoque local y culturalmente ajustado, conocimiento del mercado peruano y canales locales (WhatsApp, referencias).</td>
+    <td colspan="1" valign="top">Escala en EE. UU., acuerdos con pagadores/empleadores y oferta combinada (terapia + psiquiatría).</td>
+    <td colspan="1" valign="top">Enfoque en población hispana y modelo employer-sponsored.</td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="2"><p>Perfil de Marketing</p></td>
+    <td colspan="2">Mercado objetivo</td>
+    <td colspan="1" valign="top">Pacientes jóvenes y adultos en Perú y Latinoamérica que necesitan atención psicológica accesible, así como psicólogos independientes que buscan visibilidad y herramientas digitales para profesionalizar su servicio.</td>
+    <td colspan="1" valign="top">Pacientes generales y profesionales/consultorios que necesitan gestión de citas.</td>
+    <td colspan="1" valign="top">Personas en Perú que buscan psicoterapia/servicios psicológicos; psicólogos independientes que buscan visibilidad.</td>
+    <td colspan="1" valign="top">Adultos en EE. UU. que buscan terapia flexible; también empleadores y aseguradoras.</td>
+    <td colspan="1" valign="top">Empleadores con fuerza laboral hispanohablante y pacientes que prefieren atención en español.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Estrategias de marketing</td>
+    <td colspan="1" valign="top">Campañas de marketing digital con foco en redes sociales, alianzas con universidades y empresas para programas corporativos de bienestar, estrategias de marketing de contenidos y programas de referidos que incentiven el crecimiento orgánico de la comunidad.</td>
+    <td colspan="1" valign="top">SEO local (por especialidad y ciudad), alianzas con clínicas, marketing de contenido, reseñas y presencia móvil/web.</td>
+    <td colspan="1" valign="top">Marketing en redes locales (Facebook, grupos), SEO local, alianzas con colegios profesionales y directorios locales.</td>
+    <td colspan="1" valign="top">Publicidad digital, acuerdos con empresas/aseguradoras, PR y campañas sobre salud mental.</td>
+    <td colspan="1" valign="top">Ventas B2B a empresas, promoción en app stores, outreach comunitario y materiales en español.</td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
+    <td colspan="2">Productos & Servicios</td>
+    <td colspan="1" valign="top">Buscador de psicólogos filtrados por especialidad, agenda en tiempo real, sistema de notificaciones, pagos integrados, chatbot de orientación inicial y dashboards con métricas de ingresos y progreso.</td>
+    <td colspan="1" valign="top">Reserva de citas, perfiles de profesionales, telemedicina, software de gestión de clínicas.</td>
+    <td colspan="1" valign="top">Directorio de psicólogos, fichas profesionales, contacto directo y gestión de citas.</td>
+    <td colspan="1" valign="top">Mensajería continua con terapeuta, sesiones por video, psiquiatría/medicación según plan.</td>
+    <td colspan="1" valign="top">Citas médicas y de salud mental, health coaches, manejo de condiciones crónicas, recetas y pruebas.</td>
+  </tr>
+  <tr>
+      <td colspan="2">Precios & Costos</td>
+      <td colspan="1" valign="top">Modelo mixto con comisión por sesión (15–20%), planes de suscripción premium para psicólogos (mayor visibilidad y herramientas adicionales) y tarifas promocionales para atraer a nuevos pacientes.</td>
+      <td colspan="1" valign="top">Pacientes generalmente usan gratuito; profesionales/centros pagan planes/servicios premium (freemium/paquetes).</td>
+      <td colspan="1" valign="top">Tarifas fijadas por cada profesional (no hay precio estándar de plataforma).</td>
+      <td colspan="1" valign="top">Suscripción mensual (planes con/sin sesiones en vivo); precios más altos que directorios locales.</td>
+      <td colspan="1" valign="top">Modelos B2B (suscripción para empleadores) y planes en la app; costes varían según contrato.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Canales de distribución (Web y/o Móvil)</td>
+    <td colspan="1" valign="top">Web app responsive, redes sociales como canal de captación, WhatsApp para atención al cliente y alianzas institucionales para expandir la base de usuarios.</td>
+    <td colspan="1" valign="top">Web + apps móviles.</td>
+    <td colspan="1" valign="top">Web y contacto por WhatsApp/llamada (poca app nativa).</td>
+    <td colspan="1" valign="top">Web + apps iOS/Android.</td>
+    <td colspan="1" valign="top">App móvil (iOS/Android) y web.</td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="4"><p>Análisis SWOT</p></td>
+    <td colspan="2">Fortalezas</td>
+    <td colspan="1" valign="top">Plataforma integral, enfoque en accesibilidad, propuesta tecnológica escalable, visión regional.</td>
+    <td colspan="1" valign="top">Gran red global, reconocimiento de marca, producto integrado (reserva + gestión).</td>
+    <td colspan="1" valign="top">Conexión local y conocimiento cultural; relaciones con psicólogos locales.</td>
+    <td colspan="1" valign="top">Oferta integral (mensajería + video + psiquiatría), acuerdos empresariales, reconocimiento en EE. UU.</td>
+    <td colspan="1" valign="top">Servicio bilingüe y enfoque en población hispana; modelo B2B escalable.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Debilidades</td>
+    <td colspan="1" valign="top">Startup emergente con poca trayectoria, necesidad de generar confianza en un sector sensible.</td>
+    <td colspan="1" valign="top">Competencia local más ágil en ciertos países; dependencia de reputación/reseñas.</td>
+    <td colspan="1" valign="top">Alcance y tecnología limitados vs. jugadores globales; fragmentación de oferta.</td>
+    <td colspan="1" valign="top">Críticas sobre privacidad/calidad y precio alto.</td>
+    <td colspan="1" valign="top">Menor escala y visibilidad frente a grandes telehealth; dependencia de contratos empresariales.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Oportunidades</td>
+    <td colspan="1" valign="top">Demanda creciente de salud mental post-pandemia, digitalización acelerada en LATAM, posibilidad de alianzas con seguros y empresas.</td>
+    <td colspan="1" valign="top">Expansión de telemedicina y alianzas con aseguradoras/SS.</td>
+    <td colspan="1" valign="top">Aumento de demanda por salud mental en Perú; posibilidad de profesionalizar pagos/reservas.</td>
+    <td colspan="1" valign="top">Cobertura por aseguradoras y expansión a población hispana/empleadores.</td>
+    <td colspan="1" valign="top">Expansión a mercados latinoamericanos; alianzas con empleadores y redes comunitarias.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Amenazas</td>
+    <td colspan="1" valign="top">Competidores internacionales con más capital, cambios regulatorios en salud, barreras de adopción tecnológica en ciertos segmentos.</td>
+    <td colspan="1" valign="top">Regulación sanitaria local, competencia regional o verticales especializadas.</td>
+    <td colspan="1" valign="top">Entrada de apps internacionales adaptadas al español; falta de confianza/reputación.</td>
+    <td colspan="1" valign="top">Competidores (BetterHelp, etc.), escrutinio regulatorio y litigios.</td>
+    <td colspan="1" valign="top">Grandes players de telemedicina en nicho hispano; requerimientos regulatorios.</td>
+  </tr>
+</table>
 
 ---
 
