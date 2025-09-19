@@ -1008,8 +1008,16 @@ Con este sistema, opendMind ofrece búsquedas rápidas, comparaciones claras y f
 
 1. GitHub: Es una plataforma que permite alojar proyectos y gestionarlos mediante el control de versiones de Git, utilizando repositorios. Facilita la colaboración en tiempo real entre los miembros del equipo, así como la revisión y seguimiento de los aportes individuales en el desarrollo del proyecto. Ruta de Referencia: https://github.com/.
 
-
 ### 5.1.2. Source Code Management
+
+El proyecto sigue las convenciones del modelo GitFlow como flujo de trabajo para el control de versiones, utilizando GitHub como plataforma central. Se compartirán los enlaces a los repositorios en GitHub correspondientes a la Landing Page, y este mismo enfoque será aplicado de manera consistente en los demás productos del proyecto.
+
+#### Repositorio de GitHub:
+
+- URL para acceder a nuestro reporte en GitHub: https://github.com
+
+- URL para acceder nuestro repositorio de Landing Page: https://github.com
+
 ### 5.1.3. Source Code Style Guide & Conventions
 ### 5.1.4. Software Deployment Configuration
 
