@@ -981,7 +981,136 @@ Con este sistema, opendMind ofrece búsquedas rápidas, comparaciones claras y f
 
 
 ## 4.8. Database Design
+```sql
+-- =========================================
+-- Database: opendMind
+-- Purpose: Online platform for booking psychology sessions
+-- SQL Server Schema
+-- =========================================
+
+CREATE TABLE [User] (
+    id_user INT IDENTITY(1,1) PRIMARY KEY,
+    first_name VARCHAR(100),
+    last_name VARCHAR(100),
+    email VARCHAR(255) NOT NULL UNIQUE,
+    password_hash VARCHAR(255) NOT NULL,
+    role VARCHAR(20), -- patient, psychologist, admin
+    created_at DATETIME DEFAULT GETDATE()
+);
+
+CREATE TABLE Psychologist (
+    id_psychologist INT IDENTITY(1,1) PRIMARY KEY,
+    id_user INT NOT NULL UNIQUE,
+    specialization VARCHAR(100),
+    years_experience INT,
+    license_number VARCHAR(50) UNIQUE,
+    consultation_type VARCHAR(20), -- online, in_person, hybrid
+    hourly_rate DECIMAL(10,2),
+    CONSTRAINT FK_Psychologist_User FOREIGN KEY (id_user) REFERENCES [User](id_user)
+);
+
+CREATE TABLE Patient (
+    id_patient INT IDENTITY(1,1) PRIMARY KEY,
+    id_user INT NOT NULL UNIQUE,
+    age INT,
+    occupation VARCHAR(100),
+    CONSTRAINT FK_Patient_User FOREIGN KEY (id_user) REFERENCES [User](id_user)
+);
+
+CREATE TABLE Appointment (
+    id_appointment INT IDENTITY(1,1) PRIMARY KEY,
+    id_patient INT NOT NULL,
+    id_psychologist INT NOT NULL,
+    appointment_start DATETIME NOT NULL,
+    appointment_end DATETIME,
+    mode VARCHAR(20), -- online, in_person
+    status VARCHAR(20), -- scheduled, confirmed, completed, canceled
+    created_at DATETIME DEFAULT GETDATE(),
+    CONSTRAINT FK_Appointment_Patient FOREIGN KEY (id_patient) REFERENCES Patient(id_patient),
+    CONSTRAINT FK_Appointment_Psychologist FOREIGN KEY (id_psychologist) REFERENCES Psychologist(id_psychologist),
+    CONSTRAINT UQ_Psychologist_Appointment UNIQUE (id_psychologist, appointment_start) -- prevent double booking
+);
+
+CREATE TABLE Payment (
+    id_payment INT IDENTITY(1,1) PRIMARY KEY,
+    id_appointment INT NOT NULL,
+    amount DECIMAL(10,2) NOT NULL,
+    payment_date DATETIME DEFAULT GETDATE(),
+    method VARCHAR(20), -- card, wallet, transfer
+    status VARCHAR(20), -- pending, confirmed, failed, refunded
+    receipt_url VARCHAR(255),
+    CONSTRAINT FK_Payment_Appointment FOREIGN KEY (id_appointment) REFERENCES Appointment(id_appointment)
+);
+
+CREATE TABLE Review (
+    id_review INT IDENTITY(1,1) PRIMARY KEY,
+    id_appointment INT NOT NULL UNIQUE, -- one review per appointment
+    rating INT CHECK (rating >= 1 AND rating <= 5),
+    comment TEXT,
+    created_at DATETIME DEFAULT GETDATE(),
+    CONSTRAINT FK_Review_Appointment FOREIGN KEY (id_appointment) REFERENCES Appointment(id_appointment)
+);
+
+CREATE TABLE ChatbotInteraction (
+    id_interaction INT IDENTITY(1,1) PRIMARY KEY,
+    id_user INT NOT NULL,
+    message TEXT,
+    response TEXT,
+    created_at DATETIME DEFAULT GETDATE(),
+    CONSTRAINT FK_ChatbotInteraction_User FOREIGN KEY (id_user) REFERENCES [User](id_user)
+);
+
+CREATE TABLE Subscription (
+    id_subscription INT IDENTITY(1,1) PRIMARY KEY,
+    id_user INT NOT NULL,
+    plan VARCHAR(50), -- basic, pro, business
+    start_date DATETIME,
+    end_date DATETIME,
+    status VARCHAR(20), -- active, past_due, canceled, expired
+    current_period_start DATETIME,
+    current_period_end DATETIME,
+    cancel_at_period_end BIT,
+    CONSTRAINT FK_Subscription_User FOREIGN KEY (id_user) REFERENCES [User](id_user)
+);
+
+-- =========================================
+-- Indexes
+-- =========================================
+
+-- User
+CREATE INDEX IX_User_Role ON [User](role);
+
+-- Psychologist
+CREATE INDEX IX_Psychologist_Specialization ON Psychologist(specialization);
+
+-- Patient
+CREATE INDEX IX_Patient_Age ON Patient(age);
+
+-- Appointment
+CREATE INDEX IX_Appointment_Patient ON Appointment(id_patient);
+CREATE INDEX IX_Appointment_Psychologist ON Appointment(id_psychologist);
+CREATE INDEX IX_Appointment_Status ON Appointment(status);
+
+-- Payment
+CREATE INDEX IX_Payment_Appointment ON Payment(id_appointment);
+CREATE INDEX IX_Payment_Status ON Payment(status);
+CREATE INDEX IX_Payment_Date ON Payment(payment_date);
+
+-- Review
+CREATE INDEX IX_Review_Rating ON Review(rating);
+
+-- ChatbotInteraction
+CREATE INDEX IX_ChatbotInteraction_User ON ChatbotInteraction(id_user);
+CREATE INDEX IX_ChatbotInteraction_Date ON ChatbotInteraction(created_at);
+
+-- Subscription
+CREATE INDEX IX_Subscription_User ON Subscription(id_user);
+CREATE INDEX IX_Subscription_Status ON Subscription(status);
+CREATE INDEX IX_Subscription_Plan ON Subscription(plan);
+```
+
 ### 4.8.1. Database Diagram
+<img src="./resources/basedatos.png"></img>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
