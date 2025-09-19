@@ -882,6 +882,9 @@ Con este sistema, opendMind ofrece búsquedas rápidas, comparaciones claras y f
 ### 4.6.3. Software Architecture Components Diagrams
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
+
+<img src="./resources/Class_Diagram.png"></img>
+
 ### 4.7.2. Class Dictionary
 ## 4.8. Database Design
 ### 4.8.1. Database Diagram
