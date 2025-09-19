@@ -880,12 +880,106 @@ Con este sistema, opendMind ofrece búsquedas rápidas, comparaciones claras y f
 ### 4.6.1. Software Architecture Context Diagram
 ### 4.6.2. Software Architecture Container Diagrams
 ### 4.6.3. Software Architecture Components Diagrams
+
+
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
 
 <img src="./resources/Class_Diagram.png"></img>
 
 ### 4.7.2. Class Dictionary
+
+#### 1. Clase: User
+- Atributos:
+  - userId: int → Identificador único del usuario
+  - name: String → Nombre del usuario
+  - email: String → Correo electrónico
+  - password: String → Contraseña
+  - rol: String → Rol asignado (ej. Sportsman, Coach, Admin)
+
+- Métodos:
+  - register() → Registra un nuevo usuario
+  - login() → Autentica al usuario en el sistema
+  - updateProfile() → Actualiza datos personales
+ 
+#### 2. Clase: Paciente
+- Atributos:
+  - historialCitas: List<Cita> → Lista de citas del paciente
+
+- Métodos:
+  - reservarCita() → Reserva una nueva cita con un psicólogo
+  - cancelarCita() → Cancela una cita previamente reservada
+  - dejarReseña() → Publica una reseña de un psicólogo
+ 
+#### 3. Clase: Psicólogo
+- Atributos:
+  - especialidad: String → Área de especialización (ej. ansiedad, terapia de pareja)
+  - modalidad: String → Tipo de consulta (Virtual, Presencial)
+  - precioConsulta: double → Tarifa de la consulta
+  - agenda: List<Cita> → Citas programadas del psicólogo
+ 
+- Métodos:
+  - gestionarAgenda() → Organiza y actualiza disponibilidad
+  - aceptarCita() → Confirma una cita solicitada
+  - generarReporte() → Crea un reporte del progreso del paciente
+ 
+#### 4. Clase: Cita
+- Atributos:
+  - citaId: int → Identificador único de la cita
+  - fechaHora: DateTime → Fecha y hora de la cita
+  - estado: String → Estado de la cita (Pendiente, Confirmada, Cancelada)
+  - modalidad: String → Modalidad de la cita (Virtual, Presencial)
+
+- Métodos:
+  - confirmar() → Cambia estado de la cita a confirmada
+  - cancelar() → Cancela la cita
+ 
+#### 5. Clase: Pago
+- Atributos:
+  - pagoId: int → Identificador único del pago
+  - amount: double → Monto pagado
+  - date: Date → Fecha del pago
+  - paymentMethod: String → Método de pago (Tarjeta, Yape, Plin, etc.)
+  - state: String → Estado del pago (Pendiente, Confirmado, Reembolsado)
+ 
+- Métodos:
+  - processPayment() → Procesa el pago
+  - generateReceipt() → Genera comprobante de pago
+  - refund() → Realiza reembolso del pago
+ 
+#### 6. Clase: Reseña
+- Atributos:
+  - reviewId: int → Identificador único de la reseña
+  - comentario: String → Texto de la opinión del paciente
+  - rating: int → Puntuación (1 a 5)
+  - fecha: Date → Fecha de publicación
+
+- Métodos:
+  - publicar() → Envía la reseña al perfil del psicólogo
+  - editar() → Modifica una reseña existente
+  - eliminar() → Elimina la reseña publicad
+ 
+#### 7. Clase: Chatbot
+- Atributos:
+  - chatId: int → Identificador único del chat
+  - tipoAsistencia: String → Tipo de asistencia (FAQ, orientación inicial)
+
+- Métodos:
+  - responderConsulta() → Responde preguntas frecuentes
+  - redirigirAPsicólogo() → Deriva al usuario hacia un psicólogo disponible
+
+#### 8. Clase: Suscripción
+- Atributos:
+  - suscripcionId: int → Identificador único de la suscripción
+  - tipoPlan: String → Plan contratado (Básico, Premium)
+  - fechaInicio: Date → Inicio de la suscripción
+  - fechaFin: Date → Fin de la suscripción
+
+- Métodos:
+  - renovar() → Extiende la suscripción
+  - cancelar() → Cancela la suscripción activa
+
+
 ## 4.8. Database Design
 ### 4.8.1. Database Diagram
 
