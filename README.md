@@ -984,23 +984,46 @@ Con este sistema, opendMind ofrece búsquedas rápidas, comparaciones claras y f
 ### 4.8.1. Database Diagram
 
 # Capítulo V: Product Implementation, Validation & Deployment
-## 5.1. Software Configuration Management](#51-software-configuration)
-### 5.1.1. Software Development Enviroment Configuration](#511-software-devlopment-enviroment)
-### 5.1.2. Source Code Management](#512-source-code-management)
-### 5.1.3. Source Code Style Guide & Conventions](#513-source-code-style-guide-conventions)
-### 5.1.4. Software Deployment Configuration](#514-software-deployment-configuration)
+## 5.1. Software Configuration Management
+### 5.1.1. Software Development Enviroment Configuration
+
+#### Requirements Management
+
+1. Canva: Es una herramienta de diseño utilizada para realizar los user persona, empathy mapping, Lean UX Canvas, As-is Scenario Mapping y otros elementos importantes más. Esta aplicación está basada en un sistema de diseño simple en el cual puedes mover y editar objetos para lograr el objetivo de diseñar nuestras piezas escenciales de análisis de mercado para nuestra aplicación. Ruta de referencia: https://www.canva.com/es_es/.
+2. Figma: Plataforma de elaboración de prototipos y edición gráfica, que usamos principalmente para nuestra Landing Page y Web Application, tanto para los Wireframes y los MockUps, al igual que para nuestros Wireflows Diagrams. Ruta de referencia: https://www.figma.com/.
+3. Vertabelo: Plataforma basada en creación, gestión y realización de gráficos para organizar las herencias y dependencias de nuestros programas y/o bases de datos. Como en nuestro caso fue implementada para realizar nuestros Class Diagrams y nuestra Database Diagrams. Ruta de referencia https://vertabelo.com/.
+
+#### Software Devlopment
+
+1. JetBrains WebStorm: Es un entorno de desarrollo integrado (IDE) enfocado en el desarrollo web. Ofrece herramientas que facilitan la prueba del proyecto en diversos navegadores como Chrome, Microsoft Edge, Safari y Mozilla Firefox. El uso de WebStorm aporta un valor agregado al desarrollo, ya que permite visualizar cómo funciona la aplicación en múltiples plataformas y proporciona soporte avanzado para la edición de código en varios lenguajes compatibles. Ruta de Referencia: https://www.jetbrains.com/es-es/webstorm/.
+2. HTML5: Lenguaje de marcado utilizado para estructurar y presentar contenido en la web. Es una herramienta fundamental en nuestro proyecto, ya que se emplea para construir la base del contenido de la aplicación. Ruta de Referencia: https://www.w3schools.com/html/.
+3. CSS: Conocido como Hojas de Estilo en Cascada (Cascading Style Sheets), este lenguaje trabaja en conjunto con HTML5 para definir el diseño y la presentación visual de la aplicación. Permite personalizar estilos como colores, tipografías y distribución de los elementos. Ruta de Referencia: https://developer.mozilla.org/es/docs/Web/CSS.
+4. JavaScript: Lenguaje de programación orientado a objetos e interpretado en el navegador. Se utilizará principalmente para desarrollar la interfaz dinámica de usuario en nuestro proyecto, facilitando la interactividad dentro de la aplicación. Ruta de Referencia: https://developer.mozilla.org/es/docs/Web/JavaScript.
+
+#### Software Deployment
+
+1. Git: Es una herramienta de control de versiones diseñada para mejorar la eficiencia, confiabilidad y compatibilidad en la gestión de versiones de software. Su uso permite a los integrantes del equipo acceder y trabajar con el proyecto desde la línea de comandos, facilitando la colaboración y el seguimiento de cambios en el desarrollo. Ruta de Referencia: https://git-scm.com/.
+
+#### Software Documentation and Project Management
+
+1. GitHub: Es una plataforma que permite alojar proyectos y gestionarlos mediante el control de versiones de Git, utilizando repositorios. Facilita la colaboración en tiempo real entre los miembros del equipo, así como la revisión y seguimiento de los aportes individuales en el desarrollo del proyecto. Ruta de Referencia: https://github.com/.
 
 
-## 5.2. Landing Page, Service & Application Implementation](#52-landing-page-service-application-implementation)
-### 5.2.1 Sprint 1](#521-sprint-1)
-### 5.2.1.1. Sprint Planning 1](#5211-sprint-planning-1)
-### 5.2.1.2. Aspect Leaders and Collaborators](#5212-aspect-leaders-and-collaborators)
-### 5.2.1.3. Sprint Backlog 1](#5213-sprint-backlog-1)
-### 5.2.1.4. Development Evidence for Sprint Review](#5214-development-evidence-for-sprint-review)
-### 5.2.1.5. Execution Evidence for Sprint Review](#5215-execution-evidence-for-sprint-review)
-### 5.2.1.6. Services Documentation Evidence for Sprint Review](#5216-services-documentation-evidence-for-sprint-review)
-### 5.2.1.7. Software Deployment Evidence for Sprint Review](#5217-software-deployment-evidence-for-sprint-review)
-### 5.2.1.8. Team Collaboration Insights during Sprint](#5218-team-collaboration-insights-during-sprint)
+### 5.1.2. Source Code Management
+### 5.1.3. Source Code Style Guide & Conventions
+### 5.1.4. Software Deployment Configuration
+
+
+## 5.2. Landing Page, Service & Application Implementation
+### 5.2.1 Sprint 1
+### 5.2.1.1. Sprint Planning 1
+### 5.2.1.2. Aspect Leaders and Collaborators
+### 5.2.1.3. Sprint Backlog 1
+### 5.2.1.4. Development Evidence for Sprint Review
+### 5.2.1.5. Execution Evidence for Sprint Review
+### 5.2.1.6. Services Documentation Evidence for Sprint Review
+### 5.2.1.7. Software Deployment Evidence for Sprint Review
+### 5.2.1.8. Team Collaboration Insights during Sprint
 
 
 ## Bibliografía
