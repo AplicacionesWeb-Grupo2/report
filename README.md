@@ -40,6 +40,7 @@
 | :-------: | :---------: | :----------------: | :----------------------:|
 | TB1 | 02/09/25 | Mio Mejia, Andy Alejandro | Se añadió los capítulos 1 al 5 |
 | TB1 | 19/09/25 | Diego Rodrigo, Pumahualcca Garcia | Se completo parcialmente los capitulos 1, 2 y 4|
+| TB1 | 20/09/25 | Liam Anderson, Villugas Jeronimo| Se completaron los capitulos 3 y 4|
 
 
 # Project Report Collaboration Insights
@@ -52,7 +53,11 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 #### Link del repositorio del Reporte: 
 
+https://github.com/AplicacionesWeb-Grupo2/report/tree/develop
+
 #### Link del repositorio de la Landing Page: 
+
+https://github.com/AplicacionesWeb-Grupo2/report/tree/develop
 
 
 # Contenido
@@ -996,6 +1001,10 @@ El sistema de navegación está diseñado para guiar a los usuarios (pacientes, 
 <img src="./resources/Mwireflow.png"></img><br>
 
 ## 4.5. Web Applications Prototyping
+
+link del figma:
+https://www.figma.com/proto/N5Fs8IWRNXDk03yETY4MP6/Untitled?node-id=43-85&t=P8lK8ZCWElu7I8J4-1&scaling=min-zoom&content-scaling=fixed&page-id=43%3A84
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
 
