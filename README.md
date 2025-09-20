@@ -969,6 +969,11 @@ El sistema de navegación está diseñado para guiar a los usuarios (pacientes, 
 
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.3. Web Applications Mock-ups
+<img src="./resources/wMockup1.png"></img><br>
+<img src="./resources/wMockup2.png"></img><br>
+<img src="./resources/wMockup3.png"></img><br>
+<img src="./resources/wMockup4.png"></img><br>
+
 ### 4.4.4. Web Applications User Flow Diagrams
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
