@@ -657,7 +657,11 @@ En conclusión, los pacientes representa a los **pacientes jóvenes** que valora
 
 ### 2.3.4. Empathy Mapping
 
-<img src="./resources/AsisPsicologo.png"></img><br>
+<img src="./resources/rebatta.jpeg"></img><br>
+
+
+<img src="./resources/delgado.jpeg"></img><br>
+
 
 ### 2.3.5. As-is Scenario Mapping
 
