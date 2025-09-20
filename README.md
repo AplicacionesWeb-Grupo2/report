@@ -1240,9 +1240,9 @@ Para cada aspecto se designó un **líder (L)** y uno o más **colaboradores (C)
 
 | **Team Member**   | **GitHub Username** | **Backend & API** | **Frontend & UI** | **Landing Page & SEO** | **Base de Datos & Despliegue** | **QA & Documentación** |
 |--------------------------|----------------------|-------------------|-------------------|-------------------------|---------------------------------|-------------------------|
-| nombre  | user | C | C | C | L | C |
-|nombre | user | L  | C | C | C | C |
-| nombre  | user | C | C | L | C | C |
+| Diego Rodrigo Pumahualcca Garcia| user | C | C | C | L | C |
+| Liam Anderson Villugas Jeronimo | user | L  | C | C | C | C |
+| Andy Alejandro Mio Mejia | user | C | C | L | C | C |
 | Torres Diaz, Rolando | @ROLO194 | C  | L | C | C | C |
 | nombre  | user | C | C | C | C | L |
 
@@ -1251,16 +1251,16 @@ Para cada aspecto se designó un **líder (L)** y uno o más **colaboradores (C)
 
 | **Sprint #** | **User Story** | **Work-Item / Task** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
 |--------------|----------------|-----------------------|-----------------|-------------------------|-----------------|------------|
-| Sprint 1 | US01 – Registro de Usuario | T-01: Modelo de usuario en SQL Server | Definir tabla y campos de usuario en la BD (id, nombre, email, contraseña, rol). | 5h | nombre | InProcess |
-| Sprint 1 | US01 – Registro de Usuario | T-02: Endpoint de registro | Implementar API REST para registro de pacientes y psicólogos con validaciones. | 5h |nombre | InProcess |
+| Sprint 1 | US01 – Registro de Usuario | T-01: Modelo de usuario en SQL Server | Definir tabla y campos de usuario en la BD (id, nombre, email, contraseña, rol). | 5h | Diego Rodrigo Pumahualcca Garcia | InProcess |
+| Sprint 1 | US01 – Registro de Usuario | T-02: Endpoint de registro | Implementar API REST para registro de pacientes y psicólogos con validaciones. | 5h |Liam Anderson Villugas Jeronimo | InProcess |
 | Sprint 1 | US01 – Registro de Usuario | T-03: Formulario de registro | Desarrollo de formulario de registro en frontend (React). | 3h | Rolando Torres | InProcess |
-| Sprint 1 | US02 – Búsqueda de Psicólogos | T-04: Generar vista de búsqueda | Página de búsqueda con filtros (especialidad, tarifa, modalidad). | 5h | nombre | InProcess |
+| Sprint 1 | US02 – Búsqueda de Psicólogos | T-04: Generar vista de búsqueda | Página de búsqueda con filtros (especialidad, tarifa, modalidad). | 5h |Andy Alejandro Mio Mejia| InProcess |
 | Sprint 1 | US02 – Búsqueda de Psicólogos | T-05: Validar búsqueda vacía | Mostrar mensaje cuando no se encuentran psicólogos disponibles. | 3h | nombre | InProcess |
-| Sprint 1 | US03 – Reserva de Cita | T-06: Maquetación del formulario | HTML y CSS del formulario de reserva con fecha, hora y modalidad. | 4h |nombre | InProcess |
+| Sprint 1 | US03 – Reserva de Cita | T-06: Maquetación del formulario | HTML y CSS del formulario de reserva con fecha, hora y modalidad. | 4h |Rolando Torres | InProcess |
 | Sprint 1 | US03 – Reserva de Cita | T-07: Validación de campos obligatorios | Validaciones en frontend (ejemplo: fecha y modalidad requeridos). | 3h |nombre| InProcess |
-| Sprint 1 | US04 – Sistema de Pagos | T-08: Modelo de pagos en BD | Definir tabla de pagos (id_pago, monto, fecha, método). | 3h | nombre | InProcess |
-| Sprint 1 | US04 – Sistema de Pagos | T-09: Endpoint CRUD de pagos | Crear API REST para registrar y consultar pagos. | 6h | nombre| InProcess |
-| Sprint 1 | US05 – Reseñas de Psicólogos | T-10: Modelo reseña en BD | Crear tabla de reseñas con atributos (id, comentario, rating, fecha). | 3h | nombre | InProcess |
+| Sprint 1 | US04 – Sistema de Pagos | T-08: Modelo de pagos en BD | Definir tabla de pagos (id_pago, monto, fecha, método). | 3h | Andy Alejandro Mio Mejia| InProcess |
+| Sprint 1 | US04 – Sistema de Pagos | T-09: Endpoint CRUD de pagos | Crear API REST para registrar y consultar pagos. | 6h |Diego Rodrigo Pumahualcca Garcia| InProcess |
+| Sprint 1 | US05 – Reseñas de Psicólogos | T-10: Modelo reseña en BD | Crear tabla de reseñas con atributos (id, comentario, rating, fecha). | 3h | Liam Anderson Villugas Jeronimo | InProcess |
 | Sprint 1 | US05 – Reseñas de Psicólogos | T-11: Interfaz de reseñas | Desplegable en frontend para calificar y comentar después de una cita. | 3h | Rolando Torres | InProcess |
 
 
