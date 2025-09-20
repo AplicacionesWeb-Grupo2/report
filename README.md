@@ -1360,8 +1360,8 @@ Para cada aspecto se designó un **líder (L)** y uno o más **colaboradores (C)
 
 | **Team Member**   | **GitHub Username** | **Backend & API** | **Frontend & UI** | **Landing Page & SEO** | **Base de Datos & Despliegue** | **QA & Documentación** |
 |--------------------------|----------------------|-------------------|-------------------|-------------------------|---------------------------------|-------------------------|
-| Diego Rodrigo Pumahualcca Garcia| user | C | C | C | L | C |
-| Liam Anderson Villugas Jeronimo | user | L  | C | C | C | C |
+| Diego Rodrigo Pumahualcca Garcia| user | L | C | C | C | C |
+| Liam Anderson Villugas Jeronimo | Liamvillugas | C  | C | C | L | C |
 | Andy Alejandro Mio Mejia | user | C | C | L | C | C |
 | Torres Diaz, Rolando | @ROLO194 | C  | L | C | C | C |
 | nombre  | user | C | C | C | C | L |
