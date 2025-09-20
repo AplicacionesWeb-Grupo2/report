@@ -588,6 +588,26 @@ Considera muy relevante contar con una plataforma que le brinde mayor visibilida
 |<img src="./resources/azul.jpeg" width="120"/> | Azul Delgado Sanchez | 22 años | Santiago de Surco | 5:50 - 5:56 | Azul es una estudiante de 22 años que tuvo dificultades para encontrar un psicólogo. Ella afirma que es muy importante poder reservar citas en línea, y considera que hacerlo por WhatsApp resulta muy útil. También señala que, al momento de elegir un psicólogo, el costo debe ser accesible para los estudiantes. Además, presta atención a las reseñas en línea, ya que pueden ayudar a orientarse, aunque reconoce que algunas pueden ser falsas. Prefiere las citas semipresenciales, porque en algunas sesiones virtuales el diálogo puede malinterpretarse. Le encantaría recibir notificaciones a través de una aplicación, pues revisa sus redes sociales con frecuencia. Cree que la idea de contar con un chatbot como orientación sería muy útil, aunque aclara que no reemplazaría a un psicólogo. Finalmente, estaría dispuesta a pagar 70 soles por cita y asistir dos veces por semana. |
 
 ### 2.2.3. Análisis de entrevistas
+
+#### Análisis de Entrevista – Psicólogo
+
+- **Necesidades:** gestionar agenda digital, reducir cancelaciones, aumentar visibilidad profesional y simplificar pagos.  
+- **Problemas:** inasistencias de pacientes, dificultades con medios de pago y baja presencia en plataformas digitales.  
+- **Oportunidades:** crear una herramienta integral con agenda, pagos, reseñas verificadas y reportes de desempeño.  
+- **Expectativas:** soporte técnico ágil, interfaz sencilla y un precio accesible (30–50 USD mensuales).  
+
+En conclusión, los psicólogos valoran soluciones que les permitan optimizar su práctica profesional, ganar credibilidad y conectar con más pacientes.
+
+#### Análisis de Entrevista – Paciente 
+
+- **Necesidades:** facilidad para reservar citas en línea, preferencia por notificaciones en app, y orientación inicial mediante chatbot.  
+- **Problemas:** dificultad para encontrar psicólogos accesibles y desconfianza parcial en reseñas online.  
+- **Preferencias:** costo accesible para estudiantes (70 soles por cita), citas semipresenciales para evitar malentendidos en sesiones virtuales.  
+- **Expectativas:** comunicación práctica vía WhatsApp, integración de recordatorios automáticos y posibilidad de combinar lo digital con lo presencial.  
+
+En conclusión, los pacientes representa a los **pacientes jóvenes** que valoran la **accesibilidad, simplicidad y flexibilidad** en la atención psicológica, con herramientas digitales que acompañen pero sin reemplazar la experiencia humana del psicólogo.
+
+
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
 
