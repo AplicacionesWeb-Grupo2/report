@@ -869,7 +869,13 @@ Con este sistema, opendMind ofrece búsquedas rápidas, comparaciones claras y f
 ### 4.2.5. Navigation Systems
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
+<img src="./resources/Wireframe1.png"></img><br>
+<img src="./resources/Wireframe2.png"></img><br>
+
 ### 4.3.2. Landing Page Mock-up
+<img src="./resources/Mockup1.png"></img><br>
+<img src="./resources/Mockup2.png"></img><br>
+
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
 ### 4.4.2. Web Applications Wireflow Diagrams
