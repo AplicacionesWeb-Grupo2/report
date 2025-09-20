@@ -938,7 +938,17 @@ El sistema de navegación está diseñado para guiar a los usuarios (pacientes, 
    - Explorar psicólogos disponibles.
    - Conocer más sobre opendMind.
    - Registrarse como Paciente o Psicólogo.
+3. Se invita a la acción con CTA claros como:
+   - “Encuentra a tu psicólogo ideal”.
+   - “Agenda tu cita ahora”.
+   - “Únete como profesional de la salud mental”.
 
+**Flujo de navegación en la Web Application**
+- Menú principal con íconos + texto (Inicio, Psicólogos, Mis Citas, Pagos, Perfil).
+- En Psicólogos, se pueden filtrar por especialidad, precio y disponibilidad, y luego reservar.
+- En Mis Citas, se visualizan próximas sesiones y se gestionan cambios/cancelaciones.
+- En Pagos, se consultan comprobantes, historial de transacciones y métodos de pago guardados.
+- En Perfil, se gestionan datos personales, historial de citas, configuración de notificaciones y preferencias.
 
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
