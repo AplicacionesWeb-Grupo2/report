@@ -364,6 +364,8 @@ Creemos que si incorporamos funciones de apoyo interactivo como un chatbot y rec
 
 #### 1.2.2.4. Lean UX Canvas
 
+<img src="./resources/LeanUxCanvas.png"></img>
+
 ## 1.3. Segmentos objetivo 
 **Segmento 1 – Pacientes digitales jóvenes-adultos**  
 - Personas entre 18 y 40 años que buscan apoyo psicológico por ansiedad, estrés o problemas emocionales.  
