@@ -27,9 +27,8 @@
 | Rolando Andre Torres Diaz        | U202323369 |
 | Liam Anderson Villugas Jeronimo  | U202211634 |
 | Diego Rodrigo Pumahualcca Garcia | U202219266 |
-|  |  |
-|  |  |
-|  |  |
+| Henry Jaredt Montes Ramos        | U20231D343 |
+
 <h3 align="center">2025</h3>
 
 <div style="page-break-after: always;"></div>
