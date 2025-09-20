@@ -931,6 +931,11 @@ El sistema de navegación está diseñado para guiar a los usuarios (pacientes, 
 - **Pistas visuales**: utilización de colores, íconos y estados activos en menús para indicar dónde se encuentra el usuario.
 - **Breadcrumbs**: en procesos secuenciales como la reserva de cita o el registro de psicólogo, para mostrar al usuario en qué etapa se encuentra.
 
+**Flujo de navegación en la Landing Page**
+
+1. El visitante accede a la Landing Page.
+2. Puede navegar rápidamente a:
+
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 <img src="./resources/Wireframe1.png"></img><br>
