@@ -621,6 +621,8 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 <img src="./resources/AsisCliente.png"></img><br>
 <img src="./resources/AsisPsicologo.png"></img><br>
 
+# Capítulo III: Requirements Specification
+
 ### 3.1 To-be Scenario Mapping
 
 <img src="./resources/TobeCliente.png"></img><br>
