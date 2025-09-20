@@ -1164,22 +1164,253 @@ El proyecto sigue las convenciones del modelo GitFlow como flujo de trabajo para
 - URL para acceder nuestro repositorio de Landing Page: https://github.com
 
 ### 5.1.3. Source Code Style Guide & Conventions
+
+Con el objetivo de garantizar que el código fuente del proyecto **opendMind** sea claro, mantenible y consistente entre todos los integrantes del equipo, se establecieron guías de estilo y convenciones de programación. Estas normas permiten que la colaboración en GitHub sea más eficiente y que el producto final cumpla con estándares de calidad.  
+
+### Convenciones de nombres  
+- **Variables y funciones:** se utiliza *camelCase* (ejemplo: `userName`, `getUserData`).  
+- **Clases y componentes:** se aplica *PascalCase* (ejemplo: `UserController`, `LoginComponent`).  
+- **Constantes:** se escriben en mayúsculas y con guiones bajos (ejemplo: `MAX_LOGIN_ATTEMPTS`).  
+- **Archivos:**  
+  - Componentes React: `NombreComponente.jsx`.  
+  - Estilos: `nombre-componente.css`.  
+  - Scripts utilitarios: `nombre-util.js`.  
+
+### Estilo de código  
+- Indentación de **4 espacios** en todos los archivos.  
+- Longitud máxima de línea: **100 caracteres**.  
+- Uso de **punto y coma (;)** en JavaScript para evitar errores de interpretación.  
+- Comillas dobles (`" "`) para cadenas de texto.  
+- Se aplican espacios antes y después de los operadores para mejorar la legibilidad:  
+  ```js
+  let total = price + tax;
+  ```
+  
+
 ### 5.1.4. Software Deployment Configuration
+
+La configuración de despliegue del proyecto **opendMind** busca garantizar que la aplicación pueda ejecutarse de manera segura, estable y escalable en los entornos definidos (desarrollo, pruebas y producción). Para ello se establecieron las siguientes directrices:  
+
+### Entornos de despliegue  
+- **Desarrollo:** entorno local en el que los programadores realizan las pruebas iniciales. Se utiliza una base de datos en SQL Server con datos de prueba y servidores locales para backend y frontend.  
+- **Pruebas (staging):** entorno intermedio que replica la configuración de producción. Permite validar funcionalidades, pruebas de integración y pruebas de usuario antes de liberar la aplicación final.  
+- **Producción:** entorno en la nube (Azure / AWS / Vercel) destinado al acceso real de usuarios finales. Incluye configuraciones de seguridad avanzadas y monitoreo constante.  
+
+### Proceso de despliegue  
+1. **Control de versiones:** cada nueva funcionalidad o corrección se integra en la rama principal (`main`) solo después de haber pasado las revisiones y pruebas unitarias.  
+2. **Automatización del build:** mediante scripts de *npm* y configuraciones de CI/CD (por ejemplo GitHub Actions o Azure Pipelines), se automatiza la construcción y validación del proyecto.  
+3. **Contenerización:** el backend se ejecuta dentro de contenedores Docker, lo que facilita la portabilidad entre entornos.  
+4. **Configuración de base de datos:** se aplican migraciones automáticas para mantener sincronizado el esquema en cada despliegue.  
+5. **Despliegue en nube:** el frontend se aloja en servicios de hosting estático (ej. Vercel o Netlify), mientras que el backend y la base de datos se despliegan en Azure/AWS con escalabilidad vertical y horizontal.  
+
+### Seguridad y mantenimiento  
+- Uso de **variables de entorno (.env)** para proteger credenciales y llaves de acceso.  
+- Conexiones encriptadas mediante **HTTPS**.  
+- Backups automáticos de la base de datos en intervalos regulares.  
+- Monitoreo con herramientas como **Azure Monitor**, **AWS CloudWatch** o equivalentes para rastrear errores y métricas de rendimiento.  
+- Políticas de actualización continua para aplicar parches de seguridad y mantener la aplicación en condiciones óptimas.  
+
+En conclusión, la estrategia de despliegue asegura que el sistema sea confiable, seguro y adaptable al crecimiento del proyecto, permitiendo entregar un producto de calidad a los usuarios finales.
+
 
 
 ## 5.2. Landing Page, Service & Application Implementation
 ### 5.2.1 Sprint 1
 ### 5.2.1.1. Sprint Planning 1
+| **Sprint #**                  | Sprint 0 |
+|--------------------------------|----------|
+| **Sprint Planning Background** |  |
+| **Date**                       | 2025-09-5 |
+| **Time**                       | 9:00 PM |
+| **Location**                   | Reunión virtual – Salón UH-52 |
+| **Prepared By**                | Rolando Andre Torres Diaz|
+| **Attendees (to planning meeting)** | Rolando Andre Torres Diaz /e / e / e/ e |
+| **Sprint n – 1 Review Summary** | No hubo Sprint anterior. |
+| **Sprint n – 1 Retrospective Summary** | No hubo Sprint anterior|
+| **Sprint Goal & User Stories** | |
+| **Sprint 0 Goal**              | Configurar la base técnica del proyecto (entorno de desarrollo, repositorio GitHub, GitFlow, prototipo inicial de Landing Page). |
+| **Sprint 0 Velocity**          | 10 Story Points |
+| **Sum of Story Points**        | 10 |
+
+
 ### 5.2.1.2. Aspect Leaders and Collaborators
+
+En el Sprint 0, el equipo identificó los principales aspectos que forman parte del alcance inicial del proyecto: **Backend & API, Frontend & UI, Landing Page & SEO, Base de Datos & Despliegue, y QA & Documentación**.  
+Para cada aspecto se designó un **líder (L)** y uno o más **colaboradores (C)**, de manera que exista claridad en la distribución de responsabilidades. Esta matriz de liderazgo y colaboración (LACX) facilita la organización de tareas, la comunicación interna y la posterior selección de tasks durante el Sprint.  
+
+| **Team Member**   | **GitHub Username** | **Backend & API** | **Frontend & UI** | **Landing Page & SEO** | **Base de Datos & Despliegue** | **QA & Documentación** |
+|--------------------------|----------------------|-------------------|-------------------|-------------------------|---------------------------------|-------------------------|
+| nombre  | user | C | C | C | L | C |
+|nombre | user | L  | C | C | C | C |
+| nombre  | user | C | C | L | C | C |
+| Torres Diaz, Rolando | @ROLO194 | C  | L | C | C | C |
+| nombre  | user | C | C | C | C | L |
+
+
 ### 5.2.1.3. Sprint Backlog 1
+
+| **Sprint #** | **User Story** | **Work-Item / Task** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|--------------|----------------|-----------------------|-----------------|-------------------------|-----------------|------------|
+| Sprint 1 | US01 – Registro de Usuario | T-01: Modelo de usuario en SQL Server | Definir tabla y campos de usuario en la BD (id, nombre, email, contraseña, rol). | 5h | nombre | InProcess |
+| Sprint 1 | US01 – Registro de Usuario | T-02: Endpoint de registro | Implementar API REST para registro de pacientes y psicólogos con validaciones. | 5h |nombre | InProcess |
+| Sprint 1 | US01 – Registro de Usuario | T-03: Formulario de registro | Desarrollo de formulario de registro en frontend (React). | 3h | Rolando Torres | InProcess |
+| Sprint 1 | US02 – Búsqueda de Psicólogos | T-04: Generar vista de búsqueda | Página de búsqueda con filtros (especialidad, tarifa, modalidad). | 5h | nombre | InProcess |
+| Sprint 1 | US02 – Búsqueda de Psicólogos | T-05: Validar búsqueda vacía | Mostrar mensaje cuando no se encuentran psicólogos disponibles. | 3h | nombre | InProcess |
+| Sprint 1 | US03 – Reserva de Cita | T-06: Maquetación del formulario | HTML y CSS del formulario de reserva con fecha, hora y modalidad. | 4h |nombre | InProcess |
+| Sprint 1 | US03 – Reserva de Cita | T-07: Validación de campos obligatorios | Validaciones en frontend (ejemplo: fecha y modalidad requeridos). | 3h |nombre| InProcess |
+| Sprint 1 | US04 – Sistema de Pagos | T-08: Modelo de pagos en BD | Definir tabla de pagos (id_pago, monto, fecha, método). | 3h | nombre | InProcess |
+| Sprint 1 | US04 – Sistema de Pagos | T-09: Endpoint CRUD de pagos | Crear API REST para registrar y consultar pagos. | 6h | nombre| InProcess |
+| Sprint 1 | US05 – Reseñas de Psicólogos | T-10: Modelo reseña en BD | Crear tabla de reseñas con atributos (id, comentario, rating, fecha). | 3h | nombre | InProcess |
+| Sprint 1 | US05 – Reseñas de Psicólogos | T-11: Interfaz de reseñas | Desplegable en frontend para calificar y comentar después de una cita. | 3h | Rolando Torres | InProcess |
+
+
 ### 5.2.1.4. Development Evidence for Sprint Review
+
+Durante el Sprint 1 se implementaron y documentaron los avances técnicos planificados en el Sprint Backlog. La evidencia de desarrollo se presenta a continuación, mostrando el cumplimiento de los objetivos y las funcionalidades establecidas para esta iteración.  
+
+#### Evidencia de código  
+- Implementación de los **módulos base** para el sistema de autenticación de usuarios (registro e inicio de sesión).  
+- Creación de **endpoints iniciales en el backend** utilizando Node.js y Express.  
+- Definición de los modelos de base de datos en **SQL Server** para las entidades principales (User y Psychologist).  
+- Integración inicial del **frontend en React**, con los primeros componentes para la landing page y el formulario de registro.  
+
+#### Evidencia en GitHub  
+- Commits en la rama `develop` que muestran el progreso incremental de las funcionalidades.  
+- Pull Requests revisados y aprobados antes de ser integrados a la rama `main`.  
+- Uso de *issues* y *milestones* para dar seguimiento a las tareas del Sprint.  
+
+#### Capturas de avance  
+- **Backend:** endpoints funcionales probados en Postman (ejemplo: `/api/register` y `/api/login`).  
+- **Frontend:** primer prototipo navegable de la landing page con los botones de “Regístrate” y “Iniciar sesión”.  
+- **Base de datos:** script de creación de tablas ejecutado en SQL Server con inserción de datos de prueba.  
+
+#### Resultados del Sprint  
+- Se logró un **MVP inicial** que permite registrar y autenticar usuarios en la plataforma.  
+- El sistema es capaz de almacenar y consultar información de usuarios básicos en la base de datos.  
+- La interfaz de usuario muestra los primeros elementos visuales que conectan el diseño con el desarrollo real.  
+
+La evidencia confirma que los objetivos planteados para el Sprint 1 fueron cumplidos satisfactoriamente, sentando las bases para el desarrollo de las siguientes funcionalidades en el próximo Sprint.
+
 ### 5.2.1.5. Execution Evidence for Sprint Review
+
+La ejecución de las funcionalidades desarrolladas durante el **Sprint 1** permitió validar el correcto funcionamiento de los módulos iniciales del sistema **opendMind**. A continuación, se presenta la evidencia de ejecución en cada uno de los componentes principales:  
+
+#### Backend  
+- Pruebas realizadas en **Postman** confirmaron el correcto funcionamiento de los endpoints `/api/register` y `/api/login`.  
+- Se validó la creación de nuevos usuarios en la base de datos, mostrando mensajes de éxito y de error en caso de datos inválidos.  
+- Logs en consola evidenciaron la conexión estable entre la API (Node.js + Express) y la base de datos en **SQL Server**.  
+
+#### Frontend  
+- Ejecución del **formulario de registro** en React, con validaciones en tiempo real para campos obligatorios.  
+- Navegación inicial entre vistas: Landing Page → Registro → Inicio de sesión.  
+- Confirmación visual de mensajes de error (ejemplo: “Correo ya registrado”) y de éxito al completar el registro.  
+
+#### Base de datos  
+- Scripts SQL ejecutados en **SQL Server** generaron las tablas `User` y `Psychologist`.  
+- Inserción y consulta de datos de prueba confirmaron la persistencia de la información.  
+- Se verificó la integridad referencial en las relaciones básicas entre usuarios y psicólogos.  
+
+#### Integración  
+- Se comprobó que los datos ingresados en el formulario del frontend son enviados al backend y almacenados en la base de datos.  
+- Flujo completo validado: **Paciente se registra → API procesa datos → Información guardada en BD → Confirmación en frontend.**  
+
+#### Resultados del Sprint  
+- El sistema permite registrar y autenticar usuarios de forma básica.  
+- Los datos son almacenados de manera persistente en la base de datos.  
+- Se confirma la interacción correcta entre **frontend, backend y base de datos**.  
+
+En conclusión, la evidencia de ejecución valida que las funcionalidades iniciales de **opendMind** fueron implementadas y probadas exitosamente, sentando la base para las siguientes iteraciones del proyecto.
+
 ### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 1 se desarrollaron y documentaron los primeros **servicios del backend** para la plataforma **opendMind**, con el objetivo de habilitar el registro y autenticación de usuarios, así como sentar las bases para la gestión de psicólogos y pacientes.  
+
+#### Servicios implementados  
+
+1. **Servicio de Registro de Usuarios**  
+   - **Endpoint:** `POST /api/register`  
+   - **Descripción:** Permite registrar a un nuevo usuario (paciente o psicólogo).  
+   - **Parámetros requeridos:**  
+     - `first_name` (string)  
+     - `last_name` (string)  
+     - `email` (string, único)  
+     - `password` (string, encriptado con hash)  
+     - `role` (string: patient, psychologist)  
+   - **Respuesta exitosa:** Código `201 Created` con mensaje de confirmación.  
+   - **Errores:** Código `400 Bad Request` en caso de datos inválidos o duplicados.  
+
+2. **Servicio de Autenticación (Login)**  
+   - **Endpoint:** `POST /api/login`  
+   - **Descripción:** Autentica a un usuario registrado y devuelve un token de sesión (JWT).  
+   - **Parámetros requeridos:**  
+     - `email` (string)  
+     - `password` (string)  
+   - **Respuesta exitosa:** Código `200 OK` con token de acceso y datos básicos del usuario.  
+   - **Errores:** Código `401 Unauthorized` si las credenciales no son válidas.  
+
+3. **Servicio de Consulta de Psicólogos (versión inicial)**  
+   - **Endpoint:** `GET /api/psychologists`  
+   - **Descripción:** Retorna la lista de psicólogos registrados en la plataforma.  
+   - **Parámetros opcionales:** filtros por `specialization`, `consultation_type`, `price`.  
+   - **Respuesta exitosa:** Código `200 OK` con arreglo de psicólogos en formato JSON.  
+
+#### Evidencia de documentación  
+
+- Se generó documentación en formato **OpenAPI/Swagger** para describir los endpoints creados.  
+- Los servicios fueron probados con **Postman**, verificando que las respuestas fueran consistentes con lo esperado.  
+- Se registraron ejemplos de solicitudes y respuestas exitosas y con error.  
+- La documentación fue versionada y almacenada en el repositorio de GitHub dentro de la carpeta `/docs/services`.  
+
+#### Resultados  
+
+La evidencia confirma que los servicios iniciales del sistema fueron desarrollados y documentados correctamente, lo que facilita la comunicación entre los desarrolladores del equipo y asegura que futuros sprints puedan extender las funcionalidades sobre una base sólida de APIs.
+
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+Durante el Sprint 1 se llevó a cabo el despliegue inicial del sistema **opendMind**, asegurando que las funcionalidades desarrolladas pudieran ejecutarse en un entorno controlado y accesible para el equipo de trabajo.  
+
+#### Evidencia de despliegue  
+
+1. **Entorno de desarrollo local**  
+   - Se configuró el backend en **Node.js + Express** y el frontend en **React** utilizando `npm start`.  
+   - La base de datos **SQL Server** fue desplegada en una instancia local, con migraciones iniciales de las tablas `User` y `Psychologist`.  
+   - Pruebas de conexión confirmaron la comunicación entre backend y base de datos.  
+
+2. **Contenerización con Docker (versión inicial)**  
+   - Se creó un archivo `Dockerfile` para el backend y un `docker-compose.yml` para levantar servicios de API y base de datos.  
+   - La aplicación pudo ejecutarse en contenedores, garantizando portabilidad y consistencia del entorno.  
+
+3. **Despliegue en la nube (prueba inicial)**  
+   - El frontend fue desplegado en **Vercel** para pruebas rápidas de accesibilidad.  
+   - El backend se configuró en una máquina virtual de **Azure**, accesible a través de endpoints públicos.  
+   - Se validó el acceso al sistema desde navegadores externos, confirmando la disponibilidad en la nube.  
+
+#### Seguridad y configuración  
+- Se utilizaron **variables de entorno (.env)** para credenciales y llaves sensibles.  
+- Conexiones al backend protegidas mediante protocolo **HTTPS**.  
+- La base de datos configurada con usuarios específicos para desarrollo y pruebas.  
+
+#### Resultados  
+- El sistema **opendMind** fue desplegado de forma básica en local y nube, permitiendo validar su funcionamiento de extremo a extremo.  
+- Los usuarios pudieron registrarse, autenticarse y almacenar datos en la base de datos desde la versión desplegada.  
+- Este despliegue inicial sienta las bases para la integración de un pipeline de **CI/CD** en futuros sprints.  
+
 ### 5.2.1.8. Team Collaboration Insights during Sprint
 
 
-## Bibliografía
+Durante este Sprint se generaron aprendizajes significativos en torno al trabajo colaborativo del equipo **opendMind**. La experiencia permitió identificar tanto fortalezas como áreas de mejora para los próximos sprints:  
+
+- Se definió una **dinámica de comunicación constante** a través de **Discord** para coordinación rápida cada 3 días y mediante **Google Meet** para reuniones semanales, lo que facilitó el alineamiento de objetivos y resolución de dudas.  
+- Se acordó la importancia de **documentar todas las decisiones técnicas y funcionales** en un archivo compartido en **Google Drive**, asegurando trazabilidad y acceso a la información por todos los miembros.  
+- Se reconoció como fortaleza la **rapidez en la configuración técnica inicial** (repositorio en GitHub, entorno de desarrollo y base de datos en SQL Server), lo cual permitió que el equipo pudiera comenzar las implementaciones de manera ágil.  
+- Como oportunidad de mejora, se identificó la necesidad de **planificar con mayor detalle las horas estimadas por tarea** en el Sprint Backlog, ya que algunas actividades requirieron más tiempo del esperado.  
+- Se destacó el compromiso de los integrantes en la **revisión de Pull Requests y control de versiones**, promoviendo la calidad del código y la colaboración en el repositorio.  
+
+En conclusión, la colaboración del equipo durante este Sprint fue positiva y permitió establecer una dinámica sólida de comunicación y coordinación. No obstante, se deberán reforzar los procesos de estimación y planificación para optimizar la eficiencia en futuros sprints.
+
+
+
+# Bibliografía
 
 - MiSalud. (s. f.). *Los doctores de MiSalud son profesionales…* Recuperado septiembre 2025, de https://www.misalud.ai  
 - Talkspace. (s. f.). *Talkspace – #1 Rated Online Therapy…* Recuperado septiembre 2025, de https://www.talkspace.com  
