@@ -639,6 +639,16 @@ En conclusión, los pacientes representa a los **pacientes jóvenes** que valora
 | Mantener continuidad en la terapia | - Anotar citas en su agenda personal.<br>- Recordar manualmente próximos encuentros. | - Olvido de citas.<br>- Desmotivación por falta de seguimiento. | - Notificaciones automáticas.<br>- Chatbot de orientación.<br>- Reportes de progreso accesibles. |
 | Tener sesiones confiables | - Buscar entre opciones presenciales o virtuales.<br>- Probar distintos métodos de atención. | - Sesiones 100% virtuales pueden malinterpretarse.<br>- Dudas sobre profesionalismo de algunos psicólogos. | - Opciones semipresenciales.<br>- Transparencia en perfiles.<br>- Validación de psicólogos colegiados. |
 
+## User Task Matrix – Psicólogos
+
+| **Objetivo del Usuario (Psicólogo)** | **Tareas principales** | **Dificultades actuales** | **Oportunidad de diseño (opendMind)** |
+|--------------------------------------|-------------------------|----------------------------|----------------------------------------|
+| Gestionar citas y horarios | - Usar Google Calendar o agenda personal.<br>- Confirmar citas manualmente.<br>- Reorganizar citas por cancelaciones. | - Cancelaciones de último minuto.<br>- Reagendamiento poco práctico.<br>- Olvido de citas. | - Agenda digital integrada.<br>- Recordatorios automáticos.<br>- Confirmación/reagendamiento en tiempo real. |
+| Administrar pagos de pacientes | - Coordinar pagos en efectivo o transferencias.<br>- Explicar medios de pago digitales.<br>- Verificar manualmente si se hizo el pago. | - Pacientes con dificultades en pagos digitales.<br>- Falta de un registro automático.<br>- Pérdida de tiempo en seguimiento. | - Plataforma con pagos digitales integrados.<br>- Historial y reportes de ingresos.<br>- Notificación de pagos confirmados. |
+| Aumentar visibilidad profesional | - Publicar en redes sociales.<br>- Esperar recomendaciones de boca en boca.<br>- Usar directorios poco confiables. | - Difícil llegar a nuevos pacientes.<br>- Baja visibilidad en línea.<br>- Reseñas no verificadas. | - Perfiles digitales verificados.<br>- Sistema de reseñas confiables.<br>- Mayor exposición dentro de la plataforma. |
+| Obtener retroalimentación profesional | - Preguntar a pacientes en sesiones.<br>- Recibir comentarios informales.<br>- Depender de referencias personales. | - Falta de reseñas verificadas.<br>- Feedback subjetivo.<br>- Difícil mostrar reputación profesional. | - Reseñas verificadas dentro de la app.<br>- Estadísticas de satisfacción del paciente.<br>- Reportes automáticos de desempeño. |
+| Optimizar la práctica clínica | - Llevar notas clínicas manuales.<br>- Gestionar casos de manera aislada.<br>- Controlar el número de sesiones por paciente. | - Falta de reportes centralizados.<br>- Desgaste en gestión administrativa.<br>- Tiempo extra en organización. | - Reportes automáticos (sesiones, ingresos, progreso).<br>- Historial clínico digital por paciente.<br>- Reducción de carga administrativa. |
+
 ---
 
 ### 2.3.3. User Journey Mapping
