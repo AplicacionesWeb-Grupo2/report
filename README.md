@@ -887,9 +887,16 @@ Con este sistema, opendMind ofrece búsquedas rápidas, comparaciones claras y f
 ## 4.5. Web Applications Prototyping
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
+
+<img src="./resources/contextDiagram.png"></img>
+
 ### 4.6.2. Software Architecture Container Diagrams
+
+<img src="./resources/containerDiagram.png"></img>
+
 ### 4.6.3. Software Architecture Components Diagrams
 
+<img src="./resources/componentsDiagram.png"></img>
 
 ## 4.7. Software Object-Oriented Design
 ### 4.7.1. Class Diagrams
