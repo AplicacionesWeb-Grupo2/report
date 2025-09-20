@@ -41,6 +41,7 @@
 | TB1 | 02/09/25 | Mio Mejia, Andy Alejandro | Se añadió los capítulos 1 al 5 |
 | TB1 | 19/09/25 | Diego Rodrigo, Pumahualcca Garcia | Se completo parcialmente los capitulos 1, 2 y 4|
 
+
 # Project Report Collaboration Insights
 
 A lo largo del desarrollo del trabajo, se ha evidenciado una participación activa, coordinada y progresiva por parte de todos los integrantes del equipo. Cada fase fue abordada de manera estructurada, siguiendo las buenas prácticas de trabajo colaborativo con control de versiones en GitHub, planificación por entregables, y asignación clara de responsabilidades según las competencias de cada integrante.
@@ -952,7 +953,7 @@ El sistema de navegación está diseñado para guiar a los usuarios (pacientes, 
 
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
-<img src="./resources/Wireframe1.png"></img><br>
+<img src="./resources/Wireframe1.png"></img><br>            
 <img src="./resources/Wireframe2.png"></img><br>
 
 ### 4.3.2. Landing Page Mock-up
@@ -961,6 +962,11 @@ El sistema de navegación está diseñado para guiar a los usuarios (pacientes, 
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+<img src="./resources/WebW1.png"></img><br>
+<img src="./resources/WebW2.png"></img><br>
+<img src="./resources/WebW3.png"></img><br>
+<img src="./resources/WebW4.png"></img><br>
+
 ### 4.4.2. Web Applications Wireflow Diagrams
 ### 4.4.3. Web Applications Mock-ups
 ### 4.4.4. Web Applications User Flow Diagrams
