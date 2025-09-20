@@ -926,7 +926,10 @@ El sistema de navegación está diseñado para guiar a los usuarios (pacientes, 
 
 **Principios de navegación**
 - **Navegación principal fija**: barra superior presente en todo momento, accesible desde cualquier parte de la aplicación.
-- 
+- **Accesos rápidos**: a las secciones principales: Explorar Psicólogos, Mis Citas, Pagos, Perfil.
+- **Navegación progresiva**: acciones clave (agendar cita, realizar pago, dejar reseña) se presentan en momentos contextuales adecuados, evitando sobrecargar al usuario.
+- **Pistas visuales**: utilización de colores, íconos y estados activos en menús para indicar dónde se encuentra el usuario.
+- **Breadcrumbs**: en procesos secuenciales como la reserva de cita o el registro de psicólogo, para mostrar al usuario en qué etapa se encuentra.
 
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
