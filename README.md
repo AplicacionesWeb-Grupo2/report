@@ -921,6 +921,13 @@ Para mejorar la capacidad de búsqueda dentro del sitio web y la aplicación, se
 Con este sistema, opendMind ofrece búsquedas rápidas, comparaciones claras y filtros relevantes que permiten a los pacientes encontrar al psicólogo ideal sin complicaciones.
 
 ### 4.2.5. Navigation Systems
+
+El sistema de navegación está diseñado para guiar a los usuarios (pacientes, psicólogos y administradores) de manera fluida, asegurando que encuentren lo que buscan de forma natural, rápida e intuitiva.
+
+**Principios de navegación**
+- **Navegación principal fija**: barra superior presente en todo momento, accesible desde cualquier parte de la aplicación.
+- 
+
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
 <img src="./resources/Wireframe1.png"></img><br>
