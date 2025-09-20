@@ -707,6 +707,21 @@ En conclusión, los pacientes representa a los **pacientes jóvenes** que valora
 
 <img src="./resources/Impact map 1.png"></img><br>
 
+### 3.4 Product Backlog
+
+| Orden | User Story Id | Título - Descripción | Story Points |
+|-------|---------------|-----------------------|--------------|
+| 1 | US-01 | **Explicación clara del producto** – Mostrar en la sección inicial qué es EiraMind, cómo funciona y qué lo hace diferente. | 3 |
+| 2 | US-02 | **Botones de registro visibles** – Incluir botones de registro para pacientes y psicólogos en zonas clave de la landing (header, secciones principales). | 2 |
+| 3 | US-03 | **Listado de beneficios para pacientes** – Mostrar beneficios como agenda online, ranking y chatbot con elementos visuales. | 3 |
+| 4 | US-05 | **Planes de suscripción claros** – Mostrar planes de precios para psicólogos con beneficios resumidos y CTA de registro. | 5 |
+| 5 | US-06 | **Diferenciales tecnológicos destacados** – Explicar IoT, gestión de pagos y ranking validado para atraer psicólogos. | 3 |
+| 6 | US-04 | **Testimonios de pacientes** – Mostrar al menos 3 testimonios reales de usuarios que transmitan confianza. | 2 |
+| 7 | US-07 | **Sección de confianza y credibilidad** – Incluir testimonios, logotipos de aliados y premios (si aplica). | 3 |
+| 8 | US-08 | **Preguntas frecuentes (FAQ)** – Incluir al menos 5 preguntas y respuestas clave para resolver dudas rápidas. | 2 |
+| 9 | US-10 | **Formulario de suscripción / Newsletter** – Permitir a los visitantes dejar correo electrónico para recibir actualizaciones. | 2 |
+| 10 | US-09 | **Recursos de bienestar mental** – Sección con artículos, tips o guías que acompañen a los pacientes. | 5 |
+
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
