@@ -593,6 +593,12 @@ Considera muy relevante contar con una plataforma que le brinde mayor visibilida
 
 ---
 
+## User Persona – Farid Valentte Rebatta Gutierrez
+
+<img src="./resources/valentte.png"></img><br>
+
+---
+
 ## User Persona – Azul Delgado Sánchez  
 
 <img src="./resources/userpersona.jpeg"></img><br>
