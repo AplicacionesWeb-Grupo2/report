@@ -935,6 +935,10 @@ El sistema de navegación está diseñado para guiar a los usuarios (pacientes, 
 
 1. El visitante accede a la Landing Page.
 2. Puede navegar rápidamente a:
+   - Explorar psicólogos disponibles.
+   - Conocer más sobre opendMind.
+   - Registrarse como Paciente o Psicólogo.
+
 
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
