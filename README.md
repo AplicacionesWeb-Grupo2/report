@@ -40,6 +40,8 @@
 | TB1 | 02/09/25 | Mio Mejia, Andy Alejandro | Se añadió y completo correctamente los capítulos 1 al 5 |
 | TB1 | 19/09/25 | Diego Rodrigo, Pumahualcca Garcia | Se completo parcialmente los capitulos 1, 2 y 4|
 | TB1 | 20/09/25 | Henry Jaredt Montes Ramos | Se implemento correctamente los capitulo 3, 4 y 5|
+| TB1 | 20/09/25 | Liam Anderson, Villugas Jeronimo| Se completaron los capitulos |
+
 
 # Project Report Collaboration Insights
 
@@ -51,7 +53,11 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 #### Link del repositorio del Reporte: 
 
+https://github.com/AplicacionesWeb-Grupo2/report/tree/develop
+
 #### Link del repositorio de la Landing Page: 
+
+https://github.com/AplicacionesWeb-Grupo2/report/tree/develop
 
 
 # Contenido
@@ -224,7 +230,7 @@ De esta manera, opendMind se convierte en un ecosistema que integra la oferta y 
 | <div style="display: flex; align-items: center;"><img src="resources/Andy.jpg" alt="Integrante1" width="100" height="120">&nbsp;&nbsp;<br>**Andy Mio Mejia**<br>u202218531</div> | Soy estudiante de la carrera de Ingeniería de Software, puedo aportar mucho al equipo, aplicando mis conocimientos en diversos lenguajes de programación | Conocimientos en Java, C++, Python, html, css, javascrip, C# y SQL |
 | <div style="display: flex; align-items: center;"><img src="resources/integrante2.png" alt="Integrante2" width="100" height="120">&nbsp;&nbsp;<br>**Diego Rodrigo Pumahualcca Garcia**<br>u202219266</div> | Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). | Java, C++, React, Python, html, css, javascrip, C# y MySql|
 | <div style="display: flex; align-items: center;"><img src="img/.png" alt="Integrante3" width="100" height="120">&nbsp;&nbsp;<br>**Rolando Andre Torres Diaz**<br>u202323369</div> | Actualmente estoy estudiando ingeniería de software en la universidad peruana de ciencias aplicadas. Personalmente, me considero una persona amigable y responsable, lo cual me puede ayudar en la universidad. También creo que estas cualidades me permitirán construir relaciones sólidas con mis compañeros y profesores, así como ordenar mi tiempo. | Python, C++, css, c#, SQL, cisco, java|
-| <div style="display: flex; align-items: center;"><img src="img/.png" alt="Integrante4" width="100" height="120">&nbsp;&nbsp;<br>**Nombre del integrante**<br>Código universitario</div> |  |  |
+| <div style="display: flex; align-items: center;"><img src="resources/FotoLiam.png" alt="Integrante4" width="100" height="120">&nbsp;&nbsp;<br>**Liam Villugas Jerónimo**<br>u202211634</div> | Soy Estudiante de Ingienieria de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), Estoy cursando actualmente el 6to ciclo de la carrera.Me atrae mucho el desarrollo de aplicaciones y el uso de las bases de datos. Me considero una persona en Aprendizaje constante e intento mantener la tranquilidad bajo prension al trabajar. | Python, C++, MongoDB, SqlServer, SqLite |
 | <div style="display: flex; align-items: center;"><img src="img/.png" alt="Integrante5" width="100" height="120">&nbsp;&nbsp;<br>**Nombre del integrante**<br>Código universitario</div> |  |  |
 
 ## 1.2. Solution Profile
@@ -706,6 +712,21 @@ En conclusión, los pacientes representa a los **pacientes jóvenes** que valora
 
 <img src="./resources/Impact map 1.png"></img><br>
 
+### 3.4 Product Backlog
+
+| Orden | User Story Id | Título - Descripción | Story Points |
+|-------|---------------|-----------------------|--------------|
+| 1 | US-01 | **Explicación clara del producto** – Mostrar en la sección inicial qué es EiraMind, cómo funciona y qué lo hace diferente. | 3 |
+| 2 | US-02 | **Botones de registro visibles** – Incluir botones de registro para pacientes y psicólogos en zonas clave de la landing (header, secciones principales). | 2 |
+| 3 | US-03 | **Listado de beneficios para pacientes** – Mostrar beneficios como agenda online, ranking y chatbot con elementos visuales. | 3 |
+| 4 | US-05 | **Planes de suscripción claros** – Mostrar planes de precios para psicólogos con beneficios resumidos y CTA de registro. | 5 |
+| 5 | US-06 | **Diferenciales tecnológicos destacados** – Explicar IoT, gestión de pagos y ranking validado para atraer psicólogos. | 3 |
+| 6 | US-04 | **Testimonios de pacientes** – Mostrar al menos 3 testimonios reales de usuarios que transmitan confianza. | 2 |
+| 7 | US-07 | **Sección de confianza y credibilidad** – Incluir testimonios, logotipos de aliados y premios (si aplica). | 3 |
+| 8 | US-08 | **Preguntas frecuentes (FAQ)** – Incluir al menos 5 preguntas y respuestas clave para resolver dudas rápidas. | 2 |
+| 9 | US-10 | **Formulario de suscripción / Newsletter** – Permitir a los visitantes dejar correo electrónico para recibir actualizaciones. | 2 |
+| 10 | US-09 | **Recursos de bienestar mental** – Sección con artículos, tips o guías que acompañen a los pacientes. | 5 |
+
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
 ### 4.1.1. General Style Guidelines
@@ -952,7 +973,7 @@ El sistema de navegación está diseñado para guiar a los usuarios (pacientes, 
 
 ## 4.3. Landing Page UI Design
 ### 4.3.1. Landing Page Wireframe
-<img src="./resources/Wireframe1.png"></img><br>
+<img src="./resources/Wireframe1.png"></img><br>            
 <img src="./resources/Wireframe2.png"></img><br>
 
 ### 4.3.2. Landing Page Mock-up
@@ -961,10 +982,29 @@ El sistema de navegación está diseñado para guiar a los usuarios (pacientes, 
 
 ## 4.4. Web Applications UX/UI Design
 ### 4.4.1. Web Applications Wireframes
+<img src="./resources/WebW1.png"></img><br>
+<img src="./resources/WebW2.png"></img><br>
+<img src="./resources/WebW3.png"></img><br>
+<img src="./resources/WebW4.png"></img><br>
+
 ### 4.4.2. Web Applications Wireflow Diagrams
+<img src="./resources/Wwireflow.png"></img><br>
+
 ### 4.4.3. Web Applications Mock-ups
+
+<img src="./resources/wMockup1.png"></img><br>
+<img src="./resources/wMockup2.png"></img><br>
+<img src="./resources/wMockup3.png"></img><br>
+<img src="./resources/wMockup4.png"></img><br>
+
 ### 4.4.4. Web Applications User Flow Diagrams
+<img src="./resources/Mwireflow.png"></img><br>
+
 ## 4.5. Web Applications Prototyping
+
+link del figma:
+https://www.figma.com/proto/N5Fs8IWRNXDk03yETY4MP6/Untitled?node-id=43-85&t=P8lK8ZCWElu7I8J4-1&scaling=min-zoom&content-scaling=fixed&page-id=43%3A84
+
 ## 4.6. Domain-Driven Software Architecture
 ### 4.6.1. Software Architecture Context Diagram
 
@@ -1320,8 +1360,8 @@ Para cada aspecto se designó un **líder (L)** y uno o más **colaboradores (C)
 
 | **Team Member**   | **GitHub Username** | **Backend & API** | **Frontend & UI** | **Landing Page & SEO** | **Base de Datos & Despliegue** | **QA & Documentación** |
 |--------------------------|----------------------|-------------------|-------------------|-------------------------|---------------------------------|-------------------------|
-| Diego Rodrigo Pumahualcca Garcia| user | C | C | C | L | C |
-| Liam Anderson Villugas Jeronimo | user | L  | C | C | C | C |
+| Diego Rodrigo Pumahualcca Garcia| user | L | C | C | C | C |
+| Liam Anderson Villugas Jeronimo | Liamvillugas | C  | C | C | L | C |
 | Andy Alejandro Mio Mejia | user | C | C | L | C | C |
 | Torres Diaz, Rolando | @ROLO194 | C  | L | C | C | C |
 | nombre  | user | C | C | C | C | L |
