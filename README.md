@@ -57,7 +57,7 @@ https://github.com/AplicacionesWeb-Grupo2/report/tree/develop
 
 #### Link del repositorio de la Landing Page: 
 
-https://github.com/AplicacionesWeb-Grupo2/report/tree/develop
+https://github.com/AplicacionesWeb-Grupo2/Landing-Page 
 
 
 # Contenido
