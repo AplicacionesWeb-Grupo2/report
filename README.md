@@ -27,9 +27,8 @@
 | Rolando Andre Torres Diaz        | U202323369 |
 | Liam Anderson Villugas Jeronimo  | U202211634 |
 | Diego Rodrigo Pumahualcca Garcia | U202219266 |
-|  |  |
-|  |  |
-|  |  |
+| Henry Jaredt Montes Ramos        | U20231D343 |
+
 <h3 align="center">2025</h3>
 
 <div style="page-break-after: always;"></div>
@@ -38,9 +37,10 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-------: | :---------: | :----------------: | :----------------------:|
-| TB1 | 02/09/25 | Mio Mejia, Andy Alejandro | Se añadió los capítulos 1 al 5 |
+| TB1 | 02/09/25 | Mio Mejia, Andy Alejandro | Se añadió y completo correctamente los capítulos 1 al 5 |
 | TB1 | 19/09/25 | Diego Rodrigo, Pumahualcca Garcia | Se completo parcialmente los capitulos 1, 2 y 4|
-| TB1 | 20/09/25 | Liam Anderson, Villugas Jeronimo| Se completaron los capitulos 3 y 4|
+| TB1 | 20/09/25 | Henry Jaredt Montes Ramos | Se implemento correctamente los capitulo 3, 4 y 5|
+| TB1 | 20/09/25 | Liam Anderson, Villugas Jeronimo| Se completaron los capitulos |
 
 
 # Project Report Collaboration Insights
