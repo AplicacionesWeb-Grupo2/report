@@ -1364,7 +1364,7 @@ Para cada aspecto se designó un **líder (L)** y uno o más **colaboradores (C)
 | Liam Anderson Villugas Jeronimo | Liamvillugas | C  | C | C | L | C |
 | Andy Alejandro Mio Mejia | AndyMio17 | C | C | L | C | C |
 | Torres Diaz, Rolando | @ROLO194 | C  | L | C | C | C |
-| nombre  | user | C | C | C | C | L |
+| Henry Jaredt Montes Ramos | jahen17 | C | C | C | C | L |
 
 
 ### 5.2.1.3. Sprint Backlog 1
