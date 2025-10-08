@@ -693,6 +693,7 @@ En conclusión, los pacientes representa a los **pacientes jóvenes** que valora
 | EPIC-05 | Confianza y credibilidad                   | Generar confianza en usuarios nuevos con elementos de prueba social y transparencia. |
 | EPIC-06 |Educación y soporte             | Proveer contenido adicional que ayude a resolver dudas y acompañar al usuario. |
 | EPIC-07 | Captación de leads            | Habilitar espacios para que visitantes interesados dejen sus datos de contacto. |
+| EPIC-08 | Optimización técnica            | Garantizar que la app web de EiraMind cuente con un rendimiento óptimo |
 
 
 | ID   | Título                                                   | Descripción                                                                                                                                      | Criterios de aceptación | EpicID |
@@ -707,6 +708,17 @@ En conclusión, los pacientes representa a los **pacientes jóvenes** que valora
 | US08 | Preguntas frecuentes (FAQ) | Como visitante, quiero acceder a preguntas frecuentes, para resolver mis dudas sin necesidad de registrarme. | **Escenario 1:** Dado que llego al final de la landing, cuando busco soporte, entonces encuentro una sección de FAQ con al menos 5 preguntas y respuestas clave. <br>**Escenario 2:** Dado que leo las preguntas, cuando interactúo con ellas, entonces obtengo respuestas claras y concisas. | EPIC-06 |
 | US09 | Recursos de bienestar mental | Como paciente, quiero acceder a recursos de bienestar mental, para obtener acompañamiento adicional. |**Escenario 1:** Dado que soy paciente, cuando llego a la sección de recursos, entonces encuentro artículos, tips o guías breves de salud mental.<br>**Escenario 2:** Dado que interactúo con esta sección, cuando hago clic, entonces se abre un recurso completo en otra página o pop-up. | EPIC-06 |
 | US10 | Formulario de suscripción / Newsletter | Como visitante, quiero dejar mis datos de contacto, para recibir actualizaciones de la startup. | **Escenario 1:** Dado que estoy en la landing, cuando llego al footer o sección de newsletter, entonces encuentro un formulario para ingresar mi correo electrónico.<br>**Escenario 2:** Dado que ingreso mi correo, cuando hago clic en “Suscribirme”, entonces recibo un mensaje de confirmación de registro exitoso.| EPIC-07 |
+| US11 | Optimización SEO                  | Como visitante quiero que la landing esté optimizada para buscadores        | **Escenario 1:** Dado que soy visitante, cuando busco "EiraMind" en Google, entonces encuentro la landing en los resultados.<br> **Escenario 2:** Dado que inspecciono la página, cuando reviso el código fuente, entonces encuentro meta tags y encabezados jerárquicos correctos. | EPIC-08 |
+| US12 | Versión responsive                | Como visitante quiero que la landing se vea bien en móviles, tablets y PC   | **Escenario 1:** Dado que ingreso desde un celular, cuando accedo a la landing, entonces el contenido se adapta correctamente a la pantalla.<br> **Escenario 2:** Dado que ingreso desde una tablet o PC, cuando navego la landing, entonces el diseño no se rompe y permanece legible. | EPIC-08 |
+| US13 | Velocidad de carga optimizada     | Como visitante quiero que la landing cargue rápido                          | **Escenario 1:** Dado que soy visitante, cuando ingreso a la landing, entonces el sitio carga en menos de 3 segundos.<br> **Escenario 2:** Dado que reviso la consola, cuando analizo los recursos, entonces las imágenes y scripts están optimizados. | EPIC-08 |
+| US14 | Chat de soporte rápido            | Como visitante quiero acceder a un chatbot desde la landing                 | **Escenario 1:** Dado que soy visitante, cuando veo el botón de chat, entonces puedo abrir el chatbot desde cualquier sección.<br> **Escenario 2:** Dado que escribo una pregunta frecuente, cuando el chatbot responde, entonces obtengo una solución sin necesidad de salir de la página. | EPIC-06 |
+| US15 | Video explicativo                 | Como visitante quiero ver un video corto que explique EiraMind              | **Escenario 1:** Dado que estoy en la sección de introducción, cuando hago clic en el video, entonces este se reproduce embebido en la página.<br> **Escenario 2:** Dado que quiero más información, cuando termino el video, entonces encuentro un CTA directo a la sección de registro. | EPIC-01 |
+| US16 | Call To Action repetidos          | Como visitante quiero encontrar botones de acción en cada sección clave     | **Escenario 1:** Dado que estoy en cualquier parte de la landing, cuando quiero registrarme, entonces encuentro un CTA visible.<br> **Escenario 2:** Dado que hago clic en el CTA, cuando me redirige, entonces llego al formulario de registro correspondiente. | EPIC-02 |
+| US17 | Políticas de privacidad y términos| Como visitante quiero acceder a la información legal                        | **Escenario 1:** Dado que estoy en el footer, cuando hago clic en "Políticas de privacidad", entonces se abre el documento en una nueva página.<br> **Escenario 2:** Dado que quiero leer los términos de uso, cuando hago clic en el enlace, entonces encuentro el documento completo y accesible. | EPIC-05 |
+| US18 | Botones sociales                  | Como visitante quiero acceder a las redes sociales oficiales de EiraMind    | **Escenario 1:** Dado que estoy en el footer, cuando veo los íconos de redes sociales, entonces reconozco Facebook, Instagram y LinkedIn.<br> **Escenario 2:** Dado que hago clic en un ícono, cuando se abre la red social, entonces se carga en una nueva pestaña con la página oficial de EiraMind. | EPIC-07 |
+| US19 | Multilenguaje                     | Como visitante quiero poder ver la landing en español e inglés              | **Escenario 1:** Dado que soy visitante, cuando selecciono el idioma inglés, entonces todo el contenido principal cambia automáticamente.<br> **Escenario 2:** Dado que ya elegí un idioma, cuando vuelvo a ingresar en otra visita, entonces la landing se muestra en el idioma seleccionado previamente. | EPIC-08 |
+
+
 
 ### 3.3 Impact Map
 
@@ -726,6 +738,16 @@ En conclusión, los pacientes representa a los **pacientes jóvenes** que valora
 | 8 | US-08 | **Preguntas frecuentes (FAQ)** – Incluir al menos 5 preguntas y respuestas clave para resolver dudas rápidas. | 2 |
 | 9 | US-10 | **Formulario de suscripción / Newsletter** – Permitir a los visitantes dejar correo electrónico para recibir actualizaciones. | 2 |
 | 10 | US-09 | **Recursos de bienestar mental** – Sección con artículos, tips o guías que acompañen a los pacientes. | 5 |
+| 11    | US-11         | **Optimización SEO** - Como visitante quiero que la landing esté optimizada para buscadores. | 5            |
+| 12    | US-12         | **Versión responsive** - Como visitante quiero que la landing se vea bien en móviles, tablets y PC. | 5            |
+| 13    | US-13         | **Velocidad de carga optimizada** - Como visitante quiero que la landing cargue rápido. | 5           |
+| 14    | US-14         | **Chat de soporte rápido** - Como visitante quiero acceder a un chatbot desde la landing. | 5            |
+| 15    | US-15         | **Video explicativo** - Como visitante quiero ver un video corto que explique EiraMind. | 3            |
+| 16    | US-16         | **Call To Action repetidos** - Como visitante quiero encontrar botones de acción en cada sección clave. | 5            |
+| 17    | US-17         | **Políticas de privacidad y términos** - Como visitante quiero acceder a la información legal. | 3            |
+| 18    | US-18         | **Botones sociales** - Como visitante quiero acceder a las redes sociales oficiales de EiraMind. | 2            |
+| 19    | US-19         | **Multilenguaje** - Como visitante quiero poder ver la landing en español e inglés. | 5            |
+
 
 # Capítulo IV: Product Design
 ## 4.1. Style Guidelines
