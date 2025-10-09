@@ -70,7 +70,7 @@ https://github.com/AplicacionesWeb-Grupo2/Landing-Page
 
 [Contenido](#contenido)
 
-[Student Outcome](#student-outcome-1)
+[Student Outcome](#student-outcome)
 
 [Capítulo I: Introducción](#capitulo-i-introduccion)
 
@@ -199,6 +199,14 @@ https://github.com/AplicacionesWeb-Grupo2/Landing-Page
 - [Bibliografía](#bibliografia)
 
 - [Anexos](#anexos)
+
+# Student Outcome
+criterio específico                              | acciones realizadas                                                                                                   | conclusiones
+-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Trabaja en equipo para proporcionar liderazgo en forma conjunta | Villugas Jerónimo, Liam Anderson <br> TB1 <br> Me involucré en la organización del trabajo, proponiendo una forma de ordenar nuestras ideas y alentando a que todos participen en la discusión. Escuché las opiniones del grupo y ayudé a que se llegara a consensos de manera respetuosa. | Esto permitió que el equipo tenga un norte común y una visión ordenada del producto. Se comprobó que el liderazgo en equipo no es imponer, sino guiar el trabajo de manera estructurada, generando claridad para que todos los miembros aporten de forma efectiva. 
+Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | Villugas Jerónimo, Liam Anderson  <br> TB1 <br> Promoví un ambiente de confianza donde todos pudieran expresar sus ideas. Aporté en la definición de metas comunes y colaboré en la organización de tareas, respetando siempre los tiempos y aportes de mis compañeros. | Se logró un entorno colaborativo donde todas las ideas fueron escuchadas y transformadas en metas claras. Esto facilitó cumplir los objetivos del entregable, mostrando que la planificación participativa genera mayor compromiso y eficiencia. 
+
+
 
 <div style="page-break-after: always;"></div>
 
