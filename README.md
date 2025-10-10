@@ -591,7 +591,7 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 
 ### 2.2.2. Registro de entrevistas
 
-###Segmento 3
+### Segmento 1
 
 | Entrevistado 1 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
 |----------------|--------------------|-----------|-------------|-------------|------------|
@@ -605,7 +605,7 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 
 - **Enlace de las entrevistas:** [Entrevista Estefano](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219266_upc_edu_pe/Ed2h1HV-3vpJhQtojCqM6_IBg6ASlam4rmAU0SWeqbWbXg?e=mnQRWR&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-###Segmento 2
+### Segmento 2
 
 | Entrevistado 1 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
 |----------------|--------------------|-----------|-------------|-------------|------------|
