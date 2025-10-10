@@ -591,17 +591,29 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 
 ### 2.2.2. Registro de entrevistas
 
+###Segmento 3
+
+| Entrevistado 1 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/azul.jpeg" width="120"/> | Azul Delgado Sanchez | 22 años | Santiago de Surco | 5:50 - 5:56 | Azul es una estudiante de 22 años que tuvo dificultades para encontrar un psicólogo. Ella afirma que es muy importante poder reservar citas en línea, y considera que hacerlo por WhatsApp resulta muy útil. También señala que, al momento de elegir un psicólogo, el costo debe ser accesible para los estudiantes. Además, presta atención a las reseñas en línea, ya que pueden ayudar a orientarse, aunque reconoce que algunas pueden ser falsas. Prefiere las citas semipresenciales, porque en algunas sesiones virtuales el diálogo puede malinterpretarse. Le encantaría recibir notificaciones a través de una aplicación, pues revisa sus redes sociales con frecuencia. Cree que la idea de contar con un chatbot como orientación sería muy útil, aunque aclara que no reemplazaría a un psicólogo. Finalmente, estaría dispuesta a pagar 70 soles por cita y asistir dos veces por semana. |
+
+- **Enlace de las entrevistas:** https://youtu.be/nlKWww1OVLQ
+
+| Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/estefano.jpeg" width="120"/> | Estefano Herrera Siguas | 20 años | Villa el Salvador | 15:30 - 15:40 | Estefano es un estudiante de 20 años que ha tenido dificultades para encontrar un psicólogo debido a su limitado tiempo disponible y los horarios poco flexibles de atención. Considera que el costo de las sesiones debe ser accesible, situándose entre 50 y 70 soles por sesión, ya que busca cuidar su presupuesto sin sacrificar la calidad del servicio. Prefiere las sesiones presenciales, pues siente que el contacto directo facilita la comunicación y la confianza con el profesional. Aunque revisa todo tipo de reseñas en línea para orientarse, confía más en las recomendaciones de sus amigos y familiares cercanos, ya que valora las experiencias personales y la opinión de su entorno más próximo. |
+
+- **Enlace de las entrevistas:** [Entrevista Estefano](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219266_upc_edu_pe/Ed2h1HV-3vpJhQtojCqM6_IBg6ASlam4rmAU0SWeqbWbXg?e=mnQRWR&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+###Segmento 2
+
 | Entrevistado 1 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
 |----------------|--------------------|-----------|-------------|-------------|------------|
 |<img src="./resources/farid.jpeg" width="120"/> | Farid Valentte Rebatta Gutierrez | 26 años | Santiago de Surco |13:20 - 13:24 | El psicólogo organiza actualmente sus citas mediante una agenda digital y recordatorios, utilizando principalmente Zoom para las sesiones, Google Calendar para agendar y WhatsApp para comunicación breve. Reconoce que enfrenta dificultades con cancelaciones de último minuto y también con algunos pacientes que presentan limitaciones al usar pagos digitales.
 
 Considera muy relevante contar con una plataforma que le brinde mayor visibilidad ante nuevos pacientes y ve con valor agregado que esta integre reseñas verificadas, pues fortalecen la confianza y la credibilidad profesional. Asimismo, señala que los reportes de desempeño (sesiones, ingresos, satisfacción) serían herramientas muy valiosas para el control de su práctica. En cuanto al modelo de negocio, estaría dispuesto a pagar una suscripción mensual en un rango de 30 a 50 USD, siempre que incluya agenda, pagos y promoción digital. Muestra apertura hacia innovaciones como dispositivos IoT en consultorios, aunque considera esta opción como un aspecto complementario y no esencial. Finalmente, destaca la importancia de contar con un soporte técnico ágil y efectivo, que le brinde soluciones rápidas y acompañamiento constante.|
 
-| Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
-|----------------|--------------------|-----------|-------------|-------------|------------|
-|<img src="./resources/azul.jpeg" width="120"/> | Azul Delgado Sanchez | 22 años | Santiago de Surco | 5:50 - 5:56 | Azul es una estudiante de 22 años que tuvo dificultades para encontrar un psicólogo. Ella afirma que es muy importante poder reservar citas en línea, y considera que hacerlo por WhatsApp resulta muy útil. También señala que, al momento de elegir un psicólogo, el costo debe ser accesible para los estudiantes. Además, presta atención a las reseñas en línea, ya que pueden ayudar a orientarse, aunque reconoce que algunas pueden ser falsas. Prefiere las citas semipresenciales, porque en algunas sesiones virtuales el diálogo puede malinterpretarse. Le encantaría recibir notificaciones a través de una aplicación, pues revisa sus redes sociales con frecuencia. Cree que la idea de contar con un chatbot como orientación sería muy útil, aunque aclara que no reemplazaría a un psicólogo. Finalmente, estaría dispuesta a pagar 70 soles por cita y asistir dos veces por semana. |
 
-- **Enlace de las entrevistas:** https://youtu.be/nlKWww1OVLQ  
 
 ### 2.2.3. Análisis de entrevistas
 
