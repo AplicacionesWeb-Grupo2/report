@@ -619,6 +619,13 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 
 - **Enlace de las entrevistas:** [Entrevista Marco Aurelio](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219266_upc_edu_pe/EfuNM1uvu9lEiTaNIen98LoB9FHyGgttmd0ZbTXDnWbpYg?e=ZCws55&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
+| Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/juan.jpg" width="120"/> | Juan Camilo Davila | 23 años | Santa Marta (Colombia) |15:44 - 15:56 |El psicólogo Juan Camilo Dávila gestiona actualmente sus citas y horarios utilizando principalmente WhatsApp para la coordinación y recordatorios, y Zoom para la realización de sus consultas virtuales. Considera de gran relevancia aparecer en una plataforma digital que le permita aumentar su visibilidad frente a potenciales pacientes, así como la posibilidad de integrar reseñas verificadas que mejoren su reputación profesional. Además, mostró un claro interés en los reportes que una plataforma integral pueda ofrecerle, relacionados con el número de sesiones, ingresos y satisfacción de sus pacientes. Estaría dispuesto a pagar una suscripción mensual de alrededor de $10 USD (equivalente a 38 soles) por una solución que combine agenda, pasarela de pagos y herramientas de promoción. También se mostró muy favorable hacia la integración de dispositivos IoT para monitorear condiciones ambientales en su consultorio, ya que cree que factores como la temperatura y el ruido inciden directamente en la comodidad y el bienestar durante las sesiones. Finalmente, destacó que un soporte técnico accesible y con acompañamiento continuo sería fundamental para su adopción y uso satisfactorio de la plataforma.|
+
+- **Enlace de las entrevistas:**  https://www.youtube.com/watch?v=FztYjCNbZk0
+
+
 ### 2.2.3. Análisis de entrevistas
 
 #### Análisis de Entrevista – Psicólogo
