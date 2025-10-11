@@ -1171,131 +1171,231 @@ https://www.figma.com/proto/N5Fs8IWRNXDk03yETY4MP6/Untitled?node-id=43-85&t=P8lK
 
 ## 4.8. Database Design
 ```sql
--- =========================================
--- Database: opendMind
--- Purpose: Online platform for booking psychology sessions
--- SQL Server Schema
--- =========================================
+/* =========================================
+   EIRAMIND - SQL Server Script (T-SQL)
+   ========================================= */
 
-CREATE TABLE [User] (
-    id_user INT IDENTITY(1,1) PRIMARY KEY,
-    first_name VARCHAR(100),
-    last_name VARCHAR(100),
-    email VARCHAR(255) NOT NULL UNIQUE,
-    password_hash VARCHAR(255) NOT NULL,
-    role VARCHAR(20), -- patient, psychologist, admin
-    created_at DATETIME DEFAULT GETDATE()
+SET XACT_ABORT ON;
+BEGIN TRAN;
+
+/* ===== CORE MODULE ===== */
+CREATE TABLE users (
+    id               INT IDENTITY(1,1) PRIMARY KEY,
+    email            VARCHAR(150)  NOT NULL UNIQUE,
+    password_hash    VARCHAR(255)  NOT NULL,
+    full_name        VARCHAR(120)  NOT NULL,
+    phone            VARCHAR(40),
+    role             VARCHAR(20)   NOT NULL DEFAULT 'patient',
+    status           VARCHAR(20)   NOT NULL DEFAULT 'active',
+    last_login_at    DATETIME2(0),
+    created_at       DATETIME2(0)  NOT NULL DEFAULT SYSUTCDATETIME(),
+    updated_at       DATETIME2(0)  NOT NULL DEFAULT SYSUTCDATETIME()
 );
 
-CREATE TABLE Psychologist (
-    id_psychologist INT IDENTITY(1,1) PRIMARY KEY,
-    id_user INT NOT NULL UNIQUE,
-    specialization VARCHAR(100),
-    years_experience INT,
-    license_number VARCHAR(50) UNIQUE,
-    consultation_type VARCHAR(20), -- online, in_person, hybrid
-    hourly_rate DECIMAL(10,2),
-    CONSTRAINT FK_Psychologist_User FOREIGN KEY (id_user) REFERENCES [User](id_user)
+CREATE TABLE profiles (
+    id               INT IDENTITY(1,1) PRIMARY KEY,
+    user_id          INT NOT NULL UNIQUE,
+    avatar_url       NVARCHAR(MAX),
+    bio              NVARCHAR(MAX),
+    timezone         VARCHAR(64)   NOT NULL DEFAULT 'UTC',
+    language         VARCHAR(10)   NOT NULL DEFAULT 'en',
+    gender           VARCHAR(20),
+    birthdate        DATE,
+    country          VARCHAR(80),
+    city             VARCHAR(80),
+    created_at       DATETIME2(0)  NOT NULL DEFAULT SYSUTCDATETIME(),
+    updated_at       DATETIME2(0)  NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
-CREATE TABLE Patient (
-    id_patient INT IDENTITY(1,1) PRIMARY KEY,
-    id_user INT NOT NULL UNIQUE,
-    age INT,
-    occupation VARCHAR(100),
-    CONSTRAINT FK_Patient_User FOREIGN KEY (id_user) REFERENCES [User](id_user)
+/* ===== THERAPY MODULE ===== */
+CREATE TABLE therapists (
+    id                INT IDENTITY(1,1) PRIMARY KEY,
+    user_id           INT NOT NULL UNIQUE,
+    license_number    VARCHAR(80),
+    specialty         VARCHAR(100),
+    years_experience  INT NOT NULL DEFAULT 0,
+    base_rate_usd     DECIMAL(10,2) NOT NULL DEFAULT 0,
+    session_mode      VARCHAR(40)   NOT NULL DEFAULT 'hybrid',
+    rating_avg        DECIMAL(3,2)  NOT NULL DEFAULT 0,
+    rating_count      INT           NOT NULL DEFAULT 0,
+    verified          BIT           NOT NULL DEFAULT 0,
+    created_at        DATETIME2(0)  NOT NULL DEFAULT SYSUTCDATETIME(),
+    updated_at        DATETIME2(0)  NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
-CREATE TABLE Appointment (
-    id_appointment INT IDENTITY(1,1) PRIMARY KEY,
-    id_patient INT NOT NULL,
-    id_psychologist INT NOT NULL,
-    appointment_start DATETIME NOT NULL,
-    appointment_end DATETIME,
-    mode VARCHAR(20), -- online, in_person
-    status VARCHAR(20), -- scheduled, confirmed, completed, canceled
-    created_at DATETIME DEFAULT GETDATE(),
-    CONSTRAINT FK_Appointment_Patient FOREIGN KEY (id_patient) REFERENCES Patient(id_patient),
-    CONSTRAINT FK_Appointment_Psychologist FOREIGN KEY (id_psychologist) REFERENCES Psychologist(id_psychologist),
-    CONSTRAINT UQ_Psychologist_Appointment UNIQUE (id_psychologist, appointment_start) -- prevent double booking
+CREATE TABLE patients (
+    id                INT IDENTITY(1,1) PRIMARY KEY,
+    user_id           INT NOT NULL UNIQUE,
+    emergency_contact_name VARCHAR(120),
+    emergency_contact_phone VARCHAR(40),
+    notes             NVARCHAR(MAX),
+    created_at        DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    updated_at        DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (user_id) REFERENCES users(id)
 );
 
-CREATE TABLE Payment (
-    id_payment INT IDENTITY(1,1) PRIMARY KEY,
-    id_appointment INT NOT NULL,
-    amount DECIMAL(10,2) NOT NULL,
-    payment_date DATETIME DEFAULT GETDATE(),
-    method VARCHAR(20), -- card, wallet, transfer
-    status VARCHAR(20), -- pending, confirmed, failed, refunded
-    receipt_url VARCHAR(255),
-    CONSTRAINT FK_Payment_Appointment FOREIGN KEY (id_appointment) REFERENCES Appointment(id_appointment)
+CREATE TABLE therapist_specialties (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    therapist_id INT NOT NULL,
+    specialty_name VARCHAR(120) NOT NULL,
+    description NVARCHAR(MAX),
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (therapist_id) REFERENCES therapists(id)
 );
 
-CREATE TABLE Review (
-    id_review INT IDENTITY(1,1) PRIMARY KEY,
-    id_appointment INT NOT NULL UNIQUE, -- one review per appointment
-    rating INT CHECK (rating >= 1 AND rating <= 5),
-    comment TEXT,
-    created_at DATETIME DEFAULT GETDATE(),
-    CONSTRAINT FK_Review_Appointment FOREIGN KEY (id_appointment) REFERENCES Appointment(id_appointment)
+CREATE TABLE therapy_plans (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    patient_id INT NOT NULL,
+    therapist_id INT NOT NULL,
+    title VARCHAR(120),
+    description NVARCHAR(MAX),
+    duration_weeks INT NOT NULL DEFAULT 4,
+    status VARCHAR(20) NOT NULL DEFAULT 'active',
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    updated_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (therapist_id) REFERENCES therapists(id),
+    FOREIGN KEY (patient_id) REFERENCES patients(id)
 );
 
-CREATE TABLE ChatbotInteraction (
-    id_interaction INT IDENTITY(1,1) PRIMARY KEY,
-    id_user INT NOT NULL,
-    message TEXT,
-    response TEXT,
-    created_at DATETIME DEFAULT GETDATE(),
-    CONSTRAINT FK_ChatbotInteraction_User FOREIGN KEY (id_user) REFERENCES [User](id_user)
+/* ===== SCHEDULING MODULE ===== */
+CREATE TABLE appointments (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    therapist_id INT NOT NULL,
+    patient_id INT NOT NULL,
+    starts_at DATETIME2(0) NOT NULL,
+    ends_at DATETIME2(0) NOT NULL,
+    status VARCHAR(20) NOT NULL DEFAULT 'scheduled',
+    mode VARCHAR(20) NOT NULL DEFAULT 'online',
+    price_usd DECIMAL(10,2) NOT NULL DEFAULT 0,
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    updated_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (therapist_id) REFERENCES therapists(id),
+    FOREIGN KEY (patient_id) REFERENCES patients(id)
 );
 
-CREATE TABLE Subscription (
-    id_subscription INT IDENTITY(1,1) PRIMARY KEY,
-    id_user INT NOT NULL,
-    plan VARCHAR(50), -- basic, pro, business
-    start_date DATETIME,
-    end_date DATETIME,
-    status VARCHAR(20), -- active, past_due, canceled, expired
-    current_period_start DATETIME,
-    current_period_end DATETIME,
-    cancel_at_period_end BIT,
-    CONSTRAINT FK_Subscription_User FOREIGN KEY (id_user) REFERENCES [User](id_user)
+CREATE TABLE sessions (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    appointment_id INT NOT NULL UNIQUE,
+    therapist_notes NVARCHAR(MAX),
+    patient_summary NVARCHAR(MAX),
+    mood_score INT,
+    followup_date DATETIME2(0),
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    updated_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (appointment_id) REFERENCES appointments(id)
 );
 
--- =========================================
--- Indexes
--- =========================================
+CREATE TABLE availabilities (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    therapist_id INT NOT NULL,
+    weekday INT NOT NULL,
+    start_time TIME NOT NULL,
+    end_time TIME NOT NULL,
+    is_virtual BIT NOT NULL DEFAULT 1,
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (therapist_id) REFERENCES therapists(id)
+);
 
--- User
-CREATE INDEX IX_User_Role ON [User](role);
+/* ===== BILLING MODULE ===== */
+CREATE TABLE plans (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    code VARCHAR(50) NOT NULL UNIQUE,
+    name VARCHAR(120) NOT NULL,
+    price_usd DECIMAL(10,2) NOT NULL,
+    interval_type VARCHAR(20) NOT NULL DEFAULT 'month',
+    features NVARCHAR(MAX),
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME()
+);
 
--- Psychologist
-CREATE INDEX IX_Psychologist_Specialization ON Psychologist(specialization);
+CREATE TABLE subscriptions (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    user_id INT NOT NULL,
+    plan_id INT NOT NULL,
+    status VARCHAR(20) NOT NULL DEFAULT 'active',
+    start_date DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    end_date DATETIME2(0),
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (plan_id) REFERENCES plans(id)
+);
 
--- Patient
-CREATE INDEX IX_Patient_Age ON Patient(age);
+CREATE TABLE payments (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    appointment_id INT NULL,
+    user_id INT NOT NULL,
+    provider VARCHAR(40) NOT NULL,
+    amount_usd DECIMAL(10,2) NOT NULL,
+    currency VARCHAR(3) NOT NULL DEFAULT 'USD',
+    status VARCHAR(20) NOT NULL DEFAULT 'succeeded',
+    paid_at DATETIME2(0),
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (appointment_id) REFERENCES appointments(id)
+);
 
--- Appointment
-CREATE INDEX IX_Appointment_Patient ON Appointment(id_patient);
-CREATE INDEX IX_Appointment_Psychologist ON Appointment(id_psychologist);
-CREATE INDEX IX_Appointment_Status ON Appointment(status);
+CREATE TABLE invoices (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    subscription_id INT NULL,
+    user_id INT NOT NULL,
+    amount_usd DECIMAL(10,2) NOT NULL,
+    issued_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    due_at DATETIME2(0),
+    status VARCHAR(20) NOT NULL DEFAULT 'open',
+    FOREIGN KEY (subscription_id) REFERENCES subscriptions(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
 
--- Payment
-CREATE INDEX IX_Payment_Appointment ON Payment(id_appointment);
-CREATE INDEX IX_Payment_Status ON Payment(status);
-CREATE INDEX IX_Payment_Date ON Payment(payment_date);
+/* ===== COMMUNICATION MODULE ===== */
+CREATE TABLE messages (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    sender_id INT NOT NULL,
+    receiver_id INT NOT NULL,
+    body NVARCHAR(MAX),
+    is_read BIT NOT NULL DEFAULT 0,
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (sender_id) REFERENCES users(id),
+    FOREIGN KEY (receiver_id) REFERENCES users(id)
+);
 
--- Review
-CREATE INDEX IX_Review_Rating ON Review(rating);
+CREATE TABLE notifications (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    user_id INT NOT NULL,
+    title VARCHAR(160) NOT NULL,
+    message NVARCHAR(MAX),
+    type VARCHAR(60),
+    is_read BIT NOT NULL DEFAULT 0,
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
 
--- ChatbotInteraction
-CREATE INDEX IX_ChatbotInteraction_User ON ChatbotInteraction(id_user);
-CREATE INDEX IX_ChatbotInteraction_Date ON ChatbotInteraction(created_at);
+/* ===== SUPPORT & AUDIT MODULE ===== */
+CREATE TABLE tickets (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    user_id INT NOT NULL,
+    subject VARCHAR(200) NOT NULL,
+    message NVARCHAR(MAX),
+    priority VARCHAR(20) NOT NULL DEFAULT 'normal',
+    status VARCHAR(20) NOT NULL DEFAULT 'open',
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    updated_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
 
--- Subscription
-CREATE INDEX IX_Subscription_User ON Subscription(id_user);
-CREATE INDEX IX_Subscription_Status ON Subscription(status);
-CREATE INDEX IX_Subscription_Plan ON Subscription(plan);
+CREATE TABLE audit_logs (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    user_id INT,
+    entity VARCHAR(80),
+    entity_id INT,
+    action VARCHAR(40),
+    timestamp DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+COMMIT TRAN;
+GO
+
 ```
 
 ### 4.8.1. Database Diagram
