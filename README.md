@@ -1708,9 +1708,9 @@ Los aspectos priorizados para este sprint fueron:
 
 | **Team Member** | **GitHub Username** | **Backend & API** | **Frontend & UI** | **Auth & Persistencia** | **i18n & UX Writing** | **QA & Documentación** |
 |------------------|--------------------|------------------|------------------|------------------------|----------------------|-----------------------|
-| Diego Rodrigo Pumahualca García | DiegoPumahualcca | L | C | C |  | C |
-| Liam Anderson Villugas Jeronimo | Liamvillugas | C | L | C | C |  |
-| Andy Alejandro Mio Mejía | AndyMio17 | C | C | L | C |  |
+| Diego Rodrigo Pumahualca García | DiegoPumahualcca | L | C | C | C | C |
+| Liam Anderson Villugas Jeronimo | Liamvillugas | C | L | C | C | C |
+| Andy Alejandro Mio Mejía | AndyMio17 | C | C | L | C | C |
 | Rolando Andre Torres Diaz | @ROLO194 | C | C | C | L | L |
 | Henry Jared Montes Ramos | jahen17 | C | C | C | C | C |
 
