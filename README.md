@@ -1638,33 +1638,9 @@ La evidencia confirma que los servicios iniciales del sistema fueron desarrollad
 
 ### 5.2.1.7. Software Deployment Evidence for Sprint Review
 
-Durante el Sprint 1 se llevó a cabo el despliegue inicial del sistema **opendMind**, asegurando que las funcionalidades desarrolladas pudieran ejecutarse en un entorno controlado y accesible para el equipo de trabajo.  
 
-#### Evidencia de despliegue  
 
-1. **Entorno de desarrollo local**  
-   - Se configuró el backend en **Node.js + Express** y el frontend en **React** utilizando `npm start`.  
-   - La base de datos **SQL Server** fue desplegada en una instancia local, con migraciones iniciales de las tablas `User` y `Psychologist`.  
-   - Pruebas de conexión confirmaron la comunicación entre backend y base de datos.  
 
-2. **Contenerización con Docker (versión inicial)**  
-   - Se creó un archivo `Dockerfile` para el backend y un `docker-compose.yml` para levantar servicios de API y base de datos.  
-   - La aplicación pudo ejecutarse en contenedores, garantizando portabilidad y consistencia del entorno.  
-
-3. **Despliegue en la nube (prueba inicial)**  
-   - El frontend fue desplegado en **Vercel** para pruebas rápidas de accesibilidad.  
-   - El backend se configuró en una máquina virtual de **Azure**, accesible a través de endpoints públicos.  
-   - Se validó el acceso al sistema desde navegadores externos, confirmando la disponibilidad en la nube.  
-
-#### Seguridad y configuración  
-- Se utilizaron **variables de entorno (.env)** para credenciales y llaves sensibles.  
-- Conexiones al backend protegidas mediante protocolo **HTTPS**.  
-- La base de datos configurada con usuarios específicos para desarrollo y pruebas.  
-
-#### Resultados  
-- El sistema **opendMind** fue desplegado de forma básica en local y nube, permitiendo validar su funcionamiento de extremo a extremo.  
-- Los usuarios pudieron registrarse, autenticarse y almacenar datos en la base de datos desde la versión desplegada.  
-- Este despliegue inicial sienta las bases para la integración de un pipeline de **CI/CD** en futuros sprints.  
 
 ### 5.2.1.8. Team Collaboration Insights during Sprint
 
@@ -1874,7 +1850,9 @@ La evidencia confirma que los servicios del **frontend** fueron desarrollados y 
 
 ### 5.2.2.7 Software Deployment Evidence for Sprint Review  
 
-Durante el **Sprint 2**, se realizó el despliegue técnico del sistema **EiraMind** en su versión frontend, con el objetivo de validar la ejecución del entorno de desarrollo, la correcta configuración de dependencias y la accesibilidad del prototipo de autenticación e internacionalización.  
+<img src="./resources/deploy.png"></img>  
+
+link: https://eiramindapp.netlify.app/
 
 #### Evidencia de despliegue  
 
