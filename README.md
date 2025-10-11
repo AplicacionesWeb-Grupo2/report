@@ -1299,7 +1299,7 @@ CREATE INDEX IX_Subscription_Plan ON Subscription(plan);
 ```
 
 ### 4.8.1. Database Diagram
-<img src="./resources/basedatos.png"></img>
+<img src="./resources/dbeiramind.png"></img>
 
 # Capítulo V: Product Implementation, Validation & Deployment
 ## 5.1. Software Configuration Management
