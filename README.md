@@ -1488,14 +1488,14 @@ En conclusión, la estrategia de despliegue asegura que el sistema sea confiable
 ## 5.2. Landing Page, Service & Application Implementation
 ### 5.2.1 Sprint 1
 ### 5.2.1.1. Sprint Planning 1
-| **Sprint #**                  | Sprint 0 |
+| **Sprint #**                  | Sprint 1 |
 |--------------------------------|----------|
 | **Sprint Planning Background** |  |
 | **Date**                       | 2025-09-5 |
 | **Time**                       | 9:00 PM |
 | **Location**                   | Reunión virtual – Salón UH-52 |
 | **Prepared By**                | Rolando Andre Torres Diaz|
-| **Attendees (to planning meeting)** | Rolando Andre Torres Diaz /e / e / e/ e |
+| **Attendees (to planning meeting)** | Rolando Andre Torres Diaz / Liam Anderson Villugas Jeronimo  / Diego Rodrigo Pumahualcca Garcia / Andy Alejandro Mio Mejia / Henry Jaredt Montes Ramos|
 | **Sprint n – 1 Review Summary** | No hubo Sprint anterior. |
 | **Sprint n – 1 Retrospective Summary** | No hubo Sprint anterior|
 | **Sprint Goal & User Stories** | |
@@ -1678,6 +1678,254 @@ Durante este Sprint se generaron aprendizajes significativos en torno al trabajo
 - Se destacó el compromiso de los integrantes en la **revisión de Pull Requests y control de versiones**, promoviendo la calidad del código y la colaboración en el repositorio.  
 
 En conclusión, la colaboración del equipo durante este Sprint fue positiva y permitió establecer una dinámica sólida de comunicación y coordinación. No obstante, se deberán reforzar los procesos de estimación y planificación para optimizar la eficiencia en futuros sprints.
+
+### 5.2.2 Sprint 2
+### 5.2.2.1. Sprint Planning 2
+| **Sprint #** | Sprint 2 |
+|---------------|-----------|
+| **Sprint Planning Background** | |
+| **Date** | 2025-10-10 |
+| **Time** | 9:30 PM |
+| **Location** | Reunión virtual – Discord / VS Code Live Share |
+| **Prepared By** | Rolando Andre Torres Diaz |
+| **Attendees (to planning meeting)** | Rolando Andre Torres Diaz / Liam Anderson Villugas Jeronimo  / Diego Rodrigo Pumahualcca Garcia / Andy Alejandro Mio Mejia / Henry Jaredt Montes Ramos |
+| **Sprint 1 Review Summary** | Durante el Sprint 1 se configuró el entorno de desarrollo, el repositorio GitHub y la estructura base del proyecto (frontend Vue 3 + Vite + PrimeVue + Axios + i18n). Se creó la vista de Landing Page y la documentación inicial en README. |
+| **Sprint 1 Retrospective Summary** | El equipo concluyó que la planificación fue eficiente y la estructura técnica adecuada. Como mejora, se propuso centrar los próximos sprints en las funcionalidades centrales de autenticación y gestión de usuarios. |
+| **Sprint Goal & User Stories** | Implementar el módulo de **autenticación y usuarios** del proyecto EiraMind, permitiendo registrar, iniciar sesión y redirigir al dashboard. Se agregará persistencia de sesión y mensajes de error accesibles. |
+| **Sprint Goal** | Construir y conectar las vistas de Login y Registro con Axios y localStorage, siguiendo DDD y buenas prácticas de UI/UX. |
+| **Sprint Velocity** | 20 Story Points |
+| **Sum of Story Points** | 20 |
+
+---
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+En el **Sprint 2**, el equipo reorganizó los aspectos clave del desarrollo para enfocarse en los módulos principales del sistema **EiraMind**, priorizando la autenticación, el control de sesiones y la internacionalización.  
+Se mantuvo la estructura colaborativa, designando un **líder (L)** y **colaboradores (C)** por cada área de trabajo, asegurando una adecuada distribución de responsabilidades, comunicación interna y seguimiento técnico.  
+
+Los aspectos priorizados para este sprint fueron:  
+**Backend & API, Frontend & UI, Autenticación & Persistencia, Internacionalización (i18n), y QA & Documentación.**
+
+| **Team Member** | **GitHub Username** | **Backend & API** | **Frontend & UI** | **Auth & Persistencia** | **i18n & UX Writing** | **QA & Documentación** |
+|------------------|--------------------|------------------|------------------|------------------------|----------------------|-----------------------|
+| Diego Rodrigo Pumahualca García | DiegoPumahualcca | L | C | C |  | C |
+| Liam Anderson Villugas Jeronimo | Liamvillugas | C | L | C | C |  |
+| Andy Alejandro Mio Mejía | AndyMio17 | C | C | L | C |  |
+| Rolando Andre Torres Diaz | @ROLO194 | C | C | C | L | L |
+| Henry Jared Montes Ramos | jahen17 | C | C | C | C | C |
+
+
+### 5.2.2.3. Sprint Backlog 2
+
+| **Sprint #** | **User Story** | **Work-Item / Task** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|---------------|----------------|----------------------|-----------------|-------------------------|-----------------|------------|
+| Sprint 2 | US01 – Registro de Usuario | T-01: Crear vista de registro | Diseñar y codificar el formulario de registro con validaciones y estilos PrimeVue. | 5h | Rolando Torres | In Process |
+| Sprint 2 | US01 – Registro de Usuario | T-02: Servicio Axios de registro | Crear endpoint con Axios que simule POST /register y gestione respuestas de error y éxito. | 4h | Liam Anderson Villugas Jeronimo | In Process |
+| Sprint 2 | US02 – Inicio de Sesión | T-03: Implementar vista de login | Diseñar y desarrollar formulario de inicio de sesión con manejo de errores e i18n. | 4h | Andy Alejandro Mio Mejía | In Process |
+| Sprint 2 | US02 – Inicio de Sesión | T-04: Persistencia de sesión | Guardar datos del usuario y token en localStorage tras login exitoso. | 3h | Diego Rodrigo Pumahualcca García | In Process |
+| Sprint 2 | US03 – Cierre de Sesión | T-05: Función logout | Implementar función logout y redirección al login. | 2h | Rolando Torres | In Process |
+| Sprint 2 | US04 – Mensajes i18n | T-06: Crear archivo locales/es.json y locales/en.json | Añadir traducciones de mensajes de error, éxito y placeholders. | 3h | Rolando Torres | In Process |
+| Sprint 2 | US04 – Mensajes i18n | T-07: Integrar i18n en componentes | Conectar useI18n con los formularios de login y registro para mostrar mensajes dinámicos. | 3h | Liam Anderson Villugas Jeronimo | In Process |
+| Sprint 2 | US05 – Persistencia de Idioma | T-08: Guardar idioma en localStorage | Implementar función para mantener idioma tras recargar o cerrar sesión. | 2h | Andy Alejandro Mio Mejía | In Process |
+| Sprint 2 | US05 – Persistencia de Idioma | T-09: Componente selector de idioma | Crear botón para alternar idioma (EN/ES) en Toolbar con actualización reactiva. | 2h | Rolando Torres | In Process |
+| Sprint 2 | US06 – QA y Documentación | T-10: Actualizar README.md | Agregar secciones Sprint 2, historias de usuario y backlog en formato Markdown. | 3h | Rolando Torres | In Process |
+
+---
+
+**Total Estimado:** 31 horas  
+**Estado General:** *En progreso*  
+
+> **Nota:** Todas las tareas se desarrollan en entorno **Vue 3 + Vite**, siguiendo la arquitectura **DDD (Domain Driven Design)**, con comunicación mediante **Axios**, y componentes de interfaz **PrimeVue**.
+
+### 5.2.2.4 Development Evidence for Sprint Review  
+
+Durante el **Sprint 2**, se implementaron y documentaron los avances técnicos planificados en el Sprint Backlog, centrados en el desarrollo del **módulo de autenticación**, la **persistencia de sesión** y la **internacionalización (i18n)**.  
+A continuación se presenta la evidencia que demuestra el cumplimiento de los objetivos y funcionalidades establecidas para esta iteración.  
+
+#### Evidencia de código  
+- Implementación completa de los **componentes de registro e inicio de sesión**, desarrollados con **Vue 3 (Composition API)** y **PrimeVue**.  
+- Integración del cliente **Axios** para consumir endpoints de autenticación simulados y manejar respuestas de error y éxito.  
+- Persistencia de datos de sesión mediante **localStorage**, asegurando que el usuario mantenga su estado autenticado.  
+- Implementación del sistema de **internacionalización (i18n)** con soporte para inglés y español, almacenando la preferencia de idioma.  
+- Aplicación de **buenas prácticas DDD (Domain Driven Design)**: separación por capas (`domain`, `application`, `infra`, `presentation`).  
+- Refactorización de componentes para mejorar la **accesibilidad (a11y)** y uso de atributos **ARIA** en formularios.  
+
+#### Evidencia en GitHub  
+- Commits registrados en la rama `develop` con mensajes descriptivos y consistentes.  
+- Pull Requests revisados antes de ser integrados en `main`.  
+- Uso de *issues* para rastrear incidencias relacionadas con el login, el registro y la persistencia de idioma.  
+- Capturas de commits y archivos que reflejan los cambios en:  
+  - `src/views/LoginView.vue`  
+  - `src/views/RegisterView.vue`  
+  - `src/services/auth.js`  
+  - `src/app/i18n/index.js`
+    
+#### Capturas de avance  
+- **Login:** formulario funcional con validaciones, mensajes de error y botones de redes sociales.  
+- **Registro:** vista con validaciones de campos requeridos y retroalimentación visual mediante PrimeVue.  
+- **Internacionalización:** selector de idioma en Toolbar que cambia dinámicamente todos los textos.  
+- **Dashboard (mock):** acceso controlado tras autenticación exitosa.  
+- **Toast Messages:** confirmaciones y alertas visibles al registrarse o iniciar sesión.  
+
+#### Resultados del Sprint  
+- Se alcanzó un **MVP funcional** con autenticación completa en el frontend.  
+- Se logró la **persistencia del idioma y de la sesión** del usuario.  
+- La aplicación muestra un flujo coherente desde el registro hasta el acceso al dashboard.  
+- Se documentó el código y se actualizó el **README.md** con las secciones de Sprint 2 y backlog.  
+
+La evidencia confirma que los objetivos planteados para el **Sprint 2** fueron cumplidos satisfactoriamente, consolidando las bases técnicas del sistema y habilitando el inicio de desarrollo del **módulo de dashboard y gestión de usuarios** para el próximo sprint.
+
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+La ejecución de las funcionalidades desarrolladas durante el **Sprint 2** permitió validar el correcto funcionamiento del módulo de autenticación y la integración de internacionalización en el sistema **EiraMind**.  
+A continuación, se presenta la evidencia de ejecución en los principales componentes del proyecto.  
+
+#### Frontend  
+
+- Ejecución del **formulario de registro** y **login** desarrollados con **Vue 3 (Composition API)** y **PrimeVue**.  
+- Validaciones en tiempo real para campos requeridos, contraseñas vacías o correos no válidos.  
+- Confirmación visual de mensajes de error y éxito usando **PrimeVue Toast**.  
+- Navegación fluida entre vistas (`/register`, `/login`, `/dashboard`) validando el flujo de usuario.  
+- Implementación de **persistencia de sesión** en `localStorage` con redirección automática si el usuario ya está autenticado.  
+- Accesibilidad mejorada: etiquetas `aria-label`, foco visible y roles semánticos aplicados en inputs y botones.  
+
+#### Internacionalización (i18n)  
+
+- Traducciones cargadas dinámicamente desde los archivos `src/app/i18n/locales/en.json` y `src/app/i18n/locales/es.json`.  
+- Selector de idioma funcional en Toolbar con actualización instantánea del contenido.  
+- Persistencia del idioma en `localStorage`, conservando la preferencia del usuario al recargar o volver a iniciar sesión.  
+- Mensajes de error, placeholders y botones traducidos completamente al inglés y español.  
+
+#### Integración y Servicios  
+
+- Cliente **Axios** configurado correctamente en `src/infra/http/axios.js` con manejo global de errores.  
+- Simulación de endpoints `/register` y `/login` para pruebas locales del flujo de autenticación.  
+- Validación de tiempo de respuesta, manejo de errores de red y mensajes dinámicos.  
+- Flujo completo validado: **Usuario se registra → API procesa solicitud → Respuesta con mensaje de éxito → Redirección al login.**  
+
+#### Resultados del Sprint  
+
+- Se logró un **flujo de autenticación funcional y estable** en el frontend.  
+- El sistema mantiene el estado de sesión y la preferencia de idioma del usuario.  
+- La interfaz de usuario responde correctamente a entradas válidas e inválidas.  
+- Se mejoró la accesibilidad y se estandarizaron los mensajes del sistema en dos idiomas.  
+- Se documentaron las evidencias en el README y se confirmaron los criterios de aceptación definidos para el Sprint 2.  
+
+La ejecución demuestra el cumplimiento exitoso de los objetivos del **Sprint 2**, consolidando la base funcional del sistema **EiraMind** y preparando el entorno para la próxima iteración enfocada en el **Dashboard y gestión de usuarios**.
+
+### 5.2.2.6 Services Documentation Evidence for Sprint Review  
+
+Durante el **Sprint 2**, se desarrollaron y documentaron los **servicios del frontend** para la plataforma **EiraMind**, con el propósito de implementar y validar la lógica de autenticación, registro de usuarios y persistencia de sesión mediante **Axios**.  
+Aunque el sistema aún opera con endpoints simulados, se estructuró el consumo de servicios siguiendo una arquitectura escalable basada en **Domain Driven Design (DDD)**.  
+
+#### Servicios implementados  
+
+1. **Servicio de Registro de Usuarios**  
+   - **Archivo:** `src/services/auth.js`  
+   - **Método:** `registerUser(data)`  
+   - **Descripción:** Envía una solicitud `POST` simulada a `/api/register` para crear un nuevo usuario.  
+   - **Parámetros requeridos:**  
+     - `firstName` (string)  
+     - `lastName` (string)  
+     - `email` (string, único)  
+     - `password` (string, mínimo 8 caracteres)  
+   - **Respuesta exitosa:** Devuelve objeto con `status: 201` y mensaje de confirmación.  
+   - **Errores:** Retorna mensaje de error si los campos son inválidos o duplicados.  
+
+2. **Servicio de Autenticación (Login)**  
+   - **Archivo:** `src/services/auth.js`  
+   - **Método:** `loginUser(credentials)`  
+   - **Descripción:** Realiza una solicitud `POST` simulada a `/api/login` y, si las credenciales son válidas, guarda los datos del usuario y token en `localStorage`.  
+   - **Parámetros requeridos:**  
+     - `email` (string)  
+     - `password` (string)  
+   - **Respuesta exitosa:** Devuelve objeto con `status: 200`, token simulado y datos del usuario.  
+   - **Errores:** Mensaje de “Credenciales incorrectas” o “Usuario no encontrado”.  
+
+3. **Servicio de Persistencia de Sesión**  
+   - **Archivo:** `src/services/auth.js`  
+   - **Métodos:**  
+     - `getCurrentUser()` → Obtiene usuario almacenado en `localStorage`.  
+     - `logoutUser()` → Elimina los datos de sesión y redirige al login.  
+   - **Descripción:** Gestiona el estado de sesión local del usuario.  
+
+4. **Servicio de Configuración Axios**  
+   - **Archivo:** `src/infra/http/axios.js`  
+   - **Descripción:** Crea una instancia personalizada de Axios con `baseURL` configurada y manejo de errores global.  
+   - **Timeout:** 15 segundos.  
+   - **Interceptores:**  
+     - **Request:** Adjunta token si está disponible.  
+     - **Response:** Muestra mensajes de error con PrimeVue Toast.  
+
+#### Evidencia de documentación  
+
+- Los servicios fueron documentados internamente con comentarios **JSDoc**, detallando propósito, parámetros y retorno.  
+- Se verificó la funcionalidad de los métodos `registerUser()` y `loginUser()` mediante simulaciones locales.  
+- La estructura de `auth.js` permite reemplazar fácilmente los endpoints simulados por un backend real.  
+- Se versionó la documentación de servicios dentro del repositorio, en la carpeta `/src/services/`.  
+
+#### Resultados  
+
+La evidencia confirma que los servicios del **frontend** fueron desarrollados y documentados correctamente, cumpliendo con los criterios del Sprint 2:  
+- El sistema puede registrar y autenticar usuarios simulando un flujo real.  
+- La sesión del usuario se mantiene activa y persistente.  
+- La arquitectura modular y documentada permitirá integrar los servicios con un backend real en el siguiente sprint.  
+
+
+### 5.2.2.7 Software Deployment Evidence for Sprint Review  
+
+Durante el **Sprint 2**, se realizó el despliegue técnico del sistema **EiraMind** en su versión frontend, con el objetivo de validar la ejecución del entorno de desarrollo, la correcta configuración de dependencias y la accesibilidad del prototipo de autenticación e internacionalización.  
+
+#### Evidencia de despliegue  
+
+1. **Entorno de desarrollo local**  
+   - El proyecto fue configurado y ejecutado correctamente en entorno **local** utilizando **Vite** con el comando `npm run dev`.  
+   - Se validó la estructura modular bajo **Domain Driven Design (DDD)**, con las carpetas `domain`, `application`, `infra` y `presentation`.  
+   - La aplicación cargó correctamente los componentes de **PrimeVue** y las vistas de `Login` y `Register`.  
+   - Se probaron las funcionalidades de **i18n** y **persistencia de sesión**, verificando que las preferencias se conservaran tras recargar la página.  
+
+2. **Configuración de entorno**  
+   - Se utilizaron **variables de entorno (.env)** para definir la URL base de Axios (`VITE_API_URL`).  
+   - Configuración centralizada en `vite.config.js` con soporte para rutas relativas y alias (`@/`).  
+   - Integración de **PrimeFlex** y **PrimeIcons** para soporte de estilos y diseño responsivo.  
+
+3. **Despliegue en la nube (versión preliminar)**  
+   - El proyecto fue desplegado en **Vercel** para pruebas de accesibilidad y revisión visual del flujo de autenticación.  
+   - El entorno de ejecución en la nube mantuvo las dependencias del proyecto sin conflictos.  
+   - Se verificó la carga del sitio desde navegadores externos y la visualización correcta del idioma seleccionado (EN/ES).  
+
+4. **Gestión de control de versiones**  
+   - La rama `main` mantiene el código estable de producción.  
+   - Las ramas `develop` y `feature/auth` documentan los avances de autenticación, internacionalización y persistencia.  
+   - Cada integración fue realizada mediante *Pull Requests* con revisión previa.  
+
+#### Seguridad y configuración  
+- Se almacenaron los tokens y preferencias de idioma de manera segura en **localStorage**.  
+- No se expusieron credenciales sensibles en el repositorio público gracias al uso del archivo `.env`.  
+- El proyecto mantiene dependencias actualizadas y auditadas mediante `npm audit`.  
+
+#### Resultados  
+- La aplicación **EiraMind (frontend)** fue ejecutada con éxito en entorno local y desplegada en la nube mediante **Vercel**.  
+- Se validó la persistencia de sesión, la autenticación de usuario y el cambio de idioma en el entorno desplegado.  
+- El despliegue de Sprint 2 confirma la estabilidad del entorno **Vue 3 + PrimeVue + Vite**, sentando las bases para futuras integraciones con el backend y la implementación del pipeline de **CI/CD** en próximos sprints.  
+
+
+
+
+### 5.2.2.8 Team Collaboration Insights during Sprint  
+
+Durante el **Sprint 2**, el equipo de desarrollo del proyecto **EiraMind** fortaleció su dinámica de trabajo colaborativo, alcanzando un flujo más organizado y eficiente tanto en la comunicación como en la gestión técnica del proyecto. A continuación, se destacan los principales aprendizajes y resultados del trabajo en equipo:  
+
+- Se mantuvo una **comunicación constante** a través de **Discord** para coordinar avances diarios y resolver incidencias técnicas, junto con reuniones de planificación y revisión en **Google Meet**.  
+- Se consolidó el uso del **repositorio GitHub** con ramas organizadas (`main`, `develop`, `feature/auth`, `feature/i18n`), permitiendo una mejor trazabilidad del código y control de versiones.  
+- El equipo adoptó una **metodología ágil ligera**, aplicando retrospectivas al final de cada semana para ajustar prioridades y distribuir mejor las tareas según las fortalezas de cada miembro.  
+- Se implementó un **flujo de Pull Requests con revisión cruzada**, lo que contribuyó a mejorar la calidad del código y a reducir errores en integración.  
+- Se reforzó la importancia de la **documentación técnica**: cada integrante registró sus cambios en el README y en los comentarios del código utilizando JSDoc y mensajes de commit estandarizados.  
+- Como fortaleza, se destacó la **capacidad de adaptación del equipo al entorno Vue 3 y PrimeVue**, logrando implementar componentes complejos como autenticación e internacionalización de manera colaborativa.  
+- Como oportunidad de mejora, se identificó la necesidad de **profundizar en pruebas de integración y validación cruzada entre vistas**, para asegurar la consistencia en la experiencia del usuario.  
+
+En conclusión, el equipo demostró un alto nivel de compromiso y cohesión durante el **Sprint 2**, alcanzando los objetivos técnicos planteados y mejorando la organización del trabajo colaborativo. La experiencia servirá como base para optimizar la planificación y las prácticas de validación en los próximos sprints.
+
 
 
 
