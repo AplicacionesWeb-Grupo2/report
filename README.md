@@ -1522,17 +1522,17 @@ Para cada aspecto se designó un **líder (L)** y uno o más **colaboradores (C)
 
 | **Sprint #** | **User Story** | **Work-Item / Task** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
 |--------------|----------------|-----------------------|-----------------|-------------------------|-----------------|------------|
-| Sprint 1 | US01 – Registro de Usuario | T-01: Modelo de usuario en SQL Server | Definir tabla y campos de usuario en la BD (id, nombre, email, contraseña, rol). | 5h | Diego Rodrigo Pumahualcca Garcia | InProcess |
-| Sprint 1 | US01 – Registro de Usuario | T-02: Endpoint de registro | Implementar API REST para registro de pacientes y psicólogos con validaciones. | 5h |Liam Anderson Villugas Jeronimo | InProcess |
-| Sprint 1 | US01 – Registro de Usuario | T-03: Formulario de registro | Desarrollo de formulario de registro en frontend (React). | 3h | Rolando Torres | InProcess |
-| Sprint 1 | US02 – Búsqueda de Psicólogos | T-04: Generar vista de búsqueda | Página de búsqueda con filtros (especialidad, tarifa, modalidad). | 5h |Andy Alejandro Mio Mejia| InProcess |
-| Sprint 1 | US02 – Búsqueda de Psicólogos | T-05: Validar búsqueda vacía | Mostrar mensaje cuando no se encuentran psicólogos disponibles. | 3h | nombre | InProcess |
-| Sprint 1 | US03 – Reserva de Cita | T-06: Maquetación del formulario | HTML y CSS del formulario de reserva con fecha, hora y modalidad. | 4h |Rolando Torres | InProcess |
-| Sprint 1 | US03 – Reserva de Cita | T-07: Validación de campos obligatorios | Validaciones en frontend (ejemplo: fecha y modalidad requeridos). | 3h |nombre| InProcess |
-| Sprint 1 | US04 – Sistema de Pagos | T-08: Modelo de pagos en BD | Definir tabla de pagos (id_pago, monto, fecha, método). | 3h | Andy Alejandro Mio Mejia| InProcess |
-| Sprint 1 | US04 – Sistema de Pagos | T-09: Endpoint CRUD de pagos | Crear API REST para registrar y consultar pagos. | 6h |Diego Rodrigo Pumahualcca Garcia| InProcess |
-| Sprint 1 | US05 – Reseñas de Psicólogos | T-10: Modelo reseña en BD | Crear tabla de reseñas con atributos (id, comentario, rating, fecha). | 3h | Liam Anderson Villugas Jeronimo | InProcess |
-| Sprint 1 | US05 – Reseñas de Psicólogos | T-11: Interfaz de reseñas | Desplegable en frontend para calificar y comentar después de una cita. | 3h | Rolando Torres | InProcess |
+| Sprint 1 | US01 – Registro de Usuario | T-01: Modelo de usuario en SQL Server | Definir tabla y campos de usuario en la BD (id, nombre, email, contraseña, rol). | 5h | Diego Rodrigo Pumahualcca Garcia | Done |
+| Sprint 1 | US01 – Registro de Usuario | T-02: Endpoint de registro | Implementar API REST para registro de pacientes y psicólogos con validaciones. | 5h |Liam Anderson Villugas Jeronimo | Done |
+| Sprint 1 | US01 – Registro de Usuario | T-03: Formulario de registro | Desarrollo de formulario de registro en frontend (React). | 3h | Rolando Torres | Done |
+| Sprint 1 | US02 – Búsqueda de Psicólogos | T-04: Generar vista de búsqueda | Página de búsqueda con filtros (especialidad, tarifa, modalidad). | 5h |Andy Alejandro Mio Mejia| Done |
+| Sprint 1 | US02 – Búsqueda de Psicólogos | T-05: Validar búsqueda vacía | Mostrar mensaje cuando no se encuentran psicólogos disponibles. | 3h | nombre | Done |
+| Sprint 1 | US03 – Reserva de Cita | T-06: Maquetación del formulario | HTML y CSS del formulario de reserva con fecha, hora y modalidad. | 4h |Rolando Torres | Done |
+| Sprint 1 | US03 – Reserva de Cita | T-07: Validación de campos obligatorios | Validaciones en frontend (ejemplo: fecha y modalidad requeridos). | 3h |nombre| Done |
+| Sprint 1 | US04 – Sistema de Pagos | T-08: Modelo de pagos en BD | Definir tabla de pagos (id_pago, monto, fecha, método). | 3h | Andy Alejandro Mio Mejia| Done |
+| Sprint 1 | US04 – Sistema de Pagos | T-09: Endpoint CRUD de pagos | Crear API REST para registrar y consultar pagos. | 6h |Diego Rodrigo Pumahualcca Garcia| Done |
+| Sprint 1 | US05 – Reseñas de Psicólogos | T-10: Modelo reseña en BD | Crear tabla de reseñas con atributos (id, comentario, rating, fecha). | 3h | Liam Anderson Villugas Jeronimo | Done |
+| Sprint 1 | US05 – Reseñas de Psicólogos | T-11: Interfaz de reseñas | Desplegable en frontend para calificar y comentar después de una cita. | 3h | Rolando Torres | Done |
 
 
 ### 5.2.1.4. Development Evidence for Sprint Review
@@ -1695,16 +1695,16 @@ Los aspectos priorizados para este sprint fueron:
 
 | **Sprint #** | **User Story** | **Work-Item / Task** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
 |---------------|----------------|----------------------|-----------------|-------------------------|-----------------|------------|
-| Sprint 2 | US01 – Registro de Usuario | T-01: Crear vista de registro | Diseñar y codificar el formulario de registro con validaciones y estilos PrimeVue. | 5h | Rolando Torres | In Process |
-| Sprint 2 | US01 – Registro de Usuario | T-02: Servicio Axios de registro | Crear endpoint con Axios que simule POST /register y gestione respuestas de error y éxito. | 4h | Liam Anderson Villugas Jeronimo | In Process |
-| Sprint 2 | US02 – Inicio de Sesión | T-03: Implementar vista de login | Diseñar y desarrollar formulario de inicio de sesión con manejo de errores e i18n. | 4h | Andy Alejandro Mio Mejía | In Process |
-| Sprint 2 | US02 – Inicio de Sesión | T-04: Persistencia de sesión | Guardar datos del usuario y token en localStorage tras login exitoso. | 3h | Diego Rodrigo Pumahualcca García | In Process |
-| Sprint 2 | US03 – Cierre de Sesión | T-05: Función logout | Implementar función logout y redirección al login. | 2h | Rolando Torres | In Process |
-| Sprint 2 | US04 – Mensajes i18n | T-06: Crear archivo locales/es.json y locales/en.json | Añadir traducciones de mensajes de error, éxito y placeholders. | 3h | Rolando Torres | In Process |
-| Sprint 2 | US04 – Mensajes i18n | T-07: Integrar i18n en componentes | Conectar useI18n con los formularios de login y registro para mostrar mensajes dinámicos. | 3h | Liam Anderson Villugas Jeronimo | In Process |
-| Sprint 2 | US05 – Persistencia de Idioma | T-08: Guardar idioma en localStorage | Implementar función para mantener idioma tras recargar o cerrar sesión. | 2h | Andy Alejandro Mio Mejía | In Process |
-| Sprint 2 | US05 – Persistencia de Idioma | T-09: Componente selector de idioma | Crear botón para alternar idioma (EN/ES) en Toolbar con actualización reactiva. | 2h | Rolando Torres | In Process |
-| Sprint 2 | US06 – QA y Documentación | T-10: Actualizar README.md | Agregar secciones Sprint 2, historias de usuario y backlog en formato Markdown. | 3h | Rolando Torres | In Process |
+| Sprint 2 | US01 – Registro de Usuario | T-01: Crear vista de registro | Diseñar y codificar el formulario de registro con validaciones y estilos PrimeVue. | 5h | Rolando Torres | Done |
+| Sprint 2 | US01 – Registro de Usuario | T-02: Servicio Axios de registro | Crear endpoint con Axios que simule POST /register y gestione respuestas de error y éxito. | 4h | Liam Anderson Villugas Jeronimo | Done |
+| Sprint 2 | US02 – Inicio de Sesión | T-03: Implementar vista de login | Diseñar y desarrollar formulario de inicio de sesión con manejo de errores e i18n. | 4h | Andy Alejandro Mio Mejía | Done |
+| Sprint 2 | US02 – Inicio de Sesión | T-04: Persistencia de sesión | Guardar datos del usuario y token en localStorage tras login exitoso. | 3h | Diego Rodrigo Pumahualcca García | Done |
+| Sprint 2 | US03 – Cierre de Sesión | T-05: Función logout | Implementar función logout y redirección al login. | 2h | Rolando Torres | Done |
+| Sprint 2 | US04 – Mensajes i18n | T-06: Crear archivo locales/es.json y locales/en.json | Añadir traducciones de mensajes de error, éxito y placeholders. | 3h | Rolando Torres | Done |
+| Sprint 2 | US04 – Mensajes i18n | T-07: Integrar i18n en componentes | Conectar useI18n con los formularios de login y registro para mostrar mensajes dinámicos. | 3h | Liam Anderson Villugas Jeronimo | Done |
+| Sprint 2 | US05 – Persistencia de Idioma | T-08: Guardar idioma en localStorage | Implementar función para mantener idioma tras recargar o cerrar sesión. | 2h | Andy Alejandro Mio Mejía | Done |
+| Sprint 2 | US05 – Persistencia de Idioma | T-09: Componente selector de idioma | Crear botón para alternar idioma (EN/ES) en Toolbar con actualización reactiva. | 2h | Rolando Torres | Done |
+| Sprint 2 | US06 – QA y Documentación | T-10: Actualizar README.md | Agregar secciones Sprint 2, historias de usuario y backlog en formato Markdown. | 3h | Rolando Torres | Done |
 
 ---
 
