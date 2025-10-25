@@ -595,13 +595,19 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 |----------------|--------------------|-----------|-------------|-------------|------------|
 |<img src="./resources/azul.jpeg" width="120"/> | Azul Delgado Sanchez | 22 años | Santiago de Surco | 5:50 - 5:56 | Azul es una estudiante de 22 años que tuvo dificultades para encontrar un psicólogo. Ella afirma que es muy importante poder reservar citas en línea, y considera que hacerlo por WhatsApp resulta muy útil. También señala que, al momento de elegir un psicólogo, el costo debe ser accesible para los estudiantes. Además, presta atención a las reseñas en línea, ya que pueden ayudar a orientarse, aunque reconoce que algunas pueden ser falsas. Prefiere las citas semipresenciales, porque en algunas sesiones virtuales el diálogo puede malinterpretarse. Le encantaría recibir notificaciones a través de una aplicación, pues revisa sus redes sociales con frecuencia. Cree que la idea de contar con un chatbot como orientación sería muy útil, aunque aclara que no reemplazaría a un psicólogo. Finalmente, estaría dispuesta a pagar 70 soles por cita y asistir dos veces por semana. |
 
-- **Enlace de las entrevistas:** https://youtu.be/nlKWww1OVLQ
+- **Enlace de las entrevistas:** [Entrevista Azul Delgado](https://youtu.be/nlKWww1OVLQ) 
 
 | Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
 |----------------|--------------------|-----------|-------------|-------------|------------|
 |<img src="./resources/estefano.png" width="120"/> | Estefano Herrera Siguas | 20 años | Villa el Salvador | 15:30 - 15:40 | Estefano es un estudiante de 20 años que ha tenido dificultades para encontrar un psicólogo debido a su limitado tiempo disponible y los horarios poco flexibles de atención. Considera que el costo de las sesiones debe ser accesible, situándose entre 50 y 70 soles por sesión, ya que busca cuidar su presupuesto sin sacrificar la calidad del servicio. Prefiere las sesiones presenciales, pues siente que el contacto directo facilita la comunicación y la confianza con el profesional. Aunque revisa todo tipo de reseñas en línea para orientarse, confía más en las recomendaciones de sus amigos y familiares cercanos, ya que valora las experiencias personales y la opinión de su entorno más próximo. |
 
 - **Enlace de las entrevistas:** [Entrevista Estefano Herrera](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219266_upc_edu_pe/Ed2h1HV-3vpJhQtojCqM6_IBg6ASlam4rmAU0SWeqbWbXg?e=mnQRWR&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+| Entrevistado 3 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/sebastian.png" width="120"/> | Sebastian Pajares Oyola | 19 años | Santiago de surco | 15:30 - 15:40 | El estudiante Sebastián Pajares señaló que ha tenido dificultades para encontrar psicólogos disponibles y considera importante poder reservar citas en línea. Prioriza el precio y la especialidad al elegir un profesional, y prefiere una combinación de sesiones presenciales y virtuales. Mencionó que los principales obstáculos son el costo y la disponibilidad, y considera útiles los recordatorios automáticos y un chatbot con IA. Estima razonable pagar entre 60 y 100 soles por sesión.|
+
+- **Enlace de las entrevistas:** [Entrevista Sebastian Pajares](https://youtu.be/BIU_WWYICHU)
 
 ### Segmento 2
 
@@ -617,7 +623,7 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 
 - **Enlace de las entrevistas:** [Entrevista Marco Aurelio](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219266_upc_edu_pe/EfuNM1uvu9lEiTaNIen98LoB9FHyGgttmd0ZbTXDnWbpYg?e=ZCws55&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
 
-| Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+| Entrevistado 3 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
 |----------------|--------------------|-----------|-------------|-------------|------------|
 |<img src="./resources/juan.jpg" width="120"/> | Juan Camilo Davila | 23 años | Santa Marta (Colombia) |15:44 - 15:56 |El psicólogo Juan Camilo Dávila gestiona actualmente sus citas y horarios utilizando principalmente WhatsApp para la coordinación y recordatorios, y Zoom para la realización de sus consultas virtuales. Considera de gran relevancia aparecer en una plataforma digital que le permita aumentar su visibilidad frente a potenciales pacientes, así como la posibilidad de integrar reseñas verificadas que mejoren su reputación profesional. Además, mostró un claro interés en los reportes que una plataforma integral pueda ofrecerle, relacionados con el número de sesiones, ingresos y satisfacción de sus pacientes. Estaría dispuesto a pagar una suscripción mensual de alrededor de $10 USD (equivalente a 38 soles) por una solución que combine agenda, pasarela de pagos y herramientas de promoción. También se mostró muy favorable hacia la integración de dispositivos IoT para monitorear condiciones ambientales en su consultorio, ya que cree que factores como la temperatura y el ruido inciden directamente en la comodidad y el bienestar durante las sesiones. Finalmente, destacó que un soporte técnico accesible y con acompañamiento continuo sería fundamental para su adopción y uso satisfactorio de la plataforma.|
 
