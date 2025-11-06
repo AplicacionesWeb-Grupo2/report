@@ -1913,11 +1913,11 @@ En conclusión, el equipo demostró un alto nivel de compromiso y cohesión dura
 ### 5.2.3. Sprint 3
 ### 5.2.3.1.Spring Planning 3
 
-| **Sprint #** | Sprint 2 |
+| **Sprint #** | Sprint 3 |
 |---------------|-----------|
 | **Sprint Planning Background** | |
 | **Date** | 2025-11-6 |
-| **Time** | 9:30 PM |
+| **Time** | 17:30 PM |
 | **Location** | Reunión virtual – Discord / VS Code Live Share |
 | **Prepared By** | Rolando Andre Torres Diaz |
 | **Attendees (to planning meeting)** | Rolando Andre Torres Diaz / Liam Anderson Villugas Jeronimo  / Diego Rodrigo Pumahualcca Garcia / Andy Alejandro Mio Mejia / Henry Jaredt Montes Ramos |
@@ -1931,6 +1931,21 @@ En conclusión, el equipo demostró un alto nivel de compromiso y cohesión dura
 ---
 
 ### 5.2.3.2. Aspect Leaders and Collaborators.
+
+En el **Sprint 3**, el equipo se realimento los aspectos del desarrollo para enfocarse en los módulos principales del sistema **EiraMind**, priorizando la autenticación, el control de sesiones y la internacionalización.  
+Se realizo de manera colaborativa, designando un **líder (L)** y **colaboradores (C)** por cada área de trabajo, asegurando una adecuada distribución de responsabilidades, comunicación interna y seguimiento técnico.  
+
+Los aspectos priorizados para este sprint fueron(Los cuales se siguen manteniendo igual):  
+**Backend & API, Frontend & UI, Autenticación & Persistencia, Internacionalización (i18n), y QA & Documentación.** 
+
+| **Team Member** | **GitHub Username** | **Backend & API** | **Frontend & UI** | **Auth & Persistencia** | **i18n & UX Writing** | **QA & Documentación** |
+|------------------|--------------------|------------------|------------------|------------------------|----------------------|-----------------------|
+| Diego Rodrigo Pumahualca García | DiegoPumahualcca | L | C | C | C | C |
+| Liam Anderson Villugas Jeronimo | Liamvillugas | C | L | C | C | C |
+| Andy Alejandro Mio Mejía | AndyMio17 | C | C | L | C | C |
+| Rolando Andre Torres Diaz | @ROLO194 | C | C | C | L | L |
+| Henry Jared Montes Ramos | jahen17 | C | C | C | C | C |
+
 ### 5.2.3.3.Sprint Backlog 3.
 ### 5.2.3.4.Development Evidence for Sprint Review.
 ### 5.2.3.5.Execution Evidence for Sprint Review.
