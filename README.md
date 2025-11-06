@@ -1910,7 +1910,38 @@ Durante el **Sprint 2**, el equipo de desarrollo del proyecto **EiraMind** forta
 
 En conclusión, el equipo demostró un alto nivel de compromiso y cohesión durante el **Sprint 2**, alcanzando los objetivos técnicos planteados y mejorando la organización del trabajo colaborativo. La experiencia servirá como base para optimizar la planificación y las prácticas de validación en los próximos sprints.
 
+### 5.2.3. Sprint 3
+### 5.2.3.1.Spring Planning 3
 
+| **Sprint #** | Sprint 2 |
+|---------------|-----------|
+| **Sprint Planning Background** | |
+| **Date** | 2025-11-6 |
+| **Time** | 9:30 PM |
+| **Location** | Reunión virtual – Discord / VS Code Live Share |
+| **Prepared By** | Rolando Andre Torres Diaz |
+| **Attendees (to planning meeting)** | Rolando Andre Torres Diaz / Liam Anderson Villugas Jeronimo  / Diego Rodrigo Pumahualcca Garcia / Andy Alejandro Mio Mejia / Henry Jaredt Montes Ramos |
+| **Sprint 1 Review Summary** | Durante el Sprint 2 se siguieron las recomendaciones y se hizó las correcciones en el entorno de la estructura base del proyecto (frontend Vue 3 + Vite + PrimeVue + Axios + i18n).|
+| **Sprint 1 Retrospective Summary** | El equipo concluyó que la planificación fue eficiente y la estructura técnica adecuada|
+| **Sprint Goal & User Stories** | Implementar el módulo de **autenticación y usuarios** del proyecto EiraMind, permitiendo registrar, iniciar sesión y redirigir al dashboard. Se agregará persistencia de sesión y mensajes de error accesibles. |
+| **Sprint Goal** | Construir y conectar las vistas de Login y Registro con Axios y localStorage, siguiendo DDD y buenas prácticas de UI/UX. |
+| **Sprint Velocity** | 20 Story Points |
+| **Sum of Story Points** | 20 |
+
+---
+
+### 5.2.3.2. Aspect Leaders and Collaborators.
+### 5.2.3.3.Sprint Backlog 3.
+### 5.2.3.4.Development Evidence for Sprint Review.
+### 5.2.3.5.Execution Evidence for Sprint Review.
+### 5.2.3.6.Services Documentation Evidence for Sprint Review.
+### 5.2.3.7.Software Deployment Evidence for Sprint Review.
+### 5.2.3.8.Team Collaboration Insights during Sprint.
+### 5.3. Validation Interviews.
+### 5.3.1. Diseño de Entrevistas.
+### 5.3.2. Registro de Entrevistas.
+### 5.3.3. Evaluaciones según heurísticas.
+### 5.4. Video About-the-Product.
 
 
 # Bibliografía
