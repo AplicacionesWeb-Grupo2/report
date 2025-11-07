@@ -1984,7 +1984,7 @@ El backend en C# se encuentra completamente operativo, estableciendo una comunic
 
 ## 5.2.3.5. Execution Evidence for Sprint Review
 
-Las pruebas de ejecución se realizaron de manera colaborativa en **Visual Studio + MySQL Workbench**, verificando la correcta conexión y respuesta de la API desde el frontend.  
+Las pruebas de ejecución se realizaron de manera colaborativa en **Rider + MySQL Workbench**, verificando la correcta conexión y respuesta de la API desde el frontend.  
 
 **Evidencias:**
 - Capturas del **Swagger UI** mostrando endpoints `/api/users`, `/api/psychologists`, `/api/plans`, `/api/appointments`.
@@ -2027,10 +2027,10 @@ El despliegue del sistema se realizó en entorno **local de desarrollo** bajo el
 
 **Entorno de despliegue:**
 - **Frontend:** Vue 3 + PrimeVue + Axios.
-- **Backend:** ASP.NET Core Web API (C#) en Visual Studio 2022.
+- **Backend:** ASP.NET Core Web API (C#) en Rider.
 - **Base de Datos:** MySQL Workbench (localhost).
 - **ORM:** Entity Framework Core con migraciones automáticas.
-- **Servidor local:** IIS Express y Kestrel para ejecución API.
+- **Servidor local:** IIS Express.
 
 **Evidencias:**
 - La API se ejecutó correctamente 
