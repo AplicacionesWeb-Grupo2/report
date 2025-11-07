@@ -1913,22 +1913,23 @@ En conclusión, el equipo demostró un alto nivel de compromiso y cohesión dura
 
 | **Sprint #** | Sprint 3 |
 |---------------|-----------|
-| **Sprint Planning Background** | |
-| **Date** | 2025-11-6 |
+| **Sprint Planning Background** | En este sprint se amplió el alcance técnico hacia el backend del proyecto **EiraMind**, creando una **API Web con Node.js, Express y MySQL Workbench** para conectar el frontend (Vue 3 + PrimeVue) con la base de datos. El equipo se centró en establecer endpoints REST para la gestión de usuarios, psicólogos, citas, y planes de suscripción, asegurando una arquitectura limpia y escalable. |
+| **Date** | 2025-11-06 |
 | **Time** | 17:30 PM |
 | **Location** | Reunión virtual – Discord / VS Code Live Share |
 | **Prepared By** | Rolando Andre Torres Diaz |
-| **Attendees (to planning meeting)** | Rolando Andre Torres Diaz / Liam Anderson Villugas Jeronimo  / Diego Rodrigo Pumahualcca Garcia / Andy Alejandro Mio Mejia / Henry Jaredt Montes Ramos |
-| **Sprint 1 Review Summary** | Durante el Sprint 2 se siguieron las recomendaciones y se hizó las correcciones en el entorno de la estructura base del proyecto (frontend Vue 3 + Vite + PrimeVue + Axios + i18n).|
-| **Sprint 1 Retrospective Summary** | El equipo concluyó que la planificación fue eficiente y la estructura técnica adecuada|
-| **Sprint Goal & User Stories** | Implementar el módulo de **autenticación y usuarios** del proyecto EiraMind, permitiendo registrar, iniciar sesión y redirigir al dashboard. Se agregará persistencia de sesión y mensajes de error accesibles. |
-| **Sprint Goal** | Construir y conectar las vistas de Login y Registro con Axios y localStorage, siguiendo DDD y buenas prácticas de UI/UX. |
-| **Sprint Velocity** | 20 Story Points |
-| **Sum of Story Points** | 20 |
+| **Attendees (to planning meeting)** | Rolando Andre Torres Diaz / Liam Anderson Villugas Jeronimo / Diego Rodrigo Pumahuallca Garcia / Andy Alejandro Mio Mejia / Henry Jaredt Montes Ramos |
+| **Sprint 2 Review Summary** | Durante el Sprint 2 se completó el módulo de autenticación (registro, login y persistencia de sesión), además de la integración de i18n y documentación del proyecto. Se consolidó la estructura frontend con Vue 3 + Vite + PrimeVue + Axios. |
+| **Sprint 2 Retrospective Summary** | El equipo concluyó que la planificación fue efectiva y que las herramientas colaborativas como Live Share y Trello mejoraron la sincronización de tareas. Se decidió avanzar hacia el desarrollo del backend para integrar toda la lógica del sistema. |
+| **Sprint Goal & User Stories** | Implementar el **backend y conexión de datos** de EiraMind mediante Rider y MySQL Workbench, que permita gestionar usuarios, psicólogos, planes, citas y mensajes desde el servidor. Además, conectar el frontend con los endpoints REST y probar las operaciones CRUD mediante Postman. |
+| **Sprint Goal** | Desarrollar una API funcional conectada a MySQL que gestione los datos principales del sistema y su integración con las vistas de frontend, siguiendo principios de arquitectura DDD y seguridad básica. |
+| **Sprint Velocity** | 24 Story Points |
+| **Sum of Story Points** | 24 |
+
 
 ---
 
-### 5.2.3.2. Aspect Leaders and Collaborators.
+### 5.2.3.2. Aspect Leaders and Collaborators
 
 En el **Sprint 3**, el equipo se realimento los aspectos del desarrollo para enfocarse en los módulos principales del sistema **EiraMind**, priorizando la autenticación, el control de sesiones y la internacionalización.  
 Se realizo de manera colaborativa, designando un **líder (L)** y **colaboradores (C)** por cada área de trabajo, asegurando una adecuada distribución de responsabilidades, comunicación interna y seguimiento técnico.  
@@ -1944,13 +1945,135 @@ Los aspectos priorizados para este sprint fueron(Los cuales se siguen manteniend
 | Rolando Andre Torres Diaz | @ROLO194 | C | C | C | L | L |
 | Henry Jared Montes Ramos | jahen17 | C | C | C | C | C |
 
-### 5.2.3.3.Sprint Backlog 3.
-### 5.2.3.4.Development Evidence for Sprint Review.
-### 5.2.3.5.Execution Evidence for Sprint Review.
-### 5.2.3.6.Services Documentation Evidence for Sprint Review.
-### 5.2.3.7.Software Deployment Evidence for Sprint Review.
-### 5.2.3.8.Team Collaboration Insights during Sprint.
-### 5.3. Validation Interviews.
+### 5.2.3.3.Sprint Backlog 3
+| Sprint # | User Story | Work-Item / Task | Description | Estimation (Hours) | Assigned To | Status |
+|-----------|-------------|------------------|--------------|--------------------|--------------|---------|
+| Sprint 3 | US07 – Selección de Plan | T-01: Crear vista de planes de suscripción | Diseñar la interfaz con los tres planes (Gratis, Básico y Premium), mostrando beneficios y precios. | 4h | Andy Alejandro Mio Mejía | Done |
+| Sprint 3 | US07 – Selección de Plan | T-02: Programar funcionalidad de selección de plan | Implementar lógica para guardar el plan seleccionado y mostrar confirmación. | 3h | Henry Jaredt Montes Ramos | Done |
+| Sprint 3 | US08 – Perfil de Psicólogos | T-03: Crear vista de listado de psicólogos | Diseñar pantalla con cards de psicólogos mostrando foto, especialidad y botón para agendar. | 4h | Henry Jaredt Montes Ramos | Done |
+| Sprint 3 | US08 – Perfil de Psicólogos | T-04: Implementar modal de agendamiento | Programar ventana emergente para seleccionar fecha y hora de cita, con mensaje de confirmación. | 3h | Diego Rodrigo Pumahuallca García | Done |
+| Sprint 3 | US09 – Agenda de Citas | T-05: Crear vista de agenda | Desarrollar página con calendario que muestre citas programadas y permita visualizarlas por día/semana. | 4h | Rolando Torres | Done |
+| Sprint 3 | US09 – Agenda de Citas | T-06: Conectar citas con backend API | Conectar el frontend con la API REST creada en Node.js/Express y MySQL Workbench para listar y registrar citas. | 4h | Andy Alejandro Mio Mejía | Done |
+| Sprint 3 | US10 – Chatbot Asistente | T-07: Crear componente chatbot | Implementar chatbot con interfaz flotante que simule respuestas automáticas de apoyo emocional. | 4h | Rolando Torres | Done |
+| Sprint 3 | US10 – Chatbot Asistente | T-08: Mejorar respuestas dinámicas del chatbot | Añadir mensajes motivacionales y respuestas adaptadas a estados de ánimo. | 3h | Liam Anderson Villugas Jeronimo | Done |
+| Sprint 3 | US11 – Panel del Administrador | T-09: Crear vista principal del panel admin | Diseñar dashboard con secciones: Suscripciones, Agenda, Tareas y Contenido. | 4h | Diego Rodrigo Pumahuallca García | Done |
+| Sprint 3 | US11 – Panel del Administrador | T-10: Integrar notificaciones y enlaces del panel | Agregar botones funcionales y alertas dinámicas conectadas con datos del backend. | 3h | Liam Anderson Villugas Jeronimo | Done |
+| Sprint 3 | US12 – Backend API y Base de Datos | T-11: Implementar API Web con MySQL | Crear API REST con Node.js, Express y conexión a MySQL Workbench para gestionar usuarios, psicólogos, citas y planes. | 6h | Liam Anderson Villugas Jeronimo | Done |
+| Sprint 3 | US13 – QA y Documentación | T-12: Actualizar README y evidencias del sprint | Documentar la integración del backend, API endpoints, y pruebas de conexión con base de datos. | 2h | Rolando Torres | Done |
+
+---
+## 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo de desarrollo de **EiraMind** completó la integración entre el **frontend (Vue 3 + PrimeVue)** y el **backend (ASP.NET Core Web API en C# + MySQL Workbench)**.  
+Se construyeron los controladores y servicios necesarios para la gestión de usuarios, psicólogos, planes y citas, aplicando una arquitectura **RESTful** con separación de capas (Controllers, Services y Models).
+
+**Evidencias de desarrollo:**
+- Creación del proyecto **EiraMind.API** en Webstorm y Rider.
+- Implementación de controladores:  
+  `UsersController`, `PsychologistsController`, `PlansController`, `AppointmentsController`, `MessagesController`.
+- Integración con **MySQL Workbench** utilizando el paquete `MySql.Data` y Entity Framework Core.  
+- Creación del modelo relacional con tablas:  
+  `Usuarios`, `Psicologos`, `Planes`, `Citas`, `Mensajes`, `Roles`.  
+- Pruebas locales con `Swagger` y `Postman` para validar los endpoints CRUD.  
+- Conexión del frontend mediante **Axios** y consumo de endpoints en tiempo real.
+
+**Resultado:**  
+El backend en C# se encuentra completamente operativo, estableciendo una comunicación fluida entre la API, la base de datos y el cliente Vue.
+
+---
+
+## 5.2.3.5. Execution Evidence for Sprint Review
+
+Las pruebas de ejecución se realizaron de manera colaborativa en **Visual Studio + MySQL Workbench**, verificando la correcta conexión y respuesta de la API desde el frontend.  
+
+**Evidencias:**
+- Capturas del **Swagger UI** mostrando endpoints `/api/users`, `/api/psychologists`, `/api/plans`, `/api/appointments`.
+- Pruebas exitosas en **Postman** con respuestas HTTP 200, 201 y 204.
+- Verificación en navegador de flujos completos: inicio de sesión, selección de plan, agendamiento de citas y chatbot.
+- Prueba de inserciones y consultas directas desde MySQL Workbench.  
+
+**Resultado:**  
+El sistema ejecuta correctamente todas las operaciones CRUD y mantiene persistencia de datos entre frontend, API y base de datos.
+
+---
+
+## 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+La **API Web en C#** se documentó mediante **Swagger** y pruebas de endpoints en **Postman**, con estructura estándar RESTful.
+
+**Ejemplo de endpoints documentados:**
+
+| Endpoint | Método | Descripción | Respuesta exitosa |
+|-----------|---------|--------------|--------------------|
+| `/api/users/register` | POST | Registra un nuevo usuario | Retorna objeto JSON con datos y rol |
+| `/api/users/login` | POST | Inicia sesión y retorna token simulado | JSON con datos de sesión |
+| `/api/plans` | GET | Lista los planes de suscripción | JSON con ID, nombre y beneficios |
+| `/api/psychologists` | GET | Devuelve lista de psicólogos disponibles | JSON con nombre, especialidad, horarios |
+| `/api/appointments` | POST | Crea una nueva cita | JSON con confirmación y fecha asignada |
+
+**Herramientas de documentación:**
+- Swagger UI – Generación automática de rutas.
+- Postman – Validación y testeo manual de endpoints.
+- MySQL Workbench – Visualización de entidades y relaciones.
+
+**Resultado:**  
+La API se encuentra completamente documentada y validada, lista para futuras integraciones con servicios externos o microservicios.
+
+---
+
+## 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+El despliegue del sistema se realizó en entorno **local de desarrollo** bajo el ecosistema Microsoft, con conexión directa a **MySQL Workbench**.
+
+**Entorno de despliegue:**
+- **Frontend:** Vue 3 + PrimeVue + Axios.
+- **Backend:** ASP.NET Core Web API (C#) en Visual Studio 2022.
+- **Base de Datos:** MySQL Workbench (localhost).
+- **ORM:** Entity Framework Core con migraciones automáticas.
+- **Servidor local:** IIS Express y Kestrel para ejecución API.
+
+**Evidencias:**
+- La API se ejecutó correctamente 
+- Verificación de endpoints mediante Swagger y Postman.
+- Consumo de datos desde el frontend en tiempo real (Axios).  
+
+**Resultado:**  
+El software se desplegó correctamente, garantizando conexión estable entre frontend, API y base de datos relacional MySQL.
+
+---
+
+## 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, el equipo mantuvo una comunicación constante mediante **Discord**, **GitHub** y **VS Code Live Share**, optimizando el flujo de trabajo entre desarrollo frontend y backend.
+
+**Herramientas de colaboración:**
+- **Discord:** Reuniones de seguimiento y revisión de código.  
+- **GitHub:** Control de versiones y gestión de commits.  
+- **VS Code Live Share:** Sesiones colaborativas de depuración.  
+- **MySQL Workbench compartido:** Sincronización de base de datos y revisión de esquema.
+
+**Conclusión:**  
+El equipo demostró alto nivel de coordinación técnica y cumplimiento de objetivos del Sprint, logrando una integración estable del backend con el frontend.
+
+---
+
+## 5.3. Validation Interviews
+
+Se realizaron entrevistas de validación con los tres segmentos objetivo de **EiraMind**, con el fin de evaluar la **usabilidad, diseño, utilidad y percepción emocional** de la aplicación.
+
+**Segmentos entrevistados:**
+1. Pacientes digitales jóvenes-adultos
+2. Psicólogos independientes y pequeñas clínicas.
+
+**Principales resultados:**
+- Los usuarios universitarios destacaron la **facilidad de uso** y el **diseño empático**.  
+- Los profesionales valoraron la **organización de la agenda** y la posibilidad de recibir apoyo inmediato.  
+- Los psicólogos consideraron que la **plataforma transmite confianza y profesionalismo**, y la integración con pacientes es clara.  
+- En general, los dos segmentos coincidieron en que EiraMind **facilita el acceso al bienestar emocional** y promueve la **digitalización de la atención psicológica**.
+
+**Conclusión:**  
+La validación confirmó que las funcionalidades desarrolladas (planes, chatbot, agenda y panel administrativo) cumplen con las expectativas de los usuarios y aportan valor real a la experiencia de salud mental digital.
+
 ### 5.3.1. Diseño de Entrevistas.
 
 El propósito de las entrevistas es validar las necesidades, problemas y expectativas de los usuarios en relación con la plataforma **EiraMind**. Se plantean preguntas diferenciadas para los dos segmentos objetivos principales.
