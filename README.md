@@ -549,8 +549,6 @@ Con estas estrategias, buscamos superar las limitaciones de los competidores act
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
-El propósito de las entrevistas es validar las necesidades, problemas y expectativas de los usuarios en relación con la plataforma **EiraMind**. Se plantean preguntas diferenciadas para los dos segmentos objetivos principales.
-
 ---
 
 ### Segmento 1 – Pacientes digitales jóvenes-adultos
@@ -1954,6 +1952,50 @@ Los aspectos priorizados para este sprint fueron(Los cuales se siguen manteniend
 ### 5.2.3.8.Team Collaboration Insights during Sprint.
 ### 5.3. Validation Interviews.
 ### 5.3.1. Diseño de Entrevistas.
+
+El propósito de las entrevistas es validar las necesidades, problemas y expectativas de los usuarios en relación con la plataforma **EiraMind**. Se plantean preguntas diferenciadas para los dos segmentos objetivos principales.
+
+---
+
+### Segmento 1 – Pacientes digitales jóvenes-adultos
+
+**Objetivo:** Usuarios que buscan equilibrio emocional, manejo del estrés y crecimiento personal desde la tecnología.
+
+**Preguntas:**
+1. ¿Qué impresión te da la pantalla de inicio de sesión? ¿Te inspira confianza para registrarte?
+2. ¿El diseño y los colores de EiraMind te transmiten calma o conexión emocional? ¿Por qué?
+3. ¿Te parece fácil entender cómo navegar por las opciones al entrar por primera vez?
+4. ¿Qué opinas del chatbot de EiraMind? ¿Sientes que su tono es empático y cercano?
+5. ¿Crees que usarías el chatbot cuando te sientes mal o simplemente para conversar un momento?
+6. ¿Qué mejorarías para que el chatbot te haga sentir más escuchado o comprendido?
+7. ¿Qué te parece la pantalla de elección de planes (Gratis, Básico, Premium)?
+8. ¿Te queda claro lo que incluye cada plan o agregarías más información visual?
+9. ¿Qué tan útil te parece poder agendar citas directamente desde la app sin intermediarios?
+10. ¿Qué sientes al ver las frases o mensajes motivacionales que aparecen en la app?
+11. ¿Te gustaría recibir notificaciones diarias con mensajes de ánimo o recordatorios de autocuidado?
+12. ¿Qué haría que te sientas más identificado con EiraMind como estudiante (lenguaje, íconos, interfaz)?
+
+---
+
+### Segmento 2 – Psicólogos independientes y pequeñas clínicas
+
+**Objetivo:** Profesionales que desean ofrecer sus servicios a través de EiraMind.
+
+**Preguntas:**
+1. ¿Qué impresión general te causa la interfaz profesional de EiraMind como herramienta de trabajo?
+2. ¿Te parece fácil y clara la forma en que la app muestra tu perfil (foto, especialidad, experiencia, calificación)?
+3. ¿Consideras que la plataforma transmite confianza y profesionalismo ante los pacientes?
+4. ¿Qué te parece el proceso para registrarte como psicólogo o clínica dentro de la app?
+5. ¿Qué tan intuitivo te resulta el sistema para agendar citas con tus pacientes?
+6. ¿Qué opinas del sistema de recordatorios y notificaciones para mantener la organización de las sesiones?
+7. ¿Qué funcionalidad te sería más útil para tu trabajo (chat con pacientes, historial clínico, seguimiento de progreso, estadísticas, etc.)?
+8. ¿Cómo valoras la posibilidad de gestionar pagos o planes de consulta directamente desde la app?
+9. ¿Qué tan importante es para ti tener una sección donde los pacientes puedan dejar reseñas o valoraciones?
+10. ¿Qué tipo de soporte o capacitación te gustaría recibir de EiraMind para usar la app con tus pacientes?
+11. ¿Qué mejorarías para que la plataforma se adapte mejor a la realidad de tu práctica profesional o de tu clínica?
+12. ¿Recomendarías EiraMind a otros colegas psicólogos o centros de atención emocional? ¿Por qué?
+
+
 ### 5.3.2. Registro de Entrevistas.
 ### 5.3.3. Evaluaciones según heurísticas.
 ### 5.4. Video About-the-Product.
