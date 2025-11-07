@@ -1949,17 +1949,17 @@ Los aspectos priorizados para este sprint fueron(Los cuales se siguen manteniend
 | Sprint # | User Story | Work-Item / Task | Description | Estimation (Hours) | Assigned To | Status |
 |-----------|-------------|------------------|--------------|--------------------|--------------|---------|
 | Sprint 3 | US07 – Selección de Plan | T-01: Crear vista de planes de suscripción | Diseñar la interfaz con los tres planes (Gratis, Básico y Premium), mostrando beneficios y precios. | 4h | Andy Alejandro Mio Mejía | Done |
-| Sprint 3 | US07 – Selección de Plan | T-02: Programar funcionalidad de selección de plan | Implementar lógica para guardar el plan seleccionado y mostrar confirmación. | 3h | Henry Jaredt Montes Ramos | Done |
-| Sprint 3 | US08 – Perfil de Psicólogos | T-03: Crear vista de listado de psicólogos | Diseñar pantalla con cards de psicólogos mostrando foto, especialidad y botón para agendar. | 4h | Henry Jaredt Montes Ramos | Done |
+| Sprint 3 | US07 – Selección de Plan | T-02: Programar funcionalidad de selección de plan | Implementar lógica para guardar el plan seleccionado y mostrar confirmación. | 3h | Rolando Torres | Done |
+| Sprint 3 | US08 – Perfil de Psicólogos | T-03: Crear vista de listado de psicólogos | Diseñar pantalla con cards de psicólogos mostrando foto, especialidad y botón para agendar. | 4h | Liam Anderson Villugas Jeronimo | Done |
 | Sprint 3 | US08 – Perfil de Psicólogos | T-04: Implementar modal de agendamiento | Programar ventana emergente para seleccionar fecha y hora de cita, con mensaje de confirmación. | 3h | Diego Rodrigo Pumahuallca García | Done |
 | Sprint 3 | US09 – Agenda de Citas | T-05: Crear vista de agenda | Desarrollar página con calendario que muestre citas programadas y permita visualizarlas por día/semana. | 4h | Rolando Torres | Done |
-| Sprint 3 | US09 – Agenda de Citas | T-06: Conectar citas con backend API | Conectar el frontend con la API REST creada en Node.js/Express y MySQL Workbench para listar y registrar citas. | 4h | Andy Alejandro Mio Mejía | Done |
-| Sprint 3 | US10 – Chatbot Asistente | T-07: Crear componente chatbot | Implementar chatbot con interfaz flotante que simule respuestas automáticas de apoyo emocional. | 4h | Rolando Torres | Done |
+| Sprint 3 | US09 – Agenda de Citas | T-06: Conectar citas con backend API | Conectar el frontend con la API REST creada en **ASP.NET Core Web API (C#)** y **MySQL Workbench** para listar y registrar citas. | 4h | Andy Alejandro Mio Mejía | Done |
+| Sprint 3 | US10 – Chatbot Asistente | T-07: Crear componente chatbot | Implementar chatbot con interfaz flotante que simule respuestas automáticas de apoyo emocional. | 4h | Henry Jaredt Montes Ramos | Done |
 | Sprint 3 | US10 – Chatbot Asistente | T-08: Mejorar respuestas dinámicas del chatbot | Añadir mensajes motivacionales y respuestas adaptadas a estados de ánimo. | 3h | Liam Anderson Villugas Jeronimo | Done |
 | Sprint 3 | US11 – Panel del Administrador | T-09: Crear vista principal del panel admin | Diseñar dashboard con secciones: Suscripciones, Agenda, Tareas y Contenido. | 4h | Diego Rodrigo Pumahuallca García | Done |
-| Sprint 3 | US11 – Panel del Administrador | T-10: Integrar notificaciones y enlaces del panel | Agregar botones funcionales y alertas dinámicas conectadas con datos del backend. | 3h | Liam Anderson Villugas Jeronimo | Done |
-| Sprint 3 | US12 – Backend API y Base de Datos | T-11: Implementar API Web con MySQL | Crear API REST con Node.js, Express y conexión a MySQL Workbench para gestionar usuarios, psicólogos, citas y planes. | 6h | Liam Anderson Villugas Jeronimo | Done |
-| Sprint 3 | US13 – QA y Documentación | T-12: Actualizar README y evidencias del sprint | Documentar la integración del backend, API endpoints, y pruebas de conexión con base de datos. | 2h | Rolando Torres | Done |
+| Sprint 3 | US11 – Panel del Administrador | T-10: Integrar notificaciones y enlaces del panel | Agregar botones funcionales y alertas dinámicas conectadas con datos del backend C#. | 3h | Henry Jaredt Montes Ramos | Done |
+| Sprint 3 | US12 – Backend API y Base de Datos | T-11: Implementar API Web con ASP.NET Core | Crear API REST con C# y conexión a MySQL Workbench para gestionar usuarios, psicólogos, citas y planes. | 6h | Henry Jaredt Montes Ramos | Done |
+| Sprint 3 | US13 – QA y Documentación | T-12: Actualizar README y evidencias del sprint | Documentar la integración del backend, endpoints y pruebas de conexión con la base de datos. | 2h | Rolando Torres | Done |
 
 ---
 ## 5.2.3.4. Development Evidence for Sprint Review
