@@ -2119,8 +2119,24 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 12. ¿Recomendarías EiraMind a otros colegas psicólogos o centros de atención emocional? ¿Por qué?
 
 
-### 5.3.2. Registro de Entrevistas.
+### 5.3.2. Registro de Entrevistas
+
+### Segmento 1
+
+| Entrevistado 1 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/azul1.jpeg" width="120"/> | Azul Delgado Sanchez | 22 años | Santiago de Surco | 9:50 - 9:56 | Azul Delgado percibe que EiraMind transmite confianza y serenidad desde la pantalla de inicio gracias a su diseño limpio y colores azules, que generan calma y una sensación de bienestar emocional. Considera que la navegación es intuitiva y clara, con íconos y secciones bien organizadas. Sobre el chatbot, destaca su tono amable y respetuoso, aunque sugiere hacerlo más empático y expresivo, capaz de recordar conversaciones o mostrar seguimiento emocional. Valora positivamente la pantalla de planes (Gratis, Básico, Premium) por su claridad y estética, aunque propone añadir íconos explicativos. También considera muy útil poder agendar citas directamente desde la app, y aprecia las frases motivacionales que brindan apoyo diario. Finalmente, menciona que se sentiría más identificada si la app tuviera un lenguaje más juvenil y cercano, con elementos enfocados en la vida universitaria y el autocuidado emocional. |
+
+- **Enlace de las entrevistas:** [Entrevista Azul Delgado](https://youtu.be/WyouK6DW9QM) 
+
+| Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/jafet.png" width="120"/> | Jafet Tapullima Celestino | 20 años | Santiago de Surco | 8:30 - 8:40 | Jafet Tapullima considera que EiraMind transmite confianza y profesionalismo desde la pantalla de inicio gracias a su diseño limpio, los tonos azules y la organización clara de los botones. Menciona que los colores generan calma y empatía, y que la interfaz facilita la navegación incluso para nuevos usuarios. Sobre el chatbot, destaca su tono amigable y cortés, aunque sugiere hacerlo más cercano y emocional mediante frases de apoyo o seguimiento. Valora que la pantalla de planes (Gratis, Básico, Premium) es clara y atractiva, pero propone añadir descripciones o íconos que representen mejor los beneficios. También resalta que la opción de agendar citas sin intermediarios es muy práctica, ya que brinda autonomía y comodidad. Los mensajes motivacionales le parecen un buen detalle que refuerza el propósito emocional de la app. Finalmente, recomienda un lenguaje más juvenil y personalizado para que los estudiantes se sientan más identificados y conectados con EiraMind. |
+
+- **Enlace de las entrevistas:** [Jafet Tapullima Celestino](https://youtu.be/_X43bBBnu7g)
+  
 ### 5.3.3. Evaluaciones según heurísticas.
+
 ### 5.4. Video About-the-Product.
 
 
