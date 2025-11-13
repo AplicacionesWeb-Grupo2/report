@@ -1913,7 +1913,7 @@ En conclusión, el equipo demostró un alto nivel de compromiso y cohesión dura
 
 | **Sprint #** | Sprint 3 |
 |---------------|-----------|
-| **Sprint Planning Background** | En este sprint se amplió el alcance técnico hacia el backend del proyecto **EiraMind**, creando una **API Web con Node.js, Express y MySQL Workbench** para conectar el frontend (Vue 3 + PrimeVue) con la base de datos. El equipo se centró en establecer endpoints REST para la gestión de usuarios, psicólogos, citas, y planes de suscripción, asegurando una arquitectura limpia y escalable. |
+| **Sprint Planning Background** | En este sprint se amplió el alcance técnico hacia el backend del proyecto **EiraMind**, creando una **API Web en Rider y MySQL Workbench** para conectar el frontend (Vue 3 + PrimeVue) con la base de datos. El equipo se centró en establecer endpoints REST para la gestión de usuarios, psicólogos, citas, y planes de suscripción, asegurando una arquitectura limpia y escalable. |
 | **Date** | 2025-11-06 |
 | **Time** | 17:30 PM |
 | **Location** | Reunión virtual – Discord / VS Code Live Share |
