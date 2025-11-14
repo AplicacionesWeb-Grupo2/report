@@ -2145,6 +2145,14 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 |<img src="./resources/Entrevista3_Estefano.png" width="120"/> | Estefano Herrera Siguas | 20 años | Santiago de Surco | 11:15 - 11:35 | Estefano Herrera considera que EiraMind transmite confianza y calidez desde la pantalla de inicio de sesión gracias a su diseño compacto, limpio y sin saturación visual. Señala que los colores inspiran tranquilidad y que la interfaz resulta intuitiva y fácil de navegar, permitiendo acceder rápidamente a las secciones principales. Sobre el chatbot, menciona que podría usarlo por curiosidad, aunque prefiere una interacción más humana con su psicólogo. Destaca que la pantalla de planes es clara y los precios justos, especialmente por el descuento del 20% en el plan anual, aunque sugiere añadir íconos o videos explicativos para hacer más visual la información. Valora positivamente la posibilidad de agendar citas directamente desde la app, ya que evita esperas y facilita la gestión. Considera que los mensajes motivacionales son cálidos y alentadores, y sugiere recibir una o dos notificaciones diarias como recordatorio sin que resulten invasivas. Finalmente, propone que la plataforma adopte un tono más juvenil y cercano, adecuado para usuarios universitarios que buscan una conexión emocional y moderna con EiraMind. |
 
 - **Enlace de las entrevistas:** [Estefano Herrera Siguas](https://youtu.be/BSybPMa5b7I)
+
+### Segmento 2
+
+| Entrevistado 1 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/juan.jpg" width="120"/> | Juan Camilo Dávila| 23 años | Santa Marta (colombia) | 20:00 - 20:15 | Juan Camilo Dávila considera que la plataforma representa una solución moderna y necesaria en el ámbito del bienestar psicológico. Destaca que la propuesta transmite profesionalismo y claridad, con una interfaz que facilita la navegación y el acceso a las funciones principales. Sin embargo, expresa un desacuerdo fundamental con el modelo de suscripciones, ya que en su opinión, este sistema puede limitar la libertad y la flexibilidad del paciente, creando una posible barrera en un proceso que debería adaptarse por completo a sus necesidades cambiantes. Valora positivamente funcionalidades como la agenda integrada y los recordatorios, que agilizan la gestión de citas, pero sugiere enfáticamente explorar modelos de pago más flexibles que no restrinjan al usuario. Finalmente, aunque aprueba el tono general de la plataforma, recomienda incorporar un lenguaje aún más cercano y empático para conectar mejor con un público joven, que busca no solo herramientas, sino también una experiencia humana y comprensiva. |
+
+- **Enlace de las entrevistas:** [Juan Camilo Davila](https://youtu.be/xwSzwihuQyk)
   
 ### 5.3.3. Evaluaciones según heurísticas.
 
