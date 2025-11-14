@@ -2161,6 +2161,11 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 
 enlace del video: https://youtu.be/ZOw6jw9lyS4
 
+# Video About-the-team
+
+enlace del video: https://youtu.be/d5dLsU0N9k4
+
+
 # Bibliografía
 
 - MiSalud. (s. f.). *Los doctores de MiSalud son profesionales…* Recuperado septiembre 2025, de https://www.misalud.ai  
