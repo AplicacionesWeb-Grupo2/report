@@ -1859,9 +1859,8 @@ La evidencia confirma que los servicios del **frontend** fueron desarrollados y 
 
 ### 5.2.2.7 Software Deployment Evidence for Sprint Review  
 
-<img src="./resources/deploy.png"></img>  
-
-link: https://eiramindapp.netlify.app/
+<img src="./resources/Back.png"></img>  
+ Se creó una organización en GitHub y, dentro de ella, se creo el repositorio para el backend
 
 #### Evidencia de despliegue  
 
