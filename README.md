@@ -2154,6 +2154,12 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 |<img src="./resources/juan.jpg" width="120"/> | Juan Camilo Dávila| 23 años | Santa Marta (colombia) | 20:00 - 20:15 | Juan Camilo Dávila considera que la plataforma representa una solución moderna y necesaria en el ámbito del bienestar psicológico. Destaca que la propuesta transmite profesionalismo y claridad, con una interfaz que facilita la navegación y el acceso a las funciones principales. Sin embargo, expresa un desacuerdo fundamental con el modelo de suscripciones, ya que en su opinión, este sistema puede limitar la libertad y la flexibilidad del paciente, creando una posible barrera en un proceso que debería adaptarse por completo a sus necesidades cambiantes. Valora positivamente funcionalidades como la agenda integrada y los recordatorios, que agilizan la gestión de citas, pero sugiere enfáticamente explorar modelos de pago más flexibles que no restrinjan al usuario. Finalmente, aunque aprueba el tono general de la plataforma, recomienda incorporar un lenguaje aún más cercano y empático para conectar mejor con un público joven, que busca no solo herramientas, sino también una experiencia humana y comprensiva. |
 
 - **Enlace de las entrevistas:** [Juan Camilo Davila](https://youtu.be/xwSzwihuQyk)
+
+| Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/kathe.jpg" width="120"/> | Katherine Selene | 24 años | Lima | 21:00 - 21:15 | Katherine Selene, psicóloga con cuatro años de experiencia especializada en la rehabilitación de la depresión, la ansiedad y las adicciones, señala que la aplicación le genera una impresión positiva gracias a su claridad visual y a su sistema optimizado. Destaca que la plataforma permite que cada colega pueda mostrar múltiples especializaciones, lo cual facilita que los usuarios encuentren al profesional adecuado según sus necesidades. También considera que la app es sencilla de usar y está dirigida a todo tipo de público, lo que amplía su alcance y usabilidad. Asimismo, comenta que el ícono de la aplicación transmite confianza y contribuye a que los clientes establezcan una conexión más cercana con los profesionales que la integran. |
+
+- **Enlace de las entrevistas:** [Katherine Selene](https://youtu.be/vjevytkaGsM)
   
 ### 5.3.3. Evaluaciones según heurísticas.
 
