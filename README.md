@@ -1953,7 +1953,7 @@ Los aspectos priorizados para este sprint fueron(Los cuales se siguen manteniend
 
 ### 5.2.3.3.Sprint Backlog 3
 | Sprint # | User Story | Description | Estimation (Hours) | Assigned To | Status |
-|-----------|-------------|------------------|--------------|--------------------|--------------|---------|
+|-----------|-------------|--------------|--------------------|--------------|---------|
 | Sprint 3 | US07 – Selección de Plan | Diseñar la interfaz con los tres planes (Gratis, Básico y Premium), mostrando beneficios y precios. | 4h | Andy Alejandro Mio Mejía | Done |
 | Sprint 3 | US07 – Selección de Plan | Implementar lógica para guardar el plan seleccionado y mostrar confirmación. | 3h | Rolando Torres | Done |
 | Sprint 3 | US08 – Perfil de Psicólogos | Diseñar pantalla con cards de psicólogos mostrando foto, especialidad y botón para agendar. | 4h | Liam Anderson Villugas Jeronimo | Done |
