@@ -2063,6 +2063,16 @@ El equipo demostró alto nivel de coordinación técnica y cumplimiento de objet
 
 ---
 
+### 5.2.4. Sprint 4
+#### 5.2.4.1. Spring Planning 4.
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+#### 5.2.4.3. Sprint Backlog 4.
+#### 5.2.4.4. Development Evidence for Sprint Review.
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
 ## 5.3. Validation Interviews
 
 Se realizaron entrevistas de validación con los tres segmentos objetivo de **EiraMind**, con el fin de evaluar la **usabilidad, diseño, utilidad y percepción emocional** de la aplicación.
@@ -2160,8 +2170,94 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 |<img src="./resources/kathe.jpg" width="120"/> | Katherine Selene | 24 años | Lima | 21:00 - 21:15 | Katherine Selene, psicóloga con cuatro años de experiencia especializada en la rehabilitación de la depresión, la ansiedad y las adicciones, señala que la aplicación le genera una impresión positiva gracias a su claridad visual y a su sistema optimizado. Destaca que la plataforma permite que cada colega pueda mostrar múltiples especializaciones, lo cual facilita que los usuarios encuentren al profesional adecuado según sus necesidades. También considera que la app es sencilla de usar y está dirigida a todo tipo de público, lo que amplía su alcance y usabilidad. Asimismo, comenta que el ícono de la aplicación transmite confianza y contribuye a que los clientes establezcan una conexión más cercana con los profesionales que la integran. |
 
 - **Enlace de las entrevistas:** [Katherine Selene](https://youtu.be/vjevytkaGsM)
+
+| Entrevistado 3 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/farid.jpeg" width="120"/> | Farid Valentte Rebatta Gutierrez | 26 años | Santiago de Surco | 15:20 - 15:24 | El psicólogo percibe que la interfaz profesional de EiraMind genera una impresión positiva, transmitiendo claridad, orden y profesionalismo. Considera que la visualización del perfil —incluyendo foto, especialidad, experiencia y calificación— es clara y contribuye a generar confianza ante los pacientes. El proceso de registro le resulta sencillo y adecuado para profesionales individuales o clínicas. Además, encuentra intuitivo el sistema de agenda de citas y valora especialmente los recordatorios y notificaciones, que le ayudan a manejar cancelaciones y mantener una mejor organización. Entre las funcionalidades que considera más útiles destacan el chat con pacientes, el historial clínico, el seguimiento de progreso y las estadísticas de desempeño, ya que le permiten llevar un control integral de su práctica. También ve con gran valor la gestión de pagos desde la app, aunque reconoce que algunos pacientes aún presentan limitaciones con los medios digitales. Para él, las reseñas verificadas son un componente clave, pues fortalecen la credibilidad y aumentan su visibilidad frente a nuevos pacientes. Respecto al soporte, considera fundamental contar con asistencia técnica ágil, capacitación inicial y acompañamiento continuo para aprovechar plenamente la plataforma. Sugiere mejorar aspectos relacionados con la gestión de cancelaciones y con la accesibilidad para usuarios con poca experiencia digital. Finalmente, estaría dispuesto a recomendar EiraMind a otros colegas porque ofrece una solución integral que combina agenda, pagos, promoción digital y herramientas de seguimiento profesional dentro de una misma plataforma.|
+
+- **Enlace de las entrevistas:** https://youtu.be/nlKWww1OVLQ
   
 ### 5.3.3. Evaluaciones según heurísticas.
+
+**Metodología.**  
+Se aplicaron las 10 heurísticas de usabilidad de Nielsen a las pantallas clave de la versión web de EiraMind (Inicio/Landing, Login/Registro, Planes, Calendario/Agenda, Perfiles de Psicólogos, Chatbot, Mensajes/Notificaciones).  
+**Escala de severidad**: 0 = No problema, 1 = Cosmético, 2 = Menor, 3 = Mayor, 4 = Crítico.  
+**Contexto de revisión**: Desktop (Chrome/Edge), prototipo funcional con Swagger/back-end en C# .NET y front-end web.  
+**Evaluadores**: 2 (revisión experta + contraste con entrevistas de Segmento 1 y 2).
+
+---
+
+##### A. Hallazgos positivos (fortalezas)
+
+| Heurística | Evidencia/pantalla | Observación positiva |
+|---|---|---|
+| Visibilidad del estado del sistema | Calendario y tarjetas de próximas citas | Muestra hora y estado de forma inmediata; buena jerarquía visual. |
+| Correspondencia con el mundo real | Landing | Lenguaje cercano, iconografía clara. |
+| Control y libertad | Agenda | Selección de horas intuitiva. |
+| Consistencia y estándares | Menú, botones | Tipografía y colores coherentes. |
+| Ayuda y documentación | Recomendaciones y contacto | Aumenta confianza y accesibilidad. |
+
+---
+
+##### B. Problemas de usabilidad priorizados
+
+| # | Heurística | Pantalla | Problema | Severidad | Evidencia | Recomendación |
+|---|---|---|---|:--:|---|---|
+| P1 | Ayuda / Reconocimiento | Planes | Faltan íconos y micro-descripciones por plan | **3** | Azul, Jafet | Añadir bullets e iconos por beneficio |
+| P2 | Estética | Landing | CTA poco visible | 2 | Observado | Mejorar contraste y microcopia |
+| P3 | Control y libertad | Agenda | No muestra confirmación antes de crear cita | **3** | Estefano | Modal de confirmación con resumen |
+| P4 | Prevención de errores | Agenda | No explica reglas de cancelación | **3** | Psicólogos | Mostrar políticas y permitir reagendar |
+| P5 | Consistencia | Perfil psicólogo | Variación en fichas | 2 | Farid | Usar plantilla fija con campos obligatorios |
+| P6 | Reconocimiento | Chatbot | Poca empatía y sin memoria contextual | 2 | Azul, Jafet | Añadir quick-replies y memoria breve |
+| P7 | Visibilidad del estado | Login/Registro | No hay validación en vivo | **3** | Observado | Errores por campo + medidor de contraseña |
+| P8 | Flexibilidad | Planes | Modelo rígido por suscripción | 2 | Juan Camilo | Ofrecer pago por sesión o paquetes |
+| P9 | Ayuda | Diagnóstico IA | Falta disclaimer clínico | **3** | Relevancia | Añadir aviso visible de límites |
+| P10 | Accesibilidad | General | Contraste insuficiente en verde oscuro | 2 | Observado | Ajustar a WCAG AA |
+| P11 | Ayuda | Soporte | Falta SLA y centro de ayuda | 2 | Farid | Crear sección de soporte y onboarding |
+| P12 | Consistencia | Navegación | Swagger visible en producción | 2 | Observado | Ocultar recursos técnicos |
+
+---
+
+##### C. Mapa de severidad por pantalla
+
+| Pantalla | S0 | S1 | S2 | S3 | S4 | Issues clave |
+|---|---:|---:|---:|---:|---:|---|
+| Landing | 2 | 2 | 2 | 0 | 0 | Contraste |
+| Login/Registro | 1 | 1 | 1 | 1 | 0 | Validación |
+| Planes | 0 | 1 | 2 | 1 | 0 | Íconos y flexibilidad |
+| Agenda | 0 | 1 | 1 | 2 | 0 | Confirmación y reglas |
+| Perfiles | 0 | 1 | 2 | 0 | 0 | Estructura fija |
+| Chatbot | 0 | 1 | 2 | 0 | 0 | Empatía y memoria |
+| Soporte | 0 | 1 | 2 | 0 | 0 | Canal claro |
+
+---
+
+##### D. Criterios de aceptación (QA)
+
+**Comparativa de planes**
+- Tabla con 3 columnas y ≥6 beneficios con íconos por plan.  
+- Tooltips con textos ≤ 120 caracteres.
+
+**Confirmación de cita**
+- Modal con profesional, fecha/hora, modalidad, costo y reglas.  
+- Botones: “Confirmar” y “Editar”.
+
+**Validación en formularios**
+- Email inválido → error inmediato.  
+- Contraseña débil → indicador de fuerza.  
+- Mensajes claros ≤ 80 caracteres.
+
+**Accesibilidad**
+- Contraste mínimo 4.5:1.  
+- Fuente mínima 16 px.  
+- Botones ≥ 44×44 px.
+
+---
+
+##### E. Conclusión
+
+La experiencia actual transmite **confianza, profesionalismo y claridad visual**. Los flujos centrales funcionan correctamente, pero existen oportunidades de mejora en **planificación de citas**, **validación**, **accesibilidad**, **perfiles profesionales** y **flexibilidad comercial**, alineadas con las percepciones de Azul, Jafet, Estefano, Juan Camilo, Katherine y Farid.  
+Estas mejoras incrementarán la **conversión**, la **retención** y la **satisfacción** tanto de usuarios como de psicólogos dentro de EiraMind.
 
 ### 5.4. Video About-the-Product.
 
@@ -2170,6 +2266,8 @@ enlace del video: https://youtu.be/ZOw6jw9lyS4
 # Video About-the-team
 
 enlace del video: https://youtu.be/d5dLsU0N9k4
+
+# Conclusiones y Recomendaciones 
 
 
 # Bibliografía
