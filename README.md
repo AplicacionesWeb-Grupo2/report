@@ -2063,13 +2063,224 @@ El equipo demostró alto nivel de coordinación técnica y cumplimiento de objet
 
 ### 5.2.4. Sprint 4
 #### 5.2.4.1. Spring Planning 4.
+
+##### 5.2.4.1. Sprint Planning 4
+
+| **Sprint #** | Sprint 4 |
+|--------------|----------|
+| **Sprint Planning Background** | En este sprint el objetivo es integrar completamente el frontend con el backend, reemplazando los datos simulados por datos reales provenientes de la API. Se abordarán los flujos principales del sistema: registro, login, dashboard y gestión de citas. |
+| **Date** | 2025-11-30 |
+| **Time** | 20:00 PM |
+| **Location** | Reunión virtual – Discord / VS Code Live Share |
+| **Prepared By** | Rolando Andre Torres Diaz |
+| **Attendees (to planning meeting)** | Rolando Andre Torres Diaz / Liam Anderson Villugas Jeronimo / Diego Rodrigo Pumahualcca Garcia / Andy Alejandro Mio Mejia / Henry Jaredt Montes Ramos |
+| **Sprint 3 Review Summary** | En el sprint anterior se completó el desarrollo del backend (.NET + MySQL) incluyendo autenticación, gestión de usuarios y citas, con endpoints probados en Swagger y Postman. Sin embargo, el frontend aún trabajaba con datos simulados. |
+| **Sprint 3 Retrospective Summary** | El equipo identificó como mejora principal la falta de integración entre capas. Se acordó que este sprint se centrará únicamente en conectar la SPA con la API real, mejorar el manejo de errores y configurar variables de entorno y CORS para entornos de desarrollo y producción. |
+| **Sprint Goal & User Stories** | Integrar la SPA con el backend para que el sistema funcione con datos reales. User Stories incluidas: US-01, US-02, US-03, US-04, US-05 y US-06. |
+| **Sprint Goal** | Lograr que los flujos principales del sistema funcionen con la API real: registro, login, carga de perfil, listado de citas y creación de citas. Además, implementar persistencia de sesión mediante token y preparar el entorno para despliegue. |
+| **Sprint Velocity** | 20 Story Points |
+| **Sum of Story Points** | 23 Story Points (incluyendo todas las US del Sprint 4) |
+
 #### 5.2.4.2. Aspect Leaders and Collaborators.
+
+En el Sprint 4 el foco fue la integración completa entre el frontend y el backend, asegurando que todos los flujos principales funcionen con datos reales provenientes de la API.  
+Para ello, el equipo se organizó en aspectos clave relacionados a autenticación, consumo de servicios, gestión de citas, pruebas e integración en producción.
+
+| **Team Member** | **GitHub Username** | **Integración Frontend–Backend** | **Autenticación (Login/Registro)** | **Dashboard & Usuario** | **Citas** | **QA & Pruebas** | **Deployment & Configuración** |
+|-----------------|---------------------|----------------------------------|-------------------------------------|--------------------------|-----------|-------------------|-------------------------------|
+| Diego Rodrigo Pumahualcca García | DiegoPumahualcca | C | C | L | C | C | C |
+| Liam Anderson Villugas Jeronimo | Liamvillugas | C | L | C | C | C | C |
+| Andy Alejandro Mio Mejía | AndyMio17 | C | C | C | L | C | C |
+| Rolando Andre Torres Diaz | ROLO194 | L | C | C | C | L | L |
+| Henry Jared Montes Ramos | jahen17 | C | C | C | C | C | C |
+
 #### 5.2.4.3. Sprint Backlog 4.
+
+##### User Stories – Sprint 4
+
+| **ID** | **User Story** | **Descripción** | **Prioridad** | **Story Points** |
+|--------|----------------|------------------|---------------|------------------|
+| US-01 | Login con API real | Como usuario, quiero iniciar sesión usando mi correo y contraseña para acceder a mi cuenta con datos reales del backend. | Alta | 5 |
+| US-02 | Registro con API real | Como nuevo usuario, quiero registrarme desde el frontend para que mis datos se guarden en la base de datos del backend. | Alta | 5 |
+| US-03 | Ver datos reales en Dashboard | Como usuario autenticado, quiero visualizar mi información real en el Dashboard (nombre, rol) para confirmar mi sesión. | Media | 3 |
+| US-04 | Ver mis citas | Como usuario, quiero ver mi lista de citas obtenidas del backend para revisar mis reservas existentes. | Media | 3 |
+| US-05 | Crear una cita | Como usuario, quiero registrar una cita desde la SPA para guardar mi reserva en el backend. | Alta | 5 |
+| US-06 | Mantener sesión activa | Como usuario autenticado, quiero que el sistema detecte si tengo un token válido para mantener mi sesión sin volver a loguearme. | Media | 2 |
+
+---
+
 #### 5.2.4.4. Development Evidence for Sprint Review.
+
+Los principales desarrollos realizados fueron:
+
+- **Configuración del cliente HTTP (Axios):**  
+  Se creó un archivo centralizado para manejar la `baseURL` del backend desplegado en Azure y se implementaron interceptores para adjuntar automáticamente el token JWT en cada solicitud.
+
+- **Reemplazo del login simulado por autenticación real:**  
+  El flujo de inicio de sesión ahora utiliza el endpoint real `POST /api/Auth/login`.  
+  Se guarda el token recibido en `localStorage` y se creó lógica para redirigir al Dashboard después de la autenticación exitosa.
+
+- **Integración del flujo de registro:**  
+  El formulario de registro ahora consume el endpoint `POST /api/Auth/register`.  
+  Se implementaron mensajes de error para emails duplicados o validaciones fallidas enviadas desde la API.
+
+- **Carga del usuario autenticado en el Dashboard:**  
+  El frontend ahora consume el endpoint `GET /api/Users/me` utilizando el token JWT.  
+  Se muestran los datos reales del usuario (nombre, email, rol) y se actualizaron componentes dependientes de la información de sesión.
+
+- **Conexión del módulo de citas con el backend:**  
+  - Se implementó el consumo de `GET /api/Appointments` para listar citas reales del usuario.  
+  - Se implementó el consumo de `POST /api/Appointments` para crear nuevas citas desde el frontend.  
+  El listado se actualiza automáticamente sin recargar la vista.
+
+- **Manejo de errores y estados de carga:**  
+  Se añadieron toasts, loaders y mensajes personalizados para situaciones como credenciales inválidas, token expirado, campos incompletos o errores internos del servidor.
+
+- **Implementación de rutas protegidas (token guard):**  
+  El router de Vue fue actualizado para impedir acceso a vistas privadas cuando el usuario no posee un token válido o cuando este ha expirado.
+
+- **Variables de entorno para conexión estable:**  
+  Se creó el archivo `.env` con `VITE_API_BASE_URL=https://app-251201042034.azurewebsites.net`, permitiendo que toda la aplicación use la API desplegada sin hardcodear valores.
+
+- **Refactor general para separar servicios, vistas y lógica de estado:**  
+  La lógica de consumo de la API se movió a servicios dedicados (`authService`, `userService`, `appointmentService`) siguiendo las prácticas definidas en los sprints anteriores.
+
+Estos desarrollos permitieron que el sistema funcione completamente conectado al backend real, garantizando datos persistentes, autenticación funcional y comunicación estable entre ambas capas.
+
+
 #### 5.2.4.5. Execution Evidence for Sprint Review.
+
+Durante el Sprint 4 se validó el correcto funcionamiento de la integración entre el frontend (Vue 3) y el backend desplegado en Azure. Se realizaron pruebas funcionales, pruebas de integración y validaciones manuales en cada uno de los flujos principales del sistema.
+
+Los resultados de la ejecución fueron los siguientes:
+
+- **Flujo de Registro → Login → Dashboard (End-to-End):**  
+  Se ejecutaron pruebas completas donde un usuario nuevo se registra mediante la SPA, la solicitud llega correctamente al backend mediante `POST /api/Auth/register`, y posteriormente el mismo usuario puede iniciar sesión con `POST /api/Auth/login`.  
+  El token JWT retornado por la API se almacena correctamente en `localStorage` y permite navegar al Dashboard autenticado.
+
+- **Carga real de datos del usuario:**  
+  Una vez autenticado, el frontend ejecuta `GET /api/Users/me` enviando el token en el header.  
+  Se comprobó que la API retorna correctamente la información del usuario y que esta se refleja en el Dashboard sin errores.
+
+- **Listado real de citas:**  
+  Se validó que el frontend consume el endpoint `GET /api/Appointments` mostrando las citas asociadas al usuario autenticado.  
+  La tabla de citas se actualizó correctamente utilizando datos de la base de datos.
+
+- **Creación de citas desde el frontend:**  
+  El formulario de reserva de citas fue probado utilizando datos reales.  
+  `POST /api/Appointments` registró correctamente una cita en la API y esta apareció inmediatamente en el listado sin recargar la página.
+
+- **Pruebas de expiración y manejo de token:**  
+  Se probó el acceso a rutas protegidas sin token y con token inválido.  
+  El sistema redirige automáticamente al login cuando la API devuelve 401, cumpliendo la validación de seguridad.
+
+- **Pruebas de manejo de errores (400, 401, 500):**  
+  - Campos inválidos → la API devolvió errores 400 y fueron mostrados en el frontend mediante PrimeVue Toast.  
+  - Token inválido → respuesta 401 correctamente gestionada por el interceptor.  
+  - Errores de servidor → respuesta 500 mostrada con mensaje amigable hacia el usuario.
+
+- **Validación de conexión estable con la API desplegada:**  
+  Se verificó que todas las peticiones hacia `https://app-251201042034.azurewebsites.net` funcionen correctamente desde la SPA.  
+  No se detectaron problemas de CORS después de la configuración aplicada en el backend.
+
+- **Validación del comportamiento en producción:**  
+  Se realizaron pruebas utilizando el frontend ejecutado en modo producción y conectándose al backend de Azure.  
+  Todas las funcionalidades respondieron correctamente, confirmando que el sistema ya trabaja completamente con datos reales.
+
+Las pruebas ejecutadas confirman que el sistema funciona adecuadamente sobre la arquitectura final (Frontend + API + Base de Datos), logrando una integración estable y lista para ser evaluada en el Sprint Review.
+
+
 #### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 4 se documentaron todos los servicios consumidos desde el frontend, basados directamente en los endpoints reales expuestos en el backend desplegado en Azure. Esta documentación garantiza que la SPA utiliza las rutas correctas y refleja el comportamiento real del sistema.
+
+---
+
+### 1. Servicio de Citas – Appointments
+**Ubicación en frontend:** `src/services/appointmentService.js`  
+**Descripción:** Gestiona el registro, consulta, actualización y eliminación de citas.
+
+| Método | Endpoint | Descripción | Entrada | Salida |
+|--------|----------|-------------|---------|--------|
+| `getAppointments()` | `GET /api/Appointments` | Obtiene la lista de todas las citas. | Token | Lista de citas en BD. |
+| `getAppointmentById(id)` | `GET /api/Appointments/{id}` | Obtiene información de una cita específica. | id | Datos de la cita. |
+| `createAppointment(data)` | `POST /api/Appointments` | Registra una nueva cita. | Fecha, hora, usuarioId, psicólogoId | Cita creada. |
+| `updateAppointment(id, data)` | `PUT /api/Appointments/{id}` | Actualiza una cita. | id + objeto cita | Cita actualizada. |
+| `deleteAppointment(id)` | `DELETE /api/Appointments/{id}` | Elimina una cita. | id | Mensaje de éxito. |
+
+---
+
+### 2. Servicio de Planes – Plans
+**Ubicación:** `src/services/plansService.js`  
+**Descripción:** Administra los planes de suscripción ofrecidos.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| `getPlans()` | `GET /api/Plans` | Obtiene todos los planes. |
+| `getPlan(id)` | `GET /api/Plans/{id}` | Obtiene un plan específico. |
+| `createPlan(data)` | `POST /api/Plans` | Registra un nuevo plan. |
+| `updatePlan(id, data)` | `PUT /api/Plans/{id}` | Edita un plan. |
+| `deletePlan(id)` | `DELETE /api/Plans/{id}` | Elimina un plan. |
+
+---
+
+### 3. Servicio de Psicólogos – Psychologists
+**Ubicación:** `src/services/psychologistService.js`  
+**Descripción:** Gestiona información de psicólogos registrados en el sistema.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| `getPsychologists()` | `GET /api/Psychologists` | Obtiene todos los psicólogos. |
+| `getPsychologist(id)` | `GET /api/Psychologists/{id}` | Obtiene datos de un psicólogo. |
+| `createPsychologist(data)` | `POST /api/Psychologists` | Crea un nuevo psicólogo. |
+| `updatePsychologist(id, data)` | `PUT /api/Psychologists/{id}` | Actualiza información del psicólogo. |
+| `deletePsychologist(id)` | `DELETE /api/Psychologists/{id}` | Elimina un psicólogo del sistema. |
+
+---
+
+### 4. Servicio de Usuarios – Users
+**Ubicación:** `src/services/userService.js`  
+**Descripción:** Gestiona el registro y administración de usuarios.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| `getUsers()` | `GET /api/Users` | Obtiene todos los usuarios. |
+| `getUser(id)` | `GET /api/Users/{id}` | Obtiene un usuario específico. |
+| `createUser(data)` | `POST /api/Users` | Registra un nuevo usuario. |
+| `updateUser(id, data)` | `PUT /api/Users/{id}` | Actualiza datos de un usuario. |
+
+---
+
+### 5. Cliente HTTP Base (Axios)
+**Ubicación:** `src/infra/http/axios.js`  
+**Descripción:** Cliente común para todas las peticiones del frontend.
+
+**Implementaciones clave:**
+- `baseURL` configurada hacia Azure: 
+
 #### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 4 se validó completamente el despliegue del backend en Azure y su correcta comunicación con el frontend. El backend se encuentra operativo en el siguiente enlace oficial:
+
+**Backend (Azure App Service):**  
+https://app-251201042034.azurewebsites.net/swagger/index.html  
+
+
 #### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 4, el equipo trabajó de forma coordinada para lograr la integración completa del frontend con el backend. La colaboración se basó en sesiones de trabajo por Discord y VS Code Live Share, lo cual facilitó el debugging conjunto de errores relacionados con CORS, tokens y rutas protegidas.
+
+El equipo mantuvo un flujo constante de comunicación para alinear criterios sobre:
+
+- Consumo correcto de endpoints.
+- Manejo del token en la SPA.
+- Validación del comportamiento del backend en Azure.
+- Estandarización del código al momento de integrar servicios.
+
+Se utilizaron ramas separadas para cada funcionalidad y se revisaron Pull Requests entre los integrantes, lo que permitió asegurar calidad y coherencia en el desarrollo.  
+Gracias a esta coordinación, se resolvieron rápidamente problemas de integración y se logró completar el Sprint con una comunicación fluida, roles bien distribuidos y resultados funcionales en producción.
+
+---
 
 ## 5.3. Validation Interviews
 
@@ -2265,7 +2476,16 @@ enlace del video: https://youtu.be/ZOw6jw9lyS4
 
 enlace del video: https://youtu.be/d5dLsU0N9k4
 
-# Conclusiones y Recomendaciones 
+# Conclusiones y Recomendaciones
+### 6. Conclusiones Generales del Proyecto
+
+El proyecto logró desarrollar una solución completa que integra un frontend moderno en Vue 3 y un backend robusto en .NET desplegado en Azure, permitiendo la gestión real de usuarios, psicólogos, planes y citas. A lo largo de los sprints se trabajó de forma incremental, comenzando por la definición de requerimientos y evolucionando hacia la implementación de servicios, la autenticación con JWT y la conexión estable entre la SPA y la API. La integración obtenida demuestra un sistema funcional, seguro y preparado para operar en un entorno real. El trabajo colaborativo del equipo, junto con el uso de metodologías ágiles, permitió enfrentar problemas técnicos, organizar tareas y entregar un producto coherente y escalable.
+
+---
+
+### 7. Recomendaciones Generales del Proyecto
+
+Para continuar mejorando la solución, es conveniente implementar pruebas automatizadas y fortalecer la documentación técnica para facilitar el mantenimiento y la futura ampliación del sistema. También se sugiere monitorear el rendimiento del backend en Azure, optimizar la seguridad y planificar nuevas funcionalidades que puedan enriquecer la experiencia del usuario. Con estas acciones, el proyecto podrá evolucionar de manera sostenible y consolidar la base sólida desarrollada en los sprints actuales.
 
 
 # Bibliografía
