@@ -13,7 +13,7 @@
 
 <h1 align="center"> TF1 Report </h1>
 
-<h3 align="center"> Aplicaciones Web - 7414 </h3>
+<h3 align="center"> 1ASI0730 - Aplicaciones Web - 7414 </h3>
 
 <h3 align="center"> Docente: Alex Humberto Sánchez Ponce </h3>
 
@@ -25,11 +25,10 @@
 | :------------------------------- | :--------: |
 | Andy Alejandro Mio Mejia         | U202218531 |
 | Rolando Andre Torres Diaz        | U202323369 |
-| Villugas Jerónimo Liam Anderson  | U202211634 |
-|  |  |
-|  |  |
-|  |  |
-|  |  |
+| Liam Anderson Villugas Jeronimo  | U202211634 |
+| Diego Rodrigo Pumahualcca Garcia | U202219266 |
+| Henry Jaredt Montes Ramos        | U20231D343 |
+
 <h3 align="center">2025</h3>
 
 <div style="page-break-after: always;"></div>
@@ -38,7 +37,12 @@
 
 | Versión | Fecha | Autor | Descripción de modificación |
 | :-------: | :---------: | :----------------: | :----------------------:|
-| TB1 | 02/09/25 | Mio Mejia, Andy Alejandro | Se añadió los capítulos 1 al 5 |
+| TB1 | 02/09/25 | Mio Mejia, Andy Alejandro | Se añadió y completo correctamente los capítulos 1 al 5 |
+| TB1 | 19/09/25 | Diego Rodrigo, Pumahualcca Garcia | Se completo parcialmente los capitulos 1, 2 y 4|
+| TB1 | 20/09/25 | Henry Jaredt Montes Ramos | Se implemento correctamente los capitulo 3, 4 y 5|
+| TB1 | 20/09/25 | Liam Anderson, Villugas Jeronimo| Se completaron los capitulos 1, 2, 3, 4 y 5 |
+| TB1 | 20/09/25 | Rolando Andre , Torres Diaz | Se completaron los capitulos 1, 2, 3, 4 y 5 |
+| TF1 | 20/09/25 | Liam Anderson, Villugas Jeronimo| Se completaron correcciones de los capítulos 1, 2, 3, 4 y 5|
 
 # Project Report Collaboration Insights
 
@@ -50,7 +54,11 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 #### Link del repositorio del Reporte: 
 
+https://github.com/AplicacionesWeb-Grupo2/report/tree/develop
+
 #### Link del repositorio de la Landing Page: 
+
+https://github.com/AplicacionesWeb-Grupo2/Landing-Page 
 
 
 # Contenido
@@ -63,7 +71,7 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 [Contenido](#contenido)
 
-[Student Outcome](#student-outcome-1)
+[Student Outcome](#student-outcome)
 
 [Capítulo I: Introducción](#capitulo-i-introduccion)
 
@@ -193,6 +201,17 @@ A continuación, se detallan los repositorios utilizados a lo largo del proyecto
 
 - [Anexos](#anexos)
 
+# Student Outcome
+
+Objetivo general, ABET – EAC - Student Outcome 3: Capacidad de comunicarse efectivamente con un rango de audiencias.
+
+# Outcomes TB1 – Pilares del Producto y Landing Page 
+
+criterio específico                              | acciones realizadas                                                                                                   | conclusiones
+-------------------------------------------------|------------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+Trabaja en equipo para proporcionar liderazgo en forma conjunta | **Villugas Jerónimo, Liam Anderson** <br> TB1 <br> Me involucré en la organización del trabajo, proponiendo una forma de ordenar nuestras ideas y alentando a que todos participen en la discusión. Escuché las opiniones del grupo y ayudé a que se llegara a consensos de manera respetuosa.<br> TP <br> Desarrollé la capacidad de ejercer un liderazgo colaborativo, facilitando la integración de perspectivas diversas hacia un objetivo común. Esto implicó promover activamente la participación de todos los miembros, escuchar sus aportes con atención y mediar en la toma de decisiones para alcanzar consensos que fortalecieran la cohesión y dirección del equipo. <br> TB2 <br> Fortalezco mi capacidad para liderar mediante la colaboración, facilitando la integración de componentes y servicios en el backend. Practico la escucha activa de las necesidades técnicas del equipo frontend y promuevo discusiones arquitectónicas que incorporan diversas perspectivas, logrando consensos sobre soluciones técnicas robustas y escalables.<br> TF1 <br> Desarrollé sólidas habilidades de planificación estratégica y fijación de objetivos, lo que implicó la descomposición de la tarea de integración en sprints o etapas gestionables, priorizando las funcionalidades de mayor impacto. Fomenté un entorno inclusivo practicando la empatía y asegurando que las contribuciones de cada miembro del equipo fueran valoradas, especialmente en las discusiones sobre la arquitectura de la solución. Además, mi habilidad para la gestión del tiempo y el seguimiento proactivo de deadlines fue crucial para asegurar el cumplimiento exitoso de los objetivos establecidos en el roadmap del proyecto, manteniendo siempre la motivación del equipo a pesar de los obstáculos técnicos encontrados.<br><br> **Pumahualcca Garcia, Diego Rodrigo** <br> TB1 <br> Se realizó una investigación para entender la problemática en cuestión y poder distinguir los grupos concretos a los que nos dirigimos, con el objetivo de comprender sus necesidades y ofrecerles un producto que las satisfaga. <br><br> **Torres Diaz, Rolando Andre**  <br> TB1 <br> Se participó activamente en la organización del equipo y en la definición de objetivos comunes, fomentando un ambiente colaborativo y responsable. Aplicamos principios éticos y de liderazgo compartido para planificar las tareas y cumplir los entregables de forma ordenada. Este trabajo me permitió fortalecer mis habilidades de comunicación, coordinación y compromiso profesional dentro del grupo. <br> TP1 <br> Se participó activamente en la coordinación del equipo para la implementación del prototipo inicial de *EiraMind*. Se organizó las tareas técnicas y promoví una comunicación constante para mantener la coherencia del trabajo.<br> <br>**Mio Mejia Andy Alejandro**<br>**TB1**<br> Colaboré en la comunicación de los contenidos de la landing page, explicando la forma en que los pilares del producto se mostrarían para distintos públicos, lo que ayudó a alinear el enfoque del equipo.<br>| Esto permitió que el equipo tenga un norte común y una visión ordenada del producto. Se comprobó que el liderazgo en equipo no es imponer, sino guiar el trabajo de manera estructurada, generando claridad para que todos los miembros aporten de forma efectiva. <br> TP1 <br> Se llevaron a cabo revisiones para la implementación de la aplicación web y se incluyeron características como la navegación de la página.
+Crea un entorno colaborativo e inclusivo, establece metas, planifica tareas y cumple objetivos | **Villugas Jerónimo, Liam Anderson**  <br> TB1 <br> Promoví un ambiente de confianza donde todos pudieran expresar sus ideas. Aporté en la definición de metas comunes y colaboré en la organización de tareas, respetando siempre los tiempos y aportes de mis compañeros. <br> TP <br> Cultivé la habilidad de fomentar un entorno de trabajo inclusivo y de confianza, donde cada miembro se sintió valorado y motivado para contribuir. Mejoré mi competencia en la definición colectiva de metas claras, la planificación metódica de tareas con responsabilidades definidas, y la adherencia a los plazos establecidos, asegurando el cumplimiento riguroso de los objetivos del proyecto.<br> TB2 <br> Desarrollo la habilidad de crear un ambiente donde se valoran tanto las contribuciones técnicas como las ideas innovadoras. Participo en la definición de metas para la arquitectura de backend, planifico sprints de desarrollo con tareas claramente asignadas y cumplo sistemáticamente con los objetivos establecidos, asegurando la entrega de funcionalidades confiables y eficientes.<br> TF1 <br> Fortalecí mi capacidad de liderazgo situacional al facilitar la colaboración entre distintos componentes técnicos, lo que requirió una comunicación interfuncional altamente efectiva para garantizar la alineación de objetivos. Desarrollé la habilidad de negociación para equilibrar requerimientos divergentes y gestioné activamente las expectativas del equipo, promoviendo la proactividad en la identificación y solución de bugs complejos. Finalmente, ejercí la calma bajo presión durante la resolución de problemas críticos, lo que reforzó la confianza y un sentido de responsabilidad compartida indispensable para lograr el éxito técnico del proyecto. <br><br> **Pumahualcca Garcia, Diego Rodrigo**  <br> TB1 <br> Se llevó a cabo un análisis con el propósito de comprender el contexto que estamos abordando y así poder identificar a los grupos particulares a los que nos dirigimos, con la intención de comprender sus necesidades y ofrecerles un producto que las satisfaga. <br> TP1 <br> Se efectuaron análisis para el lanzamiento de la aplicación web y se implementaron funciones como la dirección de página. <br><br> **Torres Díaz, Rolando Andre** <br> **TB1** <br> Se participó activamente en la planificación y organización de las tareas grupales, asegurando que cada miembro tuviera claridad sobre sus responsabilidades. Se promovió un entorno colaborativo basado en la comunicación y el respeto mutuo. <br> **TP1** <br> Se contribuyó en la definición de los objetivos técnicos del sistema y apoyé la integración de funcionalidades en el prototipo inicial, manteniendo una comunicación constante con el equipo para cumplir los plazos establecidos.  <br> **TB2** <br> Se apoyó activamente en el desarrollo del backend, registro y diseño de entrevistas. <br> **TF1** <br> Se contribuyó en la conexión del backend con el frontend y también se rectificaron los errores cometidos previamente. <br><br>**Mio Mejia Andy Alejandro**<br>**TB1** <br> La participación en la redacción aseguró que los pilares del producto fueran transmitidos de manera simple y atractiva.<br> | Se logró consolidar un entorno colaborativo en el que todos los miembros aportaron desde sus habilidades. La planificación participativa y el liderazgo compartido facilitaron la ejecución del proyecto y el cumplimiento de los entregables del TF1, fortaleciendo el compromiso grupal y la eficiencia del equipo. |
+
 <div style="page-break-after: always;"></div>
 
 <div style="page-break-after: always;"></div>
@@ -220,11 +239,11 @@ De esta manera, opendMind se convierte en un ecosistema que integra la oferta y 
 
 | Integrantes | Descripción | Conocimientos |
 | :---------- | :---------- | :------------ |
-| <div style="display: flex; align-items: center;"><img src="img/.png" alt="Integrante1" width="100" height="120">&nbsp;&nbsp;<br>**Andy Mio Mejia**<br>u202218531</div> | Soy estudiante de la carrera de Ingeniería de Software, puedo aportar mucho al equipo, aplicando mis conocimientos en diversos lenguajes de programación | Conocimientos en Java, C++, Python, html, css, javascrip, C# y SQL |
-| <div style="display: flex; align-items: center;"><img src="img/.png" alt="Integrante2" width="100" height="120">&nbsp;&nbsp;<br>**Nombre del integrante**<br>Código universitario</div> |  |  |
-| <div style="display: flex; align-items: center;"><img src="img/.png" alt="Integrante3" width="100" height="120">&nbsp;&nbsp;<br>**Nombre del integrante**<br>Código universitario</div> |  |  |
-| <div style="display: flex; align-items: center;"><img src="img/.png" alt="Integrante4" width="100" height="120">&nbsp;&nbsp;<br>**Nombre del integrante**<br>Código universitario</div> |  |  |
-| <div style="display: flex; align-items: center;"><img src="img/.png" alt="Integrante5" width="100" height="120">&nbsp;&nbsp;<br>**Nombre del integrante**<br>Código universitario</div> |  |  |
+| <div style="display: flex; align-items: center;"><img src="resources/Andy.jpg" alt="Integrante1" width="100" height="120">&nbsp;&nbsp;<br>**Andy Mio Mejia**<br>u202218531</div> | Soy estudiante de la carrera de Ingeniería de Software, puedo aportar mucho al equipo, aplicando mis conocimientos en diversos lenguajes de programación | Conocimientos en Java, C++, Python, html, css, javascrip, C# y SQL |
+| <div style="display: flex; align-items: center;"><img src="resources/integrante2.png" alt="Integrante2" width="100" height="120">&nbsp;&nbsp;<br>**Diego Rodrigo Pumahualcca Garcia**<br>u202219266</div> | Soy estudiante de la carrera de Ingeniería de Software en la Universidad Peruana de Ciencias Aplicadas (UPC). | Java, C++, React, Python, html, css, javascrip, C# y MySql|
+| <div style="display: flex; align-items: center;"><img src="resources/rolo.png" alt="Integrante3" width="100" height="120">&nbsp;&nbsp;<br>**Rolando Andre Torres Diaz**<br>u202323369</div> | Actualmente estoy estudiando ingeniería de software en la universidad peruana de ciencias aplicadas. Personalmente, me considero una persona amigable y responsable, lo cual me puede ayudar en la universidad. También creo que estas cualidades me permitirán construir relaciones sólidas con mis compañeros y profesores, así como ordenar mi tiempo. | Python, C++, css, c#, SQL, cisco, java|
+| <div style="display: flex; align-items: center;"><img src="resources/FotoLiam.png" alt="Integrante4" width="100" height="120">&nbsp;&nbsp;<br>**Liam Villugas Jerónimo**<br>u202211634</div> | Soy Estudiante de Ingienieria de Software en la Universidad Peruana de Ciencias Aplicadas (UPC), Estoy cursando actualmente el 6to ciclo de la carrera.Me atrae mucho el desarrollo de aplicaciones y el uso de las bases de datos. Me considero una persona en Aprendizaje constante e intento mantener la tranquilidad bajo prension al trabajar. | Python, C++, MongoDB, SqlServer, SqLite |
+| <div style="display: flex; align-items: center;"><img src="resources/Jaredt.jpeg" alt="Integrante5" width="100" height="120">&nbsp;&nbsp;<br>**Henry Jaredt Montes Ramos**<br>U20231D343</div> | Soy estudiante de la carrera de Ingeniería de Software, puedo aportar mucho al equipo, aplicando mis conocimientos en diversos lenguajes de programación | Conocimientos en Java, C++, Python, html, css, javascrip, C# y SQL |
 
 ## 1.2. Solution Profile
 
@@ -364,6 +383,8 @@ Creemos que si incorporamos funciones de apoyo interactivo como un chatbot y rec
 
 #### 1.2.2.4. Lean UX Canvas
 
+<img src="./resources/LeanUxCanvas.png"></img>
+
 ## 1.3. Segmentos objetivo 
 **Segmento 1 – Pacientes digitales jóvenes-adultos**  
 - Personas entre 18 y 40 años que buscan apoyo psicológico por ansiedad, estrés o problemas emocionales.  
@@ -379,12 +400,145 @@ Creemos que si incorporamos funciones de apoyo interactivo como un chatbot y rec
 
 En el mercado existen diversas plataformas digitales que buscan conectar a pacientes con profesionales de la salud mental. Sin embargo, la mayoría presenta limitaciones en cuanto a accesibilidad, confianza o integración de servicios. A continuación, se presentan algunos de los principales competidores:
 
-| Plataforma        | Descripción                                                                 | Fortalezas                                                 | Debilidades                                                   |
-|-------------------|-----------------------------------------------------------------------------|------------------------------------------------------------|---------------------------------------------------------------|
-| **Doctoralia**    | Directorio médico online con psicólogos en Perú y LATAM.                   | Amplia base de profesionales, sistema de citas en línea.   | No incluye IoT ni chatbot de IA, poca personalización en ranking. |
-| **PsicólogosPerú** | Portal web para búsqueda de psicólogos locales.                            | Orientado al mercado peruano, accesibilidad básica.        | Sin sistema de pagos digitales ni agenda integrada.            |
-| **Talkspace**     | Plataforma internacional de terapia online.                                | Reconocida globalmente, variedad de terapeutas.            | Costos elevados, poco adaptada a necesidades locales.          |
-| **MiSalud**       | App de salud general que incluye psicología.                               | Integración con otras especialidades médicas.              | Psicología no es el foco principal, opciones limitadas.        |
+<table>
+  <tr>
+    <th colspan="8" valign="top"><b>Competitive Analysis</b></th>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2">Objetivo del análisis</td>
+    <td colspan="6">¿Cómo analiza, produce y enfrenta el mercado mi competencia?</td>
+  </tr>
+  <tr>
+    <td colspan="6">Este análisis se realizó con la finalidad de poder identificar a nuestros potenciales competidores e idear estrategias y tácticas para diferenciarnos de estos.</td>
+  </tr>
+  <tr>
+    <td colspan="3">Nombre y logo</td>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+        OpenMind
+        <br>
+        <div style="text-align: center; margin-top: 10px;">
+                <img src="assets/.png" alt="" width="60px">
+        </div>
+    </td>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+        Doctoralia
+        <br>
+        <div style="text-align: center; margin-top: 10px;">
+                <img src="assets/.png" alt="" width="60px">
+        </div>
+    </td>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+      PsicólogosPerú
+        <div style="text-align: center; margin-top: 10px;">
+                <img src="assets/.png" alt="" width="60px">
+        </div>
+    </td>
+    <td colspan="1" valign="top" style="font-weight: bold;">
+      Talkspace
+        <div style="text-align: center; margin-top: 10px;">
+                <img src="assets/.png" alt="" width="60px">
+            </div>
+        </td>
+    <td colspan="1" valign="top" style="font-weight: bold;" >
+      MiSalud
+        <div style="text-align: center; margin-top: 10px;">
+                <img src="assets/.png" alt="" width="60px">
+        </div>
+    </td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="2"><p>Perfil</p></td>
+    <td colspan="2">Overview</td>
+    <td colspan="1" valign="top">Startup enfocada en la digitalización de la salud mental. Conecta a pacientes con psicólogos de manera rápida, confiable y accesible, busca reducir las barreras de tiempo, distancia y costo que dificultan la atención psicológica en la región.</td>
+    <td colspan="1" valign="top">Gran marketplace global para pacientes y profesionales de salud (citas, reseñas, software de gestión), presente en múltiples países tras integrar mercados europeos/latinoamericanos.</td>
+    <td colspan="1" valign="top">Directorios/plataformas locales que reúnen psicólogos y servicios de salud mental orientados a Perú (perfiles de terapeutas, contacto/agenda).</td>
+    <td colspan="1" valign="top">Plataforma de terapia online (mensajería, video, audio) con modelo por suscripción, focalizada principalmente en EE. UU. y con integración de servicios de psiquiatría.</td>
+    <td colspan="1" valign="top">Servicio de telemedicina bilingüe (español/inglés) orientado a atención rápida, coaching y consulta médica/mental — modelo B2B (beneficio para empleados) y B2C vía app.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Ventaja competitiva</td>
+    <td colspan="1" valign="top">Integra reservas en tiempo real, pagos digitales, recordatorios, chatbot de apoyo inicial y dashboards para profesionales, lo que le da un mayor valor frente a competidores que solo ofrecen sesiones virtuales.</td>
+    <td colspan="1" valign="top">Marca reconocida, red amplia de profesionales y herramientas administrativas para clínicas.</td>
+    <td colspan="1" valign="top">Enfoque local y culturalmente ajustado, conocimiento del mercado peruano y canales locales (WhatsApp, referencias).</td>
+    <td colspan="1" valign="top">Escala en EE. UU., acuerdos con pagadores/empleadores y oferta combinada (terapia + psiquiatría).</td>
+    <td colspan="1" valign="top">Enfoque en población hispana y modelo employer-sponsored.</td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="2"><p>Perfil de Marketing</p></td>
+    <td colspan="2">Mercado objetivo</td>
+    <td colspan="1" valign="top">Pacientes jóvenes y adultos en Perú y Latinoamérica que necesitan atención psicológica accesible, así como psicólogos independientes que buscan visibilidad y herramientas digitales para profesionalizar su servicio.</td>
+    <td colspan="1" valign="top">Pacientes generales y profesionales/consultorios que necesitan gestión de citas.</td>
+    <td colspan="1" valign="top">Personas en Perú que buscan psicoterapia/servicios psicológicos; psicólogos independientes que buscan visibilidad.</td>
+    <td colspan="1" valign="top">Adultos en EE. UU. que buscan terapia flexible; también empleadores y aseguradoras.</td>
+    <td colspan="1" valign="top">Empleadores con fuerza laboral hispanohablante y pacientes que prefieren atención en español.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Estrategias de marketing</td>
+    <td colspan="1" valign="top">Campañas de marketing digital con foco en redes sociales, alianzas con universidades y empresas para programas corporativos de bienestar, estrategias de marketing de contenidos y programas de referidos que incentiven el crecimiento orgánico de la comunidad.</td>
+    <td colspan="1" valign="top">SEO local (por especialidad y ciudad), alianzas con clínicas, marketing de contenido, reseñas y presencia móvil/web.</td>
+    <td colspan="1" valign="top">Marketing en redes locales (Facebook, grupos), SEO local, alianzas con colegios profesionales y directorios locales.</td>
+    <td colspan="1" valign="top">Publicidad digital, acuerdos con empresas/aseguradoras, PR y campañas sobre salud mental.</td>
+    <td colspan="1" valign="top">Ventas B2B a empresas, promoción en app stores, outreach comunitario y materiales en español.</td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="3"><p>Perfil de Producto</p></td>
+    <td colspan="2">Productos & Servicios</td>
+    <td colspan="1" valign="top">Buscador de psicólogos filtrados por especialidad, agenda en tiempo real, sistema de notificaciones, pagos integrados, chatbot de orientación inicial y dashboards con métricas de ingresos y progreso.</td>
+    <td colspan="1" valign="top">Reserva de citas, perfiles de profesionales, telemedicina, software de gestión de clínicas.</td>
+    <td colspan="1" valign="top">Directorio de psicólogos, fichas profesionales, contacto directo y gestión de citas.</td>
+    <td colspan="1" valign="top">Mensajería continua con terapeuta, sesiones por video, psiquiatría/medicación según plan.</td>
+    <td colspan="1" valign="top">Citas médicas y de salud mental, health coaches, manejo de condiciones crónicas, recetas y pruebas.</td>
+  </tr>
+  <tr>
+      <td colspan="2">Precios & Costos</td>
+      <td colspan="1" valign="top">Modelo mixto con comisión por sesión (15–20%), planes de suscripción premium para psicólogos (mayor visibilidad y herramientas adicionales) y tarifas promocionales para atraer a nuevos pacientes.</td>
+      <td colspan="1" valign="top">Pacientes generalmente usan gratuito; profesionales/centros pagan planes/servicios premium (freemium/paquetes).</td>
+      <td colspan="1" valign="top">Tarifas fijadas por cada profesional (no hay precio estándar de plataforma).</td>
+      <td colspan="1" valign="top">Suscripción mensual (planes con/sin sesiones en vivo); precios más altos que directorios locales.</td>
+      <td colspan="1" valign="top">Modelos B2B (suscripción para empleadores) y planes en la app; costes varían según contrato.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Canales de distribución (Web y/o Móvil)</td>
+    <td colspan="1" valign="top">Web app responsive, redes sociales como canal de captación, WhatsApp para atención al cliente y alianzas institucionales para expandir la base de usuarios.</td>
+    <td colspan="1" valign="top">Web + apps móviles.</td>
+    <td colspan="1" valign="top">Web y contacto por WhatsApp/llamada (poca app nativa).</td>
+    <td colspan="1" valign="top">Web + apps iOS/Android.</td>
+    <td colspan="1" valign="top">App móvil (iOS/Android) y web.</td>
+  </tr>
+  <tr>
+    <td colspan="1" rowspan="4"><p>Análisis SWOT</p></td>
+    <td colspan="2">Fortalezas</td>
+    <td colspan="1" valign="top">Plataforma integral, enfoque en accesibilidad, propuesta tecnológica escalable, visión regional.</td>
+    <td colspan="1" valign="top">Gran red global, reconocimiento de marca, producto integrado (reserva + gestión).</td>
+    <td colspan="1" valign="top">Conexión local y conocimiento cultural; relaciones con psicólogos locales.</td>
+    <td colspan="1" valign="top">Oferta integral (mensajería + video + psiquiatría), acuerdos empresariales, reconocimiento en EE. UU.</td>
+    <td colspan="1" valign="top">Servicio bilingüe y enfoque en población hispana; modelo B2B escalable.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Debilidades</td>
+    <td colspan="1" valign="top">Startup emergente con poca trayectoria, necesidad de generar confianza en un sector sensible.</td>
+    <td colspan="1" valign="top">Competencia local más ágil en ciertos países; dependencia de reputación/reseñas.</td>
+    <td colspan="1" valign="top">Alcance y tecnología limitados vs. jugadores globales; fragmentación de oferta.</td>
+    <td colspan="1" valign="top">Críticas sobre privacidad/calidad y precio alto.</td>
+    <td colspan="1" valign="top">Menor escala y visibilidad frente a grandes telehealth; dependencia de contratos empresariales.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Oportunidades</td>
+    <td colspan="1" valign="top">Demanda creciente de salud mental post-pandemia, digitalización acelerada en LATAM, posibilidad de alianzas con seguros y empresas.</td>
+    <td colspan="1" valign="top">Expansión de telemedicina y alianzas con aseguradoras/SS.</td>
+    <td colspan="1" valign="top">Aumento de demanda por salud mental en Perú; posibilidad de profesionalizar pagos/reservas.</td>
+    <td colspan="1" valign="top">Cobertura por aseguradoras y expansión a población hispana/empleadores.</td>
+    <td colspan="1" valign="top">Expansión a mercados latinoamericanos; alianzas con empleadores y redes comunitarias.</td>
+  </tr>
+  <tr>
+    <td colspan="2">Amenazas</td>
+    <td colspan="1" valign="top">Competidores internacionales con más capital, cambios regulatorios en salud, barreras de adopción tecnológica en ciertos segmentos.</td>
+    <td colspan="1" valign="top">Regulación sanitaria local, competencia regional o verticales especializadas.</td>
+    <td colspan="1" valign="top">Entrada de apps internacionales adaptadas al español; falta de confianza/reputación.</td>
+    <td colspan="1" valign="top">Competidores (BetterHelp, etc.), escrutinio regulatorio y litigios.</td>
+    <td colspan="1" valign="top">Grandes players de telemedicina en nicho hispano; requerimientos regulatorios.</td>
+  </tr>
+</table>
 
 ---
 
@@ -401,8 +555,6 @@ Con estas estrategias, buscamos superar las limitaciones de los competidores act
 
 ## 2.2. Entrevistas
 ### 2.2.1. Diseño de entrevistas
-El propósito de las entrevistas es validar las necesidades, problemas y expectativas de los usuarios en relación con la plataforma **EiraMind**. Se plantean preguntas diferenciadas para los dos segmentos objetivos principales.
-
 ---
 
 ### Segmento 1 – Pacientes digitales jóvenes-adultos
@@ -441,29 +593,1903 @@ El propósito de las entrevistas es validar las necesidades, problemas y expecta
 
 ### 2.2.2. Registro de entrevistas
 
+### Segmento 1
+
+| Entrevistado 1 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/azul.jpeg" width="120"/> | Azul Delgado Sanchez | 22 años | Santiago de Surco | 5:50 - 5:56 | Azul es una estudiante de 22 años que tuvo dificultades para encontrar un psicólogo. Ella afirma que es muy importante poder reservar citas en línea, y considera que hacerlo por WhatsApp resulta muy útil. También señala que, al momento de elegir un psicólogo, el costo debe ser accesible para los estudiantes. Además, presta atención a las reseñas en línea, ya que pueden ayudar a orientarse, aunque reconoce que algunas pueden ser falsas. Prefiere las citas semipresenciales, porque en algunas sesiones virtuales el diálogo puede malinterpretarse. Le encantaría recibir notificaciones a través de una aplicación, pues revisa sus redes sociales con frecuencia. Cree que la idea de contar con un chatbot como orientación sería muy útil, aunque aclara que no reemplazaría a un psicólogo. Finalmente, estaría dispuesta a pagar 70 soles por cita y asistir dos veces por semana. |
+
+- **Enlace de las entrevistas:** [Entrevista Azul Delgado](https://youtu.be/nlKWww1OVLQ) 
+
 | Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
 |----------------|--------------------|-----------|-------------|-------------|------------|
-|<img src=".azul.jpeg" width="120"/> | Azul Delgado Sanchez | 22 años | Santiago de Surco | 5:50 - 5:56 | Azul es una estudiante de 22 años que tuvo dificultades para encontrar un psicólogo. Ella afirma que es muy importante poder reservar citas en línea, y considera que hacerlo por WhatsApp resulta muy útil. También señala que, al momento de elegir un psicólogo, el costo debe ser accesible para los estudiantes. Además, presta atención a las reseñas en línea, ya que pueden ayudar a orientarse, aunque reconoce que algunas pueden ser falsas. Prefiere las citas semipresenciales, porque en algunas sesiones virtuales el diálogo puede malinterpretarse. Le encantaría recibir notificaciones a través de una aplicación, pues revisa sus redes sociales con frecuencia. Cree que la idea de contar con un chatbot como orientación sería muy útil, aunque aclara que no reemplazaría a un psicólogo. Finalmente, estaría dispuesta a pagar 70 soles por cita y asistir dos veces por semana. |
+|<img src="./resources/estefano.png" width="120"/> | Estefano Herrera Siguas | 20 años | Villa el Salvador | 15:30 - 15:40 | Estefano es un estudiante de 20 años que ha tenido dificultades para encontrar un psicólogo debido a su limitado tiempo disponible y los horarios poco flexibles de atención. Considera que el costo de las sesiones debe ser accesible, situándose entre 50 y 70 soles por sesión, ya que busca cuidar su presupuesto sin sacrificar la calidad del servicio. Prefiere las sesiones presenciales, pues siente que el contacto directo facilita la comunicación y la confianza con el profesional. Aunque revisa todo tipo de reseñas en línea para orientarse, confía más en las recomendaciones de sus amigos y familiares cercanos, ya que valora las experiencias personales y la opinión de su entorno más próximo. |
+
+- **Enlace de las entrevistas:** [Entrevista Estefano Herrera](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219266_upc_edu_pe/Ed2h1HV-3vpJhQtojCqM6_IBg6ASlam4rmAU0SWeqbWbXg?e=mnQRWR&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+| Entrevistado 3 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/sebastian.png" width="120"/> | Sebastian Pajares Oyola | 19 años | Santiago de surco | 15:30 - 15:40 | El estudiante Sebastián Pajares señaló que ha tenido dificultades para encontrar psicólogos disponibles y considera importante poder reservar citas en línea. Prioriza el precio y la especialidad al elegir un profesional, y prefiere una combinación de sesiones presenciales y virtuales. Mencionó que los principales obstáculos son el costo y la disponibilidad, y considera útiles los recordatorios automáticos y un chatbot con IA. Estima razonable pagar entre 60 y 100 soles por sesión.|
+
+- **Enlace de las entrevistas:** [Entrevista Sebastian Pajares](https://youtu.be/BIU_WWYICHU)
+
+### Segmento 2
+
+| Entrevistado 1 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/farid.jpeg" width="120"/> | Farid Valentte Rebatta Gutierrez | 26 años | Santiago de Surco |13:20 - 13:24 | El psicólogo organiza actualmente sus citas mediante una agenda digital y recordatorios, utilizando principalmente Zoom para las sesiones, Google Calendar para agendar y WhatsApp para comunicación breve. Reconoce que enfrenta dificultades con cancelaciones de último minuto y también con algunos pacientes que presentan limitaciones al usar pagos digitales. Considera muy relevante contar con una plataforma que le brinde mayor visibilidad ante nuevos pacientes y ve con valor agregado que esta integre reseñas verificadas, pues fortalecen la confianza y la credibilidad profesional. Asimismo, señala que los reportes de desempeño (sesiones, ingresos, satisfacción) serían herramientas muy valiosas para el control de su práctica. En cuanto al modelo de negocio, estaría dispuesto a pagar una suscripción mensual en un rango de 30 a 50 USD, siempre que incluya agenda, pagos y promoción digital. Muestra apertura hacia innovaciones como dispositivos IoT en consultorios, aunque considera esta opción como un aspecto complementario y no esencial. Finalmente, destaca la importancia de contar con un soporte técnico ágil y efectivo, que le brinde soluciones rápidas y acompañamiento constante.|
+
+- **Enlace de las entrevistas:** https://youtu.be/nlKWww1OVLQ
+
+| Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/marco.png" width="120"/> | Marco Aurelio Gonzales | 43 años | Santiago de Surco |09:30 - 09:35 | El psicólogo Marco Aurelio González gestiona sus citas a partir de solicitudes directas de pacientes nuevos y recurrentes, algunos con horarios fijos. Menciona que enfrenta cancelaciones de último minuto, aunque no ha tenido problemas con los pagos digitales. Utiliza herramientas como Google Meet, Zoom, WhatsApp, Instagram y Facebook para comunicarse y promocionarse. Considera muy importante aparecer en una plataforma que aumente su visibilidad y acepta reseñas verificadas, aunque no las promueve activamente. No valora los reportes de satisfacción o desempeño como esenciales y señala que no pagaría una suscripción mensual por este tipo de servicio. Sobre la integración de dispositivos IoT, muestra interés pero cree que debe evaluarse antes de aplicarse. Finalmente, destaca que un soporte técnico ágil y constante sería un aspecto muy valorado.|
+
+- **Enlace de las entrevistas:** [Entrevista Marco Aurelio](https://upcedupe-my.sharepoint.com/:v:/g/personal/u202219266_upc_edu_pe/EfuNM1uvu9lEiTaNIen98LoB9FHyGgttmd0ZbTXDnWbpYg?e=ZCws55&nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJTdHJlYW1XZWJBcHAiLCJyZWZlcnJhbFZpZXciOiJTaGFyZURpYWxvZy1MaW5rIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXcifX0%3D)
+
+| Entrevistado 3 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/juan.jpg" width="120"/> | Juan Camilo Davila | 23 años | Santa Marta (Colombia) |15:44 - 15:56 |El psicólogo Juan Camilo Dávila gestiona actualmente sus citas y horarios utilizando principalmente WhatsApp para la coordinación y recordatorios, y Zoom para la realización de sus consultas virtuales. Considera de gran relevancia aparecer en una plataforma digital que le permita aumentar su visibilidad frente a potenciales pacientes, así como la posibilidad de integrar reseñas verificadas que mejoren su reputación profesional. Además, mostró un claro interés en los reportes que una plataforma integral pueda ofrecerle, relacionados con el número de sesiones, ingresos y satisfacción de sus pacientes. Estaría dispuesto a pagar una suscripción mensual de alrededor de $10 USD (equivalente a 38 soles) por una solución que combine agenda, pasarela de pagos y herramientas de promoción. También se mostró muy favorable hacia la integración de dispositivos IoT para monitorear condiciones ambientales en su consultorio, ya que cree que factores como la temperatura y el ruido inciden directamente en la comodidad y el bienestar durante las sesiones. Finalmente, destacó que un soporte técnico accesible y con acompañamiento continuo sería fundamental para su adopción y uso satisfactorio de la plataforma.|
+
+- **Enlace de las entrevistas:**  https://www.youtube.com/watch?v=FztYjCNbZk0
+
+
 ### 2.2.3. Análisis de entrevistas
+
+#### Análisis de Entrevista – Psicólogo
+
+- **Necesidades:** gestionar agenda digital, reducir cancelaciones, aumentar visibilidad profesional y simplificar pagos.  
+- **Problemas:** inasistencias de pacientes, dificultades con medios de pago y baja presencia en plataformas digitales.  
+- **Oportunidades:** crear una herramienta integral con agenda, pagos, reseñas verificadas y reportes de desempeño.  
+- **Expectativas:** soporte técnico ágil, interfaz sencilla y un precio accesible (30–50 USD mensuales).  
+
+En conclusión, los psicólogos valoran soluciones que les permitan optimizar su práctica profesional, ganar credibilidad y conectar con más pacientes.
+
+#### Análisis de Entrevista – Paciente 
+
+- **Necesidades:** facilidad para reservar citas en línea, preferencia por notificaciones en app, y orientación inicial mediante chatbot.  
+- **Problemas:** dificultad para encontrar psicólogos accesibles y desconfianza parcial en reseñas online.  
+- **Preferencias:** costo accesible para estudiantes (70 soles por cita), citas semipresenciales para evitar malentendidos en sesiones virtuales.  
+- **Expectativas:** comunicación práctica vía WhatsApp, integración de recordatorios automáticos y posibilidad de combinar lo digital con lo presencial.  
+
+En conclusión, los pacientes representa a los **pacientes jóvenes** que valoran la **accesibilidad, simplicidad y flexibilidad** en la atención psicológica, con herramientas digitales que acompañen pero sin reemplazar la experiencia humana del psicólogo.
+
+
 ## 2.3. Needfinding
 ### 2.3.1. User Personas
-### 2.3.2. User Task Matrix
+
+---
+
+## User Persona – Farid Valentte Rebatta Gutierrez
+
+<img src="./resources/valentte.png"></img><br>
+
+---
+
+## User Persona – Azul Delgado Sánchez  
+
+<img src="./resources/userpersona.jpeg"></img><br>
+
+---
+
+### 2.3.2. User Task Matrix  
+
+---
+
+## User Task Matrix – Pacientes Digitales Jóvenes-Adultos  
+
+| **Objetivo del Usuario** | **Tareas principales** | **Dificultades actuales** | **Oportunidad de diseño (opendMind)** |
+|---------------------------|------------------------|----------------------------|---------------------------------------|
+| Encontrar psicólogos accesibles y confiables | - Buscar psicólogos en internet o redes sociales.<br>- Revisar reseñas online.<br>- Preguntar a amigos por recomendaciones. | - Reseñas poco confiables.<br>- Información dispersa.<br>- Psicólogos sin disponibilidad clara. | - Perfiles detallados y verificados.<br>- Sistema de reseñas confiables.<br>- Filtros de búsqueda (precio, disponibilidad, especialidad). |
+| Reservar citas de forma rápida | - Contactar por WhatsApp o llamadas.<br>- Coordinar horarios manualmente.<br>- Esperar confirmaciones lentas. | - Horarios limitados.<br>- Falta de confirmación inmediata.<br>- Riesgo de cancelaciones. | - Calendario integrado en tiempo real.<br>- Confirmación automática de reservas.<br>- Recordatorios digitales. |
+| Acceder a precios justos | - Comparar tarifas en diferentes plataformas o anuncios.<br>- Ajustarse al presupuesto estudiantil. | - Costos elevados en algunas plataformas.<br>- Falta de promociones visibles. | - Tarifas accesibles desde 70 soles.<br>- Promociones y descuentos especiales para estudiantes. |
+| Mantener continuidad en la terapia | - Anotar citas en su agenda personal.<br>- Recordar manualmente próximos encuentros. | - Olvido de citas.<br>- Desmotivación por falta de seguimiento. | - Notificaciones automáticas.<br>- Chatbot de orientación.<br>- Reportes de progreso accesibles. |
+| Tener sesiones confiables | - Buscar entre opciones presenciales o virtuales.<br>- Probar distintos métodos de atención. | - Sesiones 100% virtuales pueden malinterpretarse.<br>- Dudas sobre profesionalismo de algunos psicólogos. | - Opciones semipresenciales.<br>- Transparencia en perfiles.<br>- Validación de psicólogos colegiados. |
+
+## User Task Matrix – Psicólogos
+
+| **Objetivo del Usuario (Psicólogo)** | **Tareas principales** | **Dificultades actuales** | **Oportunidad de diseño (opendMind)** |
+|--------------------------------------|-------------------------|----------------------------|----------------------------------------|
+| Gestionar citas y horarios | - Usar Google Calendar o agenda personal.<br>- Confirmar citas manualmente.<br>- Reorganizar citas por cancelaciones. | - Cancelaciones de último minuto.<br>- Reagendamiento poco práctico.<br>- Olvido de citas. | - Agenda digital integrada.<br>- Recordatorios automáticos.<br>- Confirmación/reagendamiento en tiempo real. |
+| Administrar pagos de pacientes | - Coordinar pagos en efectivo o transferencias.<br>- Explicar medios de pago digitales.<br>- Verificar manualmente si se hizo el pago. | - Pacientes con dificultades en pagos digitales.<br>- Falta de un registro automático.<br>- Pérdida de tiempo en seguimiento. | - Plataforma con pagos digitales integrados.<br>- Historial y reportes de ingresos.<br>- Notificación de pagos confirmados. |
+| Aumentar visibilidad profesional | - Publicar en redes sociales.<br>- Esperar recomendaciones de boca en boca.<br>- Usar directorios poco confiables. | - Difícil llegar a nuevos pacientes.<br>- Baja visibilidad en línea.<br>- Reseñas no verificadas. | - Perfiles digitales verificados.<br>- Sistema de reseñas confiables.<br>- Mayor exposición dentro de la plataforma. |
+| Obtener retroalimentación profesional | - Preguntar a pacientes en sesiones.<br>- Recibir comentarios informales.<br>- Depender de referencias personales. | - Falta de reseñas verificadas.<br>- Feedback subjetivo.<br>- Difícil mostrar reputación profesional. | - Reseñas verificadas dentro de la app.<br>- Estadísticas de satisfacción del paciente.<br>- Reportes automáticos de desempeño. |
+| Optimizar la práctica clínica | - Llevar notas clínicas manuales.<br>- Gestionar casos de manera aislada.<br>- Controlar el número de sesiones por paciente. | - Falta de reportes centralizados.<br>- Desgaste en gestión administrativa.<br>- Tiempo extra en organización. | - Reportes automáticos (sesiones, ingresos, progreso).<br>- Historial clínico digital por paciente.<br>- Reducción de carga administrativa. |
+
+---
+
 ### 2.3.3. User Journey Mapping
+
+<img src="./resources/_Mobile app CJM.png"></img><br>
+
 ### 2.3.4. Empathy Mapping
+
+<img src="./resources/rebatta.jpeg"></img><br>
+
+
+<img src="./resources/delgado.jpeg"></img><br>
+
+
 ### 2.3.5. As-is Scenario Mapping
 
 <img src="./resources/AsisCliente.png"></img><br>
 <img src="./resources/AsisPsicologo.png"></img><br>
+
+# Capítulo III: Requirements Specification
 
 ### 3.1 To-be Scenario Mapping
 
 <img src="./resources/TobeCliente.png"></img><br>
 <img src="./resources/TobePsicologo.png"></img><br>
 
+### 3.2 User Stories
+| Epic ID | Título                                         | Descripción |
+|---------|------------------------------------------------|-------------|
+| EPIC-01 | Información del producto               | Presentar de forma clara qué es EiraMind, cómo funciona y qué lo hace diferente. |
+| EPIC-02 | Registro y conversión             | Permitir que pacientes y psicólogos se registren fácilmente en la plataforma. |
+| EPIC-03 | Beneficios para pacientes         | Mostrar las ventajas para quienes buscan atención psicológica. |
+| EPIC-04 | Beneficios para psicólogos                   |Resaltar cómo EiraMind facilita la práctica profesional y atrae pacientes. |
+| EPIC-05 | Confianza y credibilidad                   | Generar confianza en usuarios nuevos con elementos de prueba social y transparencia. |
+| EPIC-06 |Educación y soporte             | Proveer contenido adicional que ayude a resolver dudas y acompañar al usuario. |
+| EPIC-07 | Captación de leads            | Habilitar espacios para que visitantes interesados dejen sus datos de contacto. |
+| EPIC-08 | Optimización técnica            | Garantizar que la app web de EiraMind cuente con un rendimiento óptimo |
+
+
+| ID   | Título                                                   | Descripción                                                                                                                                      | Criterios de aceptación | EpicID |
+|------|----------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|--------------------------|--------|
+| US01 |Explicación clara del producto | Como visitante, quiero entender de forma clara qué ofrece EiraMind, para decidir si me conviene usar la plataforma. | **Escenario 1:** Dado que ingreso a la landing, cuando veo la sección inicial, entonces encuentro una explicación breve y clara de qué es EiraMind.<br>**Escenario 2:** Dado que navego por la landing, cuando hago scroll, entonces encuentro secciones que explican cómo funciona y qué lo hace diferente. | EPIC-01 |
+| US02 | Botones de registro visibles |Como paciente o psicólogo, quiero acceder fácilmente a un botón de registro, para comenzar a usar la plataforma.  |**Escenario 1:** Dado que estoy en la landing, cuando visualizo el encabezado o secciones principales, entonces encuentro botones de “Regístrate” visibles y funcionales.<br>**Escenario 2:** Dado que hago clic en el botón, cuando me redirige, entonces llego al formulario de registro adecuado (paciente o psicólogo). | EPIC-02 |
+| US03 | Listado de beneficios para pacientes |Como paciente, quiero ver un listado de beneficios claros, para sentir confianza en usar la plataforma. | **Escenario 1:** Dado que soy paciente, cuando reviso la landing, entonces veo beneficios como: agenda de citas, ranking de psicólogos, chatbot de soporte.<br>**Escenario 2:** Dado que navego en la sección de beneficios, cuando hago scroll, entonces cada beneficio tiene un ícono o elemento visual que lo refuerza.| EPIC-03 |
+| US04 | Testimonios de pacientes | Como paciente, quiero leer testimonios de otros usuarios, para confirmar la calidad del servicio. |**Escenario 1:** Dado que llego a la sección de testimonios, cuando la reviso, entonces encuentro al menos 3 testimonios con nombre y rol.<br>**Escenario 2:** Dado que leo los testimonios, cuando los comparo, entonces noto que son diversos y transmiten confianza. | EPIC-03 |
+| US05 |Planes de suscripción claros | Como psicólogo, quiero ver información clara sobre los planes de suscripción, para elegir el que más se adapte a mi práctica. | **Escenario 1:** Dado que soy psicólogo, cuando entro en la sección de planes, entonces veo al menos tres planes con precios y beneficios resumidos.<br>**Escenario 2:** Dado que reviso los planes, cuando hago scroll, entonces encuentro un CTA debajo de cada opción para registrarme.| EPIC-04 |
+| US06 | Diferenciales tecnológicos destacados | Como psicólogo, quiero conocer los diferenciales tecnológicos, para diferenciar EiraMind de otras plataformas. |**Escenario 1:** Dado que reviso la sección para profesionales, cuando leo la descripción, entonces encuentro información sobre IoT, gestión de pagos y ranking validado.<br>**Escenario 2:** Dado que soy psicólogo, cuando comparo la información, entonces puedo identificar claramente qué hace única a la plataforma.| EPIC-04 |
+| US07 | Sección de confianza y credibilidad | Como visitante, quiero ver elementos que me generen confianza, para decidir registrarme. | **Escenario 1:** Dado que navego en la landing, cuando paso por la sección de confianza, entonces encuentro testimonios, logotipos de aliados o premios (si aplica).<br>**Escenario 2:** Dado que reviso esa sección, cuando la analizo, entonces me transmite seguridad y respaldo profesional. | EPIC-05 |
+| US08 | Preguntas frecuentes (FAQ) | Como visitante, quiero acceder a preguntas frecuentes, para resolver mis dudas sin necesidad de registrarme. | **Escenario 1:** Dado que llego al final de la landing, cuando busco soporte, entonces encuentro una sección de FAQ con al menos 5 preguntas y respuestas clave. <br>**Escenario 2:** Dado que leo las preguntas, cuando interactúo con ellas, entonces obtengo respuestas claras y concisas. | EPIC-06 |
+| US09 | Recursos de bienestar mental | Como paciente, quiero acceder a recursos de bienestar mental, para obtener acompañamiento adicional. |**Escenario 1:** Dado que soy paciente, cuando llego a la sección de recursos, entonces encuentro artículos, tips o guías breves de salud mental.<br>**Escenario 2:** Dado que interactúo con esta sección, cuando hago clic, entonces se abre un recurso completo en otra página o pop-up. | EPIC-06 |
+| US10 | Formulario de suscripción / Newsletter | Como visitante, quiero dejar mis datos de contacto, para recibir actualizaciones de la startup. | **Escenario 1:** Dado que estoy en la landing, cuando llego al footer o sección de newsletter, entonces encuentro un formulario para ingresar mi correo electrónico.<br>**Escenario 2:** Dado que ingreso mi correo, cuando hago clic en “Suscribirme”, entonces recibo un mensaje de confirmación de registro exitoso.| EPIC-07 |
+| US11 | Optimización SEO                  | Como visitante quiero que la landing esté optimizada para buscadores        | **Escenario 1:** Dado que soy visitante, cuando busco "EiraMind" en Google, entonces encuentro la landing en los resultados.<br> **Escenario 2:** Dado que inspecciono la página, cuando reviso el código fuente, entonces encuentro meta tags y encabezados jerárquicos correctos. | EPIC-08 |
+| US12 | Versión responsive                | Como visitante quiero que la landing se vea bien en móviles, tablets y PC   | **Escenario 1:** Dado que ingreso desde un celular, cuando accedo a la landing, entonces el contenido se adapta correctamente a la pantalla.<br> **Escenario 2:** Dado que ingreso desde una tablet o PC, cuando navego la landing, entonces el diseño no se rompe y permanece legible. | EPIC-08 |
+| US13 | Velocidad de carga optimizada     | Como visitante quiero que la landing cargue rápido                          | **Escenario 1:** Dado que soy visitante, cuando ingreso a la landing, entonces el sitio carga en menos de 3 segundos.<br> **Escenario 2:** Dado que reviso la consola, cuando analizo los recursos, entonces las imágenes y scripts están optimizados. | EPIC-08 |
+| US14 | Chat de soporte rápido            | Como visitante quiero acceder a un chatbot desde la landing                 | **Escenario 1:** Dado que soy visitante, cuando veo el botón de chat, entonces puedo abrir el chatbot desde cualquier sección.<br> **Escenario 2:** Dado que escribo una pregunta frecuente, cuando el chatbot responde, entonces obtengo una solución sin necesidad de salir de la página. | EPIC-06 |
+| US15 | Video explicativo                 | Como visitante quiero ver un video corto que explique EiraMind              | **Escenario 1:** Dado que estoy en la sección de introducción, cuando hago clic en el video, entonces este se reproduce embebido en la página.<br> **Escenario 2:** Dado que quiero más información, cuando termino el video, entonces encuentro un CTA directo a la sección de registro. | EPIC-01 |
+| US16 | Call To Action repetidos          | Como visitante quiero encontrar botones de acción en cada sección clave     | **Escenario 1:** Dado que estoy en cualquier parte de la landing, cuando quiero registrarme, entonces encuentro un CTA visible.<br> **Escenario 2:** Dado que hago clic en el CTA, cuando me redirige, entonces llego al formulario de registro correspondiente. | EPIC-02 |
+| US17 | Políticas de privacidad y términos| Como visitante quiero acceder a la información legal                        | **Escenario 1:** Dado que estoy en el footer, cuando hago clic en "Políticas de privacidad", entonces se abre el documento en una nueva página.<br> **Escenario 2:** Dado que quiero leer los términos de uso, cuando hago clic en el enlace, entonces encuentro el documento completo y accesible. | EPIC-05 |
+| US18 | Botones sociales                  | Como visitante quiero acceder a las redes sociales oficiales de EiraMind    | **Escenario 1:** Dado que estoy en el footer, cuando veo los íconos de redes sociales, entonces reconozco Facebook, Instagram y LinkedIn.<br> **Escenario 2:** Dado que hago clic en un ícono, cuando se abre la red social, entonces se carga en una nueva pestaña con la página oficial de EiraMind. | EPIC-07 |
+| US19 | Multilenguaje                     | Como visitante quiero poder ver la landing en español e inglés              | **Escenario 1:** Dado que soy visitante, cuando selecciono el idioma inglés, entonces todo el contenido principal cambia automáticamente.<br> **Escenario 2:** Dado que ya elegí un idioma, cuando vuelvo a ingresar en otra visita, entonces la landing se muestra en el idioma seleccionado previamente. | EPIC-08 |
 
 
 
-## Bibliografía
+### 3.3 Impact Map
+
+<img src="./resources/Impact map 1.png"></img><br>
+
+### 3.4 Product Backlog
+
+| Orden | User Story Id | Título - Descripción | Story Points |
+|-------|---------------|-----------------------|--------------|
+| 1 | US-01 | **Explicación clara del producto** – Mostrar en la sección inicial qué es EiraMind, cómo funciona y qué lo hace diferente. | 3 |
+| 2 | US-02 | **Botones de registro visibles** – Incluir botones de registro para pacientes y psicólogos en zonas clave de la landing (header, secciones principales). | 2 |
+| 3 | US-03 | **Listado de beneficios para pacientes** – Mostrar beneficios como agenda online, ranking y chatbot con elementos visuales. | 3 |
+| 4 | US-05 | **Planes de suscripción claros** – Mostrar planes de precios para psicólogos con beneficios resumidos y CTA de registro. | 5 |
+| 5 | US-06 | **Diferenciales tecnológicos destacados** – Explicar IoT, gestión de pagos y ranking validado para atraer psicólogos. | 3 |
+| 6 | US-04 | **Testimonios de pacientes** – Mostrar al menos 3 testimonios reales de usuarios que transmitan confianza. | 2 |
+| 7 | US-07 | **Sección de confianza y credibilidad** – Incluir testimonios, logotipos de aliados y premios (si aplica). | 3 |
+| 8 | US-08 | **Preguntas frecuentes (FAQ)** – Incluir al menos 5 preguntas y respuestas clave para resolver dudas rápidas. | 2 |
+| 9 | US-10 | **Formulario de suscripción / Newsletter** – Permitir a los visitantes dejar correo electrónico para recibir actualizaciones. | 2 |
+| 10 | US-09 | **Recursos de bienestar mental** – Sección con artículos, tips o guías que acompañen a los pacientes. | 5 |
+| 11    | US-11         | **Optimización SEO** - Como visitante quiero que la landing esté optimizada para buscadores. | 5            |
+| 12    | US-12         | **Versión responsive** - Como visitante quiero que la landing se vea bien en móviles, tablets y PC. | 5            |
+| 13    | US-13         | **Velocidad de carga optimizada** - Como visitante quiero que la landing cargue rápido. | 5           |
+| 14    | US-14         | **Chat de soporte rápido** - Como visitante quiero acceder a un chatbot desde la landing. | 5            |
+| 15    | US-15         | **Video explicativo** - Como visitante quiero ver un video corto que explique EiraMind. | 3            |
+| 16    | US-16         | **Call To Action repetidos** - Como visitante quiero encontrar botones de acción en cada sección clave. | 5            |
+| 17    | US-17         | **Políticas de privacidad y términos** - Como visitante quiero acceder a la información legal. | 3            |
+| 18    | US-18         | **Botones sociales** - Como visitante quiero acceder a las redes sociales oficiales de EiraMind. | 2            |
+| 19    | US-19         | **Multilenguaje** - Como visitante quiero poder ver la landing en español e inglés. | 5            |
+
+
+# Capítulo IV: Product Design
+## 4.1. Style Guidelines
+### 4.1.1. General Style Guidelines
+
+Las guías generales de estilo de **opendMind** establecen la identidad visual y los principios de diseño que guiarán la experiencia en todas sus versiones (web y futuras aplicaciones móviles). Su propósito es transmitir confianza, accesibilidad y profesionalismo, asegurando coherencia en la interacción de pacientes y psicólogos.  
+
+**Paleta de colores**  
+- **Primarios:** Azul (#1E88E5) y Verde (#43A047), asociados a confianza, calma y bienestar.  
+- **Secundarios:** Tonos grises (#F5F5F5, #9E9E9E) para fondos y textos secundarios.  
+- **Alerta:** Rojo (#E53935) para errores críticos y Amarillo (#FDD835) para advertencias o recordatorios importantes.  
+
+**Tipografía**  
+- Fuente principal: *Roboto* o *Open Sans*, seleccionadas por su legibilidad y compatibilidad en dispositivos móviles y escritorio.  
+- Jerarquía tipográfica clara:  
+  - **Títulos (H1, H2):** negrita, mayor tamaño, color azul.  
+  - **Subtítulos (H3, H4):** semi-negrita, gris oscuro.  
+  - **Texto base:** entre 14–16px, color negro o gris oscuro.  
+  - **Notas/contexto:** cursiva, gris medio.  
+
+**Iconografía y gráficos**  
+- Íconos minimalistas y lineales, consistentes en estilo.  
+- Siempre acompañados de etiquetas descriptivas claras.  
+- Gráficos estadísticos con contrastes adecuados y colores accesibles.  
+
+**Accesibilidad**  
+- Contraste mínimo 4.5:1 entre texto y fondo.  
+- Textos alternativos (alt-text) en imágenes.  
+- Compatibilidad con lectores de pantalla y navegación por teclado.  
+- Uso de lenguaje inclusivo, claro y empático.  
+
+**Estilo de interacción**  
+- Botones principales con esquinas redondeadas, color azul/verde y texto blanco.  
+- Efecto hover y feedback visual en todos los elementos interactivos.  
+- Transiciones suaves (0.2–0.3s) en menús, botones y cambios de estado.  
+
+**Consistencia visual**  
+- Unificación en botones, formularios, tarjetas y paneles.  
+- Diseño minimalista, priorizando el contenido más relevante.  
+- Uso estratégico de espacios en blanco para mejorar legibilidad.  
+
+### 4.1.2. Web Style Guidelines
+
+La versión web de opendMind está diseñada para ofrecer una experiencia simple, confiable e intuitiva, tanto para pacientes como para psicólogos. Su diseño es responsivo y accesible, pensado para adaptarse a las necesidades de quienes buscan organizar o brindar servicios de atención psicológica desde cualquier lugar.
+
+- Diseño responsivo: La plataforma se adapta de manera óptima a dispositivos de escritorio, tabletas y móviles, garantizando una experiencia consistente y accesible, ya sea que el usuario se conecte desde casa, el trabajo o en movimiento.
+
+- Hover effects: Los elementos interactivos como botones, tarjetas de psicólogos y enlaces cambian sutilmente de color al pasar el cursor, reforzando la sensación de interacción. Por ejemplo, los botones de llamada a la acción en tonos verdes o azules se oscurecen ligeramente para indicar que son seleccionables.
+
+- Barra de navegación superior: La barra de navegación principal se ubica en la parte superior e incluye accesos clave como: Inicio, Buscar psicólogos, Mis citas, Pagos, Chatbot y Perfil. Esto asegura que tanto pacientes como profesionales puedan acceder rápidamente a las secciones más importantes.
+
+- Animaciones sutiles: Se implementan transiciones suaves para mejorar la experiencia de usuario. Ejemplos: deslizamiento de paneles al abrir un menú, transición de tarjetas en la búsqueda de psicólogos y cambios visuales en los botones al ser presionados. Estas animaciones aportan fluidez y profesionalismo sin distraer de la experiencia principal.
+
+- Paneles modulares: El contenido clave como perfiles de psicólogos, resultados de búsqueda, historial de citas y reportes se organiza en paneles modulares y tarjetas. Este diseño facilita la lectura, el escaneo de información y la adaptación a diferentes tamaños de pantalla.
+
+
+
+## 4.2. Information Architecture
+
+En esta sección se definen las decisiones de arquitectura de información que guiarán la organización del contenido en la experiencia web de **opendMind**, incluyendo la Landing Page y las futuras aplicaciones.
+
+El objetivo principal es garantizar que tanto pacientes como psicólogos se adapten de manera intuitiva a la funcionalidad del producto, encuentren fácilmente lo que necesitan y disfruten de una navegación fluida y satisfactoria.
+
+Las propuestas de arquitectura están diseñadas siguiendo principios de usabilidad, claridad y accesibilidad, considerando los siguientes componentes:
+
+- **Organization Systems**
+- **Labeling Systems**
+- **SEO Tags and Meta Tags**
+- **Searching Systems**
+- **Navigation Systems**
+
+### 4.2.1. Organization Systems
+
+**Visual Hierarchy**
+
+Se aplicará una jerarquía visual clara en todas las páginas, priorizando los accesos más importantes:
+
+- “Buscar Psicólogos”
+- “Mis Citas”
+- “Pagos”
+- “Chatbot de Orientación”
+- “Perfil”
+
+El tamaño, color y peso de los elementos gráficos guiarán la atención del usuario hacia lo más relevante, como botones de reserva o mensajes de confirmación.
+
+**Secuencial Organization**
+
+En procesos clave, como:
+
+- “Registro de Psicólogos”
+- “Proceso de Reserva de Cita”
+- “Gestión de Pagos”
+
+Se usará una organización paso a paso, facilitando que los usuarios completen acciones en orden lógico.
+
+Ejemplo del proceso de reserva de cita:
+
+1. Seleccionar especialidad (ansiedad, terapia de pareja, estrés, etc.).
+2. Escoger psicólogo disponible (según horario y tarifa).
+3. Confirmar detalles (fecha, modalidad presencial/virtual, costo).
+4. Realizar pago y recibir confirmación con recordatorio automático.
+
+**Matricial Organization**
+Para listas de psicólogos disponibles, se aplicará un modelo matricial que permita comparar opciones en un mismo nivel.
+
+Los filtros incluirán:
+- Precio
+- Especialidad
+- Disponibilidad horaria
+- Modalidad (presencial/virtual)
+- Calificaciones y reseñas de pacientes
+
+Esto permitirá a los pacientes tomar decisiones rápidas y bien informadas.
+
+**Esquemas de Categorización**
+Según el tipo de contenido, se aplicarán distintos esquemas:
+
+- **Por tópicos**: especialidades (terapia cognitivo-conductual, infantil, pareja, etc.).
+- **Por audiencia**: psicólogos recomendados para “Estudiantes”, “Adultos jóvenes”, “Parejas” o “Empresas”.
+- **Cronológico**: próximas citas y sesiones pasadas.
+- **Alfabético**: listado de psicólogos por nombre en catálogos amplios.
+
+Esto asegura un acceso eficiente, adaptado a las diferentes formas en que los usuarios buscan atención psicológica.
+
+### 4.2.2. Labeling Systems
+
+La representación de los datos en la plataforma busca ser clara, intuitiva y sin ambigüedades. Para ello se establecen las siguientes directrices de etiquetado:
+
+#### Principios de Etiquetado
+
+- Utilizar un **mínimo número de palabras**.
+- Preferir términos **comunes en el ámbito psicológicos** y **fáciles de comprender**.
+- Mantener **consistencia** en la terminología a lo largo de la aplicacion.
+
+#### Etiquetas principales propuestas
+
+| Área                    | Etiqueta asignada          | Propósito                           |
+| ----------------------- | -------------------------- | ----------------------------------- |
+| Exploración             | "Buscar Psicólogos"         | Navegar y explorar psicólogos disponibles.         |
+| Citas                   | "Mis Citas"                 | Ver historial y próximas reservas confirmadas. |
+| Pagos                   | "Pagos"                     | Gestionar métodos de pago, comprobantes y promociones. |
+| Chatbot                 | "Asistente Virtual"         | Acceso al chatbot de orientación inicial.|
+| Perfil                  | "Mi Perfil"                 | Datos personales, historial terapéutico y configuración.      |
+| Registro Psicólogos     | "Unirme como Psicólogo"     | Proceso de registro para profesionales.  |
+| Soporte                 | "Ayuda"                     | Acceso a FAQs y soporte técnico.       |
+
+Dentro de los filtros se emplearán palabras clave simples como:
+
+- "Especialidad" (ansiedad, terapia de pareja, infantil, estrés, etc.).
+- "Modalidad" (presencial, virtual).
+- "Disponibilidad" (fecha y hora).
+- "Precio" (por sesión, con rango ajustable).
+- "Experiencia del psicólogo" (años de práctica, formación).
+- "Valoración" (por estrellas o reseñas de pacientes).
+
+Esto facilita que tanto pacientes como psicólogos interpreten de inmediato las opciones disponibles, sin necesidad de explicaciones adicionales.
+
+### 4.2.3. SEO Tags and Meta Tags
+
+Para optimizar la visibilidad y accesibilidad de opendMind en motores de búsqueda, se establecen los siguientes **SEO Tags** y **Meta Tags** que serán implementados tanto en el **Landing Page** como en la **Web Application**:
+
+TODO: Agregar meta tags para páginas adicionales (no app). Blog, Noticias, Precio, Log In, Sign Up, etc.
+
+| Página                           | Title                                            | Meta Description            | Meta Keywords            | Author         |
+| -------------------------------- | ------------------------------------------------ | ----------------------------------------------------------------------------------------------- | --------------------------------------------------------------------- | -------------- |
+| Landing Page                     | Terapia Psicológica Online y Presencial en Perú - opendMind         | opendMind es la plataforma digital para reservar citas psicológicas de forma rápida, segura y accesible. Encuentra psicólogos especializados en ansiedad, estrés, depresión, pareja y más. | terapia psicológica online, psicólogos en Perú, reservar cita psicológica, psicólogo ansiedad, depresión, terapia pareja, psicología accesible | Equipo opendMind |
+| Web Application - Home           | opendMind App - Psicólogos y Terapia Online a tu Alcance | Con opendMind organiza tus sesiones, encuentra psicólogos disponibles y gestiona tus citas en un solo lugar.            | psicólogos online, terapia psicológica Perú, citas psicológicas, salud mental digital | Equipo opendMind |
+| Web Application - Perfil Usuario | opendMind - Mi Perfil                              | Gestiona tus datos personales, historial de citas, pagos y preferencias de terapia con opendMind.                               | perfil usuario opendMind, historial citas psicológicas, pagos terapia, psicología personalizada                    | Equipo openMind |
+| Página de perfil de entrenadores | Psicólogo [[Especialidad]] en [[Ciudad]] - [[Nombre del Psicólogo]] - opendMind | Encuentra al psicólogo especializado en [[Especialidad]], [[Nombre del Psicólogo]] en [[Ciudad]]. Horarios flexibles, tarifas accesibles y valoraciones verificadas. | psicólogos cerca de mí, psicólogo [[especialidad]], psicólogo en [[ciudad]], terapia accesible | Equipo opendMind |
+
+### 4.2.4. Searching Systems
+
+Para mejorar la capacidad de búsqueda dentro del sitio web y la aplicación, se implementarán sistemas claros, efectivos y centrados en la experiencia psicológica y terapéutica.
+
+#### Tipos de búsqueda ofrecidos
+
+- **Búsqueda Global (Header Search Box):**
+
+  - Visible en todas las páginas principales.
+  - Permite buscar psicólogos, especialidades o tipos de terapia.
+  - Incluye autocompletado con sugerencias relevantes (ejemplo: “Ansiedad”, “Terapia de pareja en Miraflores”, “Psicólogo infantil”).
+
+- **Filtros de búsqueda en "Explorar experiencias":**
+
+  - **Especialidad** (Ansiedad, Depresión, Estrés laboral, Terapia infantil, Terapia de pareja, etc.).
+  - **Ubicación** (distrito, ciudad, consulta virtual/presencial).
+  - **Disponibilidad horaria** (mañana, tarde, noche, fecha específica).
+  - **Precio** (rango económico ajustable).
+  - **Modalidad de atención** (Virtual o Presencial).
+  - **Experiencia del psicólogo** (Años de práctica, nivel académico).
+  - **Valoración** (reseñas y calificaciones de pacientes).
+
+- **Búsqueda específica en el perfil de entrenadores/canchas:**
+  - Por nombre del psicólogo.
+  - Por especialidad o método terapéutico (ej. cognitivo-conductual).
+  - Por calificación promedio de usuarios.
+
+#### Presentación de resultados
+
+- **Resultados dinámicos:** el listado se actualizará en tiempo real al aplicar filtros o modificar criterios de búsqueda.
+- **Organización matricial:** cada resultado se mostrará en forma de card con:
+
+  - Foto del psicólogo.
+  - Nombre, especialidad y modalidad (virtual/presencial).
+  - Valoración promedio.
+  - Botón de acción destacado (Agendar cita, Ver disponibilidad).
+
+- **Resultados ordenables:** por:
+  - relevancia
+  - precio
+  - valoración
+  - Disponibilidad más próxima.
+ 
+Con este sistema, opendMind ofrece búsquedas rápidas, comparaciones claras y filtros relevantes que permiten a los pacientes encontrar al psicólogo ideal sin complicaciones.
+
+### 4.2.5. Navigation Systems
+
+El sistema de navegación está diseñado para guiar a los usuarios (pacientes, psicólogos y administradores) de manera fluida, asegurando que encuentren lo que buscan de forma natural, rápida e intuitiva.
+
+**Principios de navegación**
+- **Navegación principal fija**: barra superior presente en todo momento, accesible desde cualquier parte de la aplicación.
+- **Accesos rápidos**: a las secciones principales: Explorar Psicólogos, Mis Citas, Pagos, Perfil.
+- **Navegación progresiva**: acciones clave (agendar cita, realizar pago, dejar reseña) se presentan en momentos contextuales adecuados, evitando sobrecargar al usuario.
+- **Pistas visuales**: utilización de colores, íconos y estados activos en menús para indicar dónde se encuentra el usuario.
+- **Breadcrumbs**: en procesos secuenciales como la reserva de cita o el registro de psicólogo, para mostrar al usuario en qué etapa se encuentra.
+
+**Flujo de navegación en la Landing Page**
+
+1. El visitante accede a la Landing Page.
+2. Puede navegar rápidamente a:
+   - Explorar psicólogos disponibles.
+   - Conocer más sobre opendMind.
+   - Registrarse como Paciente o Psicólogo.
+3. Se invita a la acción con CTA claros como:
+   - “Encuentra a tu psicólogo ideal”.
+   - “Agenda tu cita ahora”.
+   - “Únete como profesional de la salud mental”.
+
+**Flujo de navegación en la Web Application**
+- Menú principal con íconos + texto (Inicio, Psicólogos, Mis Citas, Pagos, Perfil).
+- En Psicólogos, se pueden filtrar por especialidad, precio y disponibilidad, y luego reservar.
+- En Mis Citas, se visualizan próximas sesiones y se gestionan cambios/cancelaciones.
+- En Pagos, se consultan comprobantes, historial de transacciones y métodos de pago guardados.
+- En Perfil, se gestionan datos personales, historial de citas, configuración de notificaciones y preferencias.
+
+## 4.3. Landing Page UI Design
+### 4.3.1. Landing Page Wireframe
+<img src="./resources/Wireframe1.png"></img><br>            
+<img src="./resources/Wireframe2.png"></img><br>
+
+### 4.3.2. Landing Page Mock-up
+<img src="./resources/Mockup1.png"></img><br>
+<img src="./resources/Mockup2.png"></img><br>
+
+## 4.4. Web Applications UX/UI Design
+### 4.4.1. Web Applications Wireframes
+<img src="./resources/WebW1.png"></img><br>
+<img src="./resources/WebW2.png"></img><br>
+<img src="./resources/WebW3.png"></img><br>
+<img src="./resources/WebW4.png"></img><br>
+
+### 4.4.2. Web Applications Wireflow Diagrams
+<img src="./resources/Wwireflow.png"></img><br>
+
+### 4.4.3. Web Applications Mock-ups
+
+<img src="./resources/wMockup1.png"></img><br>
+<img src="./resources/wMockup2.png"></img><br>
+<img src="./resources/wMockup3.png"></img><br>
+<img src="./resources/wMockup4.png"></img><br>
+
+### 4.4.4. Web Applications User Flow Diagrams
+<img src="./resources/Mwireflow.png"></img><br>
+
+## 4.5. Web Applications Prototyping
+
+link del figma:
+https://www.figma.com/proto/N5Fs8IWRNXDk03yETY4MP6/Untitled?node-id=43-85&t=P8lK8ZCWElu7I8J4-1&scaling=min-zoom&content-scaling=fixed&page-id=43%3A84
+
+## 4.6. Domain-Driven Software Architecture
+### 4.6.1. Software Architecture Context Diagram
+
+<img src="./resources/contextDiagram.png"></img>
+
+### 4.6.2. Software Architecture Container Diagrams
+
+<img src="./resources/containerDiagram.png"></img>
+
+### 4.6.3. Software Architecture Components Diagrams
+
+<img src="./resources/componentsDiagram.png"></img>
+
+## 4.7. Software Object-Oriented Design
+### 4.7.1. Class Diagrams
+
+<img src="./resources/Class_Diagram.png"></img>
+
+### 4.7.2. Class Dictionary
+
+#### 1. Clase: User
+- Atributos:
+  - userId: int → Identificador único del usuario
+  - name: String → Nombre del usuario
+  - email: String → Correo electrónico
+  - password: String → Contraseña
+  - rol: String → Rol asignado (ej. Sportsman, Coach, Admin)
+
+- Métodos:
+  - register() → Registra un nuevo usuario
+  - login() → Autentica al usuario en el sistema
+  - updateProfile() → Actualiza datos personales
+ 
+#### 2. Clase: Paciente
+- Atributos:
+  - historialCitas: List<Cita> → Lista de citas del paciente
+
+- Métodos:
+  - reservarCita() → Reserva una nueva cita con un psicólogo
+  - cancelarCita() → Cancela una cita previamente reservada
+  - dejarReseña() → Publica una reseña de un psicólogo
+ 
+#### 3. Clase: Psicólogo
+- Atributos:
+  - especialidad: String → Área de especialización (ej. ansiedad, terapia de pareja)
+  - modalidad: String → Tipo de consulta (Virtual, Presencial)
+  - precioConsulta: double → Tarifa de la consulta
+  - agenda: List<Cita> → Citas programadas del psicólogo
+ 
+- Métodos:
+  - gestionarAgenda() → Organiza y actualiza disponibilidad
+  - aceptarCita() → Confirma una cita solicitada
+  - generarReporte() → Crea un reporte del progreso del paciente
+ 
+#### 4. Clase: Cita
+- Atributos:
+  - citaId: int → Identificador único de la cita
+  - fechaHora: DateTime → Fecha y hora de la cita
+  - estado: String → Estado de la cita (Pendiente, Confirmada, Cancelada)
+  - modalidad: String → Modalidad de la cita (Virtual, Presencial)
+
+- Métodos:
+  - confirmar() → Cambia estado de la cita a confirmada
+  - cancelar() → Cancela la cita
+ 
+#### 5. Clase: Pago
+- Atributos:
+  - pagoId: int → Identificador único del pago
+  - amount: double → Monto pagado
+  - date: Date → Fecha del pago
+  - paymentMethod: String → Método de pago (Tarjeta, Yape, Plin, etc.)
+  - state: String → Estado del pago (Pendiente, Confirmado, Reembolsado)
+ 
+- Métodos:
+  - processPayment() → Procesa el pago
+  - generateReceipt() → Genera comprobante de pago
+  - refund() → Realiza reembolso del pago
+ 
+#### 6. Clase: Reseña
+- Atributos:
+  - reviewId: int → Identificador único de la reseña
+  - comentario: String → Texto de la opinión del paciente
+  - rating: int → Puntuación (1 a 5)
+  - fecha: Date → Fecha de publicación
+
+- Métodos:
+  - publicar() → Envía la reseña al perfil del psicólogo
+  - editar() → Modifica una reseña existente
+  - eliminar() → Elimina la reseña publicad
+ 
+#### 7. Clase: Chatbot
+- Atributos:
+  - chatId: int → Identificador único del chat
+  - tipoAsistencia: String → Tipo de asistencia (FAQ, orientación inicial)
+
+- Métodos:
+  - responderConsulta() → Responde preguntas frecuentes
+  - redirigirAPsicólogo() → Deriva al usuario hacia un psicólogo disponible
+
+#### 8. Clase: Suscripción
+- Atributos:
+  - suscripcionId: int → Identificador único de la suscripción
+  - tipoPlan: String → Plan contratado (Básico, Premium)
+  - fechaInicio: Date → Inicio de la suscripción
+  - fechaFin: Date → Fin de la suscripción
+
+- Métodos:
+  - renovar() → Extiende la suscripción
+  - cancelar() → Cancela la suscripción activa
+
+
+## 4.8. Database Design
+```sql
+/* =========================================
+   EIRAMIND - SQL Server Script (T-SQL)
+   ========================================= */
+
+SET XACT_ABORT ON;
+BEGIN TRAN;
+
+/* ===== CORE MODULE ===== */
+CREATE TABLE users (
+    id               INT IDENTITY(1,1) PRIMARY KEY,
+    email            VARCHAR(150)  NOT NULL UNIQUE,
+    password_hash    VARCHAR(255)  NOT NULL,
+    full_name        VARCHAR(120)  NOT NULL,
+    phone            VARCHAR(40),
+    role             VARCHAR(20)   NOT NULL DEFAULT 'patient',
+    status           VARCHAR(20)   NOT NULL DEFAULT 'active',
+    last_login_at    DATETIME2(0),
+    created_at       DATETIME2(0)  NOT NULL DEFAULT SYSUTCDATETIME(),
+    updated_at       DATETIME2(0)  NOT NULL DEFAULT SYSUTCDATETIME()
+);
+
+CREATE TABLE profiles (
+    id               INT IDENTITY(1,1) PRIMARY KEY,
+    user_id          INT NOT NULL UNIQUE,
+    avatar_url       NVARCHAR(MAX),
+    bio              NVARCHAR(MAX),
+    timezone         VARCHAR(64)   NOT NULL DEFAULT 'UTC',
+    language         VARCHAR(10)   NOT NULL DEFAULT 'en',
+    gender           VARCHAR(20),
+    birthdate        DATE,
+    country          VARCHAR(80),
+    city             VARCHAR(80),
+    created_at       DATETIME2(0)  NOT NULL DEFAULT SYSUTCDATETIME(),
+    updated_at       DATETIME2(0)  NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+/* ===== THERAPY MODULE ===== */
+CREATE TABLE therapists (
+    id                INT IDENTITY(1,1) PRIMARY KEY,
+    user_id           INT NOT NULL UNIQUE,
+    license_number    VARCHAR(80),
+    specialty         VARCHAR(100),
+    years_experience  INT NOT NULL DEFAULT 0,
+    base_rate_usd     DECIMAL(10,2) NOT NULL DEFAULT 0,
+    session_mode      VARCHAR(40)   NOT NULL DEFAULT 'hybrid',
+    rating_avg        DECIMAL(3,2)  NOT NULL DEFAULT 0,
+    rating_count      INT           NOT NULL DEFAULT 0,
+    verified          BIT           NOT NULL DEFAULT 0,
+    created_at        DATETIME2(0)  NOT NULL DEFAULT SYSUTCDATETIME(),
+    updated_at        DATETIME2(0)  NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+CREATE TABLE patients (
+    id                INT IDENTITY(1,1) PRIMARY KEY,
+    user_id           INT NOT NULL UNIQUE,
+    emergency_contact_name VARCHAR(120),
+    emergency_contact_phone VARCHAR(40),
+    notes             NVARCHAR(MAX),
+    created_at        DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    updated_at        DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+CREATE TABLE therapist_specialties (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    therapist_id INT NOT NULL,
+    specialty_name VARCHAR(120) NOT NULL,
+    description NVARCHAR(MAX),
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (therapist_id) REFERENCES therapists(id)
+);
+
+CREATE TABLE therapy_plans (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    patient_id INT NOT NULL,
+    therapist_id INT NOT NULL,
+    title VARCHAR(120),
+    description NVARCHAR(MAX),
+    duration_weeks INT NOT NULL DEFAULT 4,
+    status VARCHAR(20) NOT NULL DEFAULT 'active',
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    updated_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (therapist_id) REFERENCES therapists(id),
+    FOREIGN KEY (patient_id) REFERENCES patients(id)
+);
+
+/* ===== SCHEDULING MODULE ===== */
+CREATE TABLE appointments (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    therapist_id INT NOT NULL,
+    patient_id INT NOT NULL,
+    starts_at DATETIME2(0) NOT NULL,
+    ends_at DATETIME2(0) NOT NULL,
+    status VARCHAR(20) NOT NULL DEFAULT 'scheduled',
+    mode VARCHAR(20) NOT NULL DEFAULT 'online',
+    price_usd DECIMAL(10,2) NOT NULL DEFAULT 0,
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    updated_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (therapist_id) REFERENCES therapists(id),
+    FOREIGN KEY (patient_id) REFERENCES patients(id)
+);
+
+CREATE TABLE sessions (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    appointment_id INT NOT NULL UNIQUE,
+    therapist_notes NVARCHAR(MAX),
+    patient_summary NVARCHAR(MAX),
+    mood_score INT,
+    followup_date DATETIME2(0),
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    updated_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (appointment_id) REFERENCES appointments(id)
+);
+
+CREATE TABLE availabilities (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    therapist_id INT NOT NULL,
+    weekday INT NOT NULL,
+    start_time TIME NOT NULL,
+    end_time TIME NOT NULL,
+    is_virtual BIT NOT NULL DEFAULT 1,
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (therapist_id) REFERENCES therapists(id)
+);
+
+/* ===== BILLING MODULE ===== */
+CREATE TABLE plans (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    code VARCHAR(50) NOT NULL UNIQUE,
+    name VARCHAR(120) NOT NULL,
+    price_usd DECIMAL(10,2) NOT NULL,
+    interval_type VARCHAR(20) NOT NULL DEFAULT 'month',
+    features NVARCHAR(MAX),
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME()
+);
+
+CREATE TABLE subscriptions (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    user_id INT NOT NULL,
+    plan_id INT NOT NULL,
+    status VARCHAR(20) NOT NULL DEFAULT 'active',
+    start_date DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    end_date DATETIME2(0),
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (plan_id) REFERENCES plans(id)
+);
+
+CREATE TABLE payments (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    appointment_id INT NULL,
+    user_id INT NOT NULL,
+    provider VARCHAR(40) NOT NULL,
+    amount_usd DECIMAL(10,2) NOT NULL,
+    currency VARCHAR(3) NOT NULL DEFAULT 'USD',
+    status VARCHAR(20) NOT NULL DEFAULT 'succeeded',
+    paid_at DATETIME2(0),
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (user_id) REFERENCES users(id),
+    FOREIGN KEY (appointment_id) REFERENCES appointments(id)
+);
+
+CREATE TABLE invoices (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    subscription_id INT NULL,
+    user_id INT NOT NULL,
+    amount_usd DECIMAL(10,2) NOT NULL,
+    issued_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    due_at DATETIME2(0),
+    status VARCHAR(20) NOT NULL DEFAULT 'open',
+    FOREIGN KEY (subscription_id) REFERENCES subscriptions(id),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+/* ===== COMMUNICATION MODULE ===== */
+CREATE TABLE messages (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    sender_id INT NOT NULL,
+    receiver_id INT NOT NULL,
+    body NVARCHAR(MAX),
+    is_read BIT NOT NULL DEFAULT 0,
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (sender_id) REFERENCES users(id),
+    FOREIGN KEY (receiver_id) REFERENCES users(id)
+);
+
+CREATE TABLE notifications (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    user_id INT NOT NULL,
+    title VARCHAR(160) NOT NULL,
+    message NVARCHAR(MAX),
+    type VARCHAR(60),
+    is_read BIT NOT NULL DEFAULT 0,
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+/* ===== SUPPORT & AUDIT MODULE ===== */
+CREATE TABLE tickets (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    user_id INT NOT NULL,
+    subject VARCHAR(200) NOT NULL,
+    message NVARCHAR(MAX),
+    priority VARCHAR(20) NOT NULL DEFAULT 'normal',
+    status VARCHAR(20) NOT NULL DEFAULT 'open',
+    created_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    updated_at DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+CREATE TABLE audit_logs (
+    id INT IDENTITY(1,1) PRIMARY KEY,
+    user_id INT,
+    entity VARCHAR(80),
+    entity_id INT,
+    action VARCHAR(40),
+    timestamp DATETIME2(0) NOT NULL DEFAULT SYSUTCDATETIME(),
+    FOREIGN KEY (user_id) REFERENCES users(id)
+);
+
+COMMIT TRAN;
+GO
+
+```
+
+### 4.8.1. Database Diagram
+<img src="./resources/dbeiramind.png"></img>
+
+# Capítulo V: Product Implementation, Validation & Deployment
+## 5.1. Software Configuration Management
+### 5.1.1. Software Development Enviroment Configuration
+
+#### Requirements Management
+
+1. Canva: Es una herramienta de diseño utilizada para realizar los user persona, empathy mapping, Lean UX Canvas, As-is Scenario Mapping y otros elementos importantes más. Esta aplicación está basada en un sistema de diseño simple en el cual puedes mover y editar objetos para lograr el objetivo de diseñar nuestras piezas escenciales de análisis de mercado para nuestra aplicación. Ruta de referencia: https://www.canva.com/es_es/.
+2. Figma: Plataforma de elaboración de prototipos y edición gráfica, que usamos principalmente para nuestra Landing Page y Web Application, tanto para los Wireframes y los MockUps, al igual que para nuestros Wireflows Diagrams. Ruta de referencia: https://www.figma.com/.
+3. Vertabelo: Plataforma basada en creación, gestión y realización de gráficos para organizar las herencias y dependencias de nuestros programas y/o bases de datos. Como en nuestro caso fue implementada para realizar nuestros Class Diagrams y nuestra Database Diagrams. Ruta de referencia https://vertabelo.com/.
+
+#### Software Devlopment
+
+1. JetBrains WebStorm: Es un entorno de desarrollo integrado (IDE) enfocado en el desarrollo web. Ofrece herramientas que facilitan la prueba del proyecto en diversos navegadores como Chrome, Microsoft Edge, Safari y Mozilla Firefox. El uso de WebStorm aporta un valor agregado al desarrollo, ya que permite visualizar cómo funciona la aplicación en múltiples plataformas y proporciona soporte avanzado para la edición de código en varios lenguajes compatibles. Ruta de Referencia: https://www.jetbrains.com/es-es/webstorm/.
+2. HTML5: Lenguaje de marcado utilizado para estructurar y presentar contenido en la web. Es una herramienta fundamental en nuestro proyecto, ya que se emplea para construir la base del contenido de la aplicación. Ruta de Referencia: https://www.w3schools.com/html/.
+3. CSS: Conocido como Hojas de Estilo en Cascada (Cascading Style Sheets), este lenguaje trabaja en conjunto con HTML5 para definir el diseño y la presentación visual de la aplicación. Permite personalizar estilos como colores, tipografías y distribución de los elementos. Ruta de Referencia: https://developer.mozilla.org/es/docs/Web/CSS.
+4. JavaScript: Lenguaje de programación orientado a objetos e interpretado en el navegador. Se utilizará principalmente para desarrollar la interfaz dinámica de usuario en nuestro proyecto, facilitando la interactividad dentro de la aplicación. Ruta de Referencia: https://developer.mozilla.org/es/docs/Web/JavaScript.
+
+#### Software Deployment
+
+1. Git: Es una herramienta de control de versiones diseñada para mejorar la eficiencia, confiabilidad y compatibilidad en la gestión de versiones de software. Su uso permite a los integrantes del equipo acceder y trabajar con el proyecto desde la línea de comandos, facilitando la colaboración y el seguimiento de cambios en el desarrollo. Ruta de Referencia: https://git-scm.com/.
+
+#### Software Documentation and Project Management
+
+1. GitHub: Es una plataforma que permite alojar proyectos y gestionarlos mediante el control de versiones de Git, utilizando repositorios. Facilita la colaboración en tiempo real entre los miembros del equipo, así como la revisión y seguimiento de los aportes individuales en el desarrollo del proyecto. Ruta de Referencia: https://github.com/.
+
+### 5.1.2. Source Code Management
+
+El proyecto sigue las convenciones del modelo GitFlow como flujo de trabajo para el control de versiones, utilizando GitHub como plataforma central. Se compartirán los enlaces a los repositorios en GitHub correspondientes a la Landing Page, y este mismo enfoque será aplicado de manera consistente en los demás productos del proyecto.
+
+#### Repositorio de GitHub:
+
+- URL para acceder a nuestro reporte en GitHub: https://github.com
+
+- URL para acceder nuestro repositorio de Landing Page: https://github.com
+
+### 5.1.3. Source Code Style Guide & Conventions
+
+Con el objetivo de garantizar que el código fuente del proyecto **opendMind** sea claro, mantenible y consistente entre todos los integrantes del equipo, se establecieron guías de estilo y convenciones de programación. Estas normas permiten que la colaboración en GitHub sea más eficiente y que el producto final cumpla con estándares de calidad.  
+
+### Convenciones de nombres  
+- **Variables y funciones:** se utiliza *camelCase* (ejemplo: `userName`, `getUserData`).  
+- **Clases y componentes:** se aplica *PascalCase* (ejemplo: `UserController`, `LoginComponent`).  
+- **Constantes:** se escriben en mayúsculas y con guiones bajos (ejemplo: `MAX_LOGIN_ATTEMPTS`).  
+- **Archivos:**  
+  - Componentes React: `NombreComponente.jsx`.  
+  - Estilos: `nombre-componente.css`.  
+  - Scripts utilitarios: `nombre-util.js`.  
+
+### Estilo de código  
+- Indentación de **4 espacios** en todos los archivos.  
+- Longitud máxima de línea: **100 caracteres**.  
+- Uso de **punto y coma (;)** en JavaScript para evitar errores de interpretación.  
+- Comillas dobles (`" "`) para cadenas de texto.  
+- Se aplican espacios antes y después de los operadores para mejorar la legibilidad:  
+  ```js
+  let total = price + tax;
+  ```
+  
+
+### 5.1.4. Software Deployment Configuration
+
+La configuración de despliegue del proyecto **opendMind** busca garantizar que la aplicación pueda ejecutarse de manera segura, estable y escalable en los entornos definidos (desarrollo, pruebas y producción). Para ello se establecieron las siguientes directrices:  
+
+### Entornos de despliegue  
+- **Desarrollo:** entorno local en el que los programadores realizan las pruebas iniciales. Se utiliza una base de datos en SQL Server con datos de prueba y servidores locales para backend y frontend.  
+- **Pruebas (staging):** entorno intermedio que replica la configuración de producción. Permite validar funcionalidades, pruebas de integración y pruebas de usuario antes de liberar la aplicación final.  
+- **Producción:** entorno en la nube (Azure / AWS / Vercel) destinado al acceso real de usuarios finales. Incluye configuraciones de seguridad avanzadas y monitoreo constante.  
+
+### Proceso de despliegue  
+1. **Control de versiones:** cada nueva funcionalidad o corrección se integra en la rama principal (`main`) solo después de haber pasado las revisiones y pruebas unitarias.  
+2. **Automatización del build:** mediante scripts de *npm* y configuraciones de CI/CD (por ejemplo GitHub Actions o Azure Pipelines), se automatiza la construcción y validación del proyecto.  
+3. **Contenerización:** el backend se ejecuta dentro de contenedores Docker, lo que facilita la portabilidad entre entornos.  
+4. **Configuración de base de datos:** se aplican migraciones automáticas para mantener sincronizado el esquema en cada despliegue.  
+5. **Despliegue en nube:** el frontend se aloja en servicios de hosting estático (ej. Vercel o Netlify), mientras que el backend y la base de datos se despliegan en Azure/AWS con escalabilidad vertical y horizontal.  
+
+### Seguridad y mantenimiento  
+- Uso de **variables de entorno (.env)** para proteger credenciales y llaves de acceso.  
+- Conexiones encriptadas mediante **HTTPS**.  
+- Backups automáticos de la base de datos en intervalos regulares.  
+- Monitoreo con herramientas como **Azure Monitor**, **AWS CloudWatch** o equivalentes para rastrear errores y métricas de rendimiento.  
+- Políticas de actualización continua para aplicar parches de seguridad y mantener la aplicación en condiciones óptimas.  
+
+En conclusión, la estrategia de despliegue asegura que el sistema sea confiable, seguro y adaptable al crecimiento del proyecto, permitiendo entregar un producto de calidad a los usuarios finales.
+
+
+
+## 5.2. Landing Page, Service & Application Implementation
+### 5.2.1 Sprint 1
+### 5.2.1.1. Sprint Planning 1
+| **Sprint #**                  | Sprint 1 |
+|--------------------------------|----------|
+| **Sprint Planning Background** |  |
+| **Date**                       | 2025-09-5 |
+| **Time**                       | 9:00 PM |
+| **Location**                   | Reunión virtual – Salón UH-52 |
+| **Prepared By**                | Rolando Andre Torres Diaz|
+| **Attendees (to planning meeting)** | Rolando Andre Torres Diaz / Liam Anderson Villugas Jeronimo  / Diego Rodrigo Pumahualcca Garcia / Andy Alejandro Mio Mejia / Henry Jaredt Montes Ramos|
+| **Sprint n – 1 Review Summary** | No hubo Sprint anterior. |
+| **Sprint n – 1 Retrospective Summary** | No hubo Sprint anterior|
+| **Sprint Goal & User Stories** | |
+| **Sprint 0 Goal**              | Configurar la base técnica del proyecto (entorno de desarrollo, repositorio GitHub, GitFlow, prototipo inicial de Landing Page). |
+| **Sprint 0 Velocity**          | 10 Story Points |
+| **Sum of Story Points**        | 10 |
+
+
+### 5.2.1.2. Aspect Leaders and Collaborators
+
+En el Sprint 0, el equipo identificó los principales aspectos que forman parte del alcance inicial del proyecto: **Backend & API, Frontend & UI, Landing Page & SEO, Base de Datos & Despliegue, y QA & Documentación**.  
+Para cada aspecto se designó un **líder (L)** y uno o más **colaboradores (C)**, de manera que exista claridad en la distribución de responsabilidades. Esta matriz de liderazgo y colaboración (LACX) facilita la organización de tareas, la comunicación interna y la posterior selección de tasks durante el Sprint.  
+
+| **Team Member**   | **GitHub Username** | **Backend & API** | **Frontend & UI** | **Landing Page & SEO** | **Base de Datos & Despliegue** | **QA & Documentación** |
+|--------------------------|----------------------|-------------------|-------------------|-------------------------|---------------------------------|-------------------------|
+| Diego Rodrigo Pumahualcca Garcia| DiegoPumahualcca | L | C | C | C | C |
+| Liam Anderson Villugas Jeronimo | Liamvillugas | C  | C | C | L | C |
+| Andy Alejandro Mio Mejia | AndyMio17 | C | C | L | C | C |
+| Torres Diaz, Rolando | @ROLO194 | C  | L | C | C | C |
+| Henry Jaredt Montes Ramos | jahen17 | C | C | C | C | L |
+
+
+### 5.2.1.3. Sprint Backlog 1
+
+| **Sprint #** | **User Story** | **Work-Item / Task** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|--------------|----------------|-----------------------|-----------------|-------------------------|-----------------|------------|
+| Sprint 1 | US01 – Registro de Usuario | T-01: Modelo de usuario en SQL Server | Definir tabla y campos de usuario en la BD (id, nombre, email, contraseña, rol). | 5h | Diego Rodrigo Pumahualcca Garcia | Done |
+| Sprint 1 | US01 – Registro de Usuario | T-02: Endpoint de registro | Implementar API REST para registro de pacientes y psicólogos con validaciones. | 5h |Liam Anderson Villugas Jeronimo | Done |
+| Sprint 1 | US01 – Registro de Usuario | T-03: Formulario de registro | Desarrollo de formulario de registro en frontend (React). | 3h | Rolando Torres | Done |
+| Sprint 1 | US02 – Búsqueda de Psicólogos | T-04: Generar vista de búsqueda | Página de búsqueda con filtros (especialidad, tarifa, modalidad). | 5h |Andy Alejandro Mio Mejia| Done |
+| Sprint 1 | US02 – Búsqueda de Psicólogos | T-05: Validar búsqueda vacía | Mostrar mensaje cuando no se encuentran psicólogos disponibles. | 3h | nombre | Done |
+| Sprint 1 | US03 – Reserva de Cita | T-06: Maquetación del formulario | HTML y CSS del formulario de reserva con fecha, hora y modalidad. | 4h |Rolando Torres | Done |
+| Sprint 1 | US03 – Reserva de Cita | T-07: Validación de campos obligatorios | Validaciones en frontend (ejemplo: fecha y modalidad requeridos). | 3h |nombre| Done |
+| Sprint 1 | US04 – Sistema de Pagos | T-08: Modelo de pagos en BD | Definir tabla de pagos (id_pago, monto, fecha, método). | 3h | Andy Alejandro Mio Mejia| Done |
+| Sprint 1 | US04 – Sistema de Pagos | T-09: Endpoint CRUD de pagos | Crear API REST para registrar y consultar pagos. | 6h |Diego Rodrigo Pumahualcca Garcia| Done |
+| Sprint 1 | US05 – Reseñas de Psicólogos | T-10: Modelo reseña en BD | Crear tabla de reseñas con atributos (id, comentario, rating, fecha). | 3h | Liam Anderson Villugas Jeronimo | Done |
+| Sprint 1 | US05 – Reseñas de Psicólogos | T-11: Interfaz de reseñas | Desplegable en frontend para calificar y comentar después de una cita. | 3h | Rolando Torres | Done |
+
+
+### 5.2.1.4. Development Evidence for Sprint Review
+
+Durante el Sprint 1 se implementaron y documentaron los avances técnicos planificados en el Sprint Backlog. La evidencia de desarrollo se presenta a continuación, mostrando el cumplimiento de los objetivos y las funcionalidades establecidas para esta iteración.  
+
+#### Evidencia de código  
+- Implementación de los **módulos base** para el sistema de autenticación de usuarios (registro e inicio de sesión).  
+- Creación de **endpoints iniciales en el backend** utilizando Node.js y Express.  
+- Definición de los modelos de base de datos en **SQL Server** para las entidades principales (User y Psychologist).  
+- Integración inicial del **frontend en React**, con los primeros componentes para la landing page y el formulario de registro.  
+
+#### Evidencia en GitHub  
+- Commits en la rama `develop` que muestran el progreso incremental de las funcionalidades.  
+- Pull Requests revisados y aprobados antes de ser integrados a la rama `main`.  
+- Uso de *issues* y *milestones* para dar seguimiento a las tareas del Sprint.  
+
+#### Capturas de avance  
+- **Backend:** endpoints funcionales probados en Postman (ejemplo: `/api/register` y `/api/login`).  
+- **Frontend:** primer prototipo navegable de la landing page con los botones de “Regístrate” y “Iniciar sesión”.  
+- **Base de datos:** script de creación de tablas ejecutado en SQL Server con inserción de datos de prueba.  
+
+#### Resultados del Sprint  
+- Se logró un **MVP inicial** que permite registrar y autenticar usuarios en la plataforma.  
+- El sistema es capaz de almacenar y consultar información de usuarios básicos en la base de datos.  
+- La interfaz de usuario muestra los primeros elementos visuales que conectan el diseño con el desarrollo real.  
+
+La evidencia confirma que los objetivos planteados para el Sprint 1 fueron cumplidos satisfactoriamente, sentando las bases para el desarrollo de las siguientes funcionalidades en el próximo Sprint.
+
+### 5.2.1.5. Execution Evidence for Sprint Review
+
+La ejecución de las funcionalidades desarrolladas durante el **Sprint 1** permitió validar el correcto funcionamiento de los módulos iniciales del sistema **opendMind**. A continuación, se presenta la evidencia de ejecución en cada uno de los componentes principales:  
+
+#### Backend  
+- Pruebas realizadas en **Postman** confirmaron el correcto funcionamiento de los endpoints `/api/register` y `/api/login`.  
+- Se validó la creación de nuevos usuarios en la base de datos, mostrando mensajes de éxito y de error en caso de datos inválidos.  
+- Logs en consola evidenciaron la conexión estable entre la API (Node.js + Express) y la base de datos en **SQL Server**.  
+
+#### Frontend  
+- Ejecución del **formulario de registro** en React, con validaciones en tiempo real para campos obligatorios.  
+- Navegación inicial entre vistas: Landing Page → Registro → Inicio de sesión.  
+- Confirmación visual de mensajes de error (ejemplo: “Correo ya registrado”) y de éxito al completar el registro.  
+
+#### Base de datos  
+- Scripts SQL ejecutados en **SQL Server** generaron las tablas `User` y `Psychologist`.  
+- Inserción y consulta de datos de prueba confirmaron la persistencia de la información.  
+- Se verificó la integridad referencial en las relaciones básicas entre usuarios y psicólogos.  
+
+#### Integración  
+- Se comprobó que los datos ingresados en el formulario del frontend son enviados al backend y almacenados en la base de datos.  
+- Flujo completo validado: **Paciente se registra → API procesa datos → Información guardada en BD → Confirmación en frontend.**  
+
+#### Resultados del Sprint  
+- El sistema permite registrar y autenticar usuarios de forma básica.  
+- Los datos son almacenados de manera persistente en la base de datos.  
+- Se confirma la interacción correcta entre **frontend, backend y base de datos**.  
+
+En conclusión, la evidencia de ejecución valida que las funcionalidades iniciales de **opendMind** fueron implementadas y probadas exitosamente, sentando la base para las siguientes iteraciones del proyecto.
+
+### 5.2.1.6. Services Documentation Evidence for Sprint Review
+
+Durante el Sprint 1 se desarrollaron y documentaron los primeros **servicios del backend** para la plataforma **opendMind**, con el objetivo de habilitar el registro y autenticación de usuarios, así como sentar las bases para la gestión de psicólogos y pacientes.  
+
+#### Servicios implementados  
+
+1. **Servicio de Registro de Usuarios**  
+   - **Endpoint:** `POST /api/register`  
+   - **Descripción:** Permite registrar a un nuevo usuario (paciente o psicólogo).  
+   - **Parámetros requeridos:**  
+     - `first_name` (string)  
+     - `last_name` (string)  
+     - `email` (string, único)  
+     - `password` (string, encriptado con hash)  
+     - `role` (string: patient, psychologist)  
+   - **Respuesta exitosa:** Código `201 Created` con mensaje de confirmación.  
+   - **Errores:** Código `400 Bad Request` en caso de datos inválidos o duplicados.  
+
+2. **Servicio de Autenticación (Login)**  
+   - **Endpoint:** `POST /api/login`  
+   - **Descripción:** Autentica a un usuario registrado y devuelve un token de sesión (JWT).  
+   - **Parámetros requeridos:**  
+     - `email` (string)  
+     - `password` (string)  
+   - **Respuesta exitosa:** Código `200 OK` con token de acceso y datos básicos del usuario.  
+   - **Errores:** Código `401 Unauthorized` si las credenciales no son válidas.  
+
+3. **Servicio de Consulta de Psicólogos (versión inicial)**  
+   - **Endpoint:** `GET /api/psychologists`  
+   - **Descripción:** Retorna la lista de psicólogos registrados en la plataforma.  
+   - **Parámetros opcionales:** filtros por `specialization`, `consultation_type`, `price`.  
+   - **Respuesta exitosa:** Código `200 OK` con arreglo de psicólogos en formato JSON.  
+
+#### Evidencia de documentación  
+
+- Se generó documentación en formato **OpenAPI/Swagger** para describir los endpoints creados.  
+- Los servicios fueron probados con **Postman**, verificando que las respuestas fueran consistentes con lo esperado.  
+- Se registraron ejemplos de solicitudes y respuestas exitosas y con error.  
+- La documentación fue versionada y almacenada en el repositorio de GitHub dentro de la carpeta `/docs/services`.  
+
+#### Resultados  
+
+La evidencia confirma que los servicios iniciales del sistema fueron desarrollados y documentados correctamente, lo que facilita la comunicación entre los desarrolladores del equipo y asegura que futuros sprints puedan extender las funcionalidades sobre una base sólida de APIs.
+
+### 5.2.1.7. Software Deployment Evidence for Sprint Review
+
+
+
+
+
+### 5.2.1.8. Team Collaboration Insights during Sprint
+
+
+Durante este Sprint se generaron aprendizajes significativos en torno al trabajo colaborativo del equipo **opendMind**. La experiencia permitió identificar tanto fortalezas como áreas de mejora para los próximos sprints:  
+
+- Se definió una **dinámica de comunicación constante** a través de **Discord** para coordinación rápida cada 3 días y mediante **Google Meet** para reuniones semanales, lo que facilitó el alineamiento de objetivos y resolución de dudas.  
+- Se acordó la importancia de **documentar todas las decisiones técnicas y funcionales** en un archivo compartido en **Google Drive**, asegurando trazabilidad y acceso a la información por todos los miembros.  
+- Se reconoció como fortaleza la **rapidez en la configuración técnica inicial** (repositorio en GitHub, entorno de desarrollo y base de datos en SQL Server), lo cual permitió que el equipo pudiera comenzar las implementaciones de manera ágil.  
+- Como oportunidad de mejora, se identificó la necesidad de **planificar con mayor detalle las horas estimadas por tarea** en el Sprint Backlog, ya que algunas actividades requirieron más tiempo del esperado.  
+- Se destacó el compromiso de los integrantes en la **revisión de Pull Requests y control de versiones**, promoviendo la calidad del código y la colaboración en el repositorio.  
+
+En conclusión, la colaboración del equipo durante este Sprint fue positiva y permitió establecer una dinámica sólida de comunicación y coordinación. No obstante, se deberán reforzar los procesos de estimación y planificación para optimizar la eficiencia en futuros sprints.
+
+### 5.2.2 Sprint 2
+### 5.2.2.1. Sprint Planning 2
+| **Sprint #** | Sprint 2 |
+|---------------|-----------|
+| **Sprint Planning Background** | |
+| **Date** | 2025-10-10 |
+| **Time** | 9:30 PM |
+| **Location** | Reunión virtual – Discord / VS Code Live Share |
+| **Prepared By** | Rolando Andre Torres Diaz |
+| **Attendees (to planning meeting)** | Rolando Andre Torres Diaz / Liam Anderson Villugas Jeronimo  / Diego Rodrigo Pumahualcca Garcia / Andy Alejandro Mio Mejia / Henry Jaredt Montes Ramos |
+| **Sprint 1 Review Summary** | Durante el Sprint 1 se configuró el entorno de desarrollo, el repositorio GitHub y la estructura base del proyecto (frontend Vue 3 + Vite + PrimeVue + Axios + i18n). Se creó la vista de Landing Page y la documentación inicial en README. |
+| **Sprint 1 Retrospective Summary** | El equipo concluyó que la planificación fue eficiente y la estructura técnica adecuada. Como mejora, se propuso centrar los próximos sprints en las funcionalidades centrales de autenticación y gestión de usuarios. |
+| **Sprint Goal & User Stories** | Implementar el módulo de **autenticación y usuarios** del proyecto EiraMind, permitiendo registrar, iniciar sesión y redirigir al dashboard. Se agregará persistencia de sesión y mensajes de error accesibles. |
+| **Sprint Goal** | Construir y conectar las vistas de Login y Registro con Axios y localStorage, siguiendo DDD y buenas prácticas de UI/UX. |
+| **Sprint Velocity** | 20 Story Points |
+| **Sum of Story Points** | 20 |
+
+---
+
+### 5.2.2.2. Aspect Leaders and Collaborators
+
+En el **Sprint 2**, el equipo reorganizó los aspectos clave del desarrollo para enfocarse en los módulos principales del sistema **EiraMind**, priorizando la autenticación, el control de sesiones y la internacionalización.  
+Se mantuvo la estructura colaborativa, designando un **líder (L)** y **colaboradores (C)** por cada área de trabajo, asegurando una adecuada distribución de responsabilidades, comunicación interna y seguimiento técnico.  
+
+Los aspectos priorizados para este sprint fueron:  
+**Backend & API, Frontend & UI, Autenticación & Persistencia, Internacionalización (i18n), y QA & Documentación.**
+
+| **Team Member** | **GitHub Username** | **Backend & API** | **Frontend & UI** | **Auth & Persistencia** | **i18n & UX Writing** | **QA & Documentación** |
+|------------------|--------------------|------------------|------------------|------------------------|----------------------|-----------------------|
+| Diego Rodrigo Pumahualca García | DiegoPumahualcca | L | C | C | C | C |
+| Liam Anderson Villugas Jeronimo | Liamvillugas | C | L | C | C | C |
+| Andy Alejandro Mio Mejía | AndyMio17 | C | C | L | C | C |
+| Rolando Andre Torres Diaz | @ROLO194 | C | C | C | L | L |
+| Henry Jared Montes Ramos | jahen17 | C | C | C | C | C |
+
+
+### 5.2.2.3. Sprint Backlog 2
+
+| **Sprint #** | **User Story** | **Work-Item / Task** | **Description** | **Estimation (Hours)** | **Assigned To** | **Status** |
+|---------------|----------------|----------------------|-----------------|-------------------------|-----------------|------------|
+| Sprint 2 | US01 – Registro de Usuario | T-01: Crear vista de registro | Diseñar y codificar el formulario de registro con validaciones y estilos PrimeVue. | 5h | Rolando Torres | Done |
+| Sprint 2 | US01 – Registro de Usuario | T-02: Servicio Axios de registro | Crear endpoint con Axios que simule POST /register y gestione respuestas de error y éxito. | 4h | Liam Anderson Villugas Jeronimo | Done |
+| Sprint 2 | US02 – Inicio de Sesión | T-03: Implementar vista de login | Diseñar y desarrollar formulario de inicio de sesión con manejo de errores e i18n. | 4h | Andy Alejandro Mio Mejía | Done |
+| Sprint 2 | US02 – Inicio de Sesión | T-04: Persistencia de sesión | Guardar datos del usuario y token en localStorage tras login exitoso. | 3h | Diego Rodrigo Pumahualcca García | Done |
+| Sprint 2 | US03 – Cierre de Sesión | T-05: Función logout | Implementar función logout y redirección al login. | 2h | Rolando Torres | Done |
+| Sprint 2 | US04 – Mensajes i18n | T-06: Crear archivo locales/es.json y locales/en.json | Añadir traducciones de mensajes de error, éxito y placeholders. | 3h | Rolando Torres | Done |
+| Sprint 2 | US04 – Mensajes i18n | T-07: Integrar i18n en componentes | Conectar useI18n con los formularios de login y registro para mostrar mensajes dinámicos. | 3h | Liam Anderson Villugas Jeronimo | Done |
+| Sprint 2 | US05 – Persistencia de Idioma | T-08: Guardar idioma en localStorage | Implementar función para mantener idioma tras recargar o cerrar sesión. | 2h | Andy Alejandro Mio Mejía | Done |
+| Sprint 2 | US05 – Persistencia de Idioma | T-09: Componente selector de idioma | Crear botón para alternar idioma (EN/ES) en Toolbar con actualización reactiva. | 2h | Rolando Torres | Done |
+| Sprint 2 | US06 – QA y Documentación | T-10: Actualizar README.md | Agregar secciones Sprint 2, historias de usuario y backlog en formato Markdown. | 3h | Rolando Torres | Done |
+
+---
+
+**Total Estimado:** 31 horas  
+**Estado General:** *En progreso*  
+
+> **Nota:** Todas las tareas se desarrollan en entorno **Vue 3 + Vite**, siguiendo la arquitectura **DDD (Domain Driven Design)**, con comunicación mediante **Axios**, y componentes de interfaz **PrimeVue**.
+
+### 5.2.2.4 Development Evidence for Sprint Review  
+
+Durante el **Sprint 2**, se implementaron y documentaron los avances técnicos planificados en el Sprint Backlog, centrados en el desarrollo del **módulo de autenticación**, la **persistencia de sesión** y la **internacionalización (i18n)**.  
+A continuación se presenta la evidencia que demuestra el cumplimiento de los objetivos y funcionalidades establecidas para esta iteración.  
+
+#### Evidencia de código  
+- Implementación completa de los **componentes de registro e inicio de sesión**, desarrollados con **Vue 3 (Composition API)** y **PrimeVue**.  
+- Integración del cliente **Axios** para consumir endpoints de autenticación simulados y manejar respuestas de error y éxito.  
+- Persistencia de datos de sesión mediante **localStorage**, asegurando que el usuario mantenga su estado autenticado.  
+- Implementación del sistema de **internacionalización (i18n)** con soporte para inglés y español, almacenando la preferencia de idioma.  
+- Aplicación de **buenas prácticas DDD (Domain Driven Design)**: separación por capas (`domain`, `application`, `infra`, `presentation`).  
+- Refactorización de componentes para mejorar la **accesibilidad (a11y)** y uso de atributos **ARIA** en formularios.  
+
+#### Evidencia en GitHub  
+- Commits registrados en la rama `develop` con mensajes descriptivos y consistentes.  
+- Pull Requests revisados antes de ser integrados en `main`.  
+- Uso de *issues* para rastrear incidencias relacionadas con el login, el registro y la persistencia de idioma.  
+- Capturas de commits y archivos que reflejan los cambios en:  
+  - `src/views/LoginView.vue`  
+  - `src/views/RegisterView.vue`  
+  - `src/services/auth.js`  
+  - `src/app/i18n/index.js`
+    
+#### Capturas de avance  
+- **Login:** formulario funcional con validaciones, mensajes de error y botones de redes sociales.  
+- **Registro:** vista con validaciones de campos requeridos y retroalimentación visual mediante PrimeVue.  
+- **Internacionalización:** selector de idioma en Toolbar que cambia dinámicamente todos los textos.  
+- **Dashboard (mock):** acceso controlado tras autenticación exitosa.  
+- **Toast Messages:** confirmaciones y alertas visibles al registrarse o iniciar sesión.  
+
+#### Resultados del Sprint  
+- Se alcanzó un **MVP funcional** con autenticación completa en el frontend.  
+- Se logró la **persistencia del idioma y de la sesión** del usuario.  
+- La aplicación muestra un flujo coherente desde el registro hasta el acceso al dashboard.  
+- Se documentó el código y se actualizó el **README.md** con las secciones de Sprint 2 y backlog.  
+
+La evidencia confirma que los objetivos planteados para el **Sprint 2** fueron cumplidos satisfactoriamente, consolidando las bases técnicas del sistema y habilitando el inicio de desarrollo del **módulo de dashboard y gestión de usuarios** para el próximo sprint.
+
+
+### 5.2.2.5. Execution Evidence for Sprint Review
+La ejecución de las funcionalidades desarrolladas durante el **Sprint 2** permitió validar el correcto funcionamiento del módulo de autenticación y la integración de internacionalización en el sistema **EiraMind**.  
+A continuación, se presenta la evidencia de ejecución en los principales componentes del proyecto.  
+
+#### Frontend  
+
+- Ejecución del **formulario de registro** y **login** desarrollados con **Vue 3 (Composition API)** y **PrimeVue**.  
+- Validaciones en tiempo real para campos requeridos, contraseñas vacías o correos no válidos.  
+- Confirmación visual de mensajes de error y éxito usando **PrimeVue Toast**.  
+- Navegación fluida entre vistas (`/register`, `/login`, `/dashboard`) validando el flujo de usuario.  
+- Implementación de **persistencia de sesión** en `localStorage` con redirección automática si el usuario ya está autenticado.  
+- Accesibilidad mejorada: etiquetas `aria-label`, foco visible y roles semánticos aplicados en inputs y botones.  
+
+#### Internacionalización (i18n)  
+
+- Traducciones cargadas dinámicamente desde los archivos `src/app/i18n/locales/en.json` y `src/app/i18n/locales/es.json`.  
+- Selector de idioma funcional en Toolbar con actualización instantánea del contenido.  
+- Persistencia del idioma en `localStorage`, conservando la preferencia del usuario al recargar o volver a iniciar sesión.  
+- Mensajes de error, placeholders y botones traducidos completamente al inglés y español.  
+
+#### Integración y Servicios  
+
+- Cliente **Axios** configurado correctamente en `src/infra/http/axios.js` con manejo global de errores.  
+- Simulación de endpoints `/register` y `/login` para pruebas locales del flujo de autenticación.  
+- Validación de tiempo de respuesta, manejo de errores de red y mensajes dinámicos.  
+- Flujo completo validado: **Usuario se registra → API procesa solicitud → Respuesta con mensaje de éxito → Redirección al login.**  
+
+#### Resultados del Sprint  
+
+- Se logró un **flujo de autenticación funcional y estable** en el frontend.  
+- El sistema mantiene el estado de sesión y la preferencia de idioma del usuario.  
+- La interfaz de usuario responde correctamente a entradas válidas e inválidas.  
+- Se mejoró la accesibilidad y se estandarizaron los mensajes del sistema en dos idiomas.  
+- Se documentaron las evidencias en el README y se confirmaron los criterios de aceptación definidos para el Sprint 2.  
+
+La ejecución demuestra el cumplimiento exitoso de los objetivos del **Sprint 2**, consolidando la base funcional del sistema **EiraMind** y preparando el entorno para la próxima iteración enfocada en el **Dashboard y gestión de usuarios**.
+
+### 5.2.2.6 Services Documentation Evidence for Sprint Review  
+
+Durante el **Sprint 2**, se desarrollaron y documentaron los **servicios del frontend** para la plataforma **EiraMind**, con el propósito de implementar y validar la lógica de autenticación, registro de usuarios y persistencia de sesión mediante **Axios**.  
+Aunque el sistema aún opera con endpoints simulados, se estructuró el consumo de servicios siguiendo una arquitectura escalable basada en **Domain Driven Design (DDD)**.  
+
+#### Servicios implementados  
+
+1. **Servicio de Registro de Usuarios**  
+   - **Archivo:** `src/services/auth.js`  
+   - **Método:** `registerUser(data)`  
+   - **Descripción:** Envía una solicitud `POST` simulada a `/api/register` para crear un nuevo usuario.  
+   - **Parámetros requeridos:**  
+     - `firstName` (string)  
+     - `lastName` (string)  
+     - `email` (string, único)  
+     - `password` (string, mínimo 8 caracteres)  
+   - **Respuesta exitosa:** Devuelve objeto con `status: 201` y mensaje de confirmación.  
+   - **Errores:** Retorna mensaje de error si los campos son inválidos o duplicados.  
+
+2. **Servicio de Autenticación (Login)**  
+   - **Archivo:** `src/services/auth.js`  
+   - **Método:** `loginUser(credentials)`  
+   - **Descripción:** Realiza una solicitud `POST` simulada a `/api/login` y, si las credenciales son válidas, guarda los datos del usuario y token en `localStorage`.  
+   - **Parámetros requeridos:**  
+     - `email` (string)  
+     - `password` (string)  
+   - **Respuesta exitosa:** Devuelve objeto con `status: 200`, token simulado y datos del usuario.  
+   - **Errores:** Mensaje de “Credenciales incorrectas” o “Usuario no encontrado”.  
+
+3. **Servicio de Persistencia de Sesión**  
+   - **Archivo:** `src/services/auth.js`  
+   - **Métodos:**  
+     - `getCurrentUser()` → Obtiene usuario almacenado en `localStorage`.  
+     - `logoutUser()` → Elimina los datos de sesión y redirige al login.  
+   - **Descripción:** Gestiona el estado de sesión local del usuario.  
+
+4. **Servicio de Configuración Axios**  
+   - **Archivo:** `src/infra/http/axios.js`  
+   - **Descripción:** Crea una instancia personalizada de Axios con `baseURL` configurada y manejo de errores global.  
+   - **Timeout:** 15 segundos.  
+   - **Interceptores:**  
+     - **Request:** Adjunta token si está disponible.  
+     - **Response:** Muestra mensajes de error con PrimeVue Toast.  
+
+#### Evidencia de documentación  
+
+- Los servicios fueron documentados internamente con comentarios **JSDoc**, detallando propósito, parámetros y retorno.  
+- Se verificó la funcionalidad de los métodos `registerUser()` y `loginUser()` mediante simulaciones locales.  
+- La estructura de `auth.js` permite reemplazar fácilmente los endpoints simulados por un backend real.  
+- Se versionó la documentación de servicios dentro del repositorio, en la carpeta `/src/services/`.  
+
+#### Resultados  
+
+La evidencia confirma que los servicios del **frontend** fueron desarrollados y documentados correctamente, cumpliendo con los criterios del Sprint 2:  
+- El sistema puede registrar y autenticar usuarios simulando un flujo real.  
+- La sesión del usuario se mantiene activa y persistente.  
+- La arquitectura modular y documentada permitirá integrar los servicios con un backend real en el siguiente sprint.  
+
+
+### 5.2.2.7 Software Deployment Evidence for Sprint Review  
+
+<img src="./resources/Back.png"></img>  
+ Se creó una organización en GitHub y, dentro de ella, se creo el repositorio para el backend
+
+#### Evidencia de despliegue  
+
+1. **Entorno de desarrollo local**  
+   - El proyecto fue configurado y ejecutado correctamente en entorno **local** utilizando **Vite** con el comando `npm run dev`.  
+   - Se validó la estructura modular bajo **Domain Driven Design (DDD)**, con las carpetas `domain`, `application`, `infra` y `presentation`.  
+   - La aplicación cargó correctamente los componentes de **PrimeVue** y las vistas de `Login` y `Register`.  
+   - Se probaron las funcionalidades de **i18n** y **persistencia de sesión**, verificando que las preferencias se conservaran tras recargar la página.  
+
+2. **Configuración de entorno**  
+   - Se utilizaron **variables de entorno (.env)** para definir la URL base de Axios (`VITE_API_URL`).  
+   - Configuración centralizada en `vite.config.js` con soporte para rutas relativas y alias (`@/`).  
+   - Integración de **PrimeFlex** y **PrimeIcons** para soporte de estilos y diseño responsivo.  
+
+3. **Despliegue en la nube (versión preliminar)**  
+   - El proyecto fue desplegado en **Vercel** para pruebas de accesibilidad y revisión visual del flujo de autenticación.  
+   - El entorno de ejecución en la nube mantuvo las dependencias del proyecto sin conflictos.  
+   - Se verificó la carga del sitio desde navegadores externos y la visualización correcta del idioma seleccionado (EN/ES).  
+
+4. **Gestión de control de versiones**  
+   - La rama `main` mantiene el código estable de producción.  
+   - Las ramas `develop` y `feature/auth` documentan los avances de autenticación, internacionalización y persistencia.  
+   - Cada integración fue realizada mediante *Pull Requests* con revisión previa.  
+
+#### Seguridad y configuración  
+- Se almacenaron los tokens y preferencias de idioma de manera segura en **localStorage**.  
+- No se expusieron credenciales sensibles en el repositorio público gracias al uso del archivo `.env`.  
+- El proyecto mantiene dependencias actualizadas y auditadas mediante `npm audit`.  
+
+#### Resultados  
+- La aplicación **EiraMind (frontend)** fue ejecutada con éxito en entorno local y desplegada en la nube mediante **Vercel**.  
+- Se validó la persistencia de sesión, la autenticación de usuario y el cambio de idioma en el entorno desplegado.  
+- El despliegue de Sprint 2 confirma la estabilidad del entorno **Vue 3 + PrimeVue + Vite**, sentando las bases para futuras integraciones con el backend y la implementación del pipeline de **CI/CD** en próximos sprints.  
+
+
+
+
+### 5.2.2.8 Team Collaboration Insights during Sprint  
+
+Durante el **Sprint 2**, el equipo de desarrollo del proyecto **EiraMind** fortaleció su dinámica de trabajo colaborativo, alcanzando un flujo más organizado y eficiente tanto en la comunicación como en la gestión técnica del proyecto. A continuación, se destacan los principales aprendizajes y resultados del trabajo en equipo:  
+
+- Se mantuvo una **comunicación constante** a través de **Discord** para coordinar avances diarios y resolver incidencias técnicas, junto con reuniones de planificación y revisión en **Google Meet**.  
+- Se consolidó el uso del **repositorio GitHub** con ramas organizadas (`main`, `develop`, `feature/auth`, `feature/i18n`), permitiendo una mejor trazabilidad del código y control de versiones.  
+- El equipo adoptó una **metodología ágil ligera**, aplicando retrospectivas al final de cada semana para ajustar prioridades y distribuir mejor las tareas según las fortalezas de cada miembro.  
+- Se implementó un **flujo de Pull Requests con revisión cruzada**, lo que contribuyó a mejorar la calidad del código y a reducir errores en integración.  
+- Se reforzó la importancia de la **documentación técnica**: cada integrante registró sus cambios en el README y en los comentarios del código utilizando JSDoc y mensajes de commit estandarizados.  
+- Como fortaleza, se destacó la **capacidad de adaptación del equipo al entorno Vue 3 y PrimeVue**, logrando implementar componentes complejos como autenticación e internacionalización de manera colaborativa.  
+- Como oportunidad de mejora, se identificó la necesidad de **profundizar en pruebas de integración y validación cruzada entre vistas**, para asegurar la consistencia en la experiencia del usuario.  
+
+En conclusión, el equipo demostró un alto nivel de compromiso y cohesión durante el **Sprint 2**, alcanzando los objetivos técnicos planteados y mejorando la organización del trabajo colaborativo. La experiencia servirá como base para optimizar la planificación y las prácticas de validación en los próximos sprints.
+
+### 5.2.3. Sprint 3
+### 5.2.3.1.Spring Planning 3
+
+| **Sprint #** | Sprint 3 |
+|---------------|-----------|
+| **Sprint Planning Background** | En este sprint se amplió el alcance técnico hacia el backend del proyecto **EiraMind**, creando una **API Web en Rider y MySQL Workbench** para conectar el frontend (Vue 3 + PrimeVue) con la base de datos. El equipo se centró en establecer endpoints REST para la gestión de usuarios, psicólogos, citas, y planes de suscripción, asegurando una arquitectura limpia y escalable. |
+| **Date** | 2025-11-06 |
+| **Time** | 17:30 PM |
+| **Location** | Reunión virtual – Discord / VS Code Live Share |
+| **Prepared By** | Rolando Andre Torres Diaz |
+| **Attendees (to planning meeting)** | Rolando Andre Torres Diaz / Liam Anderson Villugas Jeronimo / Diego Rodrigo Pumahuallca Garcia / Andy Alejandro Mio Mejia / Henry Jaredt Montes Ramos |
+| **Sprint 2 Review Summary** | Durante el Sprint 2 se completó el módulo de autenticación (registro, login y persistencia de sesión), además de la integración de i18n y documentación del proyecto. Se consolidó la estructura frontend con Vue 3 + Vite + PrimeVue + Axios. |
+| **Sprint 2 Retrospective Summary** | El equipo concluyó que la planificación fue efectiva y que las herramientas colaborativas como Live Share y Trello mejoraron la sincronización de tareas. Se decidió avanzar hacia el desarrollo del backend para integrar toda la lógica del sistema. |
+| **Sprint Goal & User Stories** | Implementar el **backend y conexión de datos** de EiraMind mediante Rider y MySQL Workbench, que permita gestionar usuarios, psicólogos, planes, citas y mensajes desde el servidor. Además, conectar el frontend con los endpoints REST y probar las operaciones CRUD mediante Postman. |
+| **Sprint Goal** | Desarrollar una API funcional conectada a MySQL que gestione los datos principales del sistema y su integración con las vistas de frontend, siguiendo principios de arquitectura DDD y seguridad básica. |
+| **Sprint Velocity** | 24 Story Points |
+| **Sum of Story Points** | 24 |
+
+
+---
+
+### 5.2.3.2. Aspect Leaders and Collaborators
+
+En el **Sprint 3**, el equipo se realimento los aspectos del desarrollo para enfocarse en los módulos principales del sistema **EiraMind**, priorizando la autenticación, el control de sesiones y la internacionalización.  
+Se realizo de manera colaborativa, designando un **líder (L)** y **colaboradores (C)** por cada área de trabajo, asegurando una adecuada distribución de responsabilidades, comunicación interna y seguimiento técnico.  
+
+Los aspectos priorizados para este sprint fueron(Los cuales se siguen manteniendo igual):  
+**Backend & API, Frontend & UI, Autenticación & Persistencia, Internacionalización (i18n), y QA & Documentación.** 
+
+| **Team Member** | **GitHub Username** | **Backend & API** | **Frontend & UI** | **Auth & Persistencia** | **i18n & UX Writing** | **QA & Documentación** |
+|------------------|--------------------|------------------|------------------|------------------------|----------------------|-----------------------|
+| Diego Rodrigo Pumahualca García | DiegoPumahualcca | L | C | C | C | C |
+| Liam Anderson Villugas Jeronimo | Liamvillugas | C | L | C | C | C |
+| Andy Alejandro Mio Mejía | AndyMio17 | C | C | L | C | C |
+| Rolando Andre Torres Diaz | @ROLO194 | C | C | C | L | L |
+| Henry Jared Montes Ramos | jahen17 | C | C | C | C | C |
+
+### 5.2.3.3.Sprint Backlog 3
+| Sprint # | User Story | Description | Estimation (Hours) | Assigned To | Status |
+|-----------|-------------|--------------|--------------------|--------------|---------|
+| Sprint 3 | US07 – Selección de Plan | Diseñar la interfaz con los tres planes (Gratis, Básico y Premium), mostrando beneficios y precios. | 4h | Andy Alejandro Mio Mejía | Done |
+| Sprint 3 | US07 – Selección de Plan | Implementar lógica para guardar el plan seleccionado y mostrar confirmación. | 3h | Rolando Torres | Done |
+| Sprint 3 | US08 – Perfil de Psicólogos | Diseñar pantalla con cards de psicólogos mostrando foto, especialidad y botón para agendar. | 4h | Liam Anderson Villugas Jeronimo | Done |
+| Sprint 3 | US08 – Perfil de Psicólogos | Programar ventana emergente para seleccionar fecha y hora de cita, con mensaje de confirmación. | 3h | Diego Rodrigo Pumahuallca García | Done |
+| Sprint 3 | US09 – Agenda de Citas | Desarrollar página con calendario que muestre citas programadas y permita visualizarlas por día/semana. | 4h | Rolando Torres | Done |
+| Sprint 3 | US09 – Agenda de Citas | Conectar el frontend con la API REST creada en **ASP.NET Core Web API (C#)** y **MySQL Workbench** para listar y registrar citas. | 4h | Andy Alejandro Mio Mejía | Done |
+| Sprint 3 | US10 – Chatbot Asistente | Implementar chatbot con interfaz flotante que simule respuestas automáticas de apoyo emocional. | 4h | Henry Jaredt Montes Ramos | Done |
+| Sprint 3 | US10 – Chatbot Asistente | Añadir mensajes motivacionales y respuestas adaptadas a estados de ánimo. | 3h | Liam Anderson Villugas Jeronimo | Done |
+| Sprint 3 | US11 – Panel del Administrador | Diseñar dashboard con secciones: Suscripciones, Agenda, Tareas y Contenido. | 4h | Diego Rodrigo Pumahuallca García | Done |
+| Sprint 3 | US11 – Panel del Administrador | Agregar botones funcionales y alertas dinámicas conectadas con datos del backend C#. | 3h | Henry Jaredt Montes Ramos | Done |
+| Sprint 3 | US12 – Backend API y Base de Datos | Crear API REST con C# y conexión a MySQL Workbench para gestionar usuarios, psicólogos, citas y planes. | 6h | Henry Jaredt Montes Ramos | Done |
+| Sprint 3 | US13 – QA y Documentación | Documentar la integración del backend, endpoints y pruebas de conexión con la base de datos. | 2h | Rolando Torres | Done |
+
+---
+## 5.2.3.4. Development Evidence for Sprint Review
+
+Durante el Sprint 3, el equipo de desarrollo de **EiraMind** completó la integración entre el **frontend (Vue 3 + PrimeVue)** y el **backend (ASP.NET Core Web API en C# + MySQL Workbench)**.  
+Se construyeron los controladores y servicios necesarios para la gestión de usuarios, psicólogos, planes y citas, aplicando una arquitectura **RESTful** con separación de capas (Controllers, Services y Models).
+
+**Evidencias de desarrollo:**
+- Creación del proyecto **EiraMind.API** en Webstorm y Rider.
+- Implementación de controladores:  
+  `UsersController`, `PsychologistsController`, `PlansController`, `AppointmentsController`, `MessagesController`.
+- Integración con **MySQL Workbench** utilizando el paquete `MySql.Data` y Entity Framework Core.  
+- Creación del modelo relacional con tablas:  
+  `Usuarios`, `Psicologos`, `Planes`, `Citas`, `Mensajes`, `Roles`.  
+- Pruebas locales con `Swagger` y `Postman` para validar los endpoints CRUD.  
+- Conexión del frontend mediante **Axios** y consumo de endpoints en tiempo real.
+
+**Resultado:**  
+El backend en C# se encuentra completamente operativo, estableciendo una comunicación fluida entre la API, la base de datos y el cliente Vue.
+
+---
+
+## 5.2.3.5. Execution Evidence for Sprint Review
+
+Las pruebas de ejecución se realizaron de manera colaborativa en **Rider + MySQL Workbench**, verificando la correcta conexión y respuesta de la API desde el frontend.  
+
+**Evidencias:**
+- Capturas del **Swagger UI** mostrando endpoints `/api/users`, `/api/psychologists`, `/api/plans`, `/api/appointments`.
+- Pruebas exitosas en **Postman** con respuestas HTTP 200, 201 y 204.
+- Verificación en navegador de flujos completos: inicio de sesión, selección de plan, agendamiento de citas y chatbot.
+- Prueba de inserciones y consultas directas desde MySQL Workbench.  
+
+**Resultado:**  
+El sistema ejecuta correctamente todas las operaciones CRUD y mantiene persistencia de datos entre frontend, API y base de datos.
+
+---
+
+## 5.2.3.6. Services Documentation Evidence for Sprint Review
+
+La **API Web en C#** se documentó mediante **Swagger** y pruebas de endpoints en **Postman**, con estructura estándar RESTful.
+
+**Ejemplo de endpoints documentados:**
+
+| Endpoint | Método | Descripción | Respuesta exitosa |
+|-----------|---------|--------------|--------------------|
+| `/api/users/register` | POST | Registra un nuevo usuario | Retorna objeto JSON con datos y rol |
+| `/api/users/login` | POST | Inicia sesión y retorna token simulado | JSON con datos de sesión |
+| `/api/plans` | GET | Lista los planes de suscripción | JSON con ID, nombre y beneficios |
+| `/api/psychologists` | GET | Devuelve lista de psicólogos disponibles | JSON con nombre, especialidad, horarios |
+| `/api/appointments` | POST | Crea una nueva cita | JSON con confirmación y fecha asignada |
+
+**Herramientas de documentación:**
+- Swagger UI – Generación automática de rutas.
+- Postman – Validación y testeo manual de endpoints.
+- MySQL Workbench – Visualización de entidades y relaciones.
+
+**Resultado:**  
+La API se encuentra completamente documentada y validada, lista para futuras integraciones con servicios externos o microservicios.
+
+---
+
+## 5.2.3.7. Software Deployment Evidence for Sprint Review
+
+El despliegue del sistema se realizó en entorno **local de desarrollo** bajo el ecosistema Microsoft, con conexión directa a **MySQL Workbench**.
+
+**Entorno de despliegue:**
+- **Frontend:** Vue 3 + PrimeVue + Axios.
+- **Backend:** ASP.NET Core Web API (C#) en Rider.
+- **Base de Datos:** MySQL Workbench (localhost).
+- **ORM:** Entity Framework Core con migraciones automáticas.
+- **Servidor local:** IIS Express.
+
+**Evidencias:**
+- La API se ejecutó correctamente 
+- Verificación de endpoints mediante Swagger y Postman.
+- Consumo de datos desde el frontend en tiempo real (Axios).  
+
+**Resultado:**  
+El software se desplegó correctamente, garantizando conexión estable entre frontend, API y base de datos relacional MySQL.
+
+---
+
+## 5.2.3.8. Team Collaboration Insights during Sprint
+
+Durante el Sprint 3, el equipo mantuvo una comunicación constante mediante **Discord**, **GitHub** y **VS Code Live Share**, optimizando el flujo de trabajo entre desarrollo frontend y backend.
+
+**Herramientas de colaboración:**
+- **Discord:** Reuniones de seguimiento y revisión de código.  
+- **GitHub:** Control de versiones y gestión de commits.  
+- **VS Code Live Share:** Sesiones colaborativas de depuración.  
+- **MySQL Workbench compartido:** Sincronización de base de datos y revisión de esquema.
+
+**Conclusión:**  
+El equipo demostró alto nivel de coordinación técnica y cumplimiento de objetivos del Sprint, logrando una integración estable del backend con el frontend.
+
+---
+
+### 5.2.4. Sprint 4
+#### 5.2.4.1. Spring Planning 4.
+
+##### 5.2.4.1. Sprint Planning 4
+
+| **Sprint #** | Sprint 4 |
+|--------------|----------|
+| **Sprint Planning Background** | En este sprint el objetivo es integrar completamente el frontend con el backend, reemplazando los datos simulados por datos reales provenientes de la API. Se abordarán los flujos principales del sistema: registro, login, dashboard y gestión de citas. |
+| **Date** | 2025-11-30 |
+| **Time** | 20:00 PM |
+| **Location** | Reunión virtual – Discord / VS Code Live Share |
+| **Prepared By** | Rolando Andre Torres Diaz |
+| **Attendees (to planning meeting)** | Rolando Andre Torres Diaz / Liam Anderson Villugas Jeronimo / Diego Rodrigo Pumahualcca Garcia / Andy Alejandro Mio Mejia / Henry Jaredt Montes Ramos |
+| **Sprint 3 Review Summary** | En el sprint anterior se completó el desarrollo del backend (.NET + MySQL) incluyendo autenticación, gestión de usuarios y citas, con endpoints probados en Swagger y Postman. Sin embargo, el frontend aún trabajaba con datos simulados. |
+| **Sprint 3 Retrospective Summary** | El equipo identificó como mejora principal la falta de integración entre capas. Se acordó que este sprint se centrará únicamente en conectar la SPA con la API real, mejorar el manejo de errores y configurar variables de entorno y CORS para entornos de desarrollo y producción. |
+| **Sprint Goal & User Stories** | Integrar la SPA con el backend para que el sistema funcione con datos reales. User Stories incluidas: US-01, US-02, US-03, US-04, US-05 y US-06. |
+| **Sprint Goal** | Lograr que los flujos principales del sistema funcionen con la API real: registro, login, carga de perfil, listado de citas y creación de citas. Además, implementar persistencia de sesión mediante token y preparar el entorno para despliegue. |
+| **Sprint Velocity** | 20 Story Points |
+| **Sum of Story Points** | 23 Story Points (incluyendo todas las US del Sprint 4) |
+
+#### 5.2.4.2. Aspect Leaders and Collaborators.
+
+En el Sprint 4 el foco fue la integración completa entre el frontend y el backend, asegurando que todos los flujos principales funcionen con datos reales provenientes de la API.  
+Para ello, el equipo se organizó en aspectos clave relacionados a autenticación, consumo de servicios, gestión de citas, pruebas e integración en producción.
+
+| **Team Member** | **GitHub Username** | **Integración Frontend–Backend** | **Autenticación (Login/Registro)** | **Dashboard & Usuario** | **Citas** | **QA & Pruebas** | **Deployment & Configuración** |
+|-----------------|---------------------|----------------------------------|-------------------------------------|--------------------------|-----------|-------------------|-------------------------------|
+| Diego Rodrigo Pumahualcca García | DiegoPumahualcca | C | C | L | C | C | C |
+| Liam Anderson Villugas Jeronimo | Liamvillugas | C | L | C | C | C | C |
+| Andy Alejandro Mio Mejía | AndyMio17 | C | C | C | L | C | C |
+| Rolando Andre Torres Diaz | ROLO194 | L | C | C | C | L | L |
+| Henry Jared Montes Ramos | jahen17 | C | C | C | C | C | C |
+
+#### 5.2.4.3. Sprint Backlog 4.
+
+##### User Stories – Sprint 4
+
+| **ID** | **User Story** | **Descripción** | **Prioridad** | **Story Points** |
+|--------|----------------|------------------|---------------|------------------|
+| US-01 | Login con API real | Como usuario, quiero iniciar sesión usando mi correo y contraseña para acceder a mi cuenta con datos reales del backend. | Alta | 5 |
+| US-02 | Registro con API real | Como nuevo usuario, quiero registrarme desde el frontend para que mis datos se guarden en la base de datos del backend. | Alta | 5 |
+| US-03 | Ver datos reales en Dashboard | Como usuario autenticado, quiero visualizar mi información real en el Dashboard (nombre, rol) para confirmar mi sesión. | Media | 3 |
+| US-04 | Ver mis citas | Como usuario, quiero ver mi lista de citas obtenidas del backend para revisar mis reservas existentes. | Media | 3 |
+| US-05 | Crear una cita | Como usuario, quiero registrar una cita desde la SPA para guardar mi reserva en el backend. | Alta | 5 |
+| US-06 | Mantener sesión activa | Como usuario autenticado, quiero que el sistema detecte si tengo un token válido para mantener mi sesión sin volver a loguearme. | Media | 2 |
+
+---
+
+#### 5.2.4.4. Development Evidence for Sprint Review.
+
+Los principales desarrollos realizados fueron:
+
+- **Configuración del cliente HTTP (Axios):**  
+  Se creó un archivo centralizado para manejar la `baseURL` del backend desplegado en Azure y se implementaron interceptores para adjuntar automáticamente el token JWT en cada solicitud.
+
+- **Reemplazo del login simulado por autenticación real:**  
+  El flujo de inicio de sesión ahora utiliza el endpoint real `POST /api/Auth/login`.  
+  Se guarda el token recibido en `localStorage` y se creó lógica para redirigir al Dashboard después de la autenticación exitosa.
+
+- **Integración del flujo de registro:**  
+  El formulario de registro ahora consume el endpoint `POST /api/Auth/register`.  
+  Se implementaron mensajes de error para emails duplicados o validaciones fallidas enviadas desde la API.
+
+- **Carga del usuario autenticado en el Dashboard:**  
+  El frontend ahora consume el endpoint `GET /api/Users/me` utilizando el token JWT.  
+  Se muestran los datos reales del usuario (nombre, email, rol) y se actualizaron componentes dependientes de la información de sesión.
+
+- **Conexión del módulo de citas con el backend:**  
+  - Se implementó el consumo de `GET /api/Appointments` para listar citas reales del usuario.  
+  - Se implementó el consumo de `POST /api/Appointments` para crear nuevas citas desde el frontend.  
+  El listado se actualiza automáticamente sin recargar la vista.
+
+- **Manejo de errores y estados de carga:**  
+  Se añadieron toasts, loaders y mensajes personalizados para situaciones como credenciales inválidas, token expirado, campos incompletos o errores internos del servidor.
+
+- **Implementación de rutas protegidas (token guard):**  
+  El router de Vue fue actualizado para impedir acceso a vistas privadas cuando el usuario no posee un token válido o cuando este ha expirado.
+
+- **Variables de entorno para conexión estable:**  
+  Se creó el archivo `.env` con `VITE_API_BASE_URL=https://app-251201042034.azurewebsites.net`, permitiendo que toda la aplicación use la API desplegada sin hardcodear valores.
+
+- **Refactor general para separar servicios, vistas y lógica de estado:**  
+  La lógica de consumo de la API se movió a servicios dedicados (`authService`, `userService`, `appointmentService`) siguiendo las prácticas definidas en los sprints anteriores.
+
+Estos desarrollos permitieron que el sistema funcione completamente conectado al backend real, garantizando datos persistentes, autenticación funcional y comunicación estable entre ambas capas.
+
+
+#### 5.2.4.5. Execution Evidence for Sprint Review.
+
+Durante el Sprint 4 se validó el correcto funcionamiento de la integración entre el frontend (Vue 3) y el backend desplegado en Azure. Se realizaron pruebas funcionales, pruebas de integración y validaciones manuales en cada uno de los flujos principales del sistema.
+
+Los resultados de la ejecución fueron los siguientes:
+
+- **Flujo de Registro → Login → Dashboard (End-to-End):**  
+  Se ejecutaron pruebas completas donde un usuario nuevo se registra mediante la SPA, la solicitud llega correctamente al backend mediante `POST /api/Auth/register`, y posteriormente el mismo usuario puede iniciar sesión con `POST /api/Auth/login`.  
+  El token JWT retornado por la API se almacena correctamente en `localStorage` y permite navegar al Dashboard autenticado.
+
+- **Carga real de datos del usuario:**  
+  Una vez autenticado, el frontend ejecuta `GET /api/Users/me` enviando el token en el header.  
+  Se comprobó que la API retorna correctamente la información del usuario y que esta se refleja en el Dashboard sin errores.
+
+- **Listado real de citas:**  
+  Se validó que el frontend consume el endpoint `GET /api/Appointments` mostrando las citas asociadas al usuario autenticado.  
+  La tabla de citas se actualizó correctamente utilizando datos de la base de datos.
+
+- **Creación de citas desde el frontend:**  
+  El formulario de reserva de citas fue probado utilizando datos reales.  
+  `POST /api/Appointments` registró correctamente una cita en la API y esta apareció inmediatamente en el listado sin recargar la página.
+
+- **Pruebas de expiración y manejo de token:**  
+  Se probó el acceso a rutas protegidas sin token y con token inválido.  
+  El sistema redirige automáticamente al login cuando la API devuelve 401, cumpliendo la validación de seguridad.
+
+- **Pruebas de manejo de errores (400, 401, 500):**  
+  - Campos inválidos → la API devolvió errores 400 y fueron mostrados en el frontend mediante PrimeVue Toast.  
+  - Token inválido → respuesta 401 correctamente gestionada por el interceptor.  
+  - Errores de servidor → respuesta 500 mostrada con mensaje amigable hacia el usuario.
+
+- **Validación de conexión estable con la API desplegada:**  
+  Se verificó que todas las peticiones hacia `https://app-251201042034.azurewebsites.net` funcionen correctamente desde la SPA.  
+  No se detectaron problemas de CORS después de la configuración aplicada en el backend.
+
+- **Validación del comportamiento en producción:**  
+  Se realizaron pruebas utilizando el frontend ejecutado en modo producción y conectándose al backend de Azure.  
+  Todas las funcionalidades respondieron correctamente, confirmando que el sistema ya trabaja completamente con datos reales.
+
+Las pruebas ejecutadas confirman que el sistema funciona adecuadamente sobre la arquitectura final (Frontend + API + Base de Datos), logrando una integración estable y lista para ser evaluada en el Sprint Review.
+
+
+#### 5.2.4.6. Services Documentation Evidence for Sprint Review.
+
+Durante el Sprint 4 se documentaron todos los servicios consumidos desde el frontend, basados directamente en los endpoints reales expuestos en el backend desplegado en Azure. Esta documentación garantiza que la SPA utiliza las rutas correctas y refleja el comportamiento real del sistema.
+
+---
+
+### 1. Servicio de Citas – Appointments
+**Ubicación en frontend:** `src/services/appointmentService.js`  
+**Descripción:** Gestiona el registro, consulta, actualización y eliminación de citas.
+
+| Método | Endpoint | Descripción | Entrada | Salida |
+|--------|----------|-------------|---------|--------|
+| `getAppointments()` | `GET /api/Appointments` | Obtiene la lista de todas las citas. | Token | Lista de citas en BD. |
+| `getAppointmentById(id)` | `GET /api/Appointments/{id}` | Obtiene información de una cita específica. | id | Datos de la cita. |
+| `createAppointment(data)` | `POST /api/Appointments` | Registra una nueva cita. | Fecha, hora, usuarioId, psicólogoId | Cita creada. |
+| `updateAppointment(id, data)` | `PUT /api/Appointments/{id}` | Actualiza una cita. | id + objeto cita | Cita actualizada. |
+| `deleteAppointment(id)` | `DELETE /api/Appointments/{id}` | Elimina una cita. | id | Mensaje de éxito. |
+
+---
+
+### 2. Servicio de Planes – Plans
+**Ubicación:** `src/services/plansService.js`  
+**Descripción:** Administra los planes de suscripción ofrecidos.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| `getPlans()` | `GET /api/Plans` | Obtiene todos los planes. |
+| `getPlan(id)` | `GET /api/Plans/{id}` | Obtiene un plan específico. |
+| `createPlan(data)` | `POST /api/Plans` | Registra un nuevo plan. |
+| `updatePlan(id, data)` | `PUT /api/Plans/{id}` | Edita un plan. |
+| `deletePlan(id)` | `DELETE /api/Plans/{id}` | Elimina un plan. |
+
+---
+
+### 3. Servicio de Psicólogos – Psychologists
+**Ubicación:** `src/services/psychologistService.js`  
+**Descripción:** Gestiona información de psicólogos registrados en el sistema.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| `getPsychologists()` | `GET /api/Psychologists` | Obtiene todos los psicólogos. |
+| `getPsychologist(id)` | `GET /api/Psychologists/{id}` | Obtiene datos de un psicólogo. |
+| `createPsychologist(data)` | `POST /api/Psychologists` | Crea un nuevo psicólogo. |
+| `updatePsychologist(id, data)` | `PUT /api/Psychologists/{id}` | Actualiza información del psicólogo. |
+| `deletePsychologist(id)` | `DELETE /api/Psychologists/{id}` | Elimina un psicólogo del sistema. |
+
+---
+
+### 4. Servicio de Usuarios – Users
+**Ubicación:** `src/services/userService.js`  
+**Descripción:** Gestiona el registro y administración de usuarios.
+
+| Método | Endpoint | Descripción |
+|--------|----------|-------------|
+| `getUsers()` | `GET /api/Users` | Obtiene todos los usuarios. |
+| `getUser(id)` | `GET /api/Users/{id}` | Obtiene un usuario específico. |
+| `createUser(data)` | `POST /api/Users` | Registra un nuevo usuario. |
+| `updateUser(id, data)` | `PUT /api/Users/{id}` | Actualiza datos de un usuario. |
+
+---
+
+### 5. Cliente HTTP Base (Axios)
+**Ubicación:** `src/infra/http/axios.js`  
+**Descripción:** Cliente común para todas las peticiones del frontend.
+
+**Implementaciones clave:**
+- `baseURL` configurada hacia Azure: 
+
+#### 5.2.4.7. Software Deployment Evidence for Sprint Review.
+
+Durante el Sprint 4 se validó completamente el despliegue del backend en Azure y su correcta comunicación con el frontend. El backend se encuentra operativo en el siguiente enlace oficial:
+
+**Backend (Azure App Service):**  
+https://app-251201042034.azurewebsites.net/swagger/index.html  
+
+
+#### 5.2.4.8. Team Collaboration Insights during Sprint.
+
+Durante el Sprint 4, el equipo trabajó de forma coordinada para lograr la integración completa del frontend con el backend. La colaboración se basó en sesiones de trabajo por Discord y VS Code Live Share, lo cual facilitó el debugging conjunto de errores relacionados con CORS, tokens y rutas protegidas.
+
+El equipo mantuvo un flujo constante de comunicación para alinear criterios sobre:
+
+- Consumo correcto de endpoints.
+- Manejo del token en la SPA.
+- Validación del comportamiento del backend en Azure.
+- Estandarización del código al momento de integrar servicios.
+
+Se utilizaron ramas separadas para cada funcionalidad y se revisaron Pull Requests entre los integrantes, lo que permitió asegurar calidad y coherencia en el desarrollo.  
+Gracias a esta coordinación, se resolvieron rápidamente problemas de integración y se logró completar el Sprint con una comunicación fluida, roles bien distribuidos y resultados funcionales en producción.
+
+---
+
+## 5.3. Validation Interviews
+
+Se realizaron entrevistas de validación con los tres segmentos objetivo de **EiraMind**, con el fin de evaluar la **usabilidad, diseño, utilidad y percepción emocional** de la aplicación.
+
+**Segmentos entrevistados:**
+1. Pacientes digitales jóvenes-adultos
+2. Psicólogos independientes y pequeñas clínicas.
+
+**Principales resultados:**
+- Los usuarios universitarios destacaron la **facilidad de uso** y el **diseño empático**.  
+- Los profesionales valoraron la **organización de la agenda** y la posibilidad de recibir apoyo inmediato.  
+- Los psicólogos consideraron que la **plataforma transmite confianza y profesionalismo**, y la integración con pacientes es clara.  
+- En general, los dos segmentos coincidieron en que EiraMind **facilita el acceso al bienestar emocional** y promueve la **digitalización de la atención psicológica**.
+
+**Conclusión:**  
+La validación confirmó que las funcionalidades desarrolladas (planes, chatbot, agenda y panel administrativo) cumplen con las expectativas de los usuarios y aportan valor real a la experiencia de salud mental digital.
+
+### 5.3.1. Diseño de Entrevistas.
+
+El propósito de las entrevistas es validar las necesidades, problemas y expectativas de los usuarios en relación con la plataforma **EiraMind**. Se plantean preguntas diferenciadas para los dos segmentos objetivos principales.
+
+---
+
+### Segmento 1 – Pacientes digitales jóvenes-adultos
+
+**Objetivo:** Usuarios que buscan equilibrio emocional, manejo del estrés y crecimiento personal desde la tecnología.
+
+**Preguntas:**
+1. ¿Qué impresión te da la pantalla de inicio de sesión? ¿Te inspira confianza para registrarte?
+2. ¿El diseño y los colores de EiraMind te transmiten calma o conexión emocional? ¿Por qué?
+3. ¿Te parece fácil entender cómo navegar por las opciones al entrar por primera vez?
+4. ¿Qué opinas del chatbot de EiraMind? ¿Sientes que su tono es empático y cercano?
+5. ¿Crees que usarías el chatbot cuando te sientes mal o simplemente para conversar un momento?
+6. ¿Qué mejorarías para que el chatbot te haga sentir más escuchado o comprendido?
+7. ¿Qué te parece la pantalla de elección de planes (Gratis, Básico, Premium)?
+8. ¿Te queda claro lo que incluye cada plan o agregarías más información visual?
+9. ¿Qué tan útil te parece poder agendar citas directamente desde la app sin intermediarios?
+10. ¿Qué sientes al ver las frases o mensajes motivacionales que aparecen en la app?
+11. ¿Te gustaría recibir notificaciones diarias con mensajes de ánimo o recordatorios de autocuidado?
+12. ¿Qué haría que te sientas más identificado con EiraMind como estudiante (lenguaje, íconos, interfaz)?
+
+---
+
+### Segmento 2 – Psicólogos independientes y pequeñas clínicas
+
+**Objetivo:** Profesionales que desean ofrecer sus servicios a través de EiraMind.
+
+**Preguntas:**
+1. ¿Qué impresión general te causa la interfaz profesional de EiraMind como herramienta de trabajo?
+2. ¿Te parece fácil y clara la forma en que la app muestra tu perfil (foto, especialidad, experiencia, calificación)?
+3. ¿Consideras que la plataforma transmite confianza y profesionalismo ante los pacientes?
+4. ¿Qué te parece el proceso para registrarte como psicólogo o clínica dentro de la app?
+5. ¿Qué tan intuitivo te resulta el sistema para agendar citas con tus pacientes?
+6. ¿Qué opinas del sistema de recordatorios y notificaciones para mantener la organización de las sesiones?
+7. ¿Qué funcionalidad te sería más útil para tu trabajo (chat con pacientes, historial clínico, seguimiento de progreso, estadísticas, etc.)?
+8. ¿Cómo valoras la posibilidad de gestionar pagos o planes de consulta directamente desde la app?
+9. ¿Qué tan importante es para ti tener una sección donde los pacientes puedan dejar reseñas o valoraciones?
+10. ¿Qué tipo de soporte o capacitación te gustaría recibir de EiraMind para usar la app con tus pacientes?
+11. ¿Qué mejorarías para que la plataforma se adapte mejor a la realidad de tu práctica profesional o de tu clínica?
+12. ¿Recomendarías EiraMind a otros colegas psicólogos o centros de atención emocional? ¿Por qué?
+
+
+### 5.3.2. Registro de Entrevistas
+
+### Segmento 1
+
+| Entrevistado 1 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/azul1.jpeg" width="120"/> | Azul Delgado Sanchez | 22 años | Santiago de Surco | 9:50 - 9:56 | Azul Delgado percibe que EiraMind transmite confianza y serenidad desde la pantalla de inicio gracias a su diseño limpio y colores azules, que generan calma y una sensación de bienestar emocional. Considera que la navegación es intuitiva y clara, con íconos y secciones bien organizadas. Sobre el chatbot, destaca su tono amable y respetuoso, aunque sugiere hacerlo más empático y expresivo, capaz de recordar conversaciones o mostrar seguimiento emocional. Valora positivamente la pantalla de planes (Gratis, Básico, Premium) por su claridad y estética, aunque propone añadir íconos explicativos. También considera muy útil poder agendar citas directamente desde la app, y aprecia las frases motivacionales que brindan apoyo diario. Finalmente, menciona que se sentiría más identificada si la app tuviera un lenguaje más juvenil y cercano, con elementos enfocados en la vida universitaria y el autocuidado emocional. |
+
+- **Enlace de las entrevistas:** [Entrevista Azul Delgado](https://youtu.be/WyouK6DW9QM) 
+
+| Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/jafet.png" width="120"/> | Jafet Tapullima Celestino | 20 años | Santiago de Surco | 8:30 - 8:40 | Jafet Tapullima considera que EiraMind transmite confianza y profesionalismo desde la pantalla de inicio gracias a su diseño limpio, los tonos azules y la organización clara de los botones. Menciona que los colores generan calma y empatía, y que la interfaz facilita la navegación incluso para nuevos usuarios. Sobre el chatbot, destaca su tono amigable y cortés, aunque sugiere hacerlo más cercano y emocional mediante frases de apoyo o seguimiento. Valora que la pantalla de planes (Gratis, Básico, Premium) es clara y atractiva, pero propone añadir descripciones o íconos que representen mejor los beneficios. También resalta que la opción de agendar citas sin intermediarios es muy práctica, ya que brinda autonomía y comodidad. Los mensajes motivacionales le parecen un buen detalle que refuerza el propósito emocional de la app. Finalmente, recomienda un lenguaje más juvenil y personalizado para que los estudiantes se sientan más identificados y conectados con EiraMind. |
+
+- **Enlace de las entrevistas:** [Jafet Tapullima Celestino](https://youtu.be/_X43bBBnu7g)
+
+| Entrevistado 3 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/Entrevista3_Estefano.png" width="120"/> | Estefano Herrera Siguas | 20 años | Santiago de Surco | 11:15 - 11:35 | Estefano Herrera considera que EiraMind transmite confianza y calidez desde la pantalla de inicio de sesión gracias a su diseño compacto, limpio y sin saturación visual. Señala que los colores inspiran tranquilidad y que la interfaz resulta intuitiva y fácil de navegar, permitiendo acceder rápidamente a las secciones principales. Sobre el chatbot, menciona que podría usarlo por curiosidad, aunque prefiere una interacción más humana con su psicólogo. Destaca que la pantalla de planes es clara y los precios justos, especialmente por el descuento del 20% en el plan anual, aunque sugiere añadir íconos o videos explicativos para hacer más visual la información. Valora positivamente la posibilidad de agendar citas directamente desde la app, ya que evita esperas y facilita la gestión. Considera que los mensajes motivacionales son cálidos y alentadores, y sugiere recibir una o dos notificaciones diarias como recordatorio sin que resulten invasivas. Finalmente, propone que la plataforma adopte un tono más juvenil y cercano, adecuado para usuarios universitarios que buscan una conexión emocional y moderna con EiraMind. |
+
+- **Enlace de las entrevistas:** [Estefano Herrera Siguas](https://youtu.be/BSybPMa5b7I)
+
+### Segmento 2
+
+| Entrevistado 1 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/juan.jpg" width="120"/> | Juan Camilo Dávila| 23 años | Santa Marta (colombia) | 20:00 - 20:15 | Juan Camilo Dávila considera que la plataforma representa una solución moderna y necesaria en el ámbito del bienestar psicológico. Destaca que la propuesta transmite profesionalismo y claridad, con una interfaz que facilita la navegación y el acceso a las funciones principales. Sin embargo, expresa un desacuerdo fundamental con el modelo de suscripciones, ya que en su opinión, este sistema puede limitar la libertad y la flexibilidad del paciente, creando una posible barrera en un proceso que debería adaptarse por completo a sus necesidades cambiantes. Valora positivamente funcionalidades como la agenda integrada y los recordatorios, que agilizan la gestión de citas, pero sugiere enfáticamente explorar modelos de pago más flexibles que no restrinjan al usuario. Finalmente, aunque aprueba el tono general de la plataforma, recomienda incorporar un lenguaje aún más cercano y empático para conectar mejor con un público joven, que busca no solo herramientas, sino también una experiencia humana y comprensiva. |
+
+- **Enlace de las entrevistas:** [Juan Camilo Davila](https://youtu.be/xwSzwihuQyk)
+
+| Entrevistado 2 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/kathe.jpg" width="120"/> | Katherine Selene | 24 años | Lima | 21:00 - 21:15 | Katherine Selene, psicóloga con cuatro años de experiencia especializada en la rehabilitación de la depresión, la ansiedad y las adicciones, señala que la aplicación le genera una impresión positiva gracias a su claridad visual y a su sistema optimizado. Destaca que la plataforma permite que cada colega pueda mostrar múltiples especializaciones, lo cual facilita que los usuarios encuentren al profesional adecuado según sus necesidades. También considera que la app es sencilla de usar y está dirigida a todo tipo de público, lo que amplía su alcance y usabilidad. Asimismo, comenta que el ícono de la aplicación transmite confianza y contribuye a que los clientes establezcan una conexión más cercana con los profesionales que la integran. |
+
+- **Enlace de las entrevistas:** [Katherine Selene](https://youtu.be/vjevytkaGsM)
+
+| Entrevistado 3 | Nombre y Apellido  | Edad | Distrito | Inicio de Entrevista | Resumen |
+|----------------|--------------------|-----------|-------------|-------------|------------|
+|<img src="./resources/farid.jpeg" width="120"/> | Farid Valentte Rebatta Gutierrez | 26 años | Santiago de Surco | 15:20 - 15:24 | El psicólogo percibe que la interfaz profesional de EiraMind genera una impresión positiva, transmitiendo claridad, orden y profesionalismo. Considera que la visualización del perfil —incluyendo foto, especialidad, experiencia y calificación— es clara y contribuye a generar confianza ante los pacientes. El proceso de registro le resulta sencillo y adecuado para profesionales individuales o clínicas. Además, encuentra intuitivo el sistema de agenda de citas y valora especialmente los recordatorios y notificaciones, que le ayudan a manejar cancelaciones y mantener una mejor organización. Entre las funcionalidades que considera más útiles destacan el chat con pacientes, el historial clínico, el seguimiento de progreso y las estadísticas de desempeño, ya que le permiten llevar un control integral de su práctica. También ve con gran valor la gestión de pagos desde la app, aunque reconoce que algunos pacientes aún presentan limitaciones con los medios digitales. Para él, las reseñas verificadas son un componente clave, pues fortalecen la credibilidad y aumentan su visibilidad frente a nuevos pacientes. Respecto al soporte, considera fundamental contar con asistencia técnica ágil, capacitación inicial y acompañamiento continuo para aprovechar plenamente la plataforma. Sugiere mejorar aspectos relacionados con la gestión de cancelaciones y con la accesibilidad para usuarios con poca experiencia digital. Finalmente, estaría dispuesto a recomendar EiraMind a otros colegas porque ofrece una solución integral que combina agenda, pagos, promoción digital y herramientas de seguimiento profesional dentro de una misma plataforma.|
+
+- **Enlace de las entrevistas:** https://youtu.be/nlKWww1OVLQ
+  
+### 5.3.3. Evaluaciones según heurísticas.
+
+**Metodología.**  
+Se aplicaron las 10 heurísticas de usabilidad de Nielsen a las pantallas clave de la versión web de EiraMind (Inicio/Landing, Login/Registro, Planes, Calendario/Agenda, Perfiles de Psicólogos, Chatbot, Mensajes/Notificaciones).  
+**Escala de severidad**: 0 = No problema, 1 = Cosmético, 2 = Menor, 3 = Mayor, 4 = Crítico.  
+**Contexto de revisión**: Desktop (Chrome/Edge), prototipo funcional con Swagger/back-end en C# .NET y front-end web.  
+**Evaluadores**: 2 (revisión experta + contraste con entrevistas de Segmento 1 y 2).
+
+---
+
+##### A. Hallazgos positivos (fortalezas)
+
+| Heurística | Evidencia/pantalla | Observación positiva |
+|---|---|---|
+| Visibilidad del estado del sistema | Calendario y tarjetas de próximas citas | Muestra hora y estado de forma inmediata; buena jerarquía visual. |
+| Correspondencia con el mundo real | Landing | Lenguaje cercano, iconografía clara. |
+| Control y libertad | Agenda | Selección de horas intuitiva. |
+| Consistencia y estándares | Menú, botones | Tipografía y colores coherentes. |
+| Ayuda y documentación | Recomendaciones y contacto | Aumenta confianza y accesibilidad. |
+
+---
+
+##### B. Problemas de usabilidad priorizados
+
+| # | Heurística | Pantalla | Problema | Severidad | Evidencia | Recomendación |
+|---|---|---|---|:--:|---|---|
+| P1 | Ayuda / Reconocimiento | Planes | Faltan íconos y micro-descripciones por plan | **3** | Azul, Jafet | Añadir bullets e iconos por beneficio |
+| P2 | Estética | Landing | CTA poco visible | 2 | Observado | Mejorar contraste y microcopia |
+| P3 | Control y libertad | Agenda | No muestra confirmación antes de crear cita | **3** | Estefano | Modal de confirmación con resumen |
+| P4 | Prevención de errores | Agenda | No explica reglas de cancelación | **3** | Psicólogos | Mostrar políticas y permitir reagendar |
+| P5 | Consistencia | Perfil psicólogo | Variación en fichas | 2 | Farid | Usar plantilla fija con campos obligatorios |
+| P6 | Reconocimiento | Chatbot | Poca empatía y sin memoria contextual | 2 | Azul, Jafet | Añadir quick-replies y memoria breve |
+| P7 | Visibilidad del estado | Login/Registro | No hay validación en vivo | **3** | Observado | Errores por campo + medidor de contraseña |
+| P8 | Flexibilidad | Planes | Modelo rígido por suscripción | 2 | Juan Camilo | Ofrecer pago por sesión o paquetes |
+| P9 | Ayuda | Diagnóstico IA | Falta disclaimer clínico | **3** | Relevancia | Añadir aviso visible de límites |
+| P10 | Accesibilidad | General | Contraste insuficiente en verde oscuro | 2 | Observado | Ajustar a WCAG AA |
+| P11 | Ayuda | Soporte | Falta SLA y centro de ayuda | 2 | Farid | Crear sección de soporte y onboarding |
+| P12 | Consistencia | Navegación | Swagger visible en producción | 2 | Observado | Ocultar recursos técnicos |
+
+---
+
+##### C. Mapa de severidad por pantalla
+
+| Pantalla | S0 | S1 | S2 | S3 | S4 | Issues clave |
+|---|---:|---:|---:|---:|---:|---|
+| Landing | 2 | 2 | 2 | 0 | 0 | Contraste |
+| Login/Registro | 1 | 1 | 1 | 1 | 0 | Validación |
+| Planes | 0 | 1 | 2 | 1 | 0 | Íconos y flexibilidad |
+| Agenda | 0 | 1 | 1 | 2 | 0 | Confirmación y reglas |
+| Perfiles | 0 | 1 | 2 | 0 | 0 | Estructura fija |
+| Chatbot | 0 | 1 | 2 | 0 | 0 | Empatía y memoria |
+| Soporte | 0 | 1 | 2 | 0 | 0 | Canal claro |
+
+---
+
+##### D. Criterios de aceptación (QA)
+
+**Comparativa de planes**
+- Tabla con 3 columnas y ≥6 beneficios con íconos por plan.  
+- Tooltips con textos ≤ 120 caracteres.
+
+**Confirmación de cita**
+- Modal con profesional, fecha/hora, modalidad, costo y reglas.  
+- Botones: “Confirmar” y “Editar”.
+
+**Validación en formularios**
+- Email inválido → error inmediato.  
+- Contraseña débil → indicador de fuerza.  
+- Mensajes claros ≤ 80 caracteres.
+
+**Accesibilidad**
+- Contraste mínimo 4.5:1.  
+- Fuente mínima 16 px.  
+- Botones ≥ 44×44 px.
+
+---
+
+##### E. Conclusión
+
+La experiencia actual transmite **confianza, profesionalismo y claridad visual**. Los flujos centrales funcionan correctamente, pero existen oportunidades de mejora en **planificación de citas**, **validación**, **accesibilidad**, **perfiles profesionales** y **flexibilidad comercial**, alineadas con las percepciones de Azul, Jafet, Estefano, Juan Camilo, Katherine y Farid.  
+Estas mejoras incrementarán la **conversión**, la **retención** y la **satisfacción** tanto de usuarios como de psicólogos dentro de EiraMind.
+
+### 5.4. Video About-the-Product.
+
+enlace del video: https://youtu.be/ZOw6jw9lyS4
+
+# Video About-the-team
+
+enlace del video: https://youtu.be/d5dLsU0N9k4
+
+# Conclusiones y Recomendaciones
+### 6. Conclusiones Generales del Proyecto
+
+El proyecto logró desarrollar una solución completa que integra un frontend moderno en Vue 3 y un backend robusto en .NET desplegado en Azure, permitiendo la gestión real de usuarios, psicólogos, planes y citas. A lo largo de los sprints se trabajó de forma incremental, comenzando por la definición de requerimientos y evolucionando hacia la implementación de servicios, la autenticación con JWT y la conexión estable entre la SPA y la API. La integración obtenida demuestra un sistema funcional, seguro y preparado para operar en un entorno real. El trabajo colaborativo del equipo, junto con el uso de metodologías ágiles, permitió enfrentar problemas técnicos, organizar tareas y entregar un producto coherente y escalable.
+
+---
+
+### 7. Recomendaciones Generales del Proyecto
+
+Para continuar mejorando la solución, es conveniente implementar pruebas automatizadas y fortalecer la documentación técnica para facilitar el mantenimiento y la futura ampliación del sistema. También se sugiere monitorear el rendimiento del backend en Azure, optimizar la seguridad y planificar nuevas funcionalidades que puedan enriquecer la experiencia del usuario. Con estas acciones, el proyecto podrá evolucionar de manera sostenible y consolidar la base sólida desarrollada en los sprints actuales.
+
+
+# Bibliografía
 
 - MiSalud. (s. f.). *Los doctores de MiSalud son profesionales…* Recuperado septiembre 2025, de https://www.misalud.ai  
 - Talkspace. (s. f.). *Talkspace – #1 Rated Online Therapy…* Recuperado septiembre 2025, de https://www.talkspace.com  
